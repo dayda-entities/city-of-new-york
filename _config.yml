@@ -1,0 +1,30 @@
+title: City of New York
+name: Dayda
+user_description: Making data more discoverable and usable.
+notes_url: "https://simply-jekyll.netlify.app"
+profile_pic: /assets/img/profile.png
+favicon: /assets/img/favicon.png
+copyright_name: Dayda
+baseurl: "/"
+url: http://127.0.0.1:4000/
+encoding: utf-8
+
+theme: null
+plugins:
+  - jekyll-feed 
+  - jekyll-sitemap 
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  math_engine: mathjax
+  smart_quotes: ["apos", "apos", "quot", "quot"]
+  syntax_highlighter: rouge
+
+sass:
+  style: compressed
+
+disqus:
+  shortname: raghuveerdotnet
