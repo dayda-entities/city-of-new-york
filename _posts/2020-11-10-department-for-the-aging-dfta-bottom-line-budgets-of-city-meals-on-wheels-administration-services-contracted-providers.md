@@ -16,7 +16,6 @@ groups:
 csv_url: 'https://data.cityofnewyork.us/api/views/8qnp-qwn4/rows.csv?accessType=DOWNLOAD'
 json_url: >-
   https://data.cityofnewyork.us/api/views/8qnp-qwn4/rows.json?accessType=DOWNLOAD
-published: 4
 layout: post
 
 ---
