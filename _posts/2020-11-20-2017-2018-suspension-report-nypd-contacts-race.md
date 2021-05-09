@@ -13,6 +13,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/2qb3-8eu4/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/2qb3-8eu4/rows.json?accessType=DOWNLOAD
 published: 4
+layout: post
 
 ---
 Suspensions where NYPD was contacted reported by students race.
