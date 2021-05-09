@@ -1,71 +1,92 @@
-{%- if page.content-type == "notes" or page.permalink == "/notes" -%}
-<header>
-    <div class="notes-page-subheader disable-select">
-        <div class="notes-page-site-heading">
-            <p><a href="/index.html">{{site.title}}</a></p>
-        </div>
-        
-        <div class="notes-page-main-heading">
-            <p class="notes-page-heading"><a href="/notes">Notes and Thoughts</a></p>
-            <p class="notes-page-tagline">The journey from raw thoughts to <a href="/">blogposts</a></p>
-        </div>
-    </div>
-    <div class="searchbar search-container">
-        <i class="fa fa-search" aria-hidden="true"></i>
-        <label for="search-input"></label>
-        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Notes..."/>
-        <ul id="results-container"></ul>
-    </div>
-    <script src="/assets/js/simple-jekyll-search.min.js"></script>
-    <script>
-        function changeResultContainerDisp(val) {
-            if (val) {
-                document.getElementById("results-container").style.display = "block";
-                document.getElementById("search-input").addEventListener('blur', function() {
-                    document.addEventListener('click', function(event) {
-                        var isClickInside = document.getElementById("results-container").contains(event.target);
-                        if (!isClickInside) {
-                            document.getElementById("results-container").style.display = "none";
-                        }
-                    })
-                }) 
-            }  else {
-                document.getElementById("results-container").style.display = "none";
-            }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="{{ site.url }}/about/" property="article:author">
+
+    {%- if page.title -%}
+    <meta content="{{ page.title }}" property="og:title">
+    <meta content="article" property="og:type">
+    <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+
+    <script type="application/ld+json">
+        {
+          "@context":"https://schema.org/",
+          "@type":"Dataset",
+          "name":"{{ page.title }}",
+          "description":"{{ content | strip_html | strip | escape | truncate: 200}}",
+          "url":"{{ site.url }}{{ page.url }}",
+          "keywords":[{% for tag in page.tags %}"{{ tag }}"{% unless forloop.last %},{% endunless %}{% endfor %}],
+          "license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+          "isAccessibleForFree" : true,
+          "creator":{
+             "@type":"Organization",
+             "url": "{{ site.source_url }},
+             "name":"{{ site.name }}",
+             "contactPoint":{
+                "@type":"ContactPoint",
+                "contactType": "{{ site.source_contact_type }}",
+                "telephone":"{{ site.source_phone }}",
+                "email":"{{ site.source_email }}"
+             }
+          },
+          "includedInDataCatalog":{
+             "@type":"DataCatalog",
+             "name":"{{ site.source_catalog }}"
+          },
+          "distribution":[
+            {%- if page.csv_url != '' -%}   
+             {
+                "@type":"DataDownload",
+                "encodingFormat":"CSV",
+                "contentUrl":"{{ page.csv_url }}"
+             }
+             {%- endif -%}
+             {%- if page.csv_url != '' and  page.json_url != '' -%},{%- endif -%}
+             {%- if page.json_url != '' -%}     
+             {
+                "@type":"DataDownload",
+                "encodingFormat":"JSON",
+                "contentUrl":"{{ page.json_url }}"
+             }
+             {%- endif -%}
+          ]
         }
-        var sjs = SimpleJekyllSearch({
-                    searchInput: document.getElementById('search-input'),
-                    resultsContainer: document.getElementById('results-container'),
-                    json: '/search_notes.json',
-                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="{{ site.url }}{url}" style="text-decoration: none; color: #333333;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
-                    noResultsText: 'No results found',
-                    fuzzy: false,
-                    limit: 4
-                    })   
-    </script>
-    {%- if page.permalink == "/notes" -%}
-    <div class="notes-page-subheader disable-select" id="scroll-head" onclick="window.location.assign('/');">
-        <div class="back-icon">
-            <svg class="ripple" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
-                <path d="M0 0h24v24H0z" fill="none"/>
-                <path d="M21 11H6.83l3.58-3.59L9 6l-6 6 6 6 1.41-1.41L6.83 13H21z"/>
-            </svg>
-        </div>
-        <p class="back-p">Home</p>
-    </div>
+        </script>
+
     {%- else -%}
-    <div class="notes-page-subheader disable-select" id="scroll-head" onclick="window.location.assign('/notes');">
-        <div class="back-icon">
-            <svg class="ripple" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
-                <path d="M0 0h24v24H0z" fill="none"/>
-                <path d="M21 11H6.83l3.58-3.59L9 6l-6 6 6 6 1.41-1.41L6.83 13H21z"/>
-            </svg>
-        </div>
-        <p class="back-p">Notes</p>
-    </div>
+    <meta content="website" property="og:type">
+    <meta content="{{ site.url }}{{ page.url }}" property="og:url">
     {%- endif -%}
-</header>
-{%- else -%}
+
+    <title>{{site.title}}</title>
+
+    <link rel="canonical" href="{{site.url}}{{page.url}}"/>
+    <link rel="apple-touch-icon" href="{{site.profile_pic}}">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="{{site.favicon}}" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/atom.xml">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
 <header>
     <div class="dashboard disable-select">
         <div class="site-heading profile-board-col">
@@ -78,12 +99,6 @@
             <div class="userdesc">
                 <p class="title-sans">{{site.user_description}}</p>
             </div> 
-            <div class="link-to-notes">
-                <svg height="16" width="15" viewBox="0 0 24 24" class="anchor-link">
-                    <path d="M11.96 14.945c-.067 0-.136-.01-.203-.027-1.13-.318-2.097-.986-2.795-1.932-.832-1.125-1.176-2.508-.968-3.893s.942-2.605 2.068-3.438l3.53-2.608c2.322-1.716 5.61-1.224 7.33 1.1.83 1.127 1.175 2.51.967 3.895s-.943 2.605-2.07 3.438l-1.48 1.094c-.333.246-.804.175-1.05-.158-.246-.334-.176-.804.158-1.05l1.48-1.095c.803-.592 1.327-1.463 1.476-2.45.148-.988-.098-1.975-.69-2.778-1.225-1.656-3.572-2.01-5.23-.784l-3.53 2.608c-.802.593-1.326 1.464-1.475 2.45-.15.99.097 1.975.69 2.778.498.675 1.187 1.15 1.992 1.377.4.114.633.528.52.928-.092.33-.394.547-.722.547z" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M7.27 22.054c-1.61 0-3.197-.735-4.225-2.125-.832-1.127-1.176-2.51-.968-3.894s.943-2.605 2.07-3.438l1.478-1.094c.334-.245.805-.175 1.05.158s.177.804-.157 1.05l-1.48 1.095c-.803.593-1.326 1.464-1.475 2.45-.148.99.097 1.975.69 2.778 1.225 1.657 3.57 2.01 5.23.785l3.528-2.608c1.658-1.225 2.01-3.57.785-5.23-.498-.674-1.187-1.15-1.992-1.376-.4-.113-.633-.527-.52-.927.112-.4.528-.63.926-.522 1.13.318 2.096.986 2.794 1.932 1.717 2.324 1.224 5.612-1.1 7.33l-3.53 2.608c-.933.693-2.023 1.026-3.105 1.026z" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-            </div>
         </div>
     </div>
     <div class="avatar disable-select" title="click me to know more">
@@ -93,40 +108,38 @@
     </div>
     <div class="main-site-subheader menu disable-select">
         <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="home" class="svg-inline--fa fa-home fa-w-22" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"></path></svg>                
+                <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
             <a style="text-decoration: none;" href="/about">
-                <svg class="icon-home" width="18" height="19" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M20.9777 21.6138V19.6138C20.9777 18.553 20.5563 17.5356 19.8061 16.7854C19.056 16.0353 18.0386 15.6138 16.9777 15.6138H8.97768C7.91682 15.6138 6.8994 16.0353 6.14926 16.7854C5.39911 17.5356 4.97768 18.553 4.97768 19.6138V21.6138"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M12.9777 11.6138C15.1868 11.6138 16.9777 9.82298 16.9777 7.61385C16.9777 5.40471 15.1868 3.61385 12.9777 3.61385C10.7685 3.61385 8.97768 5.40471 8.97768 7.61385C8.97768 9.82298 10.7685 11.6138 12.9777 11.6138Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="info-circle" class="svg-inline--fa fa-info-circle fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"></path></svg>
                 <p class="home-p">About</p>  
             </a>
         </div>
         <div class="categories">
-            <a style="text-decoration: none;" href="/tags">
-            <svg class="icon-category" width="18" height="19" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M4 9.5H20"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M4 15.5H20"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M10 3.5L8 21.5"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M16 3.5L14 21.5"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>                               
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tags" class="svg-inline--fa fa-tags fa-w-22" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M497.941 225.941L286.059 14.059A48 48 0 0 0 252.118 0H48C21.49 0 0 21.49 0 48v204.118a48 48 0 0 0 14.059 33.941l211.882 211.882c18.744 18.745 49.136 18.746 67.882 0l204.118-204.118c18.745-18.745 18.745-49.137 0-67.882zM112 160c-26.51 0-48-21.49-48-48s21.49-48 48-48 48 21.49 48 48-21.49 48-48 48zm513.941 133.823L421.823 497.941c-18.745 18.745-49.137 18.745-67.882 0l-.36-.36L527.64 323.522c16.999-16.999 26.36-39.6 26.36-63.64s-9.362-46.641-26.36-63.64L331.397 0h48.721a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882z"></path></svg>                             
             <p class="categories-p">Tags</p>
             </a>
         </div>
         <div class="rss">
-            <a style="text-decoration: none;" href="/feed.xml">
-                <svg class="icon-rss" width="18" height="19" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M4 11.5C6.38695 11.5 8.67613 12.4482 10.364 14.136C12.0518 15.8239 13 18.1131 13 20.5"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M4 4.5C8.24346 4.5 12.3131 6.18571 15.3137 9.18629C18.3143 12.1869 20 16.2565 20 20.5"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M5 20.5C5.55228 20.5 6 20.0523 6 19.5C6 18.9477 5.55228 18.5 5 18.5C4.44772 18.5 4 18.9477 4 19.5C4 20.0523 4.44772 20.5 5 20.5Z"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>    
-            <p class="rss-p">RSS</p>
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="rss" class="svg-inline--fa fa-rss fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M128.081 415.959c0 35.369-28.672 64.041-64.041 64.041S0 451.328 0 415.959s28.672-64.041 64.041-64.041 64.04 28.673 64.04 64.041zm175.66 47.25c-8.354-154.6-132.185-278.587-286.95-286.95C7.656 175.765 0 183.105 0 192.253v48.069c0 8.415 6.49 15.472 14.887 16.018 111.832 7.284 201.473 96.702 208.772 208.772.547 8.397 7.604 14.887 16.018 14.887h48.069c9.149.001 16.489-7.655 15.995-16.79zm144.249.288C439.596 229.677 251.465 40.445 16.503 32.01 7.473 31.686 0 38.981 0 48.016v48.068c0 8.625 6.835 15.645 15.453 15.999 191.179 7.839 344.627 161.316 352.465 352.465.353 8.618 7.373 15.453 15.999 15.453h48.068c9.034-.001 16.329-7.474 16.005-16.504z"></path></svg>  
+            <p class="rss-p">Feed</p>
             </a>
         </div>
     </div>
     <div class="searchbar search-container">
         <i class="fa fa-search" aria-hidden="true"></i>
         <label for="search-input"></label>
-        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Simply Jekyll..."/>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
         <ul id="results-container"></ul>
     </div>
     <script src="/assets/js/simple-jekyll-search.min.js"></script>
@@ -156,16 +169,4 @@
                     limit: 4
                     })   
     </script>
-    {%- if page.permalink != "/" -%}
-    <div class="main-site-subheader disable-select" id="scroll-head" onclick="window.location.assign('/');">
-        <div class="back-icon">
-            <svg class="ripple" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
-                <path d="M0 0h24v24H0z" fill="none"/>
-                <path d="M21 11H6.83l3.58-3.59L9 6l-6 6 6 6 1.41-1.41L6.83 13H21z"/>
-            </svg>
-        </div>
-        <p class="back-p">Home</p>    
-    </div>
-    {%- endif -%}
 </header>
-{%- endif -%}
