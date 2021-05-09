@@ -1,58 +1,41 @@
 ---
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta content="Knowledge Continuum" property="og:site_name"/>
-    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
-    <meta content="{{ site.url }}/about/" property="article:author">
+{%- include header.html -%}
 
-    {%- if page.title -%}
-    <meta content="{{ page.title }}" property="og:title">
-    <meta content="article" property="og:type">
-    <meta content="{{ site.url }}{{ page.url }}" property="og:url">
-    {%- else -%}
-    <meta content="website" property="og:type">
-    <meta content="{{ site.url }}{{ page.url }}" property="og:url">
-    {%- endif -%}
+<h3>{{ page.title }}</h3>
+<p>{{ content }} </p>
+<p><strong>Tags:</strong> {% for tag in page.tags %}{{ tag }}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+<center>
+{%- if page.csv_url != '' -%}   <p><a href="{{ page.csv_url }}">&#8614; CSV Download</a></p>{% endif %}
+{%- if page.json_url != '' -%}<p><a href="{{ page.json_url }}">&#8614; JSON Download</a></p>{% endif %}
+</center>
+<hr>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Dayda Horizontal -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-0202072258759210"
+     data-ad-slot="1512400134"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<hr>
+<table style="width: 100%;">
+    <tr>
+        <td style="text-align: left;">
+            {% if page.previous.url %}
+            <a class="prev" href="{{page.previous.url}}">&#8612; Previous</a>
+            {% endif %}
+        </td>
+        <td style="text-align: right;">
+            {% if page.next.url %}
+            <a class="next" href="{{page.next.url}}">Next &#8594;</a>
+            {% endif %}
+        </td>
+    </tr>
+</table>            
 
-    <title>{{site.title}}</title>
-
-    <link rel="canonical" href="{{site.url}}{{page.url}}"/>
-    <link rel="apple-touch-icon" href="{{site.profile_pic}}">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
-
-    <link rel="icon" href="{{site.favicon}}" type="image/png" sizes="16x16"/>
-    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
-    <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
-</head>
-
-<body>
-    <div class="container">                    
-        <div class = "box">
-            
-            {%- include header.html -%}
-            {%- include feed.html -%}
-
-            <main>
-                <h1>{{page.title}}</h1>
-                {%- include content.html -%}
-                {%- include backlinks.html -%}
-                {%- include related.html -%}
-            </main>
-      
-            {%- include footer.html -%}
-        </div>
-        <button class="scroll-to-top" id="scroll-to-top"><i class="fa fa-chevron-up"></i></button>
-    </div>
-    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-    <script>
-        document.getElementById("scroll-to-top").addEventListener("click", function() {
-            window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
-        });
-    </script>
-    {%- include contextmenu.html -%}
-</body>
-</html>
+{%- include footer.html -%}
