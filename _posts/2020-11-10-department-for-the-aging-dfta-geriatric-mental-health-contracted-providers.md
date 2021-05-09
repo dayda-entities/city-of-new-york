@@ -14,7 +14,7 @@ groups:
 csv_url: 'https://data.cityofnewyork.us/api/views/7yq2-hq9c/rows.csv?accessType=DOWNLOAD'
 json_url: >-
   https://data.cityofnewyork.us/api/views/7yq2-hq9c/rows.json?accessType=DOWNLOAD
-published: 4
+layout: post
 
 ---
 Listing of DFTA Geriatric Mental Health Contracts Information and Hours of Operation.
