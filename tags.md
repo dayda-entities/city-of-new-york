@@ -1,8 +1,6 @@
 ---
-layout: post
+layout: default
 title: By Tags
-permalink: /tags/
-content-type: eg
 ---
 
 <style>
