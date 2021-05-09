@@ -15,7 +15,7 @@ groups:
 csv_url: 'https://data.cityofnewyork.us/api/views/833y-fsy8/rows.csv?accessType=DOWNLOAD'
 json_url: >-
   https://data.cityofnewyork.us/api/views/833y-fsy8/rows.json?accessType=DOWNLOAD
-published: 4
+layout: post
 
 ---
 List of every shooting incident that occurred in NYC going back to 2006 through the end of the previous calendar year.
