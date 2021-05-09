@@ -14,7 +14,7 @@ groups:
 csv_url: 'https://data.cityofnewyork.us/api/views/7xjx-2mhj/rows.csv?accessType=DOWNLOAD'
 json_url: >-
   https://data.cityofnewyork.us/api/views/7xjx-2mhj/rows.json?accessType=DOWNLOAD
-published: 4
+layout: post
 
 ---
 Projects added to the plan.
