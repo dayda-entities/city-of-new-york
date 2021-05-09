@@ -11,7 +11,7 @@ groups:
 csv_url: 'https://data.cityofnewyork.us/api/views/83z6-smyr/rows.csv?accessType=DOWNLOAD'
 json_url: >-
   https://data.cityofnewyork.us/api/views/83z6-smyr/rows.json?accessType=DOWNLOAD
-published: 4
+layout: post
 
 ---
 Every year the Manhattan Borough President provides funding in support of various important capital projects throughout Manhattan. This funding is available to city agencies, nonprofit organizations, cultural institutions, and public schools for projects serving New York City purposes.
