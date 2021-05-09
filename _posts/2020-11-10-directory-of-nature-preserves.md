@@ -14,7 +14,7 @@ groups:
   - Local Government
 csv_url: 'http://www.nyc.gov/html/dpr/nycbigapps/DPR_naturepreserves_001.csv'
 json_url: 'https://www.nycgovparks.org/bigapps/DPR_NaturePreserves_001.json'
-published: 4
+layout: post
 
 ---
 DPR directory of nature preserves
