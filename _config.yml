@@ -1,30 +1,20 @@
-title: City of New York
-name: Dayda
-user_description: Making data more discoverable and usable.
-notes_url: "https://simply-jekyll.netlify.app"
-profile_pic: /assets/img/profile.png
+title: Dayda
+name: City of New York
+description: >-
+  This is a catalog of datasets organized and made more accessible from the City
+  of New York, providing simple dowloadable CSV and JSON files, as well as
+  Postman Collections you can use as part of workflows and other automation.
+about: This is all about the entity.
+source_url: 'http://example.com'
+source_contact_type: general
+source_phone: +1 555-555-5555
+source_email: info@example.com
+source_catalog: data.gov
+profile_pic: >-
+  https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Seal_of_New_York.svg/175px-Seal_of_New_York.svg.png
 favicon: /assets/img/favicon.png
-copyright_name: Dayda
-baseurl: "/"
-url: http://127.0.0.1:4000/
+url: 'http://city-of-new-york.dayda.org'
 encoding: utf-8
-
-theme: null
-plugins:
-  - jekyll-feed 
-  - jekyll-sitemap 
-
+paginate: 10
+paginate_path: '/page:num/'
 markdown: kramdown
-
-kramdown:
-  input: GFM
-  hard_wrap: false
-  math_engine: mathjax
-  smart_quotes: ["apos", "apos", "quot", "quot"]
-  syntax_highlighter: rouge
-
-sass:
-  style: compressed
-
-disqus:
-  shortname: raghuveerdotnet
