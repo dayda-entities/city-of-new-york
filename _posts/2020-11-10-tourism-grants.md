@@ -1,18 +1,19 @@
 ---
 title: Tourism Grants
-created: '2020-11-10T17:04:59.806395'
-modified: '2020-11-10T17:04:59.806406'
+created: '2020-11-10T17:06:03.977242'
+modified: '2020-11-10T17:06:03.977249'
 state: active
 type: dataset
 tags:
-  - Arts And Culture
-  - Tourism
+  - Manhattan Borough President Mbp
+  - Mbp
+  - Tourism Grants
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/rma9-fm39/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/x4ud-jhxu/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/rma9-fm39/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/x4ud-jhxu/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Final list of grantees awarded by NYC & Company Foundation.
+This list contains information on tourism grants
