@@ -1,19 +1,24 @@
 ---
-title: DOF Refund List - Real property Tax
-created: '2020-11-10T17:03:39.736160'
-modified: '2020-11-10T17:03:39.736171'
+title: DOF Refund List - Real Property Tax
+created: '2020-11-10T17:05:51.847693'
+modified: '2020-11-10T17:05:51.847704'
 state: active
 type: dataset
 tags:
+  - Checks
+  - Finance
   - Property
-  - Real Property
+  - Refund
   - Refund List
+  - Tax
+  - Tax Account
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/j7in-ctnu/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/w5ea-ydu3/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/j7in-ctnu/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/w5ea-ydu3/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
 Details about refund checks for overpaid Property Tax accounts.
+DOF issues property refund checks by request if there are tax credits on a property tax account.
