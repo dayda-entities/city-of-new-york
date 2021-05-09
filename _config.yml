@@ -15,6 +15,6 @@ profile_pic: >-
 favicon: /assets/img/favicon.png
 url: 'http://city-of-new-york.dayda.org'
 encoding: utf-8
-paginate: 10
+paginate: 25
 paginate_path: '/page:num/'
 markdown: kramdown
