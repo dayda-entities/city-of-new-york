@@ -1,0 +1,21 @@
+---
+title: 2006 - 2012 English Language Arts (ELA) Test Results - Charter Schools
+created: '2020-11-10T17:02:26.163648'
+modified: '2020-11-10T17:02:26.163662'
+state: active
+type: dataset
+tags:
+  - Charter School
+  - Ela Test
+  - English Language Arts
+  - Grade
+  - Lifelong Learning
+groups:
+  - Local Government
+csv_url: 'https://data.cityofnewyork.us/api/views/d68p-5js9/rows.csv?accessType=DOWNLOAD'
+json_url: >-
+  https://data.cityofnewyork.us/api/views/d68p-5js9/rows.json?accessType=DOWNLOAD
+layout: post
+
+---
+Latest available data and trends in the state assessment results of English Language Arts for grades 3 through 8. Data are disaggregated by charter schools.
