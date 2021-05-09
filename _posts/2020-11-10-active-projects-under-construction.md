@@ -20,7 +20,7 @@ groups:
 csv_url: 'https://data.cityofnewyork.us/api/views/8586-3zfm/rows.csv?accessType=DOWNLOAD'
 json_url: >-
   https://data.cityofnewyork.us/api/views/8586-3zfm/rows.json?accessType=DOWNLOAD
-published: 4
+layout: post
 
 ---
 <b>Current report not available pending SCA program On Pause.</b>
