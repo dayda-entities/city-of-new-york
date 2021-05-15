@@ -1,18 +1,18 @@
 ---
 title: >-
-  2006 - 2011 English Language Arts (ELA) Test Results by Grade - District - by
-  Disability Status
-created: '2020-11-10T17:01:57.664943'
-modified: '2020-11-10T17:01:57.664957'
+  2006 - 2011 English Language Arts (ELA) Test Results by Grade- School level -
+  by Gender
+created: '2020-11-10T17:02:10.256492'
+modified: '2020-11-10T17:02:10.256502'
 state: active
 type: dataset
 tags:
   - Lifelong Learning
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/b9e9-2we4/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/c72z-kzbi/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/b9e9-2we4/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/c72z-kzbi/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
