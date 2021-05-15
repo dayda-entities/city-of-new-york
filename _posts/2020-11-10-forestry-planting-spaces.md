@@ -10,7 +10,7 @@ groups:
 csv_url: 'https://data.cityofnewyork.us/api/views/82zj-84is/rows.csv?accessType=DOWNLOAD'
 json_url: >-
   https://data.cityofnewyork.us/api/views/82zj-84is/rows.json?accessType=DOWNLOAD
-published: 4
+layout: post
 
 ---
 Record of Forestry planting spaces for NYC Parks & Recreation. 
