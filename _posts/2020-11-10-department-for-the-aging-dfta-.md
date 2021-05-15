@@ -1,20 +1,20 @@
 ---
-title: Department for the Aging (DFTA) Services by NORC Contracted Providers
-created: '2020-11-10T17:01:03.666378'
-modified: '2020-11-20T17:14:47.796300'
+title: Department for the Aging (DFTA) Transportation Contracted Providers
+created: '2020-11-10T17:01:04.427819'
+modified: '2020-11-20T17:14:47.657275'
 state: active
 type: dataset
 tags:
+  - Provider Address
   - Provider Name
+  - Provider Phone
   - Provider Type
-  - Servicename
-  - Sponsorname
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/6ucq-fahe/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/6wjr-mhgf/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/6ucq-fahe/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/6wjr-mhgf/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Listing of registered and contracted agencies providing NORC Services with Budgeted Units of Service.
+Listing of DFTA Transportation Contracts Information and Hours of Operation.
