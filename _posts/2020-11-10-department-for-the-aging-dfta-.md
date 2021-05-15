@@ -1,9 +1,9 @@
 ---
 title: >-
-  Department for the Aging (DFTA) Bottom Line Budgets of Senior Center
+  Department for the Aging (DFTA) Bottom Line Budgets of Case Management
   Contracted Providers
-created: '2020-11-10T17:05:02.827775'
-modified: '2020-11-20T17:18:41.956279'
+created: '2020-11-10T17:05:49.718572'
+modified: '2020-11-20T17:19:18.152058'
 state: active
 type: dataset
 tags:
@@ -13,10 +13,10 @@ tags:
   - Sponsorname
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/rr6u-cdtn/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/vwd9-skbw/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/rr6u-cdtn/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/vwd9-skbw/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Bottom Line Budgets of contracted agencies providing Senior Center Services.
+Bottom Line Budgets of contracted agencies providing Case Management Services.
