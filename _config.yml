@@ -10,8 +10,7 @@ source_contact_type: general
 source_phone: +1 555-555-5555
 source_email: info@example.com
 source_catalog: data.gov
-profile_pic: >-
-  https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Seal_of_New_York.svg/175px-Seal_of_New_York.svg.png
+profile_pic: 'https://directory.dayda.org/assets/img/entities/city-of-new-york.png'
 favicon: /assets/img/favicon.png
 url: 'http://city-of-new-york.dayda.org'
 encoding: utf-8
