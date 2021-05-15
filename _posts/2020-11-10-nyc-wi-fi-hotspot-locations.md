@@ -1,15 +1,31 @@
 ---
 title: NYC Wi-Fi Hotspot Locations
-created: '2020-11-10T17:06:26.111012'
-modified: '2020-11-10T17:06:26.111022'
+created: '2020-11-10T17:01:46.630583'
+modified: '2020-11-10T17:01:46.630597'
 state: active
 type: dataset
-tags: []
+tags:
+  - 2018od4a Video
+  - Connectivity
+  - Doitt
+  - Internet
+  - Mifi
+  - Mobile
+  - Nyc Wi Fi Hotspot Locations
+  - Nycopendata
+  - Optics
+  - Parks
+  - Web
+  - Websites
+  - Wi Fi
+  - Wifi
+  - World Wide Web
+  - Www
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/yjub-udmw/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/varh-9tsp/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/yjub-udmw/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/varh-9tsp/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
