@@ -1,9 +1,9 @@
 ---
 title: >-
-  Department for the Aging (DFTA) Bottom Line Budgets of Geriatric Mental Health
-  Services Contracted Providers
-created: '2020-11-10T17:00:54.539256'
-modified: '2020-11-20T17:14:38.324107'
+  Department for the Aging (DFTA) Services by Case Management Contracted
+  Providers
+created: '2020-11-10T17:03:16.147490'
+modified: '2020-11-20T17:16:54.422080'
 state: active
 type: dataset
 tags:
@@ -13,10 +13,10 @@ tags:
   - Sponsorname
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/5zea-fjhf/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/h7yn-dap5/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/5zea-fjhf/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/h7yn-dap5/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Bottom Line Budgets of contracted agencies providing Geriatric Mental Health Services.
+Listing of registered and contracted agencies providing Case Management Services with Budgeted Units of Service
