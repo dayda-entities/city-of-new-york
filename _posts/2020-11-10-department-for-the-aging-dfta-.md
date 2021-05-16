@@ -1,22 +1,19 @@
 ---
-title: >-
-  Department for the Aging (DFTA) Reported Line Item Expenditures by Month of
-  Homecare Contracted Providers
-created: '2020-11-10T17:02:39.182378'
-modified: '2020-11-10T17:02:39.182390'
+title: Department for the Aging (DFTA) - Senior Center Local Law 140 Client Data
+created: '2020-11-10T17:03:22.364306'
+modified: '2020-11-10T17:03:22.364317'
 state: active
 type: dataset
 tags:
-  - Lineitem Description
-  - Provider Name
-  - Provider Type
-  - Sponsorname
+  - Local Law 140
+  - Senior Centers
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/e635-qjv5/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/hm83-bdp7/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/e635-qjv5/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/hm83-bdp7/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Reported Expenditures of Line Items by Month of registered and contracted agencies providing Homecare Services.
+Client participation at senior centers.
+This information is required by Local Law 140 to provide to the city council and publish on DFTA's website and open data source.  It contents data on senior center daily participation at the senior centers.
