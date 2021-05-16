@@ -1,7 +1,7 @@
 ---
-title: NYC Recovery & Resiliency Projects Map - Lines
-created: '2020-11-10T17:03:52.331294'
-modified: '2020-11-10T17:03:52.331305'
+title: NYC Recovery & Resiliency Projects Map - Points
+created: '2020-11-10T17:03:59.762743'
+modified: '2020-11-10T17:03:59.762753'
 state: active
 type: dataset
 tags:
@@ -9,9 +9,9 @@ tags:
   - Resiliency
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/it7p-hbtd/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/dhcf-pcvf/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/it7p-hbtd/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/dhcf-pcvf/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
