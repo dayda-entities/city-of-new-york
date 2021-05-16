@@ -1,7 +1,7 @@
 ---
-title: NYC Condom Availability Program - HIV condom distribution locations
-created: '2020-11-10T17:00:41.260101'
-modified: '2020-12-04T19:21:45.341003'
+title: NYC Condom Availability Program - Inactive HIV condom distribution locations
+created: '2020-11-10T17:04:30.020670'
+modified: '2020-12-04T19:26:50.089375'
 state: active
 type: dataset
 tags:
@@ -11,18 +11,29 @@ tags:
   - Condom
   - Condoms
   - Condones
+  - External Condom
+  - External Condoms
   - Fc2
   - Female Condom
   - Female Condoms
   - Harm Reduction
   - Hiv
   - Hiv Prevention
+  - Insertive Condom
+  - Insertive Condoms
+  - Internal Condom
+  - Internal Condoms
   - Lube
   - Lubricant
+  - Male Condom
+  - Male Condoms
+  - Penial Condom
+  - Penial Condoms
   - Pregnancy
   - Pregnancy Prevention
   - Preservatifs
   - Protected Sex
+  - Safe Sex
   - Safer Sex
   - Safer Sex Products
   - Sex
@@ -30,14 +41,20 @@ tags:
   - Sti Prevention
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/4kpn-sezh/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/p373-rwkn/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/4kpn-sezh/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/p373-rwkn/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-This is a list of over 325 venues, across the five boroughs that actively distribute free safer sex products.  Product availability varies by venue. </p>
-The NYC Condom Availability Program maintains a robust list of active venues where New York City (NYC) residents may access free safer sex products across all 5 boroughs of NYC. This list is updated through a variety of mechanisms supported by the NYC Department of Health and Mental Hygiene (NYC DOHMH). At minimum, different sub-sets of this dataset are updated monthly by several vetted DOHMH contracted agencies. Other subsets of this dataset are updated in real-time by NYC Safer Sex Portal users. This entire dataset is refreshed in OpenData on a daily basis.
-This dataset shows where New York City residents can access NYC free safer sex products throughout the five boroughs. Each row represents pertinent information related to a single venue which distributes NYC safer sex products. 
-This data is collected and maintained to populate the NYC HealthMap (https://a816-healthpsi.nyc.gov/NYCHealthMap/home/) and may be used by other safer sex product [condom/lubricant] locators or map publically available locations.
-This dataset does not represent all locations which received orders of free safer sex products from NYC DOHMH nor have the listed venues [locations] been endorsed by NYC DOHMH. Furthermore, while the data is sourced from the NYC HealthMap there could be a lag between what is visible inside the HealthMap’s user interface and what is seen on OpenData. The NYC HealthMap is updated ~hourly while OpenData is updated daily. If there are data discrepancies between your export and what is seen inside OpenData’s “View Data” please clear your browsing history/cache and restart your browser.
+This is a list of all in-active venues which were once listed on the NYC HealthMap. In-active venues may have been re-activated and now posted on the NYC HealthMap and within the “NYC Condom Availability Program HIV Condom Distribution Locations OpenData publication ( https://data.cityofnewyork.us/Health/NYC-Condom-Availability-Program-HIV-condom-distrib/4kpn-sezh 
+</p>
+The NYC Condom Availability Program maintains a robust list of active venues where New York City (NYC) residents may access free safer sex products across all 5 boroughs of NYC. The active venue list can be found in OpenData by searching “Condoms” or using this hyperlink: https://data.cityofnewyork.us/Health/NYC-Condom-Availability-Program-HIV-condom-distrib/4kpn-sezh
+In accordance with NYC OpenData laws (https://opendata.cityofnewyork.us/open-data-law/ ) DOHMH publishes this list of venues which are no longer actively listed on the NYC HealthMap.
+There are a variety of reasons a venue would be removed from the NYC HealthMap:
+(1) Venue closed or changed ownership
+(2) Venue no longer wishes to be advertised to the public
+(3) Venue no longer distributes free safer sex products
+(4) Venue was removed from the NYC HealthMap because they did not re-confirming that free safer sex products are available – this could also happen temporarily. 
+Data duplication w/ inactive sheet. There are many years of historical data available within this sheet. Users will notice that many of those rows are duplicates. There are many reasons behind this; chiefly because data is refreshed hourly within DOHMH systems—causing a long historic trail of updated data. 
+This dataset does not represent all locations which received orders of free safer sex products from NYC DOHMH nor have the listed venues [locations] been endorsed by NYC DOHMH.
