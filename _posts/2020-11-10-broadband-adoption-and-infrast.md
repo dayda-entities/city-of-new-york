@@ -1,7 +1,7 @@
 ---
-title: Broadband Adoption and Infrastructure by Council District
-created: '2020-11-10T17:02:12.815855'
-modified: '2020-11-10T17:02:12.815867'
+title: Broadband Adoption and Infrastructure by State Senate District
+created: '2020-11-10T17:01:31.343438'
+modified: '2020-11-10T17:01:31.343451'
 state: active
 type: dataset
 tags:
@@ -12,11 +12,10 @@ tags:
   - City Assets
   - City Buildings
   - Connectivity
-  - Council
-  - Council District
   - Digital Divide
   - Digital Equity
   - Digital Inclusion
+  - District
   - Infrastructure
   - Internet
   - Internet Master Plan
@@ -34,16 +33,19 @@ tags:
   - Poletop
   - Public Computer Center
   - Public Wi Fi
+  - Senate
+  - State Senate
   - Street Furniture
   - Telecommunications
   - Wi Fi
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/cgwq-3ie6/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/9bjg-n96a/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/cgwq-3ie6/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/9bjg-n96a/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Key indicators of broadband adoption, service and infrastructure in New York City by Council District</p>
+Key indicators of broadband adoption, service and infrastructure in New York City by State Senate District.
+</p>
 <b>Data Limitations:</b> Data accuracy is limited as of the date of publication and by the methodology and accuracy of the original sources.  The City shall not be liable for any costs related to, or in reliance of, the data contained in these datasets.
