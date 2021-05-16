@@ -1,21 +1,21 @@
 ---
-title: 2006 - 2012 Math Test Results - District - SWD
-created: '2020-11-10T17:02:34.786295'
-modified: '2020-11-10T17:02:34.786305'
+title: 2006 - 2012 Math Test Results - District - Gender
+created: '2020-11-10T17:04:48.684249'
+modified: '2020-11-10T17:04:48.684259'
 state: active
 type: dataset
 tags:
   - District
+  - Gender
   - Grade
   - Lifelong Learning
   - Math Test Result
-  - Swd
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/ducj-28wv/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/qphc-zrtc/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/ducj-28wv/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/qphc-zrtc/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Latest available data and trends in the state assessment results of math for grades 3 through 8. Data are disaggregated by district and disability status.
+Latest available data and trends in the state assessment results of math for grades 3 through 8. Data are disaggregated by district and gender.
