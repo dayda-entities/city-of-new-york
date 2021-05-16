@@ -1,16 +1,16 @@
 ---
-title: 2006 - 2011 NYS Math Test Results By Grade - District - By Race- Ethnicity
-created: '2020-11-10T17:04:34.403500'
-modified: '2020-11-10T17:04:34.403509'
+title: 2006 - 2011 NYS Math Test Results By Grade - School Level - By Gender
+created: '2020-11-10T17:04:38.884053'
+modified: '2020-11-10T17:04:38.884060'
 state: active
 type: dataset
 tags:
   - Lifelong Learning
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/pgrs-2cjd/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/pxfd-dpcz/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/pgrs-2cjd/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/pxfd-dpcz/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
@@ -20,4 +20,5 @@ As of 2006, the New York State Education Department expanded the ELA and mathema
 In 2006, NYSED treated District 75 students as a distinct geographic district. For 2007-2011, District 75 students are represented in their home districts and boroughs. Spreadsheets for District and Borough do not include District 75 students in 2006.
 Starting in 2010, NYSED changed the scale score required to meet each of the proficiency levels, increasing the number of questions students needed to answer correctly to meet proficiency.
 
-Rows are suppressed (noted with ‘s’) if the number of tested students was 5 or fewer.
+Rows are suppressed (noted with ‘s’) if the number of tested students was 5 or fewer. 
+Prior to 2011, the mean scale scores for ‘All Grades’ were not calculated.
