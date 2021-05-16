@@ -1,15 +1,15 @@
 ---
-title: 2011-2012 School Closure Discharge Reporting SWD - School
-created: '2020-11-10T17:03:02.688909'
-modified: '2020-11-10T17:03:02.688918'
+title: 2011-2012 School Closure Discharge Reporting Age - Borough
+created: '2020-11-10T17:03:05.689420'
+modified: '2020-11-10T17:03:05.689430'
 state: active
 type: dataset
 tags: []
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/g54d-49wm/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/ge56-g6yt/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/g54d-49wm/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/ge56-g6yt/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
