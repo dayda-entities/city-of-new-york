@@ -1,15 +1,15 @@
 ---
-title: 2011-2012 School Closure Discharge Reporting - GPA
-created: '2020-11-10T17:00:36.085739'
-modified: '2020-11-10T17:00:36.085749'
+title: 2011-2012 School Closure Discharge Reporting Grade - Borough
+created: '2020-11-10T17:04:36.603192'
+modified: '2020-11-10T17:04:36.603202'
 state: active
 type: dataset
 tags: []
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/3wyv-kxab/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/ppub-hbwx/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/3wyv-kxab/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/ppub-hbwx/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
