@@ -1,16 +1,15 @@
 ---
-title: Mayor's Office to Combat Domestic Violence Annual Fact Sheet 2018-2019
-created: '2020-11-10T17:02:33.816659'
-modified: '2020-11-10T17:02:33.816669'
+title: Mayor's Office to Combat Domestic Violence Annual Fact Sheet 2015-2016
+created: '2020-11-10T17:05:58.978333'
+modified: '2020-11-10T17:05:58.978346'
 state: active
 type: dataset
-tags:
-  - Endgbv
+tags: []
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/drss-6xix/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/wip6-ytad/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/drss-6xix/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/wip6-ytad/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
