@@ -1,22 +1,20 @@
 ---
-title: NYC Independent Budget Office (IBO) Agency Expenditures FY 1980 - 2018
-created: '2020-11-10T17:02:20.709456'
-modified: '2020-11-10T17:02:20.709468'
+title: NYC Independent Budget Office (IBO) Capital Expenditures Since 1985
+created: '2020-11-10T17:03:26.019171'
+modified: '2020-11-10T17:03:26.019178'
 state: active
 type: dataset
 tags:
-  - Comptroller
-  - Financial Reports
-  - Nyc Independent Budget Office Ibo Agency Expenditures Fy 1980 2013
-  - Other Than Personal Services
-  - Otps
-  - Personal Services
+  - Environmental Protection And Sanitation Education
+  - Housing And Economic Development
+  - Nyc Independent Budget Office Ibo Capital Expenditures Since 1985
+  - Transportation Services
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/cwjy-rrh3/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/hukm-snmq/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/cwjy-rrh3/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/hukm-snmq/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Annual spending for personal services and other than personal services(OTPS) within each city agency from FY 1980 through FY 2018. Source: Comprehensive Annual Financial Reports of the Comptroller
+Annual capital expenditures, by capital budget area and agency, from FY 1985 - 2013. Source: Comprehensive Annual Financial Reports of the Comptroller
