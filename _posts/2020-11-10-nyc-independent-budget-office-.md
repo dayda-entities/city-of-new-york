@@ -1,22 +1,30 @@
 ---
-title: NYC Independent Budget Office (IBO) Agency Expenditures FY 1980 - 2018
-created: '2020-11-10T17:02:20.709456'
-modified: '2020-11-10T17:02:20.709468'
+title: >-
+  NYC Independent Budget Office (IBO) Revenue And Spending Summary FY 1980 - FY
+  2013
+created: '2020-11-10T17:01:16.497132'
+modified: '2020-11-10T17:01:16.497139'
 state: active
 type: dataset
 tags:
-  - Comptroller
-  - Financial Reports
-  - Nyc Independent Budget Office Ibo Agency Expenditures Fy 1980 2013
-  - Other Than Personal Services
-  - Otps
-  - Personal Services
+  - Expenditure
+  - Federal Categorical Aid
+  - Fines
+  - Fund Transfers And Disallowances Charges For Services
+  - Non Governmental Grants
+  - >-
+    Nyc Independent Budget Office Ibo Revenue And Spending Summary Fy 1980 Fy
+    2013
+  - Personal Income
+  - Property
+  - Revenue
+  - State Categorical Aid
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/cwjy-rrh3/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/7zhs-43jt/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/cwjy-rrh3/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/7zhs-43jt/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Annual spending for personal services and other than personal services(OTPS) within each city agency from FY 1980 through FY 2018. Source: Comprehensive Annual Financial Reports of the Comptroller
+Annual revenue and spending data by major areas of the budget from FY 1980 through FY 1963
