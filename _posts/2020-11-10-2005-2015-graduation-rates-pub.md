@@ -1,15 +1,15 @@
 ---
-title: 2005-2015 Graduation Rates Public - School
-created: '2020-11-10T17:00:26.055624'
-modified: '2020-11-10T17:00:26.055635'
+title: 2005-2015 Graduation Rates Public - Borough
+created: '2020-11-10T17:03:50.215043'
+modified: '2020-11-10T17:03:50.215053'
 state: active
 type: dataset
 tags: []
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/35ey-ieq4/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/k2ic-km9j/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/35ey-ieq4/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/k2ic-km9j/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
