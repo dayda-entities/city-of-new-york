@@ -1,16 +1,21 @@
 ---
-title: Revenue Budget & Financial Plan -- Exec\Adpt\Prel
-created: '2020-11-10T17:05:36.022680'
-modified: '2020-11-10T17:05:36.022690'
+title: Revenue Budget & Financial Plan--Qtr1
+created: '2020-11-10T17:05:45.499068'
+modified: '2020-12-04T19:28:22.154489'
 state: active
 type: dataset
-tags: []
+tags:
+  - Budget
+  - Financial
+  - Omb
+  - Plan
+  - Revenue
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/ugzk-a6x4/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/vf4p-p8ui/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/ugzk-a6x4/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/vf4p-p8ui/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-This dataset contains agency revenue data for Adopted, Modified and five years of Financial Plan by   Revenue Class, Revenue Category and Revenue Source (Revenue Structure) or FPS Group name.  The numbers within can be summarized to match pages from either the Supporting Schedule, Departmental Estimate or the Expense, Revenue, Contact Budget.
+This dataset contains agency revenue data for Adopted, Modified and four years of Financial Plan by  Revenue Class, Revenue Category and Revenue Source (Revenue Structure) or FPS Group name.
