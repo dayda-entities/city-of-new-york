@@ -1,7 +1,7 @@
 ---
-title: 2017-2018 Class Size Report City K-8 Class Size Distribution
-created: '2020-11-10T17:03:44.287348'
-modified: '2020-11-10T17:03:44.287363'
+title: 2017- 2018 Class Size Report City K-8 Average Class Size
+created: '2020-11-10T17:00:24.955300'
+modified: '2020-11-10T17:00:24.955312'
 state: active
 type: dataset
 tags:
@@ -10,10 +10,10 @@ tags:
   - K8
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/jkyj-m87c/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/2zdm-jpub/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/jkyj-m87c/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/2zdm-jpub/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-2017-2018 Class Size Report City K-8 Class Size Distribution
+2017- 2018 Class Size Report City K-8 Average Class Size
