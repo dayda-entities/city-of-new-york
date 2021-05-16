@@ -1,20 +1,21 @@
 ---
-title: Citywide Mobility Survey - Trip Diary 2017
-created: '2020-11-10T17:04:10.859317'
-modified: '2020-11-10T17:04:10.859328'
+title: Citywide Mobility Survey - Trip Survey 2019
+created: '2020-11-10T17:05:53.982068'
+modified: '2020-11-10T17:05:53.982080'
 state: active
 type: dataset
 tags:
   - Mobility
   - Survey
   - Transportation
-  - Trip Diary
+  - Travel
+  - Trips
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/mpk5-48av/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/w9dc-u4ik/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/mpk5-48av/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/w9dc-u4ik/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-The Citywide Mobility Survey is a mixed-methodology survey of New York City residents' travel choices, behaviors, and perceptions. The Trip Diary dataset provides trip-level data.
+The Citywide Mobility Survey (CMS) is NYC DOT's annual travel survey to assess the travel behavior, preferences, and attitudes of NYC residents. It is composed of 5 linked data tables - this one is the 2019 CMS Trip Survey.
