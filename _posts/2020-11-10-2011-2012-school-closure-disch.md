@@ -1,15 +1,15 @@
 ---
-title: 2011-2012 School Closure Discharge Reporting - SWD
-created: '2020-11-10T17:03:23.282276'
-modified: '2020-11-10T17:03:23.282286'
+title: 2011-2012 School Closure Discharge Reporting Gender  - Borough
+created: '2020-11-10T17:03:32.214664'
+modified: '2020-11-10T17:03:32.214676'
 state: active
 type: dataset
 tags: []
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/hntz-vujg/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/igad-psu6/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/hntz-vujg/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/igad-psu6/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
