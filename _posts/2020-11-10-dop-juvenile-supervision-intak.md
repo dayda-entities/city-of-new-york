@@ -1,19 +1,19 @@
 ---
-title: DOP Juvenile Supervision Intakes by Calendar Year
-created: '2020-11-10T17:05:22.357938'
-modified: '2020-11-10T17:05:22.357950'
+title: DOP Juvenile Supervision Intakes by Fiscal Year
+created: '2020-11-10T17:06:06.480292'
+modified: '2020-11-10T17:06:06.480305'
 state: active
 type: dataset
 tags:
-  - Calendar Year
   - Dop
+  - Fiscal Year
   - Juvenile
   - Supervision
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/tgqn-na2n/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/xdqu-utzq/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/tgqn-na2n/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/xdqu-utzq/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
