@@ -1,19 +1,19 @@
 ---
-title: DOP Juvenile Investigations by Calendar Year
-created: '2020-11-10T17:02:57.094826'
-modified: '2020-11-10T17:02:57.094836'
+title: DOP Juvenile Investigations by Fiscal Year
+created: '2020-11-10T17:00:31.631211'
+modified: '2020-11-10T17:00:31.631222'
 state: active
 type: dataset
 tags:
-  - Calendar Year
   - Dop
+  - Fiscal Year
   - Investigations
   - Juvenile
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/fsis-j6x5/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/3mji-gpg5/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/fsis-j6x5/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/3mji-gpg5/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
