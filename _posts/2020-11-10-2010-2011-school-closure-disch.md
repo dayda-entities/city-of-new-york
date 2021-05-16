@@ -1,15 +1,15 @@
 ---
-title: 2010-2011 School Closure Discharge Reporting Ethnicity - School
-created: '2020-11-10T17:03:32.136106'
-modified: '2020-11-10T17:03:32.136113'
+title: 2010-2011 School Closure Discharge Reporting Gender - School
+created: '2020-11-10T17:03:34.764352'
+modified: '2020-11-10T17:03:34.764361'
 state: active
 type: dataset
 tags: []
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/ifnn-4w9d/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/ipf4-pzub/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/ifnn-4w9d/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/ipf4-pzub/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
