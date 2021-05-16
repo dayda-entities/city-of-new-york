@@ -1,21 +1,21 @@
 ---
-title: 2005 - 2011 Graduation Outcomes - Citywide - Ethnicity
-created: '2020-11-10T17:04:06.379859'
-modified: '2020-11-10T17:04:06.379871'
+title: 2005 - 2011 Graduation Outcomes - Borough - ELL
+created: '2020-11-10T17:04:49.312404'
+modified: '2020-11-10T17:04:49.312411'
 state: active
 type: dataset
 tags:
-  - Citywide
-  - Ethnicity
+  - Borough
+  - Ell
   - Graduation Outcome
   - Lifelong Learning
   - School
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/mbym-vp3s/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/qs5h-jhhg/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/mbym-vp3s/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/qs5h-jhhg/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Latest available data and trends in graduation and dropout outcomes disaggregated by ethnicity.
+Latest available data and trends in graduation and dropout outcomes disaggregated by borough and ELL status.
