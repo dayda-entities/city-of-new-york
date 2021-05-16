@@ -1,11 +1,11 @@
 ---
-title: VZV_Street Improvement Projects (SIPs) Corridor
-created: '2020-11-10T17:05:59.864269'
-modified: '2020-12-04T19:28:39.887815'
+title: VZV_Street Improvement Projects (SIPs) intersections
+created: '2020-11-10T17:01:09.040040'
+modified: '2020-12-04T19:22:24.158289'
 state: active
 type: dataset
 tags:
-  - Corridor
+  - Intersection
   - Sip
   - Vision Zero
   - Vision Zero View
@@ -13,9 +13,9 @@ tags:
   - Vzv
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/vwkr-zzbu/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/tyvi-mpfm/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/vwkr-zzbu/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/tyvi-mpfm/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
