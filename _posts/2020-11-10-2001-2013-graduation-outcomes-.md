@@ -1,17 +1,17 @@
 ---
 title: >-
-  2001- 2013 Graduation Outcomes Citywide- ALL
+  2001- 2013 Graduation Outcomes Borough- ALL
   STUDENTS,SWD,GENDER,ELL,ETHNICITY,EVER ELL
-created: '2020-11-10T17:03:24.008213'
-modified: '2020-11-10T17:03:24.008223'
+created: '2020-11-10T17:00:14.892966'
+modified: '2020-11-10T17:00:14.892976'
 state: active
 type: dataset
 tags: []
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/hpku-qnwm/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/268n-a7em/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/hpku-qnwm/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/268n-a7em/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
