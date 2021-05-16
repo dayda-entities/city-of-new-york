@@ -1,20 +1,20 @@
 ---
-title: Street Weekly Resurfacing Schedule - Queens
-created: '2020-11-10T17:04:28.177083'
-modified: '2020-11-10T17:04:28.177095'
+title: Street Weekly Resurfacing Schedule - Brooklyn
+created: '2020-11-10T17:04:37.776749'
+modified: '2020-11-10T17:04:37.776755'
 state: active
 type: dataset
 tags:
+  - Brooklyn
   - Dot
-  - Queens
   - Resurfacing Schedule
   - Street Resurfacing
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/nuxu-5fjs/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/psmp-cmuu/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/nuxu-5fjs/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/psmp-cmuu/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Queens Milling and Paving Schedule
+Brooklyn Milling and Paving Schedule
