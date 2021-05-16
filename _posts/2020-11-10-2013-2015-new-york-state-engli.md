@@ -1,26 +1,24 @@
 ---
-title: 2013 - 2015 New York State English Language Arts (ELA) Exam by School
-created: '2020-11-10T17:03:43.381400'
-modified: '2020-11-10T17:03:43.381410'
+title: 2013 - 2015 New York State English Language Arts (ELA) Exam
+created: '2020-11-10T17:00:15.059618'
+modified: '2020-11-10T17:00:15.059628'
 state: active
 type: dataset
 tags:
-  - Doe
   - Education
   - Ela
-  - Exams
-  - Schools
+  - English
+  - Exam
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/jk35-yh5p/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/26kp-bgdh/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/jk35-yh5p/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/26kp-bgdh/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-NEW YORK CITY Results on the NEW YORK STATE English Language Arts (ELA) & Mathematics Exams
 (Grades 3 - 8)
-2013 - 2015
+
 Notes 
 Starting in 2013, the NY State Education Department (NYSED) changed the exams to be Common Core aligned. Results on earlier exams from 2006-2012 can be found at this link: http://schools.nyc.gov/NR/exeres/05289E74-2D81-4CC0-81F6-E1143E28F4C4,frameless.htm
 
