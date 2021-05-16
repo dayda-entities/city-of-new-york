@@ -1,19 +1,18 @@
 ---
-title: 2017-2018 Student Discipline Annual Report - RACE
-created: '2020-11-10T17:04:49.919200'
-modified: '2020-11-10T17:04:49.919211'
+title: 2017-2018 Student Discipline Annual Report - R-P-S TOTALS
+created: '2020-11-10T17:06:06.865814'
+modified: '2020-11-10T17:06:06.865821'
 state: active
 type: dataset
 tags:
   - Expulsions
-  - Principal Removals
-  - Superintendents
+  - Removals
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/qtw2-wfsy/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/xeg2-veq2/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/qtw2-wfsy/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/xeg2-veq2/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Students discipline annual report aggregated by race, removals, principal and/or superintendent intervention and expulsions.
+Student discipline annual report aggregated by removals, principal and/or superintendent intervention and expulsions.
