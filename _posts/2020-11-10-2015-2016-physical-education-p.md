@@ -1,16 +1,16 @@
 ---
-title: 2015-2016 Physical Education - PE Space - Borough Level
-created: '2020-11-10T17:03:58.299512'
-modified: '2020-11-10T17:03:58.299523'
+title: 2015-2016 Physical Education - PE Space - Certified PE Teachers
+created: '2020-11-10T17:04:28.514481'
+modified: '2020-11-10T17:04:28.514491'
 state: active
 type: dataset
 tags: []
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/km68-5z64/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/nwjy-fdec/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/km68-5z64/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/nwjy-fdec/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Local Law 102 enacted in 2015 requires the Department of Education of the New York City School District to submit to the Council an annual report concerning physical education for the prior year.   This tab includes the average frequency and average total minutes per week of physical education by borough, disaggregated by grade, race and ethnicity, gender, special education status and English language learner status. This report only includes students who were enrolled in the same school across all academic terms in the 2015-16 school year. Data on students with disabilities and English language learners are as of the end of the 2015-16 school year. Data on adaptive PE is based on individualized education programs (IEP) finalized on or before 05/31/2016.
+Local Law 102 enacted in 2015 requires the Department of Education of the New York City School District to submit to the Council an annual report concerning physical education for the prior school year.    This report provides information about average frequency and average total minutes per week of physical education as defined in Local Law 102 as reported through the 2015-2016 STARS database. It is important to note that schools self-report their scheduling information in STARS. The report also includes information regarding the number and ratio of certified physical education instructors and designated physical education instructional space.
