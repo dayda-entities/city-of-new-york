@@ -1,15 +1,15 @@
 ---
-title: 2015-2016 Discharge Reporting School Level - MS
-created: '2020-11-10T17:00:48.472631'
-modified: '2020-11-10T17:00:48.472642'
+title: 2015-2016 Discharge Reporting By Code - HS
+created: '2020-11-10T17:00:54.569853'
+modified: '2020-11-10T17:00:54.569865'
 state: active
 type: dataset
 tags: []
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/5hcy-6f3q/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/5ytq-4m2r/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/5hcy-6f3q/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/5ytq-4m2r/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
