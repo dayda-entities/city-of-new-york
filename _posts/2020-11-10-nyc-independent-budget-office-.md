@@ -1,20 +1,36 @@
 ---
-title: NYC Independent Budget Office (IBO) Capital Expenditures Since 1985
-created: '2020-11-10T17:03:26.019171'
-modified: '2020-11-10T17:03:26.019178'
+title: >-
+  NYC Independent Budget Office (IBO) State And Federal Categorical Aid, FY 1980
+  - 2013
+created: '2020-11-10T17:02:58.017632'
+modified: '2020-11-10T17:02:58.017643'
 state: active
 type: dataset
 tags:
-  - Environmental Protection And Sanitation Education
-  - Housing And Economic Development
-  - Nyc Independent Budget Office Ibo Capital Expenditures Since 1985
+  - City University
+  - Community College
+  - Education
+  - Environmental Protection
+  - Fema Debris Removal Insurance Program
+  - Fy 1980 2013
+  - General Debt Service Fund
+  - General Government
+  - Health
+  - Housing
+  - Hunter Campus Schools
+  - Libraries
+  - Nyc Independent Budget Office Ibo State And Federal Categorical Aid
+  - Parks Recreation And Cultural Activities
+  - Public Safety And Judicial
+  - Senior Colleges
+  - Social Services
   - Transportation Services
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/hukm-snmq/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/fu34-wamz/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/hukm-snmq/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/fu34-wamz/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Annual capital expenditures, by capital budget area and agency, from FY 1985 - 2013. Source: Comprehensive Annual Financial Reports of the Comptroller
+Annual state and federal categorical aid by purpose of grant, from FY 1980 through FY 2013
