@@ -1,15 +1,15 @@
 ---
-title: NYCDCP Manhattan Bike Counts - Off Street
-created: '2020-11-10T17:04:08.965237'
-modified: '2020-11-10T17:04:08.965246'
+title: NYCDCP Manhattan Bike Counts - On Street Weekday
+created: '2020-11-10T17:04:45.290969'
+modified: '2020-11-10T17:04:45.290977'
 state: active
 type: dataset
 tags: []
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/mfmf-gtvc/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/qfs9-xn8t/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/mfmf-gtvc/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/qfs9-xn8t/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
