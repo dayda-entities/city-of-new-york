@@ -1,22 +1,22 @@
 ---
 title: >-
-  Department for the Aging (DFTA) Reported Line Item Expenditures by Month of
-  Transportation Services Contracted Providers
-created: '2020-11-10T17:05:06.257198'
-modified: '2020-11-10T17:05:06.257210'
+  Department for the Aging (DFTA) Reported Service Units by Month of NY Connects
+  Contracted Providers
+created: '2020-11-10T17:05:06.904238'
+modified: '2020-11-10T17:05:06.904246'
 state: active
 type: dataset
 tags:
-  - Lineitem Description
   - Provider Name
   - Provider Type
+  - Servicename
   - Sponsorname
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/s3uf-q278/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/s5mq-f5ie/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/s3uf-q278/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/s5mq-f5ie/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Reported Expenditures of Line Items by Month of registered and contracted agencies providing Transportation Services.
+Reported Units of Service by Month of registered and contracted agencies providing New York Connects Services.
