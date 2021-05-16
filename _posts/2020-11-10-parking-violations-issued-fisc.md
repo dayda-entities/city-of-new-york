@@ -1,23 +1,23 @@
 ---
-title: Parking Violations Issued - Fiscal Year 2018
-created: '2020-11-10T17:01:44.127702'
-modified: '2020-11-10T17:01:44.127713'
+title: Parking Violations Issued - Fiscal Year 2017
+created: '2020-11-10T17:00:17.121975'
+modified: '2020-11-10T17:00:17.121985'
 state: active
 type: dataset
 tags:
   - Dof
   - Finance
   - Parking Ticket
-  - Parking Violations Issued Fiscal Year
+  - Parking Violations Issued Fiscal Year 2015
   - Stars
   - Summons
   - Ticket
   - Violation
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/a5td-mswe/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/2bnn-yakx/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/a5td-mswe/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/2bnn-yakx/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
