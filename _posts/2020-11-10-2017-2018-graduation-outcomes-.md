@@ -1,15 +1,15 @@
 ---
-title: 2017 - 2018 Graduation Outcomes Citywide
-created: '2020-11-10T17:00:50.432712'
-modified: '2020-11-10T17:00:50.432722'
+title: 2017 - 2018 Graduation Outcomes School
+created: '2020-11-10T17:04:01.866911'
+modified: '2020-11-10T17:04:01.866922'
 state: active
 type: dataset
 tags: []
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/5psr-sp96/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/kybe-9iex/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/5psr-sp96/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/kybe-9iex/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
