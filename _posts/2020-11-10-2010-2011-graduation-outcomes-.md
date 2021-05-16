@@ -1,9 +1,9 @@
 ---
 title: >-
-  2010 - 2011 Graduation Outcomes - School Level - Regents-based Math/ELA APM -
-  Total Cohort
-created: '2020-11-10T17:03:29.078162'
-modified: '2020-11-10T17:03:29.078172'
+  2010 - 2011 Graduation Outcomes - School Level - Classes - Regents-based
+  Math/ELA APM - SWD
+created: '2020-11-10T17:00:48.374476'
+modified: '2020-11-10T17:00:48.374487'
 state: active
 type: dataset
 tags:
@@ -11,13 +11,13 @@ tags:
   - Graduation Outcome
   - Lifelong Learning
   - School
-  - Total Cohort
+  - Swd
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/i6as-kc83/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/5gxs-yzxw/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/i6as-kc83/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/5gxs-yzxw/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Latest available data and trends in graduation and dropout outcomes school.
+Latest available data and trends in NYSED's Regents-based Aspirational Performance Measure (APM) by school and disability status
