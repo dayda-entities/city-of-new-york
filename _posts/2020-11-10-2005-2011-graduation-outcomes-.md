@@ -1,21 +1,21 @@
 ---
-title: 2005 - 2011 Graduation Outcomes - Borough - Classes of - Gender
-created: '2020-11-10T17:05:15.274006'
-modified: '2020-11-10T17:05:15.274017'
+title: 2005 - 2011 Graduation Outcomes - Citywide -  Total Cohort
+created: '2020-11-10T17:05:33.320630'
+modified: '2020-11-10T17:05:33.320641'
 state: active
 type: dataset
 tags:
-  - Borough
-  - Gender
+  - Citywide
   - Graduation Outcome
   - Lifelong Learning
   - School
+  - Total Cohort
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/sqb7-p8nz/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/ubv8-6n5w/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/sqb7-p8nz/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/ubv8-6n5w/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Latest available data and trends in graduation and dropout outcomes disaggregated by borough and gender
+Latest available data and trends in graduation and dropout outcomes.
