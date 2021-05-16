@@ -1,15 +1,15 @@
 ---
-title: 2014-2015 Class Size Report City Level Detail Summary
-created: '2020-11-10T17:05:55.909154'
-modified: '2020-11-10T17:05:55.909165'
+title: 2014-2015 Class Size Report City Level Distribution
+created: '2020-11-10T17:06:23.191222'
+modified: '2020-11-10T17:06:23.191233'
 state: active
 type: dataset
 tags: []
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/wcmg-48ep/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/yg5a-hytu/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/wcmg-48ep/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/yg5a-hytu/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
