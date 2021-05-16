@@ -1,15 +1,15 @@
 ---
-title: 2014 -15 Discharge Reporting for Students with Disabilities - HS
-created: '2020-11-10T17:01:24.057988'
-modified: '2020-11-10T17:01:24.057995'
+title: 2014-15 Discharge Reporting for All Students - MS
+created: '2020-11-10T17:01:55.905716'
+modified: '2020-11-10T17:01:55.905727'
 state: active
 type: dataset
 tags: []
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/8ruf-3bq8/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/b225-hg9m/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/8ruf-3bq8/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/b225-hg9m/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
