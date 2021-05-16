@@ -1,15 +1,15 @@
 ---
-title: 2011-2012 School Closure Discharge Reporting Gender - District
-created: '2020-11-10T17:04:59.248584'
-modified: '2020-11-10T17:04:59.248594'
+title: 2011-2012 School Closure Discharge Reporting - Credit Recovery
+created: '2020-11-10T17:05:04.878243'
+modified: '2020-11-10T17:05:04.878255'
 state: active
 type: dataset
 tags: []
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/rk6w-n3dw/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/rw6k-9v7e/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/rk6w-n3dw/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/rw6k-9v7e/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
