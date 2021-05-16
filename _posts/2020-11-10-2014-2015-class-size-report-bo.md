@@ -1,15 +1,15 @@
 ---
-title: 2014-2015 Class Size Report Borough Level Distribution
-created: '2020-11-10T17:00:28.295232'
-modified: '2020-11-10T17:00:28.295242'
+title: 2014-2015 Class Size Report Borough Level Detail Summary
+created: '2020-11-10T17:04:50.241444'
+modified: '2020-11-10T17:04:50.241451'
 state: active
 type: dataset
 tags: []
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/3aka-ggej/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/qusa-igsv/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/3aka-ggej/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/qusa-igsv/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
