@@ -1,7 +1,7 @@
 ---
-title: Broadband Adoption and Infrastructure by State Assembly District
-created: '2020-11-10T17:04:35.682804'
-modified: '2020-11-10T17:04:35.682815'
+title: Broadband Adoption and Infrastructure by Zip Code
+created: '2020-11-10T17:04:51.394607'
+modified: '2020-11-10T17:04:51.394616'
 state: active
 type: dataset
 tags:
@@ -15,7 +15,6 @@ tags:
   - Digital Divide
   - Digital Equity
   - Digital Inclusion
-  - District
   - Infrastructure
   - Internet
   - Internet Master Plan
@@ -29,23 +28,21 @@ tags:
   - Planning
   - Pole
   - Pole Attachments
-  - Pole Top
   - Poles
+  - Poletop
   - Public Computer Center
   - Public Wi Fi
-  - Senate
-  - State Senate
   - Street Furniture
   - Telecommunications
   - Wi Fi
+  - Zip Code
+  - Zipcode
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/pjwi-qd2x/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/qz5f-yx82/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/pjwi-qd2x/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/qz5f-yx82/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Key indicators of broadband adoption, service and infrastructure in New York City by State Senate District
-</p>
-<b>Data Limitations:</b> Data accuracy is limited as of the date of publication and by the methodology and accuracy of the original sources.  The City shall not be liable for any costs related to, or in reliance of, the data contained in these datasets.
+Key indicators of broadband adoption, service and infrastructure in New York City by Zip Code.
