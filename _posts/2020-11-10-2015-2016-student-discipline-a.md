@@ -1,20 +1,19 @@
 ---
-title: 2015 2016 Student Discipline Annual Report - R P S TOTALS
-created: '2020-11-10T17:04:22.018724'
-modified: '2020-11-10T17:04:22.018734'
+title: 2015 2016 Student Discipline Annual Report - Students In Temporary Housing
+created: '2020-11-10T17:04:40.956460'
+modified: '2020-11-10T17:04:40.956471'
 state: active
 type: dataset
 tags:
   - Doe
-  - Principal Removals
   - Student Discipline
-  - Supt Removals
+  - Temporary Housing
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/n9yn-6q3f/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/q7r2-64fm/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/n9yn-6q3f/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/q7r2-64fm/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Student Discipline Annual Report - Removals Principals/Supt TOTALS
+Student Discipline Annual Report - Students In Temporary Housing
