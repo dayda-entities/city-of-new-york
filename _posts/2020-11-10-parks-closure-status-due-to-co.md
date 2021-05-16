@@ -1,22 +1,23 @@
 ---
-title: Parks Closure Status Due to COVID-19 Athletic Facilities
-created: '2020-11-10T17:03:02.039863'
-modified: '2020-12-04T19:24:52.402483'
+title: Parks Closure Status Due to COVID-19 Dog Runs
+created: '2020-11-10T17:06:00.848948'
+modified: '2020-12-04T19:28:40.428298'
 state: active
 type: dataset
 tags:
   - Closure
+  - Covid
   - Covid 19
   - Parks
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/g3xg-qtbc/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/wswf-9pts/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/g3xg-qtbc/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/wswf-9pts/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-In response to the COVID-19 pandemic, NYC Parks temporarily closed several amenities, including Athletic Facilities (e.g. basketball courts, tennis courts, fields, etc.). This data collection contains the status of each Athletic Facility, and is subject to change. Although the data feed is refreshed daily, it may not reflect current conditions.
+In response to the COVID-19 pandemic, NYC Parks temporarily closed several amenities, including Dog Runs. This data collection contains the status of each Dog Run, and is subject to change. Although the data feed is refreshed daily, it may not reflect current conditions.
 
 Data Dictionary:
 
