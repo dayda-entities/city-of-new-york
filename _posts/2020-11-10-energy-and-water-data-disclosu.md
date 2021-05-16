@@ -1,9 +1,9 @@
 ---
 title: >-
-  Energy and Water Data Disclosure for Local Law 84 2017 (Data for Calendar Year
-  2016)
-created: '2020-11-10T17:01:24.456533'
-modified: '2020-11-10T17:01:24.456540'
+  Energy and Water Data Disclosure for Local Law 84 2016 (Data for Calendar Year
+  2015)
+created: '2020-11-10T17:03:27.354082'
+modified: '2020-11-10T17:03:27.354090'
 state: active
 type: dataset
 tags:
@@ -24,9 +24,9 @@ tags:
   - Portfolio Manager
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/8u86-bviy/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/hypw-js3b/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/8u86-bviy/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/hypw-js3b/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
