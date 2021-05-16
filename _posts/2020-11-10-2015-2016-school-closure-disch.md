@@ -1,7 +1,7 @@
 ---
-title: 2015 - 2016 School Closure Discharge Reporting District AGE
-created: '2020-11-10T17:04:42.611120'
-modified: '2020-11-10T17:04:42.611130'
+title: 2015 - 2016 School Closure Discharge Reporting District Grade
+created: '2020-11-10T17:04:59.187520'
+modified: '2020-11-10T17:04:59.187530'
 state: active
 type: dataset
 tags:
@@ -10,9 +10,9 @@ tags:
   - School Closures
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/qc36-ccxk/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/rk35-5hwy/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/qc36-ccxk/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/rk35-5hwy/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
