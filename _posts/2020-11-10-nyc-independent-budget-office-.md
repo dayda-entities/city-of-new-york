@@ -1,21 +1,28 @@
 ---
-title: >-
-  NYC Independent Budget Office (IBO) Full Time Positions in city government, by
-  fiscal year
-created: '2020-11-10T17:05:32.596301'
-modified: '2020-11-10T17:05:32.596312'
+title: NYC Independent Budget Office (IBO) Non- Tax Revenues FY 1980 - FY 2013
+created: '2020-11-10T17:06:28.081500'
+modified: '2020-11-10T17:06:28.081511'
 state: active
 type: dataset
 tags:
-  - City Agency
-  - Fiscal Year
-  - Nyc Independent Budget Office Ibo Full Time Positions
+  - Charges For Services
+  - Fines
+  - Forfeitures
+  - General Government
+  - Housing
+  - Interest Income
+  - Licenses
+  - Nyc Independent Budget Office Ibo Non Tax Revenues Fy 1980 Fy 2013
+  - Permits
+  - Privileges And Franchises
+  - Rental Income
+  - Water And Sewer
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/uaj7-9szf/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/ypbd-r4kg/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/uaj7-9szf/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/ypbd-r4kg/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Actual full-time positions as of June 30 of each year by agency, from FY 1980 through FY 1913
+Annual non-tax revenue from major revenue sources, from FY 1980 through FY 2013
