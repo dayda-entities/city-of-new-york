@@ -1,50 +1,50 @@
 ---
-title: Internet Master Plan Broadband Adoption & Demographic Citywide
-created: '2020-11-10T17:01:06.087025'
-modified: '2020-11-10T17:01:06.087035'
+title: >-
+  Internet Master Plan Broadband Adoption and Infrastructure by Community
+  District
+created: '2020-11-10T17:05:05.513707'
+modified: '2020-11-10T17:05:05.513718'
 state: active
 type: dataset
 tags:
   - Access
-  - Age
   - Broadband
   - Broadband Adoption
   - Cable
+  - City Assets
+  - City Buildings
+  - Community Board
+  - Community District
   - Connectivity
   - Digital Divide
   - Digital Equity
   - Digital Inclusion
-  - Education
-  - High School
-  - Households
   - Infrastructure
   - Internet
   - Internet Master Plan
   - Internet Service Provider
   - Internet Speed
-  - Language
-  - Living Alone
   - Mobile
   - Mobile Broadband
   - Mobile Broadband Adoption
   - Mobile Telecommunications
+  - Network
   - Planning
-  - Poverty
+  - Pole
+  - Pole Attachments
+  - Poles
+  - Poletop
+  - Public Computer Center
   - Public Wi Fi
-  - Race
-  - Social Inclusion
-  - Social Isolation
-  - Spanish Language
-  - Supplemental Nutrition Assistance Program
+  - Street Furniture
   - Telecommunications
   - Wi Fi
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/6yzk-rwz2/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/rxpf-yca2/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/6yzk-rwz2/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/rxpf-yca2/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Broadband adoption rates among demographic subgroups in New York City</p>
-<b>Data Limitations:</b> Data accuracy is limited as of the date of publication and by the methodology and accuracy of the original sources.  The City shall not be liable for any costs related to, or in reliance of, the data contained in these datasets.
+Key indicators of broadband adoption, service and infrastructure in New York City by Community District.
