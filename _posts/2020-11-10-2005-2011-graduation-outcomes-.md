@@ -1,20 +1,21 @@
 ---
-title: 2005 - 2011 Graduation Outcomes - School Level - SWD
-created: '2020-11-10T17:01:54.615321'
-modified: '2020-11-10T17:01:54.615332'
+title: 2005 - 2011 Graduation Outcomes - Borough - Classes of - SWD
+created: '2020-11-10T17:03:22.992690'
+modified: '2020-11-10T17:03:22.992702'
 state: active
 type: dataset
 tags:
-  - Gender
+  - Borough
   - Graduation Outcome
   - Lifelong Learning
   - School
+  - Swd
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/avsi-2fp7/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/hnf2-ds4u/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/avsi-2fp7/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/hnf2-ds4u/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Latest available data and trends in graduation and dropout outcomes by school and disability status.
+Latest available data and trends in graduation and dropout outcomes disaggregated by borough and students with disability.
