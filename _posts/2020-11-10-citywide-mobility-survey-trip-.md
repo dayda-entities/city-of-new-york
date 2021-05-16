@@ -1,7 +1,7 @@
 ---
-title: Citywide Mobility Survey - Trip Diary 2018
-created: '2020-11-10T17:03:53.561991'
-modified: '2020-11-10T17:03:53.562000'
+title: Citywide Mobility Survey - Trip Diary 2017
+created: '2020-11-10T17:04:10.859317'
+modified: '2020-11-10T17:04:10.859328'
 state: active
 type: dataset
 tags:
@@ -11,9 +11,9 @@ tags:
   - Trip Diary
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/kcey-vehy/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/mpk5-48av/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/kcey-vehy/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/mpk5-48av/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
