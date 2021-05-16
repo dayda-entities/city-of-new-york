@@ -1,16 +1,16 @@
 ---
-title: Vehicle Classification Counts (2012-2013)
-created: '2020-11-10T17:01:49.336965'
-modified: '2020-11-10T17:01:49.336975'
+title: Vehicle Classification Counts (2011-2012)
+created: '2020-11-10T17:05:20.040941'
+modified: '2020-11-10T17:05:20.040951'
 state: active
 type: dataset
 tags:
   - Traffic Volume Vehicle Classification Counts Screenline Nymtc Lion
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/ae5u-upr6/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/t9nw-j73k/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/ae5u-upr6/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/t9nw-j73k/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
