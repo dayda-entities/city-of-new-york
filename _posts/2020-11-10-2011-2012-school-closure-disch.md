@@ -1,15 +1,15 @@
 ---
-title: 2011-2012 School Closure Discharge Reporting Ethnicity - District
-created: '2020-11-10T17:06:08.089621'
-modified: '2020-11-10T17:06:08.089631'
+title: 2011-2012 School Closure Discharge Reporting ELL- District
+created: '2020-11-10T17:06:07.815205'
+modified: '2020-11-10T17:06:07.815215'
 state: active
 type: dataset
 tags: []
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/xi6w-cfy5/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/xhmm-58fn/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/xi6w-cfy5/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/xhmm-58fn/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
