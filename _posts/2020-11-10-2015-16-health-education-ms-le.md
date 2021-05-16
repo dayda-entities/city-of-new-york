@@ -1,15 +1,15 @@
 ---
-title: 2015-16 Health Education MS Level - City Council District
-created: '2020-11-10T17:01:00.730219'
-modified: '2020-11-10T17:01:00.731237'
+title: 2015-16 Health Education MS Level
+created: '2020-11-10T17:04:09.178343'
+modified: '2020-11-10T17:04:09.178350'
 state: active
 type: dataset
 tags: []
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/6irv-e4ks/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/mhpm-4ekb/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/6irv-e4ks/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/mhpm-4ekb/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
