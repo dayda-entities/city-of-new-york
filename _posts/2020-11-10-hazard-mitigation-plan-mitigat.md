@@ -1,7 +1,7 @@
 ---
-title: Hazard Mitigation Plan - Mitigation Actions Database (Polygons)
-created: '2020-11-10T17:02:14.006186'
-modified: '2020-11-10T17:02:14.006196'
+title: Hazard Mitigation Plan - Mitigation Actions Database (Lines)
+created: '2020-11-10T17:03:24.742141'
+modified: '2020-11-10T17:03:24.742152'
 state: active
 type: dataset
 tags:
@@ -9,9 +9,9 @@ tags:
   - Resiliency
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/cj2p-e3ej/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/hqhh-iv7p/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/cj2p-e3ej/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/hqhh-iv7p/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
