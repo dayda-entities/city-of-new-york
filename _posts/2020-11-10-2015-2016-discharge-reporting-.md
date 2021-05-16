@@ -1,17 +1,17 @@
 ---
-title: 2015-2016 Discharge Reporting By Code - HS
-created: '2020-11-10T17:00:54.569853'
-modified: '2020-11-10T17:00:54.569865'
+title: 2015 - 2016 Discharge Reporting by Code - HS
+created: '2020-11-10T17:04:30.847678'
+modified: '2020-11-10T17:04:30.847687'
 state: active
 type: dataset
 tags: []
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/5ytq-4m2r/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/p5yk-zjsc/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/5ytq-4m2r/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/p5yk-zjsc/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
+New York City Department of Education 2015 -2016 Discharge Report. 
 This report provides data regarding students enrolled in New York City schools during the 2015-2016 school year, according to the guidelines set by Local Law 2011/042.
-At the citywide, borough and district levels, the DOE is required to report discharge, transfer and graduation counts by grade level (middle school only), cohort (high school only) and disability status. At the school level, the DOE is required to report discharge and transfer counts by grade level (middle school only), cohort (high school only), disability status broken down by, age as of 12/31 of the previous calendar year age, race/ethnicity, and gender.
