@@ -1,14 +1,13 @@
 ---
 title: >-
-  DOF Summary of Neighborhood Sales for Brooklyn for Class 1-, 2- and 3-Family
-  homes - 2009
-created: '2020-11-10T17:04:22.856519'
-modified: '2020-11-10T17:04:22.856529'
+  DOF Summary of Neighborhood Sales for Staten Island for Class 1-, 2- and
+  3-Family homes - 2009
+created: '2020-11-10T17:04:27.678862'
+modified: '2020-11-10T17:04:27.678873'
 state: active
 type: dataset
 tags:
   - Borough
-  - Brooklyn
   - Class 1
   - Class 2
   - Class 3
@@ -22,13 +21,14 @@ tags:
   - Properties
   - Property
   - Sales
+  - Staten Island
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/nbun-a9vi/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/ntbr-wib6/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/nbun-a9vi/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/ntbr-wib6/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-The Department of Finance (DOF) maintains records for all property sales in New York City, including sales of family homes in each borough. This list is a summary of neighborhood sales for Class 1-, 2- and 3-Family homes in Brooklyn in 2009.
-Update Frequency: Annually
+The Department of Finance (DOF) maintains records for all property sales in New York City, including sales of family homes in each borough. This list is a summary of neighborhood sales for Class 1-, 2- and 3-Family homes in Staten Island in 2009.
+Update Schedule: Annually
