@@ -1,17 +1,18 @@
 ---
-title: 2017-2018 Student Discipline Annual Report - Transfers
-created: '2020-11-10T17:01:15.066234'
-modified: '2020-11-10T17:01:15.066245'
+title: 2017-2018 Student Discipline Annual Report - ELL
+created: '2020-11-10T17:01:45.273672'
+modified: '2020-11-10T17:01:45.273683'
 state: active
 type: dataset
 tags:
-  - Voluntary
+  - Ell
+  - Expulsions
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/7vxz-zmfj/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/a8si-arxu/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/7vxz-zmfj/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/a8si-arxu/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Students discipline annual report of voluntary and non-voluntary transfers.
+Student discipline annual report for English Language Learner aggregated by removals, principal, and/or superintendent intervention and expulsions.
