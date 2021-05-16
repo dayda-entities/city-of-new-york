@@ -1,15 +1,15 @@
 ---
-title: 2011-2012 School Closure Discharge Reporting - Attendance
-created: '2020-11-10T17:02:31.398161'
-modified: '2020-11-10T17:02:31.398220'
+title: 2011-2012 School Closure Discharge Reporting - ToSchool
+created: '2020-11-10T17:02:50.216301'
+modified: '2020-11-10T17:02:50.216311'
 state: active
 type: dataset
 tags: []
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/dji6-v57p/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/f4ux-qw5u/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/dji6-v57p/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/f4ux-qw5u/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
