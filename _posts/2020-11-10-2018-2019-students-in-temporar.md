@@ -1,16 +1,16 @@
 ---
-title: 2018 - 2019 Students in Temporary Housing School Level Report
-created: '2020-11-10T17:01:22.077221'
-modified: '2020-11-10T17:01:22.077232'
+title: 2018 - 2019 Students in Temporary Housing Additional Sections Report
+created: '2020-11-10T17:04:01.519671'
+modified: '2020-11-10T17:04:01.519678'
 state: active
 type: dataset
 tags: []
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/8iee-pzu6/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/ky6q-fvpr/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/8iee-pzu6/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/ky6q-fvpr/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-School-level data on enrollment of students in temporary housing
+Data on enrollment, transportation, and academic outcomes of students in temporary housing
