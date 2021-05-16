@@ -1,16 +1,18 @@
 ---
-title: 2006 - 2011 NYS Math Test Results By Grade - Boro - By Gender
-created: '2020-11-10T17:02:34.666060'
-modified: '2020-11-10T17:02:34.666073'
+title: >-
+  2006 - 2011 NYS Math Test Results By Grade - District - By English Proficiency
+  Status
+created: '2020-11-10T17:03:13.170881'
+modified: '2020-11-10T17:03:13.170888'
 state: active
 type: dataset
 tags:
   - Lifelong Learning
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/dtfq-bfpc/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/h2mm-eazk/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/dtfq-bfpc/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/h2mm-eazk/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
@@ -19,3 +21,5 @@ Notes:
 As of 2006, the New York State Education Department expanded the ELA and mathematics testing programs to Grades 3-8. Previously, state tests were administered in Grades 4 and 8 and citywide tests were administered in Grades 3, 5, 6, and 7.
 In 2006, NYSED treated District 75 students as a distinct geographic district. For 2007-2011, District 75 students are represented in their home districts and boroughs. Spreadsheets for District and Borough do not include District 75 students in 2006.
 Starting in 2010, NYSED changed the scale score required to meet each of the proficiency levels, increasing the number of questions students needed to answer correctly to meet proficiency.
+
+Rows are suppressed (noted with ‘s’) if the number of tested students was 5 or fewer.
