@@ -1,22 +1,22 @@
 ---
 title: >-
-  Department for the Aging (DFTA) Reported Line Item Expenditures by Month of
-  Geriatric Mental Health Contracted Providers
-created: '2020-11-10T17:05:50.439414'
-modified: '2020-11-10T17:05:50.439425'
+  Department for the Aging (DFTA) Reported Service Units by Month of Care Giver
+  Contracted Providers
+created: '2020-11-10T17:06:02.516927'
+modified: '2020-11-10T17:06:02.516933'
 state: active
 type: dataset
 tags:
-  - Lineitem Description
   - Provider Name
   - Provider Type
+  - Servicename
   - Sponsorname
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/vypd-m9q8/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/x2ak-gjxj/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/vypd-m9q8/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/x2ak-gjxj/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Reported Expenditures of Line Items by Month of registered and contracted agencies providing Geriatric Mental Health Services.
+Reported Units of Service by Month of registered and contracted agencies providing Caregiver Resource Services.
