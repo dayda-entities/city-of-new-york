@@ -1,7 +1,7 @@
 ---
-title: Directory Of Unsheltered Street Homeless To General Population Ratio 2012
-created: '2020-11-10T17:00:38.476396'
-modified: '2020-11-10T17:00:38.476406'
+title: Directory Of Unsheltered Street Homeless To General Population Ratio 2009
+created: '2020-11-10T17:06:04.083700'
+modified: '2020-11-10T17:06:04.083711'
 state: active
 type: dataset
 tags:
@@ -11,11 +11,11 @@ tags:
   - Ratio
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/483x-fy9e/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/x56h-7iwp/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/483x-fy9e/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/x56h-7iwp/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-"Ratio of Homeless Population to General Population in major US Cities in 2012. 
-*This represents a list of large U.S. cities for which DHS was able to confirm a recent estimate of the unsheltered population.   Unsheltered estimates are from 2011 except for Seattle  and New York City (2012) and Chicago (2009).  All General Population figures are from the 2010 U.S. Census enumeration."
+"Ratio of Homeless Population to General Population in major US Cities in 2009. 
+*This represents a list of large U.S. cities with a similar street count methodology for which DHS was able to confirm a recent Census; 2009 results are not yet available for LA, SF, and Chicago.  All population figures are from the 2007 U.S. Census Bureau Population Estimate."
