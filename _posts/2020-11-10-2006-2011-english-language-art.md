@@ -1,18 +1,18 @@
 ---
 title: >-
-  2006 - 2011 English Language Arts (ELA) Test Results by Grade - Boro - All
-  Students
-created: '2020-11-10T17:00:41.343554'
-modified: '2020-11-10T17:00:41.343564'
+  2006-2011 English Language Arts (ELA) Test Results by Grade - Citywide - by
+  Race-Ethnicity
+created: '2020-11-10T17:00:30.977404'
+modified: '2020-11-10T17:00:30.977415'
 state: active
 type: dataset
 tags:
   - Lifelong Learning
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/4kse-vfnd/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/3kcn-nsb5/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/4kse-vfnd/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/3kcn-nsb5/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
