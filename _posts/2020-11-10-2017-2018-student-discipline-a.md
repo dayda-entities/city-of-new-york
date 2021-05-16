@@ -1,18 +1,18 @@
 ---
-title: 2017-2018 Student Discipline Annual Report - IEP
-created: '2020-11-10T17:02:42.922054'
-modified: '2020-11-10T17:02:42.922065'
+title: 2017-2018 Student Discipline Annual Report - Length In Days
+created: '2020-11-10T17:03:29.446696'
+modified: '2020-11-10T17:03:29.446703'
 state: active
 type: dataset
 tags:
   - Expulsions
-  - Iep
+  - Removals
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/efzr-wfp2/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/i6ky-n2wd/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/efzr-wfp2/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/i6ky-n2wd/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Student discipline annual report aggregated by IEP, removals, principal and/or superintendent intervention and expulsions.
+Student discipline annual report by length of day for removals, principal and/or superintendent intervention and expulsions.
