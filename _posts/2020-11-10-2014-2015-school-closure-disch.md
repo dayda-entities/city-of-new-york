@@ -1,19 +1,19 @@
 ---
-title: 2014-2015 School Closure Discharge Reporting - SWD
-created: '2020-11-10T17:05:18.936023'
-modified: '2020-11-10T17:05:18.936030'
+title: 2014-2015 School Closure Discharge Reporting - Credit Recovery
+created: '2020-11-10T17:05:50.656472'
+modified: '2020-11-10T17:05:50.656479'
 state: active
 type: dataset
 tags:
+  - Credit Recovery
   - Discharge Reporting
   - Doe
   - School Closure
-  - Swd
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/t446-jbtd/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/vz7h-p6wa/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/t446-jbtd/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/vz7h-p6wa/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
