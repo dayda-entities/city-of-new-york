@@ -1,9 +1,9 @@
 ---
 title: >-
-  Energy and Water Data Disclosure for Local Law 84 2012 (Data for Calendar Year
-  2011)
-created: '2020-11-10T17:04:39.443040'
-modified: '2020-11-10T17:04:39.443051'
+  Energy and Water Data Disclosure for Local Law 84 2014 (Data for Calendar Year
+  2013)
+created: '2020-11-10T17:04:57.718671'
+modified: '2020-11-10T17:04:57.718682'
 state: active
 type: dataset
 tags:
@@ -13,10 +13,10 @@ tags:
   - Water
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/q39e-7gbs/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/rgfe-8y2z/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/q39e-7gbs/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/rgfe-8y2z/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-In September 2012, New York City released the 2011 energy and water use data for all properties required to annually benchmark under Local Law 84.
+In September 2014, New York City released the 2013 energy and water use data for all properties required to annually benchmark under Local Law 84.
