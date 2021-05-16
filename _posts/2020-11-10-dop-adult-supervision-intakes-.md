@@ -1,19 +1,19 @@
 ---
-title: DOP Adult Supervision Intakes by Calendar Year
-created: '2020-11-10T17:01:55.864528'
-modified: '2020-11-10T17:01:55.864538'
+title: DOP Adult Supervision Intakes by Fiscal Year
+created: '2020-11-10T17:00:39.952539'
+modified: '2020-11-10T17:00:39.952549'
 state: active
 type: dataset
 tags:
   - Adults
-  - Calendar Year
   - Dop
+  - Fiscal Year
   - Intakes
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/az65-9z36/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/4fsz-s7id/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/az65-9z36/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/4fsz-s7id/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
