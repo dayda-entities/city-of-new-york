@@ -1,16 +1,16 @@
 ---
-title: NYCgov Poverty Measure Data (2014)
-created: '2020-11-10T17:03:08.078055'
-modified: '2020-11-10T17:03:08.078066'
+title: NYCgov Poverty Measure Data (2010)
+created: '2020-11-10T17:01:33.915402'
+modified: '2020-11-10T17:01:33.915412'
 state: active
 type: dataset
 tags:
   - Nycgov Poverty Measure
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/gi42-6x8d/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/9cx5-kdi8/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/gi42-6x8d/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/9cx5-kdi8/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
