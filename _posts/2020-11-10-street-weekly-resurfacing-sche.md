@@ -1,20 +1,20 @@
 ---
-title: Street Weekly Resurfacing Schedule - Bronx
-created: '2020-11-10T17:01:06.379380'
-modified: '2020-11-10T17:01:06.379391'
+title: Street Weekly Resurfacing Schedule - Manhattan
+created: '2020-11-10T17:01:36.292641'
+modified: '2020-11-10T17:01:36.292651'
 state: active
 type: dataset
 tags:
-  - Bronx
   - Dot
-  - Resurfacing Schedule
+  - Manhattan
   - Street Resurfacing
+  - Weekly Schedule
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/7299-2etw/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/9gzt-8w5q/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/7299-2etw/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/9gzt-8w5q/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Bronx Milling and Paving Schedule
+Manhattan Milling and Paving Schedule
