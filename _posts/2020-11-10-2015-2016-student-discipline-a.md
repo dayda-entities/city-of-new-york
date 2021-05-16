@@ -1,20 +1,19 @@
 ---
-title: 2015 2016 Student Discipline Annual Report - RACE
-created: '2020-11-10T17:02:47.472772'
-modified: '2020-11-10T17:02:47.472782'
+title: 2015 2016 Student Discipline Annual Report - Transfers
+created: '2020-11-10T17:03:20.423325'
+modified: '2020-11-10T17:03:20.423339'
 state: active
 type: dataset
 tags:
   - Doe
-  - Ethnicity
-  - Race
   - Student Discipline
+  - Transfers
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/ewg2-2vyd/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/hg3k-2w6h/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/ewg2-2vyd/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/hg3k-2w6h/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Student Discipline Annual Report - RACE
+Student Discipline Annual Report - Transfers
