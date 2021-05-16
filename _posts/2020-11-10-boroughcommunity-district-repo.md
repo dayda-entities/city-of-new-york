@@ -1,19 +1,18 @@
 ---
-title: Borough/Community District Report - CA Population
-created: '2020-11-10T17:03:57.097755'
-modified: '2020-11-20T17:17:32.985851'
+title: Borough/Community District Report - SNAP Population
+created: '2020-11-10T17:03:48.374285'
+modified: '2020-11-10T17:03:48.374297'
 state: active
 type: dataset
 tags: []
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/kjcq-h8d9/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/jye8-w4d7/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/kjcq-h8d9/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/jye8-w4d7/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-CA Cases and Recipients Shown on the Borough Consultation Report, by Community District.
-
+Population of individuals and households receiving SNAP Benefits as shown on the Borough Consultation Report.
+For CA Population dataset please visit https://data.cityofnewyork.us/d/kjcq-h8d9
 For MA Enrollees dataset please visit https://data.cityofnewyork.us/d/2v2r-tx9r
-For SNAP Population dataset please visit https://data.cityofnewyork.us/d/jye8-w4d7
