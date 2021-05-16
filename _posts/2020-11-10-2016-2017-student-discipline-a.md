@@ -1,17 +1,17 @@
 ---
-title: 2016-2017 Student Discipline Annual Report - GRADE LEVEL
-created: '2020-11-10T17:03:55.819918'
-modified: '2020-11-10T17:03:55.819929'
+title: 2016-2017 Student Discipline Annual Report - D CODE
+created: '2020-11-10T17:05:19.196126'
+modified: '2020-11-10T17:05:19.196132'
 state: active
 type: dataset
 tags:
-  - Removals Expulsions
+  - Discipline
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/kg6x-kv5b/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/t5qg-w9sq/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/kg6x-kv5b/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/t5qg-w9sq/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Student discipline annual report by grade level aggregated by removals, principal and/or superintendent intervention and expulsions.
+Student discipline aggregated by discipline code.
