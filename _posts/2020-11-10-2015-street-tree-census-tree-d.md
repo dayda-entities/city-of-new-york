@@ -1,21 +1,22 @@
 ---
 title: 2015 Street Tree Census - Tree Data
-created: '2020-11-10T17:04:35.297633'
-modified: '2020-11-10T17:04:35.297644'
+created: '2020-11-10T17:05:41.504540'
+modified: '2020-11-10T17:05:41.504550'
 state: active
 type: dataset
 tags:
-  - 2018od4a Video
+  - 2018od4a Report
   - Census
   - Dpr
+  - Nycopendata
   - Parks
   - Trees
   - Treescount
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/5rq2-4hqu/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/uvpi-gqnh/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/5rq2-4hqu/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/uvpi-gqnh/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
