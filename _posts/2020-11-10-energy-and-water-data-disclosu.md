@@ -1,33 +1,22 @@
 ---
 title: >-
-  Energy and Water Data Disclosure for Local Law 84 2018 (Data for Calendar Year
-  2017)
-created: '2020-11-10T17:04:19.072375'
-modified: '2020-11-10T17:04:19.072387'
+  Energy and Water Data Disclosure for Local Law 84 2012 (Data for Calendar Year
+  2011)
+created: '2020-11-10T17:04:39.443040'
+modified: '2020-11-10T17:04:39.443051'
 state: active
 type: dataset
 tags:
-  - Building Energy
-  - Energy Benchmarking
-  - Energy Efficiency
-  - Energy Star
-  - Energy Use Intensity
-  - Environmental Protection Agency
-  - Epa
-  - Eui
-  - Ggbp
-  - Ghg
-  - Greener Greater Buildings Plan
-  - Greenhouse Gas
-  - Ll84
-  - Local Law 84
-  - Portfolio Manager
+  - Benchmarking
+  - Energy
+  - Mayors Office Of Long Term Planning And Sustainability Oltps
+  - Water
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/n2mv-q2ia/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/q39e-7gbs/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/n2mv-q2ia/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/q39e-7gbs/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Data and metrics on water and energy consumption in privately owned buildings over 25,000 ft2 and in City owned buildings over 10,000 ft2.
+In September 2012, New York City released the 2011 energy and water use data for all properties required to annually benchmark under Local Law 84.
