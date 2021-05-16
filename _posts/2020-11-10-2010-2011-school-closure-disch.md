@@ -1,15 +1,15 @@
 ---
-title: 2010-2011 School Closure Discharge Reporting Age - School
-created: '2020-11-10T17:01:59.328729'
-modified: '2020-11-10T17:01:59.328737'
+title: 2010-2011 School Closure Discharge Reporting ELL District
+created: '2020-11-10T17:02:29.929445'
+modified: '2020-11-10T17:02:29.929456'
 state: active
 type: dataset
 tags: []
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/bha8-nbrn/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/dhsk-pig8/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/bha8-nbrn/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/dhsk-pig8/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
