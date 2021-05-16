@@ -1,51 +1,37 @@
 ---
-title: NYC Independent Budget Office (IBO) Debt Outstanding Since FY 2000
-created: '2020-11-10T17:00:48.671237'
-modified: '2020-11-10T17:00:48.671244'
+title: NYC Independent Budget Office (IBO) Debt Service Since FY 2000
+created: '2020-11-10T17:01:00.218305'
+modified: '2020-11-10T17:01:00.218313'
 state: active
 type: dataset
 tags:
-  - Building Aid Revenue Bonds Barbs Via Tfa
+  - Adjusted Debt Service Expense Of Outstanding Debt As Defined By Ibo
   - Conduit Debt
   - General Obligation Go
   - Municipal Assistance Corporation Mac
-  - Municipal Water Finance Authority Mwfa
-  - Nyc Independent Budget Office Ibo Debt Outstanding Since Fy 2000
-  - Samurai Funding Corporation Sfc
-  - Transitional Finance Authority Tfa Tax Secured Bonds3
-  - Tsasc
+  - >-
+    Net Equity Contribution In Bond Refunding That Accrued To Future Years Debt
+    Service Savings
+  - Nyc Independent Budget Office Ibo Debt Service Since Fy 2000
+  - Transitional Finance Authority Tfa
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/5i9t-mvdt/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/6ggx-itps/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/5i9t-mvdt/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/6ggx-itps/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Amount of debt outstanding as of June 30 of each year.
+Annual spending on debt service from FY 2000 - 2014.
 
-SOURCES: IBO; New York City Comprehensive Annual Financial Report of the Comptroller (various years); Annual Report of the Comptroller on Capital Debt and Obligations (various years); New York City Municipal Water Finance Authority Comprehensive Annual Financial Reports (various years)
-NOTES: 1In determining what to include as outstanding debt of the City of New York, IBO considered: (1) the city's obligation (contractual and moral) to repay the debt, (2) whether the revenues pledged toward the repayment of the debt would have otherwise accrued to the city, and (3) whether the proceeds of the debt issuance accrue directly to the city.
-2GO debt is net of bonds held for debt service on other city-related obligations, referred to in the Comptroller's Comprehensive Annual Financial Report (CAFR) as Treasury Obligations. The 2000–2002 CAFRs show outstanding general obligation debt, before Treasury Obligations, in 2000 and 2001 as $26,892 million and $26,836 million, respectively. However, CAFRs from 2003 on show higher GO debt for the two years, $353 million more for 2000 and $311 million more for 2001; the 2003 CAFR does not provide a note explaining the revisions. IBO uses the numbers reported from 2003 forward.
-3Fiscal years 2000, 2002, and 2003 include short-term bond anticipation notes outstanding at year-end of $515 million, $2.2 billion, and $1.1 billion, respectively.
-4For fiscal year 2000, Capital Lease Obligations to HHC and PCDC are reported jointly. 
-5In FY 2008, JSDC bonds outstanding were redeemed with GO bond proceeds, resulting in the elimination of JSDC debt, a reduction in conduit debt outstanding and partially accounting for the increase in GO debt from 2007 to 2008
-														
-General Obligation:
-General obligation bonds are backed by the full faith and credit of the city. City property tax collections are pledged first to pay the principal and interest on these bonds.
-														
-														
-Treasury Obligations:
-Treasury obligations are New York City bonds held as investments by the city or by the related entities covered here, including MAC and SFC. They are netted out in order to avoid double counting of the city's obligations.
-														
-Transitional Finance Authority:
-Created in 1997, the Transitional Finance Authority (TFA) is a separate legal entity from the City of New York. TFA General Purpose Bonds are secured by the city's collections of personal income tax and, if necessary, sales tax.  Recovery Bonds, issued in response to the events of September 11, 2001 differ from general purpose bonds in that they are excluded from the calculation of outstanding TFA debt allowed under the debt limit.
-														
-TFA Building Aid Revenue Bonds:
-In fiscal year 2006, the city was authorized by the state Legislature to assign to the TFA all or any portion of the state building aid payable to the city or its school district. The TFA in turn is authorized to issue bonds secured by the aid and dedicated to financing a portion of the city's educational facilities capital plan.
-														
-TSASC:
-TSASC Inc. (formerly known as the Tobacco Settlement Asset Securitization Corporation) is a separate legal entity from the City of New York. TSASC bonds are secured by the corporation's purchase from the city of the future revenue stream under a settlement agreement resolving cigarette smoking-related litigation between the settling states and participating manufacturers.
-														
-Municipal Assistance Corporation for the City of New York:
-The Municipal Assistance Corporation (MAC) was a separate legal entity from the City of New York, created in 1975 and formally dissolved in 2008. With New York City experiencing a severe fiscal crisis in 1975, MAC allowed the city continued access to credit markets and assisted in the prevention of a default of city general obligation bonds. MAC bonds were secured by state collections of
+SOURCES: IBO; Mayor's Office of Management and Budget (OMB); New York City Comprehensive Annual Financial Report of the Comptroller (various years); Annual Report of the Comptroller on Capital Debt and Obligations (various years); New York City Municipal Water Finance Authority Comprehensive Annual Financial Reports (various years)
+
+NOTES:
+1Debt service is the cost to New York City of repaying its outstanding debt, including both principal and interest. The figures in the table have been adjusted to reflect debt service that was originally scheduled for payment in each year since 2000.
+2By law, New York City is required to have a balanced annual budget. In years when it runs a surplus, the primary means the city uses to comply with this requirement is to use up some or all of the surplus by prepaying some of the subsequent years’ debt service expenses. As a result, the cash outlay for debt service in a given year is not an accurate representation of the true cost of debt service in that year. 
+3The defeasance of $536 million of GO Bonds in 2007 for reduced debt service in 2008, 2009, and 2010.  Debt service in the table is presented as if the defeasance had not occurred.                                                                                                                                                                     4The defeasance of $1.986 billion of GO bonds in 2008 reduced debt service in 2010.  Debt service in the table is presented as if the defeasance had not occurred.                                                                                                                                      
+5The defeasance of $718 million of TFA bonds in 2007 reduced debt service in 2008, 2009, and 2010.  Debt service in the table is presented as if the defeasance had not occurred.                                                                                                                                           6The defeasance of $196 million of TFA bonds in 2013 reduced debt service in 2014, 2015, and 2016. Debt service in the table is presented as if the defeasance had not occurred.                 
+7The defeasance of $65 million of Jay Street Development Corporation (JSDC) bonds in 2007 reduced debt service in 2009 and 2010.  Debt service in the table is presented as if the defeasance had not occurred.                                                                                                                                  
+8TFA BARBs and TSASC are not included in OMB's or the Comptroller's definitions of New York City outstanding debt.  For an explanation of these items, and their inclusion in NYC IBO's definition of New York City outstanding debt, please see New Outstanding Debt. 
+9In 2006, TSASC restructured its outstanding indebtedness. This included a one time expense of $161 million for redeeming all bonds issued under a secured loan agreement with the United States Department of Transportation, via the department's Transportation Infrastructure Finance and Innovation Act (TIFIA) program. Additionally, all prior year TSASC bond series were defeased, leaving only Series 2006-1 bonds outstanding.
+10MWFA has defeased $14.8 billion of bonds as of June 30, 2012. IBO has not made adjustments to debt service presented in the table to reflect these actions.
