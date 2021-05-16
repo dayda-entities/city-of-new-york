@@ -1,15 +1,15 @@
 ---
-title: 2011-2012 School Closure Discharge Reporting Grade - District
-created: '2020-11-10T17:06:00.144689'
-modified: '2020-11-10T17:06:00.144696'
+title: 2011-2012 School Closure Discharge Reporting SWD - Borough
+created: '2020-11-10T17:06:04.786427'
+modified: '2020-11-10T17:06:04.786437'
 state: active
 type: dataset
 tags: []
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/wryt-jaa6/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/x79z-q7y2/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/wryt-jaa6/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/x79z-q7y2/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
