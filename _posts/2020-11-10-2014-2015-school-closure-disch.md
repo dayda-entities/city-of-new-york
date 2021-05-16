@@ -1,19 +1,19 @@
 ---
-title: 2014-2015 School Closure Discharge Reporting - GPA
-created: '2020-11-10T17:04:43.891692'
-modified: '2020-11-10T17:04:43.891700'
+title: 2014-2015 School Closure Discharge Reporting - SWD
+created: '2020-11-10T17:05:18.936023'
+modified: '2020-11-10T17:05:18.936030'
 state: active
 type: dataset
 tags:
   - Discharge Reporting
   - Doe
-  - Gpa
   - School Closure
+  - Swd
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/qd93-w582/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/t446-jbtd/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/qd93-w582/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/t446-jbtd/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
