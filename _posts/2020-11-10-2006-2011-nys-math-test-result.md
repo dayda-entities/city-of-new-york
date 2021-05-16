@@ -1,18 +1,16 @@
 ---
-title: >-
-  2006 - 2011 NYS Math Test Results By Grade- School Level - By English
-  Proficiency Status
-created: '2020-11-10T17:05:11.965886'
-modified: '2020-11-10T17:05:11.965897'
+title: 2006 - 2011 NYS Math Test Results By Grade - School Level - By Race- Ethnicity
+created: '2020-11-10T17:05:29.409392'
+modified: '2020-11-10T17:05:29.409403'
 state: active
 type: dataset
 tags:
   - Lifelong Learning
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/sibt-hnvk/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/ty7c-8rmq/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/sibt-hnvk/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/ty7c-8rmq/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
