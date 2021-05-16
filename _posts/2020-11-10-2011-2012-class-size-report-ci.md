@@ -1,15 +1,15 @@
 ---
-title: 2011-2012 CLASS SIZE REPORT CITY LEVEL DISTRIBUTION
-created: '2020-11-10T17:01:21.884180'
-modified: '2020-11-10T17:01:21.884190'
+title: 2011-2012 CLASS SIZE REPORT CITY LEVEL DETAIL
+created: '2020-11-10T17:02:51.743020'
+modified: '2020-11-10T17:02:51.743030'
 state: active
 type: dataset
 tags: []
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/8i43-kna8/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/f7qh-bcr5/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/8i43-kna8/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/f7qh-bcr5/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
