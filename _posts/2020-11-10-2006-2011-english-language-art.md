@@ -1,18 +1,18 @@
 ---
 title: >-
-  2006 - 2011 English Language Arts (ELA) Test Results by Grade - District - by
-  Race-Ethnicity
-created: '2020-11-10T17:02:23.243840'
-modified: '2020-11-10T17:02:23.243853'
+  2006 - 2011 English Language Arts (ELA) Test Results by Grade - School level -
+  by Race-Ethnicity
+created: '2020-11-10T17:03:03.968184'
+modified: '2020-11-10T17:03:03.968194'
 state: active
 type: dataset
 tags:
   - Lifelong Learning
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/cz36-mpdq/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/g8e6-y4ax/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/cz36-mpdq/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/g8e6-y4ax/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
