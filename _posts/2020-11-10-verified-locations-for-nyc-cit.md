@@ -1,20 +1,20 @@
 ---
 title: >-
   Verified Locations for NYC City-Funded Social Service Contracts FY2018
-  (Contract)
-created: '2020-11-10T17:02:09.823636'
-modified: '2020-11-10T17:02:09.823643'
+  (Location)
+created: '2020-11-10T17:00:16.232478'
+modified: '2020-11-10T17:00:16.232489'
 state: active
 type: dataset
 tags:
   - Geographic
   - Health And Human Services
-  - Location
+  - Location Vlnyc Fssc
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/c5up-ki6j/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/29km-avyc/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/c5up-ki6j/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/29km-avyc/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
