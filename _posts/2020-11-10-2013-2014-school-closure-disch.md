@@ -1,15 +1,15 @@
 ---
-title: 2013-2014 School Closure Discharge Reporting  Citywide
-created: '2020-11-10T17:03:34.797541'
-modified: '2020-11-10T17:03:34.797553'
+title: 2013-2014 School Closure Discharge Reporting - All Boroughs
+created: '2020-11-10T17:06:03.066012'
+modified: '2020-11-10T17:06:03.066023'
 state: active
 type: dataset
 tags: []
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/ips9-qxk8/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/x2z9-ihqe/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/ips9-qxk8/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/x2z9-ihqe/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
