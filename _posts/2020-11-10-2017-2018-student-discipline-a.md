@@ -1,18 +1,17 @@
 ---
-title: 2017-2018 Student Discipline Annual Report - GENDER
-created: '2020-11-10T17:01:09.925121'
-modified: '2020-11-10T17:01:09.925131'
+title: 2017-2018 Student Discipline Annual Report - Transfers
+created: '2020-11-10T17:01:15.066234'
+modified: '2020-11-10T17:01:15.066245'
 state: active
 type: dataset
 tags:
-  - Expulsions
-  - Removal
+  - Voluntary
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/7ej9-npzm/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/7vxz-zmfj/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/7ej9-npzm/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/7vxz-zmfj/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Student discipline annual report for students in temporary housing aggregated by gender,  removals, principal and/or superintendent intervention and expulsions.
+Students discipline annual report of voluntary and non-voluntary transfers.
