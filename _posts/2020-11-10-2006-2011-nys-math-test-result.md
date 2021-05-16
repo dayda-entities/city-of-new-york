@@ -1,16 +1,16 @@
 ---
-title: 2006 - 2011 NYS Math Test Results By Grade - Boro -  Proficiency Status
-created: '2020-11-10T17:06:33.531081'
-modified: '2020-11-10T17:06:33.531095'
+title: 2006-2011 NYS Math Test Results By Grade - Boro - By Race- Ethnicity
+created: '2020-11-10T17:06:28.392941'
+modified: '2020-11-10T17:06:28.392951'
 state: active
 type: dataset
 tags:
   - Lifelong Learning
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/zpd4-gad8/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/ypm7-drwf/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/zpd4-gad8/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/ypm7-drwf/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
