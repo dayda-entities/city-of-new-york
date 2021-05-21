@@ -1,20 +1,20 @@
 ---
-title: Department for the Aging (DFTA) Services by NYConnects Contracted Providers
-created: '2020-11-10T17:03:23.230452'
-modified: '2020-11-20T17:17:01.287337'
+title: Department for the Aging (DFTA) Caregiver Resources Contracted Providers
+created: '2020-11-10T17:03:29.343208'
+modified: '2020-11-20T17:17:06.014111'
 state: active
 type: dataset
 tags:
+  - Provider Address
   - Provider Name
+  - Provider Phone
   - Provider Type
-  - Servicename
-  - Sponsorname
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/hnj4-7uii/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/i6ju-7fj4/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/hnj4-7uii/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/i6ju-7fj4/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Listing of registered and contracted agencies providing NY Connects Services with Budgeted Units of Service.
+Listing of DFTA Caregivers Contracts Information and Hours of Operation.
