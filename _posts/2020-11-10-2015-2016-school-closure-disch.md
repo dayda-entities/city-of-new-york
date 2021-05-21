@@ -1,7 +1,7 @@
 ---
-title: 2015 - 2016 School Closure Discharge Reporting Borough Ethnicity
-created: '2020-11-10T17:01:29.546902'
-modified: '2020-11-10T17:01:29.546912'
+title: 2015 - 2016 School Closure Discharge Reporting Borough AGE
+created: '2020-11-10T17:01:35.306942'
+modified: '2020-11-10T17:01:35.306954'
 state: active
 type: dataset
 tags:
@@ -10,9 +10,9 @@ tags:
   - School Closures
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/9add-idv3/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/9eun-chvy/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/9add-idv3/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/9eun-chvy/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
