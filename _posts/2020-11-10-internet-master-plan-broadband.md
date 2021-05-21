@@ -1,26 +1,22 @@
 ---
-title: >-
-  Internet Master Plan Broadband Adoption and Infrastructure by Community
-  District
-created: '2020-11-10T17:05:05.513707'
-modified: '2020-11-10T17:05:05.513718'
+title: Internet Master Plan Broadband Choice and Speed by Census Block
+created: '2020-11-10T17:01:19.644835'
+modified: '2020-11-10T17:01:19.644845'
 state: active
 type: dataset
 tags:
-  - Access
   - Broadband
   - Broadband Adoption
   - Cable
   - City Assets
   - City Buildings
-  - Community Board
-  - Community District
   - Connectivity
   - Digital Divide
   - Digital Equity
   - Digital Inclusion
   - Infrastructure
   - Internet
+  - Internet Access
   - Internet Master Plan
   - Internet Service Provider
   - Internet Speed
@@ -34,17 +30,19 @@ tags:
   - Pole Attachments
   - Poles
   - Poletop
-  - Public Computer Center
   - Public Wi Fi
   - Street Furniture
   - Telecommunications
   - Wi Fi
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/rxpf-yca2/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/8ess-ssnw/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/rxpf-yca2/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/8ess-ssnw/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Key indicators of broadband adoption, service and infrastructure in New York City by Community District.
+Key indicators of the availability of internet service choice and speed based on publicly available data from the Federal Communications Commission
+
+</p>
+<b>Data Limitations:</b> Data accuracy is limited as of the date of publication and by the methodology and accuracy of the original sources.  The City shall not be liable for any costs related to, or in reliance of, the data contained in these datasets.
