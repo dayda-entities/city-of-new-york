@@ -1,9 +1,9 @@
 ---
 title: >-
-  Department for the Aging (DFTA) Bottom Line Budgets of NY Connects Contracted
-  Providers
-created: '2020-11-10T17:05:24.096230'
-modified: '2020-11-20T17:18:58.252769'
+  Department for the Aging (DFTA) Services by Elderly Abuse and Crime Prevention
+  Contracted Providers
+created: '2020-11-10T17:06:09.109812'
+modified: '2020-11-20T17:19:33.664578'
 state: active
 type: dataset
 tags:
@@ -13,10 +13,10 @@ tags:
   - Sponsorname
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/tjt7-rf2i/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/xjgv-jugs/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/tjt7-rf2i/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/xjgv-jugs/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Bottom Line Budgets of contracted agencies providing New York Connects Services.
+Summary of DFTA Elder Abuse Contracts Budgeted Service Units by Service.
