@@ -1,19 +1,19 @@
 ---
-title: 2015-2016 Demographic Data - Grades K-8 District
-created: '2020-11-10T17:04:25.627575'
-modified: '2020-11-10T17:04:25.627586'
+title: 2015-2016 Demographic Data - Grades K-8 School
+created: '2020-11-10T17:01:15.775888'
+modified: '2020-11-10T17:01:15.775895'
 state: active
 type: dataset
 tags:
   - Demographic Data
-  - District
   - Doe
   - Grades K 8
+  - School
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/nk42-j6hc/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/7yc5-fec2/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/nk42-j6hc/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/7yc5-fec2/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
