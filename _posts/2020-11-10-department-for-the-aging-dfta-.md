@@ -1,7 +1,7 @@
 ---
-title: Department for the Aging (DFTA) Legal Contracted Providers
-created: '2020-11-10T17:01:44.238408'
-modified: '2020-11-20T17:15:23.377886'
+title: Department for the Aging (DFTA) Home Delivered Meals Contracted Providers
+created: '2020-11-10T17:02:37.870021'
+modified: '2020-11-20T17:16:15.537932'
 state: active
 type: dataset
 tags:
@@ -11,10 +11,10 @@ tags:
   - Provider Type
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/a5ub-y4r4/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/e34y-fjmv/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/a5ub-y4r4/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/e34y-fjmv/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Listing of DFTA Legal Contracts Information and Hours of Operation.
+Listing of registered and contracted agencies providing Senior Center Services with hours of operation
