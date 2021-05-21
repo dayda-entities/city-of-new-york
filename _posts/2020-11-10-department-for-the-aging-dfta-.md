@@ -1,22 +1,20 @@
 ---
-title: >-
-  Department for the Aging (DFTA) Reported Line Item Expenditures by Month of
-  Case Management Contracted Providers
-created: '2020-11-10T17:04:00.155511'
-modified: '2020-12-04T19:26:11.590193'
+title: Department for the Aging (DFTA) Case Management Contracted Providers
+created: '2020-11-10T17:00:44.546320'
+modified: '2020-11-20T17:14:27.504934'
 state: active
 type: dataset
 tags:
-  - Lineitem Description
+  - Provider Address
   - Provider Name
+  - Provider Phone
   - Provider Type
-  - Sponsorname
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/kvc5-kdj8/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/4zkm-p9aw/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/kvc5-kdj8/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/4zkm-p9aw/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Reported Expenditures of Line Items by Month of registered and contracted agencies providing Case Management Services.
+Listing of registered and contracted agencies providing Case Management Services with hours of operation
