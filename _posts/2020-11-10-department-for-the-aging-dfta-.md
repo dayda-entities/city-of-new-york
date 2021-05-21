@@ -1,22 +1,20 @@
 ---
-title: >-
-  Department for the Aging (DFTA) Bottom Line Budgets of Case Management
-  Contracted Providers
-created: '2020-11-10T17:05:49.718572'
-modified: '2020-11-20T17:19:18.152058'
+title: Department for the Aging (DFTA)  - Social Adult Day Care Services
+created: '2020-11-10T17:00:25.234189'
+modified: '2020-11-20T17:14:07.834316'
 state: active
 type: dataset
 tags:
+  - Provider Address
   - Provider Name
+  - Provider Phone
   - Provider Type
-  - Servicename
-  - Sponsorname
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/vwd9-skbw/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/32cj-z7va/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/vwd9-skbw/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/32cj-z7va/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Bottom Line Budgets of contracted agencies providing Case Management Services.
+Listing of registered agencies providing Social Adult Day Care Services with hours of operation
