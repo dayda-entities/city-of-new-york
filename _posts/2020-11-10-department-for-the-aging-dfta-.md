@@ -1,7 +1,9 @@
 ---
-title: Department for the Aging (DFTA) Services by Homecare Contracted Providers
-created: '2020-11-10T17:03:15.747613'
-modified: '2020-11-20T17:16:53.991183'
+title: >-
+  Department for the Aging (DFTA) Bottom Line Budgets of Caregiver Resources
+  Contracted Providers
+created: '2020-11-10T17:03:50.300962'
+modified: '2020-11-20T17:17:25.763977'
 state: active
 type: dataset
 tags:
@@ -11,10 +13,10 @@ tags:
   - Sponsorname
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/h6ku-kycw/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/k2wr-xdxp/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/h6ku-kycw/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/k2wr-xdxp/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Listing of registered and contracted agencies providing Home Care Services with Budgeted Units of Service.
+Bottom Line Budgets of contracted agencies providing Caregiver Resources Services.
