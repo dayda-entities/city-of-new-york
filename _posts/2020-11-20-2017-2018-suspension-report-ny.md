@@ -1,7 +1,7 @@
 ---
-title: 2017-2018 Suspension Report NYPD Contacts - RACE
-created: '2020-11-20T17:14:00.842448'
-modified: '2020-11-20T17:14:00.842463'
+title: 2017-2018 Suspension Report NYPD Contacts - GRADE
+created: '2020-11-20T17:19:25.810689'
+modified: '2020-11-20T17:19:25.810702'
 state: active
 type: dataset
 tags:
@@ -9,10 +9,10 @@ tags:
   - Suspension
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/2qb3-8eu4/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/wq7m-7i29/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/2qb3-8eu4/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/wq7m-7i29/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Suspensions where NYPD was contacted reported by students race.
+Suspensions where NYPS was contacted reported by student grade level.
