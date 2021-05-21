@@ -1,9 +1,9 @@
 ---
 title: >-
-  Department for the Aging (DFTA) Bottom Line Budgets of NORC Contracted
-  Providers
-created: '2020-11-10T17:06:06.624608'
-modified: '2020-11-20T17:19:32.656501'
+  Department for the Aging (DFTA) Bottom Line Budgets of Legal Services
+  Contracted Providers
+created: '2020-11-10T17:06:12.177585'
+modified: '2020-11-20T17:19:37.480919'
 state: active
 type: dataset
 tags:
@@ -13,10 +13,10 @@ tags:
   - Sponsorname
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/xe6a-qapf/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/xqxn-4jph/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/xe6a-qapf/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/xqxn-4jph/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Bottom Line Budgets of contracted agencies providing Naturally Occurring Retirement Communities (NORC) Services.
+Bottom Line Budgets of contracted agencies providing Legal Services.
