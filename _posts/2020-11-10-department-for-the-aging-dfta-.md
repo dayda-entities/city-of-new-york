@@ -1,9 +1,9 @@
 ---
 title: >-
-  Department for the Aging (DFTA) Services by Elderly Abuse and Crime Prevention
+  Department for the Aging (DFTA) Bottom Line Budgets of Home Delivered Meals
   Contracted Providers
-created: '2020-11-10T17:06:09.109812'
-modified: '2020-11-20T17:19:33.664578'
+created: '2020-11-10T17:06:08.304609'
+modified: '2020-11-20T17:19:32.871311'
 state: active
 type: dataset
 tags:
@@ -13,10 +13,10 @@ tags:
   - Sponsorname
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/xjgv-jugs/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/xig4-mrik/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/xjgv-jugs/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/xig4-mrik/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Summary of DFTA Elder Abuse Contracts Budgeted Service Units by Service.
+Bottom Line Budgets of contracted agencies providing Home Delivered Meals Services.
