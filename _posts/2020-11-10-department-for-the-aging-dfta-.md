@@ -1,19 +1,20 @@
 ---
-title: Department for the Aging (DFTA) - Senior Center Local Law 140 data
-created: '2020-11-10T17:06:23.495062'
-modified: '2020-11-20T17:19:48.823794'
+title: Department for the Aging (DFTA) Services by NORC Contracted Providers
+created: '2020-11-10T17:01:03.666378'
+modified: '2020-11-20T17:14:47.796300'
 state: active
 type: dataset
 tags:
-  - Local Law 140
-  - Senior Centers
+  - Provider Name
+  - Provider Type
+  - Servicename
+  - Sponsorname
 groups:
   - Local Government
-csv_url: 'https://data.cityofnewyork.us/api/views/ygfr-ij6t/rows.csv?accessType=DOWNLOAD'
+csv_url: 'https://data.cityofnewyork.us/api/views/6ucq-fahe/rows.csv?accessType=DOWNLOAD'
 json_url: >-
-  https://data.cityofnewyork.us/api/views/ygfr-ij6t/rows.json?accessType=DOWNLOAD
+  https://data.cityofnewyork.us/api/views/6ucq-fahe/rows.json?accessType=DOWNLOAD
 layout: post
 
 ---
-Senior Centers ID information, days open and budgeted and expenditure data.
-This information is required by Local Law 140 to provide to the city council and publish on DFTA's website and open data source.  It contents data on senior center address, days of operation, daily participants, budgeted and expenses for the fiscal year.
+Listing of registered and contracted agencies providing NORC Services with Budgeted Units of Service.
