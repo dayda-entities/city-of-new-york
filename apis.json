@@ -23,6 +23,7 @@ layout: null
 {% assign t = t | strip %}
 {% assign title = title | append: ' ' | append: t %}
 {% endfor %}
+{% assign title = title | replace: "\"," " %}
 
 {% assign content = '' %}
 {% assign content_array = post.content | strip_html | escape | strip | split: " " %}
