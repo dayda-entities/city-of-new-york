@@ -18,7 +18,7 @@ layout: null
         {% for post in site.posts %}
         {
             "name": "{{ post.title | strip_html | escape }}",
-            "description": "{{ post.content | strip_html | strip_newlines | escape| remove:  "   " }}",
+            "description": "{{ post.content | strip_html | strip_newlines | escape| remove:  "	" }}",
             "image": "{{ site.profile_pic }}",
             "humanURL": "{{ post.url }}",
             "baseURL": "",
