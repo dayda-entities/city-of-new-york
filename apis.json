@@ -56,7 +56,7 @@ layout: null
                 {%- endif -%}
                 {%- if post.json_url -%}     
                 {%- if post.json_url != '' -%}     
-                ,{
+                {%- if post.csv_url != '' -%},{%- endif -%}{
                     "type":"x-json",
                     "url":"{{ post.json_url }}"
                  }
