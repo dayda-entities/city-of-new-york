@@ -54,23 +54,29 @@ layout: null
                    "url":"{{ post.csv_url }}"
                 }
                 {%- endif -%}
-                ,{%- if post.json_url != '' -%}     
-                {
+                {%- if post.json_url -%}     
+                {%- if post.json_url != '' -%}     
+                ,{
                     "type":"x-json",
                     "url":"{{ post.json_url }}"
                  }
                 {%- endif -%}
+                {%- endif -%}
+                {%- if post.csv_url_cache -%}  
                 {%- if post.csv_url_cache != '' -%}   
                 ,{
                    "type":"x-csv-cache",
                    "url":"{{ post.csv_url_cache }}"
                 }
                 {%- endif -%}
-                {%- if post.json_url_cache != '' -%}     
+                {%- endif -%}
+                {%- if post.json_url_cache -%}     
+                {%- if post.json_url_cache != '' -%} 
                 ,{
                     "type":"x-json-cache",
                     "url":"{{ post.json_url_cache }}"
                  }
+                {%- endif -%}
                 {%- endif -%}
             ],
             "contact": [
