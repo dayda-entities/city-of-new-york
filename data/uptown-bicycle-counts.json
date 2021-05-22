@@ -1,0 +1,939 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "tgzg-ssan",
+      "name" : "Uptown Bicycle Counts",
+      "assetType" : "dataset",
+      "attribution" : "Department of Transportation (DOT)",
+      "averageRating" : 0,
+      "category" : "Transportation",
+      "createdAt" : 1606890430,
+      "description" : "This count reflects cyclists traveling through Manhattan at on 86th Street along the avenues, in Central Park and on the greenways. Note: Data was not collected in years for which counts are missing.",
+      "displayType" : "table",
+      "downloadCount" : 48,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 35896254,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1606890758,
+      "publicationGroup" : 17829964,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1606890757,
+      "rowsUpdatedBy" : "d5dp-fses",
+      "tableId" : 17829964,
+      "totalTimesRated" : 0,
+      "viewCount" : 166,
+      "viewLastModified" : 1606943655,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1606943668,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 2980662,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1606943668,
+        "workflowId" : 2285,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "endedAt" : 1606943668,
+          "failureCount" : 0,
+          "startedAt" : 1606943668,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "d5dp-fses",
+          "displayName" : "afinkel"
+        }
+      } ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 512066881,
+        "name" : "Year",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "year",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 124313275,
+        "cachedContents" : {
+          "non_null" : "6",
+          "largest" : "2018",
+          "null" : "0",
+          "top" : [ {
+            "item" : "2015",
+            "count" : "1"
+          }, {
+            "item" : "2011",
+            "count" : "1"
+          }, {
+            "item" : "2018",
+            "count" : "1"
+          }, {
+            "item" : "2007",
+            "count" : "1"
+          }, {
+            "item" : "2016",
+            "count" : "1"
+          }, {
+            "item" : "2017",
+            "count" : "1"
+          } ],
+          "smallest" : "2007",
+          "cardinality" : "6"
+        },
+        "format" : { }
+      }, {
+        "id" : 512066861,
+        "name" : "Hudson River Greenway (b)",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "hudson_river_greenway_b",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 124313255,
+        "cachedContents" : {
+          "non_null" : "6",
+          "largest" : "3326",
+          "null" : "0",
+          "top" : [ {
+            "item" : "3203",
+            "count" : "1"
+          }, {
+            "item" : "3170",
+            "count" : "1"
+          }, {
+            "item" : "1919",
+            "count" : "1"
+          }, {
+            "item" : "1597",
+            "count" : "1"
+          }, {
+            "item" : "2085",
+            "count" : "1"
+          }, {
+            "item" : "3326",
+            "count" : "1"
+          } ],
+          "smallest" : "1597",
+          "cardinality" : "6"
+        },
+        "format" : { }
+      }, {
+        "id" : 512066862,
+        "name" : "Riverside Drive (a)",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "riverside_drive_a",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 124313256,
+        "cachedContents" : {
+          "non_null" : "6",
+          "largest" : "465",
+          "null" : "0",
+          "top" : [ {
+            "item" : "465",
+            "count" : "1"
+          }, {
+            "item" : "207",
+            "count" : "1"
+          }, {
+            "item" : "328",
+            "count" : "1"
+          }, {
+            "item" : "321",
+            "count" : "1"
+          }, {
+            "item" : "309",
+            "count" : "1"
+          }, {
+            "item" : "327",
+            "count" : "1"
+          } ],
+          "smallest" : "207",
+          "cardinality" : "6"
+        },
+        "format" : { }
+      }, {
+        "id" : 512066863,
+        "name" : "West End Ave (a)",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "west_end_ave_a",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 124313257,
+        "cachedContents" : {
+          "non_null" : "6",
+          "largest" : "451",
+          "null" : "0",
+          "top" : [ {
+            "item" : "338",
+            "count" : "1"
+          }, {
+            "item" : "383",
+            "count" : "1"
+          }, {
+            "item" : "451",
+            "count" : "1"
+          }, {
+            "item" : "442",
+            "count" : "1"
+          }, {
+            "item" : "256",
+            "count" : "1"
+          }, {
+            "item" : "301",
+            "count" : "1"
+          } ],
+          "smallest" : "256",
+          "cardinality" : "6"
+        },
+        "format" : { }
+      }, {
+        "id" : 512066864,
+        "name" : "Broadway (a)",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "broadway_a",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 124313258,
+        "cachedContents" : {
+          "non_null" : "6",
+          "largest" : "717",
+          "null" : "0",
+          "top" : [ {
+            "item" : "573",
+            "count" : "1"
+          }, {
+            "item" : "512",
+            "count" : "1"
+          }, {
+            "item" : "287",
+            "count" : "1"
+          }, {
+            "item" : "389",
+            "count" : "1"
+          }, {
+            "item" : "431",
+            "count" : "1"
+          }, {
+            "item" : "717",
+            "count" : "1"
+          } ],
+          "smallest" : "287",
+          "cardinality" : "6"
+        },
+        "format" : { }
+      }, {
+        "id" : 512066865,
+        "name" : "Amsterdam Ave (b)",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "amsterdam_ave_b",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 124313259,
+        "cachedContents" : {
+          "non_null" : "6",
+          "largest" : "1116",
+          "null" : "0",
+          "top" : [ {
+            "item" : "1094",
+            "count" : "1"
+          }, {
+            "item" : "609",
+            "count" : "1"
+          }, {
+            "item" : "515",
+            "count" : "1"
+          }, {
+            "item" : "1116",
+            "count" : "1"
+          }, {
+            "item" : "1093",
+            "count" : "1"
+          }, {
+            "item" : "217",
+            "count" : "1"
+          } ],
+          "smallest" : "217",
+          "cardinality" : "6"
+        },
+        "format" : { }
+      }, {
+        "id" : 512066866,
+        "name" : "Columbus Ave (b)",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "columbus_ave_b",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 124313260,
+        "cachedContents" : {
+          "non_null" : "6",
+          "largest" : "1426",
+          "null" : "0",
+          "top" : [ {
+            "item" : "1426",
+            "count" : "1"
+          }, {
+            "item" : "1137",
+            "count" : "1"
+          }, {
+            "item" : "724",
+            "count" : "1"
+          }, {
+            "item" : "854",
+            "count" : "1"
+          }, {
+            "item" : "486",
+            "count" : "1"
+          }, {
+            "item" : "594",
+            "count" : "1"
+          } ],
+          "smallest" : "486",
+          "cardinality" : "6"
+        },
+        "format" : { }
+      }, {
+        "id" : 512066867,
+        "name" : "Central Park West (a)",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "central_park_west_a",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 124313261,
+        "cachedContents" : {
+          "non_null" : "6",
+          "largest" : "1541",
+          "null" : "0",
+          "top" : [ {
+            "item" : "1541",
+            "count" : "1"
+          }, {
+            "item" : "1008",
+            "count" : "1"
+          }, {
+            "item" : "1310",
+            "count" : "1"
+          }, {
+            "item" : "636",
+            "count" : "1"
+          }, {
+            "item" : "855",
+            "count" : "1"
+          }, {
+            "item" : "1075",
+            "count" : "1"
+          } ],
+          "smallest" : "636",
+          "cardinality" : "6"
+        },
+        "format" : { }
+      }, {
+        "id" : 512066868,
+        "name" : "Central Park Dr West",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "central_park_dr_west",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 124313262,
+        "cachedContents" : {
+          "non_null" : "6",
+          "largest" : "6056",
+          "null" : "0",
+          "top" : [ {
+            "item" : "2314",
+            "count" : "1"
+          }, {
+            "item" : "6056",
+            "count" : "1"
+          }, {
+            "item" : "5429",
+            "count" : "1"
+          }, {
+            "item" : "4795",
+            "count" : "1"
+          }, {
+            "item" : "4360",
+            "count" : "1"
+          }, {
+            "item" : "5786",
+            "count" : "1"
+          } ],
+          "smallest" : "2314",
+          "cardinality" : "6"
+        },
+        "format" : { }
+      }, {
+        "id" : 512066869,
+        "name" : "Central Park Dr East",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "central_park_dr_east",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 124313263,
+        "cachedContents" : {
+          "non_null" : "6",
+          "largest" : "5913",
+          "null" : "0",
+          "top" : [ {
+            "item" : "2535",
+            "count" : "1"
+          }, {
+            "item" : "4796",
+            "count" : "1"
+          }, {
+            "item" : "4162",
+            "count" : "1"
+          }, {
+            "item" : "5611",
+            "count" : "1"
+          }, {
+            "item" : "5913",
+            "count" : "1"
+          }, {
+            "item" : "5694",
+            "count" : "1"
+          } ],
+          "smallest" : "2535",
+          "cardinality" : "6"
+        },
+        "format" : { }
+      }, {
+        "id" : 512066870,
+        "name" : "5th Ave",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "_5th_ave",
+        "position" : 11,
+        "renderTypeName" : "number",
+        "tableColumnId" : 124313264,
+        "cachedContents" : {
+          "non_null" : "6",
+          "largest" : "825",
+          "null" : "0",
+          "top" : [ {
+            "item" : "784",
+            "count" : "1"
+          }, {
+            "item" : "549",
+            "count" : "1"
+          }, {
+            "item" : "285",
+            "count" : "1"
+          }, {
+            "item" : "613",
+            "count" : "1"
+          }, {
+            "item" : "730",
+            "count" : "1"
+          }, {
+            "item" : "825",
+            "count" : "1"
+          } ],
+          "smallest" : "285",
+          "cardinality" : "6"
+        },
+        "format" : { }
+      }, {
+        "id" : 512066871,
+        "name" : "Madison Ave",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "madison_ave",
+        "position" : 12,
+        "renderTypeName" : "number",
+        "tableColumnId" : 124313265,
+        "cachedContents" : {
+          "non_null" : "6",
+          "largest" : "439",
+          "null" : "0",
+          "top" : [ {
+            "item" : "439",
+            "count" : "1"
+          }, {
+            "item" : "234",
+            "count" : "1"
+          }, {
+            "item" : "243",
+            "count" : "1"
+          }, {
+            "item" : "218",
+            "count" : "1"
+          }, {
+            "item" : "304",
+            "count" : "1"
+          }, {
+            "item" : "354",
+            "count" : "1"
+          } ],
+          "smallest" : "218",
+          "cardinality" : "6"
+        },
+        "format" : { }
+      }, {
+        "id" : 512066872,
+        "name" : "Park Ave (a)",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "park_ave_a",
+        "position" : 13,
+        "renderTypeName" : "number",
+        "tableColumnId" : 124313266,
+        "cachedContents" : {
+          "non_null" : "6",
+          "largest" : "773",
+          "null" : "0",
+          "top" : [ {
+            "item" : "559",
+            "count" : "1"
+          }, {
+            "item" : "565",
+            "count" : "1"
+          }, {
+            "item" : "373",
+            "count" : "1"
+          }, {
+            "item" : "658",
+            "count" : "1"
+          }, {
+            "item" : "773",
+            "count" : "1"
+          }, {
+            "item" : "471",
+            "count" : "1"
+          } ],
+          "smallest" : "373",
+          "cardinality" : "6"
+        },
+        "format" : { }
+      }, {
+        "id" : 512066873,
+        "name" : "Lexington Ave",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "lexington_ave",
+        "position" : 14,
+        "renderTypeName" : "number",
+        "tableColumnId" : 124313267,
+        "cachedContents" : {
+          "non_null" : "6",
+          "largest" : "590",
+          "null" : "0",
+          "top" : [ {
+            "item" : "263",
+            "count" : "1"
+          }, {
+            "item" : "245",
+            "count" : "1"
+          }, {
+            "item" : "77",
+            "count" : "1"
+          }, {
+            "item" : "590",
+            "count" : "1"
+          }, {
+            "item" : "283",
+            "count" : "1"
+          }, {
+            "item" : "181",
+            "count" : "1"
+          } ],
+          "smallest" : "77",
+          "cardinality" : "6"
+        },
+        "format" : { }
+      }, {
+        "id" : 512066874,
+        "name" : "3rd Ave",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "_3rd_ave",
+        "position" : 15,
+        "renderTypeName" : "number",
+        "tableColumnId" : 124313268,
+        "cachedContents" : {
+          "non_null" : "6",
+          "largest" : "579",
+          "null" : "0",
+          "top" : [ {
+            "item" : "223",
+            "count" : "1"
+          }, {
+            "item" : "579",
+            "count" : "1"
+          }, {
+            "item" : "392",
+            "count" : "1"
+          }, {
+            "item" : "403",
+            "count" : "1"
+          }, {
+            "item" : "329",
+            "count" : "1"
+          }, {
+            "item" : "455",
+            "count" : "1"
+          } ],
+          "smallest" : "223",
+          "cardinality" : "6"
+        },
+        "format" : { }
+      }, {
+        "id" : 512066875,
+        "name" : "2nd Ave (b)",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "_2nd_ave_b",
+        "position" : 16,
+        "renderTypeName" : "number",
+        "tableColumnId" : 124313269,
+        "cachedContents" : {
+          "non_null" : "6",
+          "largest" : "2092",
+          "null" : "0",
+          "top" : [ {
+            "item" : "2092",
+            "count" : "1"
+          }, {
+            "item" : "631",
+            "count" : "1"
+          }, {
+            "item" : "940",
+            "count" : "1"
+          }, {
+            "item" : "1924",
+            "count" : "1"
+          }, {
+            "item" : "314",
+            "count" : "1"
+          }, {
+            "item" : "1024",
+            "count" : "1"
+          } ],
+          "smallest" : "314",
+          "cardinality" : "6"
+        },
+        "format" : { }
+      }, {
+        "id" : 512066876,
+        "name" : "1st Ave (b)",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "_1st_ave_b",
+        "position" : 17,
+        "renderTypeName" : "number",
+        "tableColumnId" : 124313270,
+        "cachedContents" : {
+          "non_null" : "6",
+          "largest" : "1187",
+          "null" : "0",
+          "top" : [ {
+            "item" : "893",
+            "count" : "1"
+          }, {
+            "item" : "1187",
+            "count" : "1"
+          }, {
+            "item" : "1073",
+            "count" : "1"
+          }, {
+            "item" : "362",
+            "count" : "1"
+          }, {
+            "item" : "1099",
+            "count" : "1"
+          }, {
+            "item" : "297",
+            "count" : "1"
+          } ],
+          "smallest" : "297",
+          "cardinality" : "6"
+        },
+        "format" : { }
+      }, {
+        "id" : 512066877,
+        "name" : "York Ave (a)",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "york_ave_a",
+        "position" : 18,
+        "renderTypeName" : "number",
+        "tableColumnId" : 124313271,
+        "cachedContents" : {
+          "non_null" : "6",
+          "largest" : "593",
+          "null" : "0",
+          "top" : [ {
+            "item" : "399",
+            "count" : "1"
+          }, {
+            "item" : "366",
+            "count" : "1"
+          }, {
+            "item" : "290",
+            "count" : "1"
+          }, {
+            "item" : "236",
+            "count" : "1"
+          }, {
+            "item" : "593",
+            "count" : "1"
+          }, {
+            "item" : "318",
+            "count" : "1"
+          } ],
+          "smallest" : "236",
+          "cardinality" : "6"
+        },
+        "format" : { }
+      }, {
+        "id" : 512066878,
+        "name" : "East End Ave (a)",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "east_end_ave_a",
+        "position" : 19,
+        "renderTypeName" : "number",
+        "tableColumnId" : 124313272,
+        "cachedContents" : {
+          "non_null" : "6",
+          "largest" : "264",
+          "null" : "0",
+          "top" : [ {
+            "item" : "237",
+            "count" : "1"
+          }, {
+            "item" : "144",
+            "count" : "1"
+          }, {
+            "item" : "243",
+            "count" : "1"
+          }, {
+            "item" : "219",
+            "count" : "1"
+          }, {
+            "item" : "264",
+            "count" : "1"
+          }, {
+            "item" : "151",
+            "count" : "1"
+          } ],
+          "smallest" : "144",
+          "cardinality" : "6"
+        },
+        "format" : { }
+      }, {
+        "id" : 512066879,
+        "name" : "East River Greenway (b)",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "east_river_greenway_b",
+        "position" : 20,
+        "renderTypeName" : "number",
+        "tableColumnId" : 124313273,
+        "cachedContents" : {
+          "non_null" : "6",
+          "largest" : "236",
+          "null" : "0",
+          "top" : [ {
+            "item" : "225",
+            "count" : "1"
+          }, {
+            "item" : "142",
+            "count" : "1"
+          }, {
+            "item" : "185",
+            "count" : "1"
+          }, {
+            "item" : "193",
+            "count" : "1"
+          }, {
+            "item" : "194",
+            "count" : "1"
+          }, {
+            "item" : "236",
+            "count" : "1"
+          } ],
+          "smallest" : "142",
+          "cardinality" : "6"
+        },
+        "format" : { }
+      }, {
+        "id" : 512066880,
+        "name" : "Total",
+        "dataTypeName" : "number",
+        "description" : "",
+        "fieldName" : "total",
+        "position" : 21,
+        "renderTypeName" : "number",
+        "tableColumnId" : 124313274,
+        "cachedContents" : {
+          "non_null" : "6",
+          "largest" : "27484",
+          "null" : "0",
+          "top" : [ {
+            "item" : "19378",
+            "count" : "1"
+          }, {
+            "item" : "19368",
+            "count" : "1"
+          }, {
+            "item" : "21658",
+            "count" : "1"
+          }, {
+            "item" : "25713",
+            "count" : "1"
+          }, {
+            "item" : "27484",
+            "count" : "1"
+          }, {
+            "item" : "11945",
+            "count" : "1"
+          } ],
+          "smallest" : "11945",
+          "cardinality" : "6"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "attachments" : [ {
+          "filename" : "Data Dictionary- Uptown Bicycle Counts.xlsx",
+          "assetId" : "7a7ffb0e-7ee8-4f7a-a2af-6b562f99a13e",
+          "name" : "Data Dictionary- Uptown Bicycle Counts.xlsx"
+        } ],
+        "custom_fields" : {
+          "Update" : {
+            "Automation" : "No",
+            "Date Made Public" : "12/2/2020",
+            "Update Frequency" : "Annually"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Transportation (DOT)"
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+        "screenName" : "NYC OpenData",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+        "screenName" : "NYC OpenData",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "tags" : [ "bicycle", "counts", "bike", "uptown", "central park", "greenways", "volume", "crosstown" ],
+      "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-yf49.4c8g-ziec", "00000000-0000-0000-F9ED-3C357B7FD55F", 0, 1606890757, null, 1606890757, null, "{ }", "2007", "1597", "207", "338", "573", "217", "486", "636", "2314", "2535", "285", "234", "658", "263", "223", "314", "297", "399", "144", "225", "11945" ]
+, [ "row-v5kn_6web_mfsd", "00000000-0000-0000-7598-78D8D320C30F", 0, 1606890757, null, 1606890757, null, "{ }", "2011", "3326", "321", "256", "717", "515", "594", "1008", "4360", "4162", "784", "218", "559", "590", "392", "631", "362", "290", "151", "142", "19378" ]
+, [ "row-pqbq-6c2c_tzw9", "00000000-0000-0000-E812-DAECA026F79C", 0, 1606890757, null, 1606890757, null, "{ }", "2015", "1919", "309", "301", "512", "609", "724", "1075", "4795", "4796", "549", "243", "471", "181", "403", "940", "893", "236", "219", "193", "19368" ]
+, [ "row-xpcw_46wi-mqxg", "00000000-0000-0000-B50B-64E283E65799", 0, 1606890757, null, 1606890757, null, "{ }", "2016", "2085", "327", "383", "287", "1094", "854", "855", "5429", "5611", "613", "304", "373", "245", "329", "1024", "1099", "318", "243", "185", "21658" ]
+, [ "row-7jru-batq~efqw", "00000000-0000-0000-5C64-B8EDDC27A50F", 0, 1606890757, null, 1606890757, null, "{ }", "2017", "3203", "328", "442", "389", "1116", "1137", "1310", "5786", "5913", "730", "354", "565", "77", "455", "1924", "1187", "366", "237", "194", "25713" ]
+, [ "row-uad8.facz~g67x", "00000000-0000-0000-9842-2ADA457D214E", 0, 1606890757, null, 1606890757, null, "{ }", "2018", "3170", "465", "451", "431", "1093", "1426", "1541", "6056", "5694", "825", "439", "773", "283", "579", "2092", "1073", "593", "264", "236", "27484" ]
+ ]
+}
