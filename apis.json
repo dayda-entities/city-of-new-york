@@ -39,7 +39,7 @@ layout: null
             "name": "{{ title }}",
             "description": "{{ content }}",
             "image": "{{ site.profile_pic }}",
-            "humanURL": "{{ post.url }}",
+            "humanURL": "{{ site.url }/{{ post.url }}",
             "baseURL": "",
             "tags": [
                 {% for tag in post.tags %}
@@ -62,19 +62,11 @@ layout: null
                  }
                 {%- endif -%}
                 {%- endif -%}
-                {%- if post.csv_url_cache -%}  
-                {%- if post.csv_url_cache != '' -%}   
+                {%- if post.postman_collection_url -%}     
+                {%- if post.postman_collection_url != '' -%} 
                 ,{
-                   "type":"x-csv-cache",
-                   "url":"{{ post.csv_url_cache }}"
-                }
-                {%- endif -%}
-                {%- endif -%}
-                {%- if post.json_url_cache -%}     
-                {%- if post.json_url_cache != '' -%} 
-                ,{
-                    "type":"x-json-cache",
-                    "url":"{{ post.json_url_cache }}"
+                    "type":"x-postman-collection",
+                    "url":"{{ post.postman_collection_url }}"
                  }
                 {%- endif -%}
                 {%- endif -%}
