@@ -68,7 +68,7 @@ layout: null
                 {%- endif -%}
                 {%- if post.json_url_cache != '' -%}     
                 ,{
-                    "type":"x-json",
+                    "type":"x-json-cache",
                     "url":"{{ post.json_url_cache }}"
                  }
                 {%- endif -%}
