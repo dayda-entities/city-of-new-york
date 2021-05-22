@@ -39,7 +39,7 @@ layout: null
             "name": "{{ title }}",
             "description": "{{ content }}",
             "image": "{{ site.profile_pic }}",
-            "humanURL": "{{ site.url }/{{ post.url }}",
+            "humanURL": "{{ site.url }}/{{ post.url }}",
             "baseURL": "",
             "tags": [
                 {% for tag in post.tags %}
