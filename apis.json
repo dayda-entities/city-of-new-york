@@ -17,8 +17,8 @@ layout: null
     "apis": [
         {% for post in site.posts %}
         {
-            "name": "{{ post.title | strip_html | escape }}",
-            "description": "{{ post.content | strip_html | strip_newlines | escape| replace:  "  ","" }}",
+            "name": "{{ post.title | strip_html | escape | replace:  "  ","" }}",
+            "description": "{{ post.content | strip_html | strip_newlines | escape | replace:  "  ","" }}",
             "image": "{{ site.profile_pic }}",
             "humanURL": "{{ post.url }}",
             "baseURL": "",
