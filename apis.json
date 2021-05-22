@@ -23,7 +23,7 @@ layout: null
 {% assign t = t | strip %}
 {% assign title = title | append: ' ' | append: t %}
 {% endfor %}
-{% assign title = title | replace: "\"," " %}
+{% assign title = title | replace: "\","" %}
 {% assign title = title | strip | escape %}
 
 {% assign content = '' %}
@@ -32,6 +32,7 @@ layout: null
 {% assign t = t | strip %}
 {% assign content = content | append: ' ' | append: t %}
 {% endfor %}
+{% assign content = content | replace: "\","" %}
 {% assign content = content | strip | escape %}
 
         {
