@@ -25,7 +25,9 @@ json_url_cache: 'http://city-of-new-york.dayda.org/data/directory-of-eateries.js
 
 
 
+
 Eateries in in New York City Department of Parks & Recreation properties including snack bars, food carts, mobile food trucks,  and restaurants.
+
 
 
 
