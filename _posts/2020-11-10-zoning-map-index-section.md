@@ -18,7 +18,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/jsdz-u4b8/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/jsdz-u4b8/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/c2c4c288-21c2-4cc4-84f7-1f7b329b1641
 ---
 Shapefile of zoning section map index, grid to determine which zoning section map relates to specific areas of NYC.
 A sectional index grid to determine which Zoning Map refers to specific areas of New York City. Zoning maps show the boundaries of zoning districts throughout the city. The maps are regularly updated after the City Planning Commission and the City Council have approved proposed zoning changes. The set of 126 maps, which are part of the Zoning Resolution, are displayed in 35 sections. Each section is identified by a number from 1 to 35. Each map covers an area of approximately 8,000 feet (north/south) by 12,500 feet (east/west).
