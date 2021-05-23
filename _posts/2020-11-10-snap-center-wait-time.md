@@ -13,6 +13,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/840d8636-aa87-4de1-b4a2-724b35c53d7e
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/dac39189-989b-432d-9359-a11dde755fcd
 ---
 Aggregate monthly wait times for clients at SNAP Center services
