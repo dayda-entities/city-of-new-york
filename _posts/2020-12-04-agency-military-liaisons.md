@@ -15,6 +15,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/00a9f59a-5285-45cc-99a1-99181838261b
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/03de946d-f6ed-4708-b626-7ed222b903cb
 ---
 A list of agency military liaisons for the Extended Military Benefits Program.
