@@ -15,6 +15,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/tcem-es62/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/tcem-es62/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/51ec5af6-fea7-47a2-8a97-92b2139f6e2e
 ---
 NYCDOT sets parking meter rates across the five boroughs to be reflective of individual neighborhood parking conditions such as land use, density, and parking demand. Individual rate zones are represented in this dataset by large geographic areas. NYCDOT provides this map for informational purpose only. Confirm the rate at the parking meter or on the ParkNYC app before paying and observe all posted signs.
