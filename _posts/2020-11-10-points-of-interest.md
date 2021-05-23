@@ -17,7 +17,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/3sex-jzju/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/3sex-jzju/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/18ac8ab5-963d-4fca-89f7-7d44e24c93e7
 ---
 The Points Of Interest points are a compilation of what the different city agencies consider to be a Common Place or Place/Point of Interest.
 
