@@ -16,7 +16,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/q32n-6byj/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/q32n-6byj/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/a5920732-357a-47e5-b5fc-e2dd5e230ec9
 ---
 The intersections with the highest number of pedestrian KSI (killed and severely injured) that cumulatively account for 15% of the borough’s total pedestrian KSI. Developed as part of the Borough Pedestrian Safety Action Plans.
 
