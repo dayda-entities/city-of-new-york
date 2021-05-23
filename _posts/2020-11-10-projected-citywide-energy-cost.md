@@ -16,6 +16,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/tyv9-j3ti/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/tyv9-j3ti/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/33e867e0-3c3f-480b-a6f5-2a717b9ddab8
 ---
 This dataset summarizes  citywide energy cost projections.  Dollar amounts are rounded to millions.  This dataset is updated bi-annually,
