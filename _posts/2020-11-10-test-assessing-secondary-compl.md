@@ -20,7 +20,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/58083105-9a42-4e0d-a58c-39e3b0ddb117
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/a9885dfb-1db0-4609-83fc-351b2b4d7470
 ---
 This dataset contains information about NYCHA residents who passed the <a href="https://www1.nyc.gov/nyc-resources/service/1763/ged-or-tasc-test">Test Assessing Secondary Completion</a> (TASC) exam, exams that assess if an exam-taker has the required knowledge to receive a high school equivalency certification. Each row in the dataset represents the number of public housing residents on a Borough-level who receive or utilize this service.
 
