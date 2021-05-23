@@ -18,7 +18,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/9fnm-j6if/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/9fnm-j6if/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/d4d29aad-1dd6-4e9f-9233-c90c21e8c385
 ---
 DOT issues over 150 different types of sidewalk and roadway construction permits to utilities, contractors, government agencies and homeowners. Permits cover activities such as street openings, sidewalk construction and installing canopies over sidewalks.
 
