@@ -17,6 +17,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/ff6d693d-b1bc-4b7a-a7bf-2ad9625180fe
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/24cc9c03-a27f-442c-9a04-685baaa6a66f
 ---
 New York City Department of Transportation installs flexible traffic bollards to reduce traffic speeds. It is used as separators between  lanes, and for pedestrian safety. This dataset tracks flexible traffic bollards, installation and replacements.
