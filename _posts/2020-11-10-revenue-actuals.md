@@ -14,6 +14,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/de624e7b-4285-48b9-ad85-4452e406a5a5
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/78514791-165a-434f-8f4a-09c6c8b0f39d
 ---
 This dataset contains revenue category and revenue class summary level data for revenue actuals.  The dollar amount field is rounded to millions. Data are from FY 2002 and updated once a year after annual revenue numbers are final.  Usually, they are updated along with the first quarter financial plan between October and December each year.
