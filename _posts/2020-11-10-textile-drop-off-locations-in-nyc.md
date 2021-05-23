@@ -20,6 +20,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/8ec3f13a-1c77-47d8-84a1-966478aff1f5
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/611af0fe-ad39-4090-8d75-ccccd33c4461
 ---
 Locations where NYC residents can drop off clothing, fabrics, linens, footwear, and other items for donation or textile recycling. For more information, see: https://www1.nyc.gov/assets/dsny/site/services/donate-goods/textiles. Please note that each organization’s needs and capacity may change rapidly due to the COVID-19 response. Please email, call, or connect on social media for the most up-to-date information before attempting any drop-off/donations.
