@@ -25,6 +25,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/e90ffbda-d246-4e34-be0b-15ed6567462c
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/1a881c31-3c07-4357-b65c-596b0b980e6d
 ---
 This datasets contains data pertaining to certain City services offered to veterans as mandated by Local Law 23 of 2015. Data is provided on an annual basis by calendar year and is disaggregated by borough where available. Applicants self-report veteran status when applying for City services.
