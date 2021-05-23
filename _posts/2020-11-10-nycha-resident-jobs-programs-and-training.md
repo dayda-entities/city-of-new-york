@@ -16,6 +16,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/an6v-iuem/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/an6v-iuem/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/84e2c3ec-27e7-4bfc-9500-1ccdb62139c5
 ---
 Job preparation or training programs
