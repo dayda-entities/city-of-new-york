@@ -13,7 +13,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/1d9e037a-ccbd-4f71-a58f-3d95aa0676e2
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/d0c439ea-61fb-4cbc-84f1-cdfd042a68c3
 ---
 List of the Borough President's Recommendations on ULURP applications in Brooklyn.
 
