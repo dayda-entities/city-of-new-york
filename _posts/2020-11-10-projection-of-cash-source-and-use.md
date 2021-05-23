@@ -19,6 +19,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/1b72878b-9a72-4153-b6d7-e6f43dbd6419
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/1389ef48-3921-4c39-b3b1-eef0ec072a9a
 ---
 The description of the change from beginning to ending cash balance for a given fiscal year by operating, cashflow financing, and capital financing inflows and outflows. Data is reported in millions and updated quarterly.
