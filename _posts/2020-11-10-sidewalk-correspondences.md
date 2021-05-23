@@ -19,6 +19,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/45121aac-e80e-4299-9523-edba02e8a746
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/54cdb502-2f6d-40ef-b496-4c6d811ca3bb
 ---
 Tracks all written correspondences to the Sidewalk Program.
