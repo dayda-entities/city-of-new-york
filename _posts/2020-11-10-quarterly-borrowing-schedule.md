@@ -19,6 +19,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/3856fbed-9085-4d7d-94eb-32adcc7f227e
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/60de1c6d-6af3-4532-a98b-3f93ca2fc12b
 ---
 This dataset shows the amount of borrowing per quarter, broken down by both long and short term borrowing type and by type of debt issuer. Amounts are in billions and are updated quarterly.
