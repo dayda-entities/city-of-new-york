@@ -24,6 +24,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/fuhs-xmg2/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/fuhs-xmg2/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/e6f87d05-5469-4459-a877-4e9d0a970af9
 ---
 This dataset contains information about requests for animal assistance, relocation, and/or rescue completed by the Urban Park Rangers
