@@ -16,7 +16,9 @@ groups:
 csv_url: 'https://www1.nyc.gov/html/dot/downloads/ParkReg/locations.csv'
 json_url: ''
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/c5491900-1224-49ee-ad43-bfe56e6a1448
 ---
 The Parking Regulations are drawn from DOT’s traffic sign database, STATUS, which is used by DOT in managing its inventory of over one million traffic signs in New York City. The database keeps track of the description, location and installation dates for DOT traffic signs. The Locations and Signs datasets need to be used in combination. The data in files can be linked, to find an applicable regulation, using the 'StatusOrderNumber' value. This process is automated at our  DOT Parking Regulation website: http://a841-dotvweb01.nyc.gov/ParkingRegs/ViewController/LocationValidation.aspx
 
