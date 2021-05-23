@@ -15,6 +15,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/90ae1344-d58d-4fa3-a8da-a755fe717420
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/7f97a86d-6eab-4335-81ef-9773fbb9a164
 ---
 Attendance records for NYC Parks swimming beaches
