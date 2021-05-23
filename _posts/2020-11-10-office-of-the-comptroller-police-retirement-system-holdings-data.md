@@ -17,6 +17,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/dy3p-ay2d/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/dy3p-ay2d/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/d9255acb-ebd7-4ce0-bd3d-b4032e92c06b
 ---
 This dataset sets forth the Police Retirement System holdings (both equity and fixed income) of the identified pension/retirement system as of the close of the fiscal year.
