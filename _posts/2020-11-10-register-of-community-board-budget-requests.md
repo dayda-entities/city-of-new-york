@@ -15,6 +15,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/27e7e945-fcee-4cf5-9c95-de1a8950f237
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/3bfdd0aa-8a72-4908-b833-e3c850dca64a
 ---
 This dataset reports each of the projects and programs requested by the City’s 59 community boards.  The Register is the charter mandated product of a dynamic and cyclical budget process for the 59 community boards. The community boards consult with agencies on the capital and expense needs of the district. After consulting, each community board develops and votes separate priorities for up to 40 capital and 25 expense budget requests which the agencies review and respond to in the Register of Community Board Requests for the Preliminary Budget in January.  The Mayor’s Office of Management and Budget (OMB) reviews these same budget requests and updates the responses for the Executive and Adopted Budgets
