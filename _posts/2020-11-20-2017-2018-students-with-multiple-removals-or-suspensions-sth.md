@@ -13,6 +13,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/4p3u-pfnp/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/4p3u-pfnp/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/caeb622f-05be-40a4-bbcd-8ef73ebaeae7
 ---
 Student with two or more suspensions and/or removals annual report by students in temporary housing aggregated by district, borough and school number.
