@@ -18,6 +18,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/pqg4-dm6b/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/pqg4-dm6b/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/8b52d7e9-6995-414f-b46d-bf62ad855398
 ---
 The NYC Women's Resource Network is a free, user-friendly database of over 1,000 nonprofit organizations and governmental agencies that work to advance and benefit women and families in New York City.  A user can tailor their search by keyword, category, and/or borough to receive a customized listing of organizations that address their needs.
