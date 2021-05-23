@@ -18,7 +18,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/464f5814-7a0b-43b3-9355-f8dc834f7f04
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/abb306ec-198c-4b34-9d68-706e36546aea
 ---
 Visual display of the Stealth Fiber Map kmz file found in the Broadband Data Dig dataset.
 
