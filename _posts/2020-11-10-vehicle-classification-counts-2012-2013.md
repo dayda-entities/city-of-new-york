@@ -14,6 +14,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/f5d2c184-6417-48c4-8afb-5f8e854b86a7
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/13e7879a-272b-4c5b-bc43-c69b92c41ee9
 ---
 Vehicle classification counts collected by DOT for New York Metropolitan Transportation Council (NYMTC) to validate the New York Best Practice Model (NYBPM).
