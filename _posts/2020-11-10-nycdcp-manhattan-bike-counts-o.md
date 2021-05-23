@@ -13,7 +13,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/7d975725-b6c7-4f63-8a0d-7de3e5ef5f47
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/4d03e674-5e07-4635-8d04-5315be392cbb
 ---
 The Transportation Division of the New York City Department of City Planning (NYCDCP) has performed annual bike counts in Manhattan since 1999. The counts have been conducted along designated bicycle routes at 10 on-street and 5 off-street locations during the fall season. These locations have remained generally consistent. The data collected includes cyclist/user volumes, helmet usage, use of bike lane, gender, etc. The bike counts data can offer insights into the overall trends in user demographics and travel patterns over time.
 
