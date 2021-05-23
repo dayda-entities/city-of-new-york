@@ -23,6 +23,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/g3vh-kbnw/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/g3vh-kbnw/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/3953186e-fecd-41f6-9ee3-6e75001822c9
 ---
 Demographic statistics broken down by school districts
