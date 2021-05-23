@@ -19,7 +19,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/mv4k-y93f/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/mv4k-y93f/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/1d715576-7a94-4a8e-a4a1-bcc36c5984eb
 ---
 List of every criminal summons issued in NYC during the current calendar year.
 
