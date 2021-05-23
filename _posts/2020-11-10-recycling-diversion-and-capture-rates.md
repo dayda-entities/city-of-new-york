@@ -26,6 +26,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/gaq9-z3hz/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/gaq9-z3hz/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/d2d0fcfa-79bd-4f50-9e0f-1e2bc139da98
 ---
 For each Community District, its Recycling Diversion rate (percentage of total municipal solid waste collected by the Department of Sanitation that is disposed of by recycling) and Capture Rate (percentage of total Paper or Metal/Glass/Plastic in the waste stream that is disposed of by recycling). For more information about DSNY's recycling programs, see: https://www1.nyc.gov/assets/dsny/site/services/recycling. Capture rate is the amount of materials set out for residential recycling collection as a percentage of designated recyclable materials in both recycling and refuse streams. This ratio measures how much of the targeted materials are actually being recycled, which is a measure of how successfully such materials are recycled. Please note that since 2013, DSNY no longer uses capture rate information. For information on what is in NYC's waste, see: http://www1.nyc.gov/assets/dsny/site/resources/reports/waste-characterization.
