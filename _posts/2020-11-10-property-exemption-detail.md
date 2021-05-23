@@ -13,7 +13,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/977f3350-9a77-4255-b74b-8f0d53cdb70e
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/59ff3cf7-81fa-49c7-9df4-20e9ed6882f5
 ---
 Government, Not-for-Profit and Commercial Exemptions maintained by NYC Department of Finance.
 
