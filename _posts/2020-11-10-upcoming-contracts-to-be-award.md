@@ -25,7 +25,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/4910425a-7d06-456f-a9d0-57f89cd95678
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/5ea70886-29dd-4895-9cf1-4dd94ad8e802
 ---
 <b>Current report not available pending SCA program On Pause.</b>
 New school projects Capital Improvement Projects (CIP) that will complete design within the next 6 months and will be available for bid.
