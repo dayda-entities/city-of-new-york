@@ -19,6 +19,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/29d90d01-fd19-4cdc-b1d8-28eb0f0ffa57
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/d864e6be-641b-4793-8f19-77d7a1f118e3
 ---
 The New York City Department of Transportation is responsible for keeping the City's streets in good repair. The Agency performs ongoing assessment of New York City streets. Ratings are based on a scale from 1 to 10, and results are grouped in the following categories: Good (%) - ratings of 8 to 10, Fair (%) - ratings of 4 to 7, and Poor (%) - ratings of 1 to 3. This data will allow you to create a map.
