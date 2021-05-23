@@ -18,6 +18,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/a2b03667-a739-4433-970d-9713ffec04bf
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/21b9670a-3af2-4e21-a8fc-dfe1f31f0abb
 ---
 Statistical report on attendance by borough, grade. Alternate views of same data by grade level and enrollment (register). All students including YABC, adults, LYFE babies and charters, home instruction, home/hospital, CBO UPK.
