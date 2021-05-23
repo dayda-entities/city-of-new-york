@@ -17,7 +17,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/8ek7-jxw6/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/8ek7-jxw6/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/dd27b4a0-a67b-4aa8-8f6a-1f5ef65262bd
 ---
 The Social Indicators Report is an analysis of social conditions across New York City, including geographic and demographic breakdowns, changes over time, and the Mayor's plan for responding to problems highlighted in the report.
 
