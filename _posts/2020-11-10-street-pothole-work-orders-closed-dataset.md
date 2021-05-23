@@ -23,6 +23,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/x9wy-ing4/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/x9wy-ing4/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/c7a854e0-e1ec-439d-871e-3ea90dbf4724
 ---
 The Street Pothole Work Orders data consists of closed street potholes inspected and repaired by the New York City Department of Transportation. The dataset includes the pothole’s location, the date it was reported, and date the report was completed.
