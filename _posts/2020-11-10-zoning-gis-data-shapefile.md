@@ -20,7 +20,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/r8d8-qrth/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/r8d8-qrth/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/b23fc5ed-f7e3-4156-8c45-731d1c935883
 ---
 GIS data: This data set consists of 6 classes of zoning features: zoning districts, special purpose districts, special purpose district subdistricts, limited height districts, commercial overlay districts,  and zoning map amendments.
 
