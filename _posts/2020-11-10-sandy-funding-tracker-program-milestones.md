@@ -18,6 +18,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/cbf74c6c-2495-467f-9a8c-cb197a5c45fc
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/55b64373-6782-4f5c-83a5-9937f7690f59
 ---
 Monthly update of key program milestones
