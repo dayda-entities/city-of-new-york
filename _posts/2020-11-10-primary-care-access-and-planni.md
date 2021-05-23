@@ -14,7 +14,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/gfej-by6h/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/gfej-by6h/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/1c0c35d4-eb00-4a83-9c27-61e33be4104a
 ---
 Health insurance enrollment and assistance with SNAP benefits (Food Stamps)
 
