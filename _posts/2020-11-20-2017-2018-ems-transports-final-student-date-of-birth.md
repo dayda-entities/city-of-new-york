@@ -11,6 +11,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/irg8-quqm/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/irg8-quqm/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/ebdd4589-1f8b-4e3e-8e42-de3331c724b9
 ---
 EMS Transports by Student Date of Birth.
