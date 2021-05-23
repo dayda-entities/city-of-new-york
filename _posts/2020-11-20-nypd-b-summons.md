@@ -13,7 +13,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/59dfd212-6f9b-4c1a-ba6f-1c14af09447b
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/0b121683-1e80-4bcc-8a2a-187bc3e7faad
 ---
 Moving violation summonses issued by the NYPD.</br>
 This dataset documents the issuance of moving violations (B summonses) by the NYPD.  The data is collected from members of service upon completion of the New York State form.  Each record represents a summons (vioaltion). The data can be used for analyzing traffic enforcement activity by the NYPD.
