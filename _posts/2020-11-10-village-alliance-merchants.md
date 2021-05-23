@@ -18,7 +18,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/e98ac024-37c5-424e-b786-bd1ca7a783e1
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/24903e3f-f8b4-46db-9277-a0e0c608af98
 ---
 A business directory of Village Alliance Merchants.
 Update Frequency: As needed
