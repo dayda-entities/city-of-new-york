@@ -21,7 +21,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/2ed607d1-a1d7-4fc3-b59f-70442a0d7a7f
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/e10ce117-165d-4bda-b935-2b32f40e3e1a
 ---
 Priority Corridors where the signal progression has been changed to match the 25 MPH speed limit.
 
