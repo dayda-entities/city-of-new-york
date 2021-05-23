@@ -12,6 +12,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/5c4s-jwtq/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/5c4s-jwtq/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/77538d14-0690-4efb-beb7-a96585b66965
 ---
 Monthly trend statistics on SNAP supplemental nutrition assistance program recipients.
