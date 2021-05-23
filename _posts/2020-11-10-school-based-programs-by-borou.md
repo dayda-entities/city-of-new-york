@@ -14,6 +14,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/esmb-8zkm/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/esmb-8zkm/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/2abe1eba-9399-4193-a3b9-b754014d9d5d
 ---
 School based programs by borough with cost.
