@@ -11,7 +11,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/33c5-b922/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/33c5-b922/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/f05ef1fb-a007-4187-8a73-29d752215da7
 ---
 The data tables summarizes the disinfection by-product results for TTHM and HAA5 from distribution sites and calculated compliance values for each quarter
 
