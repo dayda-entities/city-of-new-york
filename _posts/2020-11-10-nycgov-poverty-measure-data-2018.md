@@ -12,7 +12,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/hveh-vctc/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/hveh-vctc/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/38e29bc9-daf2-41ba-b4cc-5646ccfc0195
 ---
 American Community Survey Public Use Micro Sample, augmented by NYC Opportunity.
 
