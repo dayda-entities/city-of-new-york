@@ -11,7 +11,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/muvi-b6kx/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/muvi-b6kx/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/977f3350-9a77-4255-b74b-8f0d53cdb70e
 ---
 Government, Not-for-Profit and Commercial Exemptions maintained by NYC Department of Finance.
 
