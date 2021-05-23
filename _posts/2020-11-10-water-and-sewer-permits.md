@@ -16,6 +16,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/e643d7c1-6712-4090-a9cd-410646869d9e
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/262618e0-80b3-4b95-bc1a-35f7304249ce
 ---
 The DEP Application and Permit data will contain information about the different types of applications approved and permits issued on a regular basis.
