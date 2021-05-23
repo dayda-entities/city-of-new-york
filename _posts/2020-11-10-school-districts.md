@@ -16,7 +16,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/cuae-wd7h/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/cuae-wd7h/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/e1e973a4-8e0e-424a-9e6f-810af429c95d
 ---
 GIS data: Boundaries of School Districts.
 
