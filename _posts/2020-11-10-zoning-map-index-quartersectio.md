@@ -20,7 +20,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/16c94559-2f37-466e-97fa-c87dc3cd375a
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/26a5c98b-dfd7-4da4-9e16-c493018ca780
 ---
 Shapefile of zoning quartersection map index. Grid to determine which zoning quartersection map relates to specific areas of NYC.
 
