@@ -15,6 +15,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/68ed22a6-8942-4198-9b35-27efed836094
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/7c548be0-0cb0-42f5-8772-ed09bbd0b7b1
 ---
 Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.
