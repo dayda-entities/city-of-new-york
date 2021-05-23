@@ -15,7 +15,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/nc67-uf89/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/nc67-uf89/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/abb5cb39-4b39-4e0a-96a6-23f3bcd72bcb
 ---
 The Open Parking and Camera Violations dataset was initially loaded with all violations contained in the mainframe database as of May 2016. Subsequent new violation issuance and updates to existing violations are applied to this data set on the following schedule:
 </p>
