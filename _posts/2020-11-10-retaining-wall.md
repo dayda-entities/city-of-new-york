@@ -17,6 +17,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/a59dc9ff-c709-405e-8a3c-61f89bac1763
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/d4fbad79-7f97-4abd-9a1a-2a8e839049c8
 ---
 Retaining Wall. Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.
