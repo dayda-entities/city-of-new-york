@@ -19,6 +19,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/946d8c02-df62-4951-866d-512ffc53bb83
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/70b46ad4-9561-44c5-9384-4d01fad90bff
 ---
 Staten Island Milling and Paving Schedule
