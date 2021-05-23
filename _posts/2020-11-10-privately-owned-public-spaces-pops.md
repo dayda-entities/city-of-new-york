@@ -14,7 +14,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/rvih-nhyn/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/rvih-nhyn/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/48cca565-7778-441b-a73a-f953df4a36fd
 ---
 Privately owned public spaces, also known by the acronym POPS, are outdoor and indoor spaces provided for public enjoyment by private owners in exchange for bonus floor area or waivers, an incentive first introduced into New York City’s zoning regulations in 1961. To find out more about POPS, visit the Department of City Planning's website at http://nyc.gov/pops. This database contains detailed information about each privately owned public space in New York City.
 
