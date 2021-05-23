@@ -20,7 +20,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/f6bc0f39-d2a5-4962-9e3b-5f0e3e0d930d
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/e71569be-8376-475a-a2ba-9df171f23a5c
 ---
 Enhanced Crossings are marked high-visibility crosswalks on calm streets with low vehicle volumes and a strong pedestrian desire to cross. Standard DOT toolbox treatments are used (ADA pedestrian ramps, pedestrian warning signs and high-visibility crosswalk markings) to improve the mobility and accessibility of pedestrians.
 
