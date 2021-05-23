@@ -16,6 +16,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/ay9k-vznm/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/ay9k-vznm/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/829760cb-f031-4990-8076-ed3fc11ab109
 ---
 Listing of job openings registered through Workforce1 Center. This data is up to date as of the date reflected in the "About" tab of this dataset.
