@@ -14,6 +14,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/e83b5833-f47a-4612-b0f7-231964c38954
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/03ca523c-7428-4e50-b790-4310b39d3d2d
 ---
 Number of tax filers/payers and total city tax liability by income ranges
