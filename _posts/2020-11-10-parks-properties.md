@@ -13,7 +13,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/enfh-gkve/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/enfh-gkve/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/7c4148b9-c43d-4593-b29a-4116b658e514
 ---
 This dataset identifies property managed partially or solely by NYC Parks. This data has been produced in whole or part using secondary data. Data accuracy is limited by the scale and accuracy of the original sources. Site-specific conditions should be field-verified. 
 
