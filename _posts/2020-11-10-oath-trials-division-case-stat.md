@@ -49,7 +49,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/y3hw-z6bm/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/y3hw-z6bm/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/9cd9b036-bc11-41af-81e7-9edf56376741
 ---
 The OATH Trials Division dataset contains information about a diverse range of complex administrative law matters that are filed by city agencies, boards, and commissions and adjudicated by OATH Administrative Law Judges (ALJs) at the New York City Office of Administrative Trials and Hearings, Trials Division. 
  
