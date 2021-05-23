@@ -16,6 +16,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/f4f78415-6677-4548-9479-ba8a14ef2b1b
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/189739c2-1889-4a49-a618-fc43012ee4f0
 ---
 This dataset features detailed information about DCA inspections of scales, measuring devices, pricing, and other equipment.
