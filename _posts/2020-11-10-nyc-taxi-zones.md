@@ -17,6 +17,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/c5e45258-6ab7-45dd-9f7c-c3a0e1315163
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/06462371-5db0-4b79-80d1-23053aed1676
 ---
 This map shows the NYC Taxi Zones, which correspond to the pickup and drop-off zones, or LocationIDs, included in the Yellow, Green, and FHV Trip Records published to Open Data.  The taxi zones are roughly based on NYC Department of City Planning’s Neighborhood Tabulation Areas (NTAs) and are meant to approximate neighborhoods, so you can see which neighborhood a passenger was picked up in, and which neighborhood they were dropped off in.
