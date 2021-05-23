@@ -11,6 +11,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/d5zb-ragj/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/d5zb-ragj/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/0e1e49be-b09c-4a47-baeb-a2ec606173ed
 ---
 Web traffic statistics for the top 2000 most visited pages on nyc.gov by month.
