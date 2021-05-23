@@ -13,6 +13,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/apih-xnk4/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/apih-xnk4/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/20a8c9f3-3e18-42c5-a947-4bc27e95502c
 ---
 Student with two or more suspensions and/or removals annual report aggregated by grade level, district, borough and school number.
