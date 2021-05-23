@@ -11,7 +11,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/yjub-udmw/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/yjub-udmw/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/4cd738b9-b288-461e-87c9-85c8f18bf643
 ---
 NYC Wi-Fi Hotspot Locations Wi-Fi Providers: 
 CityBridge, LLC (Free Beta): LinkNYC 1 gigabyte (GB), Free Wi-Fi Internet Kiosks
