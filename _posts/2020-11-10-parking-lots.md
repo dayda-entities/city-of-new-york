@@ -14,6 +14,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/6njb-jmjq/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/6njb-jmjq/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/05fe44e3-b3eb-418f-aa5f-ff7f03b4e84f
 ---
 Directory of Parking Lots
