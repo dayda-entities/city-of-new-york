@@ -30,6 +30,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/1ab8967a-53a6-46e3-84d5-1afa2d480b09
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/d603e7ea-1584-4528-80cb-898f3a272558
 ---
 Data and metrics on water and energy consumption in buildings over 25,000 ft2.
