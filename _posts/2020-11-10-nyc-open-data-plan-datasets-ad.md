@@ -15,6 +15,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/qnuk-aubm/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/qnuk-aubm/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/e59d2ca3-27e8-4125-8c07-c1206c91ceed
 ---
 This dataset will provide the list of datasets added to the portal since the publication of the Inaugural NYC Open Data Plan ( September 2013)
