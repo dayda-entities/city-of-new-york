@@ -21,7 +21,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/63811945-92b0-4d2a-8419-b984d134ba5e
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/ef4f79cd-c0d8-4ff0-a82a-9a8447c202c5
 ---
 Speed Humps are a raised area of a roadway designed to reduce vehicle speeds. Dates reflect the first time a speed hump was installed at a location, subsequent removals and/or re-installations are not included.
 
