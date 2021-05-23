@@ -17,6 +17,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/9rz4-mjek/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/9rz4-mjek/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/57c94020-7e6d-4bb3-9fe6-ef0b9e1fe2c6
 ---
 Properties with tax and/or water liens that are potentially eligible to be included in the next lien sale.</p>Tax Lien Sale Lists : Properties with tax, water liens and other charges  that are potentially eligible to be included in the next lien sale plus tax liens which were eventually sold.
