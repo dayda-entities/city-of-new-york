@@ -18,6 +18,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/4af77a36-2dc5-452b-a0f6-bd9b39ad5fff
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/dc083de5-9e08-4c9b-835d-1d32c82b303f
 ---
 Planimetric basemap line layer containing shoreline features. Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.
