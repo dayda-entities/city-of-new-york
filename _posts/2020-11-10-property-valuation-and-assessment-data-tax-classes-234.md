@@ -16,7 +16,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/572aeece-51a6-4109-bbbb-25069645513b
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/b9b196d3-6cfa-4d60-9f78-f35ee6d7bd5f
 ---
 Real Estate Assessment Property data.
 
