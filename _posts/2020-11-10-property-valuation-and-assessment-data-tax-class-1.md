@@ -14,7 +14,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/m8p6-tp4b/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/m8p6-tp4b/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/6b45b2eb-06e6-4a80-9f45-88a359f26949
 ---
 Real Estate Assessment Property data.
 
