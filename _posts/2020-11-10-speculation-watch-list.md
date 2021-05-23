@@ -14,7 +14,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/adax-9mit/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/adax-9mit/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/ffb54139-f401-4a72-826a-3bd794f6941c
 ---
 List of sales of select rent-regulated multiple dwellings where there may be potential for speculation. This list is promulgated pursuant to Local Law 7 of 2018 and 28 RCNY Chapter 52. This list is a subset of data provided in the LL7-2018 Qualified Transactions file. 
 Please note that borough, block, and lot is the best geographic identifier for this data set, and Building Identification Number (BIN) is provided for convenience only. BIN as provided in this dataset may be inaccurate, as more than one BIN may be associated with borough, block, and lot.
