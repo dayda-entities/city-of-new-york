@@ -11,6 +11,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/dpb9-ubdh/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/dpb9-ubdh/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/d236ee0e-7bd9-4449-8d0f-e5300ac47546
 ---
 The NYC Street Centerline (CSCL) is a road-bed representation of New York City streets containing address ranges and other information such as traffic directions, road types, segment types. Please use this dataset to determine what physicalid maps to the physicalid street segment in the <a href="https://data.cityofnewyork.us/dataset/DSNY-PlowNYC-Data/34hf-h2fw">DSNY PlowNYC dataset for the 2016/2017 winter season<a/>. For a current version of CSCL, please use <a href="https://data.cityofnewyork.us/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b">this dataset <a/>
