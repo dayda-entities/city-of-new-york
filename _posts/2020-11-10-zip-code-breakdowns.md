@@ -26,7 +26,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/a2416295-ee94-44f9-ab26-acc2276fda87
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/36b2721b-6717-41ec-b929-4a1820986519
 ---
 Demographic statistics broken down by zip code
 Update Schedule: As required
