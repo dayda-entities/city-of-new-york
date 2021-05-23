@@ -16,7 +16,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/28ky-9sj8/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/28ky-9sj8/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/d23e65a3-0cae-4436-b816-e3334be4240b
 ---
 In Spring 2014, DOT hosted nine pedestrian safety workshops across the five boroughs aimed at gathering community feedback on areas in need of safety improvements. This feedback was used to shape the Borough Pedestrian Safety Action Plans, released in 2015.
 
