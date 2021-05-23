@@ -13,6 +13,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/1f70757a-eb42-430f-bd34-5cdadf635631
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/87f774a4-a9d0-4a16-bc6a-f3865ec1bb11
 ---
 List of TLC approved LabCorp Drug Test Locations. For inquiries about the contents of this dataset, please email tlccompliance@tlc.nyc.gov
