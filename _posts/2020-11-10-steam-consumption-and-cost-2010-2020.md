@@ -14,6 +14,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/a51828a8-5e67-4397-9d8f-73e56bbdfd35
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/0d8ba639-b5cd-4b57-884d-eb86021033d9
 ---
 Monthly consumption and cost data by borough and development. Data set includes utility vendor and meter information.
