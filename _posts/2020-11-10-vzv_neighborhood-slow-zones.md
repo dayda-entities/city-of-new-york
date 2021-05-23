@@ -19,7 +19,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/de3ecca1-3e0f-4de8-b5b8-1d6ebb8ce415
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/9d74ba18-78ad-4564-b6ed-be206dbc8da6
 ---
 The Neighborhood Slow Zone program is an application based program which takes a neighborhood area and reduces the speed limit to 20 mph. Areas are chosen based on crashes, presence of schools and other neighborhood amenities, and community support. The treatments include a mixture of markings, signage, and speed humps.
 
