@@ -19,7 +19,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/xz6t-b52h/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/xz6t-b52h/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/63811945-92b0-4d2a-8419-b984d134ba5e
 ---
 Speed Humps are a raised area of a roadway designed to reduce vehicle speeds. Dates reflect the first time a speed hump was installed at a location, subsequent removals and/or re-installations are not included.
 
