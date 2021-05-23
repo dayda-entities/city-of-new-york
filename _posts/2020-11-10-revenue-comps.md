@@ -27,6 +27,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/8703a021-1188-4c23-85c3-9b49dd5f751c
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/5df23bda-c93f-493f-b3cd-0bcd8b19d177
 ---
 Revenue statistics for Times Square
