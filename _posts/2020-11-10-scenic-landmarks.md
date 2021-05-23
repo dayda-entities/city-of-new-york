@@ -22,6 +22,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/5363fe17-a727-4408-b043-0b6bc3250b06
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/e488a07b-1ea5-4df5-a23f-0b2f93b20768
 ---
 This dataset contains boundaries and associated attribute information for all designated scenic landmarks or areas under consideration for scenic landmark designation (i.e. calendared) by the New York City Landmarks Preservation Commission (LPC). The geographic locations of the polygons in this dataset are derived primarily from the Department of City Planning's PLUTO dataset, and therefore discrepancies may arise where the LPC dataset has not been updated with information from the most recent PLUTO releases. Please pay close attention to the field descriptions present in the file's metadata to understand how to use this dataset. More information on these records may be found in the Landmark List shapefile (points). Please contact LPC if there are questions or concerns.
