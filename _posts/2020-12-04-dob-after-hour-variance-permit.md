@@ -17,6 +17,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/d3236d01-ff35-4be9-aaa5-9cca7e130c07
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/0b6685ce-9e3f-4ca6-8b62-6ac1b371a3a5
 ---
 List of all after-hours variances issued in DOB NOW
