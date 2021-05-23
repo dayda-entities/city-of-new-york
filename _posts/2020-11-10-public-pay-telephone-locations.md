@@ -16,6 +16,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/0b9b701d-c4c1-46c8-8501-1ecff0827fc2
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/e610390f-eb50-4f10-a372-a7f80009b0e3
 ---
 DoITT regulates public pay telephones installed on and over the City's sidewalks except for phones that are attached to subway stations (which are handled by the Metropolitan Transportation Authority). The Public Pay Telephone (PPT) data point contains Borough, Community Boards, Council District, Neighborhood Tabulation Area (NTA), Zip Code, Business Improvement District (BID), nearest Building Identification Number (BIN) and Police Precinct information. Payphones installed on private property are not regulated by DoITT.  LinkNYC kiosk phones are a separate data set. CityBridge now owns, maintains, and displays advertising on the remaining public pay telephones as well.
