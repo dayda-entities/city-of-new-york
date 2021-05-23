@@ -16,7 +16,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/8kvz-b7tv/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/8kvz-b7tv/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/46273711-b34f-4565-ad1b-ec72c8db557f
 ---
 This dataset captures all water features within NYC Parks. It combines the State’s hydrography layer with known water fountains. Made for cartographic purposes, the attribute data isn’t as maintained as the geometry.
 
