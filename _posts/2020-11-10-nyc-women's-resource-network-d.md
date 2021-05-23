@@ -20,6 +20,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/56a9306c-ba12-4197-bff4-88a1d98dd16b
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/fd358c49-e1b6-4aac-ae4b-f32869c4f822
 ---
 The NYC Women's Resource Network is a free, user-friendly database of over 1,000 nonprofit organizations and governmental agencies that work to advance and benefit women and families in New York City.  A user can tailor their search by keyword, category, and/or borough to receive a customized listing of organizations that address their needs.
