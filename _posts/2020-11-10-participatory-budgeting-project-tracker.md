@@ -11,6 +11,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/qm5f-frjb/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/qm5f-frjb/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/8fd987f7-1d7b-4f20-9b7d-e7714474ee99
 ---
 Tracking the funding and progress of winning participatory budget projects.
