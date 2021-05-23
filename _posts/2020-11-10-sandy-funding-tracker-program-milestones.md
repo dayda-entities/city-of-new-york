@@ -16,6 +16,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/ru7m-mpyz/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/ru7m-mpyz/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/cbf74c6c-2495-467f-9a8c-cb197a5c45fc
 ---
 Monthly update of key program milestones
