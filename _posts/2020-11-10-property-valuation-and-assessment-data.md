@@ -15,7 +15,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/yjxr-fw8i/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/yjxr-fw8i/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/bff8defa-867a-4a4d-82ce-fe5733c2d86b
 ---
 Real Estate Assessment Property data.
 The Department of Finance values properties every year as one step in calculating property tax bills.
