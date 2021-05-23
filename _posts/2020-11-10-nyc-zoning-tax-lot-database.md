@@ -16,7 +16,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/fdkv-4t4z/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/fdkv-4t4z/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/efa62f93-5ac8-4a8b-baff-46d5b7dc09ff
 ---
 The Zoning Tax Lot Database is a comma–separated values (CSV) file format that contains up-to-date zoning by parcel. The Database includes the zoning designations and zoning map associated with a specific tax block and lot. The Database is updated on a monthly basis to reflect rezoning and corrections to the file.
 
