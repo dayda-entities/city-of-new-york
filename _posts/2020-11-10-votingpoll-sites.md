@@ -25,6 +25,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/996043cb-09cb-47e9-872c-bfe45f85100c
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/bf1a9d71-bd26-4461-9b0a-b0da08c9ff37
 ---
 Locations of voting/poll sites through the city.
