@@ -24,6 +24,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/7cgt-uhhz/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/7cgt-uhhz/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/bb679ff2-2b7f-45eb-8d3d-6e0cc169a081
 ---
 Planimetric basemap polygon layer containing parking lot features. Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.
