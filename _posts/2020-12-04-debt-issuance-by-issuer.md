@@ -22,6 +22,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/9314c528-25e6-4473-bc25-c5fd77133211
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/b7f715c7-7f16-4479-be59-2901cb22f20c
 ---
 This dataset describes current year issuance by the various city Issuers. Amounts are in billions and are updated in each Preliminary and Executive Budget.
