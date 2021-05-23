@@ -18,6 +18,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/3233ef82-9275-4a99-8a16-73094b78165a
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/dec85f8a-3a62-4c1c-915d-c7806c2fe595
 ---
 Priority codes assigned to applicants by NYCHA
