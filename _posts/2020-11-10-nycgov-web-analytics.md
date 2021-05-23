@@ -13,6 +13,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/0e1e49be-b09c-4a47-baeb-a2ec606173ed
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/572c8242-7710-4a33-9d95-57dcb8e13c2a
 ---
 Web traffic statistics for the top 2000 most visited pages on nyc.gov by month.
