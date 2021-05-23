@@ -16,6 +16,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/h6af-x63h/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/h6af-x63h/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/1b85e054-2155-46fe-9d62-e4ee6e880bef
 ---
 Attendance and location information for outdoor aquatics programming.
