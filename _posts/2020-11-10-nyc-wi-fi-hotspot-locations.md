@@ -13,7 +13,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/4cd738b9-b288-461e-87c9-85c8f18bf643
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/44fb79e1-2d91-4773-975d-df83a0d6f73d
 ---
 NYC Wi-Fi Hotspot Locations Wi-Fi Providers: 
 CityBridge, LLC (Free Beta): LinkNYC 1 gigabyte (GB), Free Wi-Fi Internet Kiosks
