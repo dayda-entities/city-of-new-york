@@ -14,6 +14,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/1c27c818-ea4e-4b4d-bb20-e602897130ad
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/52d3d0b4-7ac3-48ff-88bd-3bb34d927dfe
 ---
 Traffic volume counts collected by DOT for New York Metropolitan Transportation Council (NYMTC) to validate the New York Best Practice Model (NYBPM).
