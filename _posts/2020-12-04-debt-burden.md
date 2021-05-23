@@ -22,6 +22,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/hdie-5bdv/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/hdie-5bdv/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/48ee73c4-5763-401f-bbb0-4a91615e625d
 ---
 This dataset has various calculations of debt burden. The data is represented as percentages and will be updated twice per year in the Preliminary and Executive Budgets.
