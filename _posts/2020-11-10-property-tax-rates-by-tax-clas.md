@@ -13,6 +13,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/7e959d8c-684a-4dd7-9d53-3c056099e139
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/d306cd3b-a211-4792-a326-bc0baccda195
 ---
 Table of tax rates by year
