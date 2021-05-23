@@ -18,6 +18,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/829760cb-f031-4990-8076-ed3fc11ab109
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/d054b78d-9c6e-4b5e-a5f5-4c32626ddad5
 ---
 Listing of job openings registered through Workforce1 Center. This data is up to date as of the date reflected in the "About" tab of this dataset.
