@@ -16,6 +16,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/edk2-vkjh/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/edk2-vkjh/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/8d111282-8d41-44f9-b486-2b94ada0e7fd
 ---
 Locations where NYC residents can drop off their pharmaceuticals and syringes for safe disposal. For more information, see: https://www1.nyc.gov/assets/dsny/site/services/harmful-products/pharmaceutical-drop-off
