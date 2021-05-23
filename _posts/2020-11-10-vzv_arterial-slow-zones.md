@@ -20,7 +20,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/d9c204f2-6c6d-457e-b46b-4b121490c864
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/3f291a93-221e-46a8-a722-606cb315e45a
 ---
 The Arterial Slow Zone program uses a combination of a lower speed limit, signal timing changes, distinctive signs and increased enforcement to improve safety on some of New York City's most high-crash corridors.
 
