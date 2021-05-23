@@ -22,7 +22,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/afns-vxeu/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/afns-vxeu/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/bb4aae4e-cd94-46e4-94b3-c46a57d5a69e
 ---
 GIS data: Boundaries of State Senate Districts.
 
