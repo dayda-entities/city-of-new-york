@@ -11,6 +11,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/qt4e-9a97/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/qt4e-9a97/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/92153334-30a5-43e0-954c-8bcf4fcc00d5
 ---
 PPB shall coordinate and publish an annual prompt payment performance report detailing each agency's performance pursuant to Charter Section 332. PPB shall additionally make cumulative prompt payment performance statistics available upon request. All reports shall be distributed to the CCPO, OMB and Comptroller and shall be posted on the City's website in a location that is accessible by the public simultaneously with their publication.
