@@ -18,7 +18,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/16dbeea9-0e03-4a73-b35c-cff6317b4867
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/ad8adeee-aa01-4045-ae12-01d2e8f7f693
 ---
 This dataset contains information regarding placements of speed humps and speed cushions within the five boroughs. 
 
