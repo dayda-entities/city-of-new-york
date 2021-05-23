@@ -13,7 +13,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/db0fa457-c71b-493c-a284-a5e8cefaee3d
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/15ff1fa2-007b-4278-a7f5-22f2da3be8c9
 ---
 Shapefile of Transit Zone boundaries where parking requirements are eliminated or reduced for a range of affordable and senior housing units.
 
