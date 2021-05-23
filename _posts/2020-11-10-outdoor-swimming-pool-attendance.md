@@ -14,6 +14,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/jvwx-xnsr/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/jvwx-xnsr/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/19854d2e-98b0-421d-a33c-09de7f5c3b4d
 ---
 Attendance records for NYC Parks outdoor swimming pools
