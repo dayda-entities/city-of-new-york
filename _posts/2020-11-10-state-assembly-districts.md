@@ -19,7 +19,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/20bd9b71-0384-41b4-8d99-bcdb4a86355a
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/1495e81a-8504-4c17-b790-c434906cfdcb
 ---
 GIS data: Boundaries of State Assembly Districts.
 
