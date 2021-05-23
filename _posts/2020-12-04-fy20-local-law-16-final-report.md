@@ -15,6 +15,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/966d0f9e-24e6-4389-8a15-a9f130d780d1
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/2bcd75b2-d667-44b8-a023-d7d69c926dca
 ---
 Allocations for schools.
