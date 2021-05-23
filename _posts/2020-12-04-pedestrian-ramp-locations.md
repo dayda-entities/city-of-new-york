@@ -20,6 +20,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/e72dff2f-2af9-4b3e-9527-1524f7c0cc7c
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/22f1d4a7-5fcf-41e5-8385-2f2d1c5f2d3a
 ---
 Pedestrian ramps provide access on and off streets and sidewalks and are an essential tool for all pedestrians. This data is a comprehensive list of all pedestrian ramps throughout New York City as October 2019.
