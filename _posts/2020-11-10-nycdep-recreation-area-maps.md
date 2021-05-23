@@ -21,7 +21,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/65b1d8c0-88a8-45e4-911b-6ece04994c12
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/7ad150db-913b-4abe-8d3d-1b0a88f39d10
 ---
 NYCDEP Recreation Area Maps
 
