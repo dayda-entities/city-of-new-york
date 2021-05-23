@@ -17,7 +17,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/ud4g-9x9z/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/ud4g-9x9z/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/4d09181f-7234-42fb-856f-a033d466e72b
 ---
 Bodegas & Grocery Stores Receiving Recognition from Borough President's Office
 
