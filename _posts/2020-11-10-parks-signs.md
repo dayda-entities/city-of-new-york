@@ -13,6 +13,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/hv9n-xgy4/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/hv9n-xgy4/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/c5d1756d-2324-4019-8892-0ef1082b6e03
 ---
 One row of data represents a physical Sign (its location and attributes) that was surveyed or installed by NYC Parks. Data is collected and udpated on an ongoing basis per updates to signage policies, seasonal upgrades, and one-off requests. Some limitations to the data: missing photos of installed signs, occasional shifting of Points (geometry) surveyed by GIS and that NOT ALL SIGNS THAT HAVE BEEN INSTALLED ARE CURRENTLY CAPTURED IN THIS DATASET.
