@@ -16,6 +16,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/kf2b-aeh5/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/kf2b-aeh5/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/774db29e-3a11-4ad5-ba3d-ad1d0a560f9c
 ---
 Schedule of recruitment events offered by Workforce1 Center. This data is up to date as of the date reflected in the "About" tab of this dataset.
