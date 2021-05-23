@@ -16,6 +16,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/d23aec78-c32e-42de-bc34-9e9575fef3ad
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/b8bb5169-9e4d-434b-a5f6-b78984ff1a26
 ---
 Real Estate Assessment Property data. Data represent NYC properties assessments for purpose to calculate Property Tax, Grant eligible properties Exemptions and/or Abatements. Data collected and entered into the system by various City employee, like Property Assessors, Property Exemption specialists, ACRIS reporting, Department of Building reporting, etc..
