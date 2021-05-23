@@ -17,7 +17,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/pbm7-fbt9/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/pbm7-fbt9/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/98b5d81a-b062-430d-a7c2-096cb38fed86
 ---
 On November 7, 2014, New York City’s default speed limit was changed from 30 mph to 25 mph. Unless otherwise signed, all streets in New York City are governed by this 25 mph speed limit. Driving at or below 25 MPH decreases stopping distance, gives drivers and pedestrians more time to see each other and react, and improves drivers’ ability to avoid crashes. Pedestrians struck by vehicles traveling at 25 MPH are half as likely to die as those struck at 30 MPH. If crashes do occur, the severity of injuries is reduced a lower speeds. The information shown here was compiled by the New York City Department of Transportation for governmental purposes. The information is updated as soon as reasonably practicable. The public is advised that speed limits are subject to temporary or permanent change and that posted signage must be observed for compliance with laws and regulations.
 
