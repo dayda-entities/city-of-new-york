@@ -13,6 +13,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/uxsm-hzx3/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/uxsm-hzx3/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/68a08ff3-0670-440c-9543-da9e3c3c4f8a
 ---
 The number of provisional employees by agency and title.
