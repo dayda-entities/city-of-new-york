@@ -18,7 +18,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/bbe2f9c6-d596-4ad6-a9c8-96c06a1e9d88
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/de45b6a5-c7be-4625-8666-8b4e71598076
 ---
 In Spring 2014, DOT partnered with New York City Councilmembers across the five boroughs to host a number of Town Halls, where community members could come learn more about Vision Zero and give specific suggestions or concerns regarding traffic safety in their neighborhoods.
 
