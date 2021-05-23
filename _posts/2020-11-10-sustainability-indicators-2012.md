@@ -16,6 +16,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/637690f9-0498-468c-807e-f3d0ae3714f7
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/37b191a4-b933-4df5-b81d-0a3f3151398c
 ---
 The sustainability indicators are used by the Mayor's Office of Long-Term Planning and Sustainability to track the progress of the PlaNYC program.
