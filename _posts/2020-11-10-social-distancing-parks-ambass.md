@@ -13,7 +13,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/98ef-fxnm/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/98ef-fxnm/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/38f8c3dc-850b-48b6-94ba-f14f335b0f1b
 ---
 During the Covid-19 response, NYC Parks deployed Social Distance Ambassadors (SDAs) across NYC parks to educate patrons on social distancing. This dataset contains encounters and non-encounters during deployment recorded by these SDAs.
 
