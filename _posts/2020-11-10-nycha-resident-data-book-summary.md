@@ -19,6 +19,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/0b91c3b8-1e1c-4e48-a01d-18af868a14ea
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/714e5b8e-e9c7-4aab-8a5f-af30714dad96
 ---
 Contains resident demographic data at a summary level as of January 1, 2019. The Resident Data Book is compiled to serve as an information source for queries involving resident demographic as well as a source of data for internal analysis.  Statistics are compiled via HUD mandated annual income reviews involving NYCHA Staff and residents. Data is then aggregated and compiled by development.  Each record pertains to a single public housing development.
