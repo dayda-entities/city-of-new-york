@@ -17,6 +17,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/pa5t-ktd3/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/pa5t-ktd3/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/8c83c9b0-a213-4234-b489-f5fd98cb6c6a
 ---
 # of units from projected future housing growth in the City
