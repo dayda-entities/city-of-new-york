@@ -26,6 +26,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/2072044d-790d-44ad-befc-c3f4e1661a43
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/13d6005b-c8b4-4f29-8bf3-23bbed161fb7
 ---
 List of firms that are disqualified to work for the SCA. The file includes the term of the firms' disqualification. If the 'disqualified to date' is empty, the firm is disqualified indefinitely.
