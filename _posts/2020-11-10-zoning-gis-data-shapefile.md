@@ -22,7 +22,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/b23fc5ed-f7e3-4156-8c45-731d1c935883
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/52d497c6-af5b-453c-bfe6-6b4d0c564cd1
 ---
 GIS data: This data set consists of 6 classes of zoning features: zoning districts, special purpose districts, special purpose district subdistricts, limited height districts, commercial overlay districts,  and zoning map amendments.
 
