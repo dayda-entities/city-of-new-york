@@ -19,7 +19,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/a8wp-rerh/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/a8wp-rerh/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/64940763-d248-40d9-b80e-1e559a955a3b
 ---
 Companies listed as of the most recent export date have been issued Class 1 self-hauler registrations by the Business Integrity Commission. They are authorized to remove, collect or dispose of trade waste that is generated in the course of operation of such person's business. (Companies removing, collecting or disposing of construction and demolition debris must apply for Exemption from Licensing Requirements, otherwise known as Class 2 Construction and Demolition Registration).
 
