@@ -36,7 +36,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/dpec-ucu7/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/dpec-ucu7/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/7af21263-4408-4370-95e7-dcf88948d7a6
 ---
 THIS DATASET IS UPDATED SEVERAL TIMES PER DAY. TLC Driver application status check for applicants who had applied for a new TLC driver’s license. For more information and to upload missing requirements, visit www.nyc.gov/tlcup
 
