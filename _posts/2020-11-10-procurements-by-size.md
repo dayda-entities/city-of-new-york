@@ -17,6 +17,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/6f4391cc-d7ad-45e1-84b1-5f2329f331b3
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/f2395288-56ee-43d2-81c8-231c1c348481
 ---
 Summary table of procurements in the fiscal year grouped by agency and size
