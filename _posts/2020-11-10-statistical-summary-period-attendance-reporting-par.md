@@ -16,6 +16,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/hrsu-3w2q/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/hrsu-3w2q/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/a2b03667-a739-4433-970d-9713ffec04bf
 ---
 Statistical report on attendance by borough, grade. Alternate views of same data by grade level and enrollment (register). All students including YABC, adults, LYFE babies and charters, home instruction, home/hospital, CBO UPK.
