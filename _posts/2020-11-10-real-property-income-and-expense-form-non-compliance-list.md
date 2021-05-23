@@ -11,6 +11,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/wvts-6tdf/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/wvts-6tdf/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/a1e88f0f-1856-4990-8bc9-8e8d54d03fe1
 ---
 Properties required to file RPIE-2107 which did not do so
