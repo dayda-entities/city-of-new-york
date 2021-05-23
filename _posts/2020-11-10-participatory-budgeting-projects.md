@@ -11,7 +11,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/wwhr-5ven/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/wwhr-5ven/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/aee33673-94cc-4c5f-96d2-5a0ed78d063c
 ---
 Participatory Budgeting is a democratic process in which community members directly decide how to spend part of a public budget. Council Members choose to join Participatory Budgeting New York City (PBNYC), giving at least $1 million from their budget for the whole community to participate in decision-making. It’s a yearlong process of public meetings, to ensure that people have the time and resources to make informed decisions. Community members discuss local needs and develop proposals to meet these needs. Through a public vote, residents then decide which proposals to fund.
  
