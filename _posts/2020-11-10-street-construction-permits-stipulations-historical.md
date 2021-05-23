@@ -20,7 +20,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/3cab65ac-362c-4066-895a-50932c5a2998
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/f4aa514c-dc1e-47bc-85b9-4eff07663b85
 ---
 DOT issues over 150 different types of sidewalk and roadway construction permits to utilities, contractors, government agencies and homeowners. Permits cover activities such as street openings, sidewalk construction and installing canopies over sidewalks.
 Stipulations are rules that apply to a permit. One permit may have multiple stipulations.
