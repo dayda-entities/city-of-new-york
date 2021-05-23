@@ -11,7 +11,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/4j6i-9rmr/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/4j6i-9rmr/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/d4a95920-0ba7-43d9-82f7-814fc1f2f0ef
 ---
 List of the Borough President's Recommendations on ULURP applications in Brooklyn.
 
