@@ -20,7 +20,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/0773f10b-a52b-4f07-beee-d8a4185e39a8
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/2b5f68fb-a608-4936-81d4-bf5cae605ac8
 ---
 This dataset contains information about the Workforce 1 service, a service offered by the Department of Small Business Services (SBS) that connects New Yorkers to job opportunities. Each row in the dataset represents the number of public housing residents on a NYCHA Development-level who receive or utilize this service.
 
