@@ -24,6 +24,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/krwf-eng6/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/krwf-eng6/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/2072044d-790d-44ad-befc-c3f4e1661a43
 ---
 List of firms that are disqualified to work for the SCA. The file includes the term of the firms' disqualification. If the 'disqualified to date' is empty, the firm is disqualified indefinitely.
