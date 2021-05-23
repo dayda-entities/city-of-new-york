@@ -28,6 +28,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/qb3v-bbre/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/qb3v-bbre/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/0a5f484b-bf8b-4452-a542-9a5ca14ea9ab
 ---
 Data and metrics on water and energy consumption in buildings over 25,000 ft2.
