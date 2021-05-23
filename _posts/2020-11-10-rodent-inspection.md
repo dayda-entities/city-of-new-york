@@ -17,7 +17,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/4d2e0440-c68d-40ae-8769-36a531b416ea
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/2c874b29-b0b7-4f81-bc62-f9aa131586b2
 ---
 Dataset contains information on rat inspections.
 
