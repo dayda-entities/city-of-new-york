@@ -18,7 +18,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/532fa9d0-fa99-4989-af1b-949e7664929b
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/18eec6ae-2b0f-4290-ac57-ae09129b4f8b
 ---
 This dataset contains information about NYCHA residents who were employed by the <a href="http://www.nyc.gov/html/ymi/downloads/pdf/work-progress-program.pdf">Work Progress Program</a> (WPP). WPP is a subsidized wage program designed to complement existing youth services by providing participating low-income young adults with work experience. Each row in the dataset represents the number of public housing residents on a Borough-level who receive or utilize this service.
 
