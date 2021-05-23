@@ -21,6 +21,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/4e02dfb3-c743-4e07-8e17-df6778c5c13e
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/a9b2e516-ec95-4240-b5ea-9adfb02582e1
 ---
 Tracking system for the Traffic Operations Division to service studies related to the traffic signals and their maintenance.
