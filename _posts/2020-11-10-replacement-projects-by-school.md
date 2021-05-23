@@ -15,6 +15,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/a37e2436-0ddb-48b4-a860-cfc99381d89c
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/52caefea-69c4-4133-8501-e282c201c559
 ---
 Replacement project detail by school.
