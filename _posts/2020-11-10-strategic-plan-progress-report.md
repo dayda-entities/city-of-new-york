@@ -17,6 +17,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/33adc4c1-83eb-4d87-92fb-a3b4a369b98f
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/11e9f299-1d3c-4a22-aa61-b4d8079707ed
 ---
 Key performance indicators for the objectives enumerated in DoITT's Strategic Plan: 2015-2017. Click here to view the report - http://www1.nyc.gov/assets/doitt/downloads/pdf/strategic-plan-2015-progress-report.pdf.
