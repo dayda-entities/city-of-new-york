@@ -20,6 +20,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/b9d48e78-e096-4514-b3a9-8337933919e8
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/3271d671-5527-4fa4-8b07-aec2d8a0983d
 ---
 DOT manages approximately 1,000,000 signs on the streets of New York.  This dataset contains current and historical signs, including regulatory, warning, guide and parking.
