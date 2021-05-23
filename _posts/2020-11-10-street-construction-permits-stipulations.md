@@ -18,7 +18,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/gsgx-6efw/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/gsgx-6efw/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/03b1edb8-a413-4fa0-856d-aaacfc4603ba
 ---
 For the list of permit stipulations for the 2013-2019, please refer to <a href="https://data.cityofnewyork.us/d/pbk5-6r7z">this link</a>.
 
