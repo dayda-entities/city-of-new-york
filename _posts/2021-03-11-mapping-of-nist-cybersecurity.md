@@ -25,6 +25,6 @@ csv_url_cache: 'http://city-of-new-york.dayda.org/data/mapping-of-nist-cybersecu
 json_url_cache: 'http://city-of-new-york.dayda.org/data/mapping-of-nist-cybersecurity.json'
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/5c365c6a-d1c2-466a-bb6a-59412284009a
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/8c4f7de6-e473-40e7-83b2-0236e2c174b1
 ---
 This document identifies the NIST Cybersecurity Framework Subcategories that map closely to the potential mitigations within Advanced Metering Infrastructure (AMI), Distributed Energy Resources (DER), and Distribution Grid Management (DGM) threat scenarios in the NESCOR document.  This mapping is useful in determining which NIST Cybersecurity Framework Subcategories are most relevant to addressing cyber risks in voltage regulation for the distribution system and is helpful in comparing DER and traditional grid environments.
