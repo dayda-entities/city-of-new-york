@@ -19,6 +19,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/0d1e7066-9d34-4ffd-a871-72cfc931c89f
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/b5bc7400-26ae-4152-83a7-cd43010b9fed
 ---
 New York City is offering an Outdoor Learning program that allows schools to use the roadbed of the street for classes and social distancing during the COVID-19 crisis. Outdoor Learning - Streets (OL-S) are open weekdays from 7am-4pm.
