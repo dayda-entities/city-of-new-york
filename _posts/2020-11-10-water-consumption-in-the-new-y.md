@@ -21,6 +21,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/1e0504b9-7f78-4f66-952f-ab54f629ca69
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/8f85af1e-dcda-4577-8bc8-074eb5805048
 ---
 A brief history of water consumption in the New York City Water Supply System (Based on New York City Census population)
