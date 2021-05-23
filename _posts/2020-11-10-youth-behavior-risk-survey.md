@@ -16,7 +16,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/3qty-g4aq/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/3qty-g4aq/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/b2bd95ee-e6e5-4797-aef5-532e215bd40e
 ---
 Summary results from YRBS 2011, 2013 
 Source: Youth Risk Behavior Survey (2011, 2013) 
