@@ -18,6 +18,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/b3917823-8646-4da1-b055-74c64f7c5ade
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/e4999615-727e-44ab-976b-68cd2027d07c
 ---
 A General Vendor license is required to sell, lease or offer to sell or lease goods or services in a public place that is not a store. The maximum number of General Vendor licenses that DCA issues to non-veterans is limited by law to 853. DCA maintains a waiting list, which is currently closed, and calls applicants in the order of the randomly assigned priority numbers.
