@@ -11,6 +11,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/27x4-cbi6/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/27x4-cbi6/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/78dae702-3db1-48fb-93e2-f1d6f2253f8c
 ---
 Maternal mortality is widely considered an indicator of overall population health and the status of women in the population. DOHMH uses multiple methods including death certificates, vital records linkage, medical examiner records, and hospital discharge data to identify all pregnancy-associated deaths (deaths that occur during pregnancy or within a year of the end of pregnancy) in NYC each year. DOHMH convenes the Maternal Mortality and Morbidity Review Committee (M3RC), a multidisciplinary and diverse group of  40 members that conducts an in-depth, expert review of each maternal death in NYC from both a clinical and social determinants of health perspective. The data in this table come from vital records and the M3RC review process.
