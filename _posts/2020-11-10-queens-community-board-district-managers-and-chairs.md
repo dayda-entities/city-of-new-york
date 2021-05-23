@@ -17,6 +17,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/460c83ff-3a56-4d5f-988b-d2bfd9190ec1
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/7a64153a-c443-4b8b-ae13-cf9263516850
 ---
 List of all community board appointees, leadership, and employees.
