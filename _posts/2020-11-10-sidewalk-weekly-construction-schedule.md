@@ -15,6 +15,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/fe5a5c3d-73e6-42f2-8b8f-c2e217868b7d
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/1a955ee2-2c7e-4d33-9af0-97f5dda9b325
 ---
 Sidewalk schedule to install, maintain and repair sidewalks, curbs and pedestrian ramps.
