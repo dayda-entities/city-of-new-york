@@ -20,6 +20,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/1915a495-a496-40d4-a34b-38c50f6002c6
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/6685277b-8374-411a-90e2-afd427a70aad
 ---
 List of NYPD members of service
