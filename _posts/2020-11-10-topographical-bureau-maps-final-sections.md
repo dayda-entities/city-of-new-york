@@ -19,6 +19,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/89f9bc9a-5297-4d22-86f7-f60929378abb
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/7f2772d5-c7d5-4f50-978e-bc794345d0fe
 ---
 A list of the final section maps that would show the legal street information for Borough of Brooklyn.
