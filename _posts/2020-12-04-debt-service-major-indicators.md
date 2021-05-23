@@ -23,6 +23,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/77bfd4ec-4b53-4efe-bcd4-7e0ea9ca4e56
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/304453cc-2f30-433d-87e2-932b3f0b6fe2
 ---
 This dataset shows expected issuance amounts, debt outstanding, and annual debt service costs by issuer for a given set of plan years. The data is represented in millions and will be updated twice per year in the Preliminary and Executive Budgets.
