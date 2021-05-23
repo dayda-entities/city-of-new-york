@@ -19,6 +19,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/03f974a6-26fc-49f1-aecd-7dbd5c5a589c
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/77f11bd5-935f-444b-9392-e6ee9dac77ad
 ---
 This is a list of authorized providers who offer the passenger assistance and wheelchair accessible vehicle training course that all new TLC driver license applicants (Yellow & Green Taxicab, Livery, Black Car, and Lux Limo)  must complete as part of the education requirement.
