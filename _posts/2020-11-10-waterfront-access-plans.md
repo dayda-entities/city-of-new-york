@@ -41,7 +41,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/097963bf-d05c-45b1-9951-f4710ca026d0
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/aa6684f2-e347-46e1-9d46-c1e94be68d53
 ---
 GIS data: A waterfront access plan (WAP) is a specific plan, set forth in the Zoning Resolution that tailors waterfront bulk regulations and public access requirements to the specific conditions of a particular waterfront area.
 
