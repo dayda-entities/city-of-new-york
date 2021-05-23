@@ -17,6 +17,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/75c01ec0-330d-4903-9ffc-3560db93a2f4
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/f60e6655-cb61-4775-99da-36bc12b04f17
 ---
 The weekly dataset contains regularly updated data on how the LinkNYC kiosks are being used, including numbers of users, number of Wi-Fi sessions, amount of data transmitted and other information. Data accuracy is limited as of the date of publication and by the methodology and accuracy of the original sources.  The City shall not be liable for any costs related to, or in reliance of, the data contained in these datasets.
