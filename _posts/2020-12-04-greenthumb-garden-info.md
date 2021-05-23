@@ -13,7 +13,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/c5361bfd-5c4a-417d-96df-68a0bd6d7b12
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/0cfba561-b2d2-4a12-99e5-aeeb319960a6
 ---
 GreenThumb provides programming and material support to over 550 community gardens in New York City. The data contains garden information and is part of the GreenThumb Gardens Data Collection. 
 
