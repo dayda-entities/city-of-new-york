@@ -19,7 +19,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/4a9df1c1-74fd-4b2d-bcd1-9ff5143d2ed3
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/e11e1de4-120e-4c57-a87d-78be7aed9e5d
 ---
 This dataset contains information about <a href="https://www1.nyc.gov/site/hra/help/snap-benefits-food-program.page">SNAP </a> and <a href="https://www1.nyc.gov/site/hra/help/cash-assistance.page">Cash Assistance</a>, services offered by the Department of Social Services (DSS)/Human Resources Administration (HRA) to help New Yorkers receive the federally-administered food benefits they qualify for. Each row in the dataset represents the number of public housing residents on a Borough-level who receive or utilize this service.
 
