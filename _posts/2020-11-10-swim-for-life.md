@@ -17,6 +17,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/72a0f4cb-3015-4a79-be83-ee727bf1dd24
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/86ee40db-1a20-4e59-ad54-c40636190ca2
 ---
 Attendance records for the "Swim for Life" program, which provides swimming instruction to second grade public school students.
