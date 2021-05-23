@@ -22,6 +22,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/9rxf-re6u/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/9rxf-re6u/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/6efa39f2-7021-4fad-890d-d06da63383a2
 ---
 The Public Wi-Fi in Pedestrian Corridors and Public Computer Centers dataset is an analysis of Public Wi-Fi hotspots in pedestrian corridors (zones of commercial activity in each neighborhood that attract the greatest numbers of people and local businesses) and Public Wi-Fi hotspots in the City's public computer centers.
