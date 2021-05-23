@@ -14,6 +14,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/6r4h-c2y6/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/6r4h-c2y6/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/637690f9-0498-468c-807e-f3d0ae3714f7
 ---
 The sustainability indicators are used by the Mayor's Office of Long-Term Planning and Sustainability to track the progress of the PlaNYC program.
