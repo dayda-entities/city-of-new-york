@@ -15,7 +15,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/f0ea1b68-9e50-4d26-afb1-5bb417895fa9
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/0c475b02-9979-410c-ad9f-90ca235f8b3b
 ---
 GreenThumb provides programming and material support to over 550 community gardens in New York City. The data contains Block and Lot information about the gardens and is part of the GreenThumb Gardens Data Collection.
 
