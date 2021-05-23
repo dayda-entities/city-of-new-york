@@ -30,6 +30,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/cb540fb2-2466-489f-87fc-6ea5ce54ca07
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/5f63035b-6451-43ab-9da0-55cc21436558
 ---
 Primary Zoning by lot Based on PLUTO 2005
