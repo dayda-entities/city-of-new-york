@@ -18,6 +18,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/33e867e0-3c3f-480b-a6f5-2a717b9ddab8
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/cd5fb960-d152-4a82-b591-6e1ac8276fa3
 ---
 This dataset summarizes  citywide energy cost projections.  Dollar amounts are rounded to millions.  This dataset is updated bi-annually,
