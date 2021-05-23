@@ -26,6 +26,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/a7a1f488-3972-43d9-9e88-7708fda09d23
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/695e83dc-7d97-4edd-a2df-e34729200c5c
 ---
 This dataset provides detail into the City's floating rate exposure. The data is represented in millions and will be updated twice per year in the Preliminary and Executive Budgets.
