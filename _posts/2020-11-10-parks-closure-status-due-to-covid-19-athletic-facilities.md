@@ -14,7 +14,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/g3xg-qtbc/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/g3xg-qtbc/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/01ec37cb-672c-4f49-bbcf-a98e23bc0693
 ---
 In response to the COVID-19 pandemic, NYC Parks temporarily closed several amenities, including Athletic Facilities (e.g. basketball courts, tennis courts, fields, etc.). This data collection contains the status of each Athletic Facility, and is subject to change. Although the data feed is refreshed daily, it may not reflect current conditions.
 
