@@ -15,7 +15,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/a4qt-mpr5/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/a4qt-mpr5/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/58dd44c3-4210-4471-b6a1-5b1fd82e9701
 ---
 In response to the COVID-19 pandemic, NYC Parks temporarily closed several amenities, including Playgrounds. This data collection contains the status of each Playground, and is subject to change. Although the data feed is refreshed daily, it may not reflect current conditions.
 
