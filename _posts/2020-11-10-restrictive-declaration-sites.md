@@ -15,7 +15,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/fae11bce-05a9-48f3-a652-5785501e0fa0
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/c9fc3a18-01b6-444f-81fd-7b0cc8937bc2
 ---
 Publically accessible open-space constructed and maintained by a private entity pursuant to an agreement with NYC Parks. Underlying jurisdiction of the land and the terms of each agreement vary by site. 
 
