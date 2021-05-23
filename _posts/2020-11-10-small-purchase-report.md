@@ -12,6 +12,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/3ups-txji/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/3ups-txji/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/e20b229f-5f86-4ed1-8cac-21f729ccb523
 ---
 On or before September thirtieth, two thousand and three, and on or before the last day of every quarter thereafter, the mayor or his or her designee shall submit to the council and the comptroller a report detailing each small purchase award made pursuant to this section during the quarter that ended three months before such report is due and for which information is required to be contained in the computerized data base maintained pursuant to subdivision a of section 6-116.2 of the administrative code.
