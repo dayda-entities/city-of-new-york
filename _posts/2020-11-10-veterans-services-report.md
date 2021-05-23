@@ -23,6 +23,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/8ujr-b4gc/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/8ujr-b4gc/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/e90ffbda-d246-4e34-be0b-15ed6567462c
 ---
 This datasets contains data pertaining to certain City services offered to veterans as mandated by Local Law 23 of 2015. Data is provided on an annual basis by calendar year and is disaggregated by borough where available. Applicants self-report veteran status when applying for City services.
