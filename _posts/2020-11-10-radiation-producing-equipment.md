@@ -21,6 +21,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/c57fe077-ff0c-4e93-890d-3991e34a9992
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/fb112d51-f22b-49cd-a52c-ce24091182c9
 ---
 This dataset consists of registrations for radiation producing equipment. The owner or operator of any radiation installation or of any radiation equipment in operable condition intended to be used for patient clinical diagnosis and/or treatment must obtain a current Radiation Producing Equipment - Certificate of Registration from the NYC Department of Health and Mental Hygiene (DOHMH) in order to establish (set up), maintain or operate such equipment. Registrations are categorized by facility and must be renewed every two years.
