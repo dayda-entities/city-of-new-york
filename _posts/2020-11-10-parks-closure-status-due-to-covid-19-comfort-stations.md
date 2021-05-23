@@ -15,7 +15,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/i5n2-q8ck/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/i5n2-q8ck/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/00595a67-2b6e-49de-ad5d-3515c9c54105
 ---
 In response to the COVID-19 pandemic, NYC Parks temporarily closed several amenities, including Comfort Stations. This data collection contains the status of a Comfort Station, and is subject to change. Although the data feed is refreshed daily, it may not reflect current conditions. Also note, this may not represent the entire universe of Parks comfort stations.
 
