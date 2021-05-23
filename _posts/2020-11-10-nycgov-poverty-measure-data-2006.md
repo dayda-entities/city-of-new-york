@@ -14,7 +14,7 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/c784d92f-1572-456d-8e6e-499bb39a08d2
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/7ef1e2cd-6a8d-49ee-bb7f-e182fbb7ca34
 ---
 American Community Survey Public Use Micro Sample, augmented by NYC Opportunity.
 
