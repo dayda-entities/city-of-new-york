@@ -13,6 +13,6 @@ json_url: >-
 layout: post
 postman_collection_url: >-
   https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/c722dbb0-6669-4f33-b3cc-09fb56846a3f
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/b74caeb1-d652-4a9a-a05e-2104904d9148
 ---
 SNAP Participation Rates
