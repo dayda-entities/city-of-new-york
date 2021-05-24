@@ -12,7 +12,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/7hi3-kaps/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/f2eca692-8ec3-454e-8340-847010acc0bb
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-3298bd48-07ee-443f-ab2c-7102a9267dd4
 ---
 Serious injury to staff as a result of inmate assault on staff (uniform staff only).
