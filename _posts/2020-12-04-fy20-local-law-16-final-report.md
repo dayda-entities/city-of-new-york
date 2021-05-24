@@ -14,7 +14,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/t79c-x4dw/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/cac879a0-4a0b-4600-8263-8cb1049bdb18
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-86b0b492-243e-4d8c-bad1-43c1c1a73e1a
 ---
 Allocations for schools.
