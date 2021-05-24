@@ -19,7 +19,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/ydkf-mpxb/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/f3f4a2ee-84e1-4016-b6ef-1ecbec9b4678
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-79adb02b-aaa5-4c7b-a821-b16150ffb43d
 ---
 DOT's Highway Inspection & Quality Assurance (HIQA) enforces the laws and rules that govern the way utilities, plumbers, contractors, other governmental agencies, and property owners perform work on the City's sidewalks, roadways and highways. DOT's inspectors also review work sites for compliance with permit stipulations, and issue violations when they find non-compliance with the laws and rules.
