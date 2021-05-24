@@ -15,7 +15,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/5jat-czce/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/1804b709-6741-4417-8b2b-8d2873a37f55
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-600163f7-eb01-4821-96eb-f0c89b5de617
 ---
 This list contains information on maps maintained by the topographical bureau
