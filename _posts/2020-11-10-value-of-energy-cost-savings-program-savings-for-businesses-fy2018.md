@@ -13,7 +13,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/ukdt-xm28/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/0c473a1a-9574-4b9c-b49b-832184fa97b7
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-968784f0-d563-4fbd-b2e9-39c4feb62c74
 ---
 Total estimated annual dollar value of utility discounts for businesses approved for ECSP benefits during the fiscal year
