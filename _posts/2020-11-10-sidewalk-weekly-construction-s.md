@@ -14,7 +14,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/r528-jcks/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/2b93328d-c4aa-4bc7-95fa-4725ea2e4483
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-8dd3d0e2-2995-4ecb-b488-eb730cb0e903
 ---
 Sidewalk schedule to install, maintain and repair sidewalks, curbs and pedestrian ramps.
