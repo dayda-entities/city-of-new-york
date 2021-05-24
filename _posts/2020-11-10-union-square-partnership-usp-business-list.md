@@ -17,7 +17,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/p6bh-gqsg/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/8ed0e80b-3f83-4b5a-a324-bfa7859abbb5
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-5895566f-1b19-4ba7-997e-f30995ab3d99
 ---
 Directory of businesses in the Union Square area
