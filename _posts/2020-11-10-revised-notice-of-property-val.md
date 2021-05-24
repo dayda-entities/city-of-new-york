@@ -16,7 +16,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/8vgb-zm6e/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/9c778b0e-f753-41f6-b4c7-21c40ed0c512
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-ee234694-8880-4be6-81a2-d4a85e34e1ff
 ---
 Every January, Finance mails New York City property owners a Notice of Property Value (NOPV). This important notice has information about your property’s market and assessed values. Finance determines your property’s value every year, according to State law. The Cityʼs property tax rates are applied to the assessed value to calculate your property taxes for the next tax year. You get your first tax bill for the year in June. If you believe the values or property descriptions on the NOPV are not correct.
