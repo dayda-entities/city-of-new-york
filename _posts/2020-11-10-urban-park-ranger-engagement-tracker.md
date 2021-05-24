@@ -18,7 +18,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/rcd4-qkns/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/f23016ad-fc39-4d89-87c6-6ad4ef9686ce
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-194ae4c5-3a74-4ff2-9652-9dcf870b6787
 ---
 Information about education programs run by Urban Park Ranger staff, including program types, activities, locations, and attendance.
