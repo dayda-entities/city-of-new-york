@@ -12,7 +12,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/tfrc-rjtr/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/fe7ad4e6-290d-4410-b5f5-6a8a5949ea8d
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-ef7d61a1-b429-4378-a4e5-5cbe9ecac227
 ---
 List of projects that were reviewed by the Public Design Commission on a monthly basis.
