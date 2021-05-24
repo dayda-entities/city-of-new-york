@@ -16,7 +16,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/g76y-dcqj/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/0b6685ce-9e3f-4ca6-8b62-6ac1b371a3a5
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-5e88002f-9341-48f0-b995-8dc590f12bdf
 ---
 List of all after-hours variances issued in DOB NOW
