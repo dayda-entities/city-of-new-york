@@ -21,8 +21,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/acek-a5z6/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/8969b663-5199-4711-946a-744f749da0e8
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-45274036-06c0-4696-bf79-5b7aa9cd875c
 ---
 This datasets contains information about <a href="https://www1.nyc.gov/site/dycd/services/jobs-internships/summer-youth-employment-program-syep.page">Summer Youth Employment Program (SYEP)</a>, a service offered by the Department of Youth and Community Development (DYCD) aimed at getting young New Yorkers paid work experience and career exploration opportunities. Each row in the dataset represents the number of public housing residents on a NYCHA Development-level who receive or utilize this service.
 
