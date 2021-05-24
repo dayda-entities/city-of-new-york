@@ -17,8 +17,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/4294-fz9s/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/95f68292-b5a9-4731-b674-34d0dd28b71b
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-8b8605bb-eb03-48c4-b3c7-4fc84ba6c274
 ---
 GIS data: Boundaries of State Senate Districts (water areas included).
 
