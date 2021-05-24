@@ -16,7 +16,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/7299-2etw/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/fd56fb68-5bbe-40d8-ab0d-0512bc6bfc97
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-34bad978-c40b-47ce-aab2-e022697c3439
 ---
 Bronx Milling and Paving Schedule
