@@ -13,7 +13,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/nwet-nc6h/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/d8571ab9-b3db-4fe4-a041-c53d8e53fbd0
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-9751911d-a330-40b5-b4a9-810bc0058f7d
 ---
 Number of tax filers/payers using various tax credits and amount of credit, by income ranges
