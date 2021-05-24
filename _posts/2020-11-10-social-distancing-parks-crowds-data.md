@@ -14,7 +14,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/gyrw-gvqc/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-4c2ef786-c9db-4cf1-b73a-7d3452d240ef
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-6eaa6306-085c-4e61-86b7-31cb48aa425b
 ---
 During the Covid-19 response, staff from NYC Parks Maintenance and Operations (M&O) division educated patrons on social distancing in addition to their regularly assigned tasks . This dataset contains encounters recorded by these M&O staff.
 
