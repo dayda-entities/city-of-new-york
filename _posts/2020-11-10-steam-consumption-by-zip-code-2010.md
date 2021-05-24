@@ -17,7 +17,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/2pmt-skyq/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/dcf2ff13-4d20-4961-a241-9f0cb0afd568
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-65bebfd6-e636-4d3c-8824-3b037faf97dd
 ---
 2010 steam consumption in mlbs and Mg, by ZIP code and building type.
