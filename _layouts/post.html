@@ -17,16 +17,10 @@
         </td>
         <td width="33%" align="center">
             {%- if page.postman_collection_url != '' -%}
-            {% assign this_url = page.postman_collection_url %}
-            {% assign this_url = this_url | replace: 'https://www.postman.com/thedaydasource/workspace/','' %}
-            {% assign this_url_array = this_url | split: "/" %}            
-            {% assign workspace_id = this_url_array[0] %}            
-            {% assign workspace_id = workspace_id | replace: 'City-of New York~','' %}
-            {% assign collection_id = this_url_array[2] %}
             <div class="postman-run-button"
             data-postman-action="collection/fork"
-            data-postman-var-1="{{ collection_id }}"
-            data-postman-collection-url="entityId={{ collection_id }}&entityType=collection&workspaceId={{ workspace_id }}"></div>
+            data-postman-var-1="15909983-b9fb6665-c8cd-4e92-9be2-441d4236dd40"
+            data-postman-collection-url="entityId=15909983-b9fb6665-c8cd-4e92-9be2-441d4236dd40&entityType=collection&workspaceId=3b6f7a46-5db5-42b1-80fe-9fbef41e3e06"></div>
             <script type="text/javascript">
               (function (p,o,s,t,m,a,n) {
                 !p[s] && (p[s] = function () { (p[t] || (p[t] = [])).push(arguments); });
