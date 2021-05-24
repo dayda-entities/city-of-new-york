@@ -12,7 +12,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/gqk4-hny9/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/dac39189-989b-432d-9359-a11dde755fcd
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-a56c8ed4-debc-4ee5-8501-822f6034c3a3
 ---
 Aggregate monthly wait times for clients at SNAP Center services
