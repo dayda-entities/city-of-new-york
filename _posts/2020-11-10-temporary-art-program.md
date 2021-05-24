@@ -22,7 +22,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/3r2x-bnmj/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/9c809622-0333-4ad8-886a-76a51acf9e51
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-4a812d8e-f2d7-4c9a-90f3-b26fa8df901d
 ---
 DOT Art collaborates with community-based organizations to commission artists to design and install temporary art on DOT property.
