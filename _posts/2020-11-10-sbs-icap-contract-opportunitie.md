@@ -13,7 +13,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/9a87-6m4x/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/b644c548-6fb6-4375-8e50-c4d8a3caf8d9
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-5d284d6c-7bf0-4a04-92fd-681b93cc22d3
 ---
 Subcontracting opportunities for NYC-Certified M/WBEs through privately funded Industrial and Commercial Abatement Program (ICAP) projects
