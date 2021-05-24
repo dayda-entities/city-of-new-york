@@ -18,8 +18,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/9ppv-eatm/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/178887a6-2d5a-4505-9b6d-5edb24ec82b7
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-248230dd-713f-4e63-b01b-2af7060c5b56
 ---
 Intersections where DOT installs signals that show a walk sign for pedestrians before showing a green light to vehicle traffic. The goal of these signals is to improve street safety by giving pedestrians a chance to establish their presence in the crosswalk before vehicles make turns across that crosswalk.
 
