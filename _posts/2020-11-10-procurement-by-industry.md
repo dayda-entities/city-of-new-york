@@ -16,7 +16,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/nd82-bi9f/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/88665ce4-df9e-460c-984d-7c7863d7180c
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-566c1d1f-9eeb-48e5-9724-0dc91577dc0d
 ---
 Summary table of procurement in the fiscal year grouped by agency and industry
