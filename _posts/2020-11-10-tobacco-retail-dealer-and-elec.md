@@ -25,8 +25,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/ymyu-3dbp/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/e6ee8de6-1ddb-420d-980b-a3462cdb4dc7
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-1eb7908c-580c-4f1a-8702-b1167a06bbed
 ---
 This dataset shows the maximum number (cap) of Tobacco Retail Dealer and Electronic Cigarette Retail Dealer licenses allowed in each Community District, as well as the current number of active Tobacco Retail Dealer and Electronic Cigarette Retail Dealer licenses.
 </p>
