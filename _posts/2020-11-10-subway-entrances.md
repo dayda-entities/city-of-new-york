@@ -26,7 +26,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/he7q-3hwy/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/c4107068-5088-4893-972f-4019c8033137
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-0cdd31d0-ede4-4b62-93c2-078b36acee71
 ---
 Map of NYC Subway Entrances
