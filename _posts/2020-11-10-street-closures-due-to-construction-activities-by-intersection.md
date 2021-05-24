@@ -22,8 +22,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/478a-yykk/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/0219c443-852c-424e-ab9a-73cf2b387449
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-80e2a4f5-b839-44b5-8c51-2eea33ce2f70
 ---
 DOT Street Closure data identifies locations in the New York City Street Closure map where a street is subject to a full closure, restricting through traffic, for the purpose of conducting construction related activity on a City street. Details about DOT construction permits can be found at Street Works Manual, http://streetworksmanual.nyc/.  Full Closure Permits are issued for a period of time during which the street may be closed to through traffic for only a portion of the time, and open at other times.
 
