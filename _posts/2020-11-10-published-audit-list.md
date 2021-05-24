@@ -12,8 +12,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/nekg-b6tw/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/2fada143-82a7-40c7-bc24-ed5745a71d85
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-c0afba68-2bb5-42c9-8359-4ab4dfb9d64d
 ---
 List of published audits performed by the Comptroller's Audit Bureau.
 
