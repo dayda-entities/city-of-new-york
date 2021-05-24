@@ -17,7 +17,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/auuc-fqzi/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/02615960-bd17-4b59-bf65-f9a82e677f77
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-57741207-b732-4a27-b291-b66fcdbd7f68
 ---
 **NOTE**: This list is historical. The providers listed DO NOT offer this course. The course is on hold and will be offered again by different providers in late 2019.
