@@ -18,7 +18,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/cu8c-kkz7/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/70b46ad4-9561-44c5-9384-4d01fad90bff
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-c0f59890-6333-412b-a7ea-9dc77888a801
 ---
 Staten Island Milling and Paving Schedule
