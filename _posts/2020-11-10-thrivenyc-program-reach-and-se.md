@@ -14,7 +14,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/s8tx-673w/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/3d6485a0-5f4d-4f45-b09e-39f4bef1d0c9
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-53e065e6-24a8-43f1-bdff-c8cfeb9b0b8c
 ---
 ThriveNYC Program Reach and Selected Outcomes as of Fall 2020
