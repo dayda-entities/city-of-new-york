@@ -24,7 +24,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/bvna-6j7v/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/51e53794-5724-4458-9fdb-886fa7820377
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-d9c62356-a656-42d2-bb9d-2191037d2ee4
 ---
 List of Commercial space for recording and sound production in New York City. This is a list of studios which have requested to be included, rather than a comprehensive list of NYC facilities.
