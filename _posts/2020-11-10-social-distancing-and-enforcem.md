@@ -14,8 +14,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/yv25-wqf9/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/388c5d7f-b44a-4ce0-9a92-51f9a0fde544
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-8b75e268-7ee6-4ad2-aaf2-41bbe5fd29fd
 ---
 Note: Due to important notes and changes to this dataset over time, we recommend you review the data dictionary prior to using this data. 
 
