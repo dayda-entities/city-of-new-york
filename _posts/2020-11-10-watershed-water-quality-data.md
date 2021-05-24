@@ -19,7 +19,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/y43c-5n92/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/c13d6ca2-af58-471b-9fbc-f0f020cec4bd
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-2cbb9bdc-e9e2-4903-945b-1d35a04ecda4
 ---
 Data collected to fulfill the requirements of the SWTR (Surface Water Treatment Rule) and FAD (Filtration Avoidance Determination).  Data is collected via grab sampling, analysis, LIMS data capture and reporting.  Each record represents either a four hour turbidity result, a 24 hour average turbidty result, or a daily fecal coliform result from DEL18DT (Delaware Shaft 18 downtake).  Data is used to monitor compliance with the requirements above.  There are no limitations for the data.
