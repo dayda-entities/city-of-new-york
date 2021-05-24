@@ -14,7 +14,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/byvd-5eau/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/3ffcb13f-23d3-4d49-a2e0-74af7d109332
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-ff248636-c124-415d-8284-ef8fb8454e36
 ---
 Suspensions where NYPD was contacted reported by students gender.
