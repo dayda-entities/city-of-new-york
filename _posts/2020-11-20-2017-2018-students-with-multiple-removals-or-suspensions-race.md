@@ -14,7 +14,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/5x3g-g8de/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/b6e5699e-c5d5-44be-9584-64f59c2dc2a2
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-aa77f930-4b26-448e-bc7e-c09f3033a805
 ---
 Students with two or more suspensions and/or removals annual report aggregated by race, district, borough, school number.
