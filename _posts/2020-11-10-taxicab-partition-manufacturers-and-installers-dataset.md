@@ -22,7 +22,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/y9b6-624z/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/72f8da0f-3cee-4f0b-a211-f3e5b219fc70
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-5850384e-afbe-4455-839a-a7c08b3823c3
 ---
 Taxicab (SHL and Medallion) manufacturers and installers of partitions. Partitions are safety features of taxicabs that provide protection to the driver.
