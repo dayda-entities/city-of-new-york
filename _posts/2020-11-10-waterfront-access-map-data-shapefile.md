@@ -29,8 +29,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/3bx4-hha8/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/b00262b2-c985-453b-a73d-d3dfeff11ea8
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-85ec2c92-7de0-4b93-a2a9-75cf9be812cb
 ---
 The Waterfront Access Map (WAM) data contains information about waterfront areas accessible to the public that are either publicly owned or on private property. The Waterfront Public Access Areas (WPAA)s data contains privately owned waterfront zoning lots where publicly accessible open space is provided to and along the shoreline for public enjoyment. The Publicly Owned Waterfront data contains City, State, and Federally owned public parks and facilities that provide waterfront parkland and open space for public enjoyment. Data for WPAA footprints and access points, human powered boat launches and saltwater fishing access are also included. All Waterfront Access Map (WAM) datasets are featured on the<a href="https://waterfrontaccess.planning.nyc.gov/about#10/40.7097/-73.9653"> NYC DCP Waterfront Access Map </a>
 
