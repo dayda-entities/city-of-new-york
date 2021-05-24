@@ -21,6 +21,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/e649-r223/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-f8c649a9-3760-4999-af0e-a4fbaf5bd9ed
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-5af9826b-a590-4458-8d5a-cd81c21eda3c
 ---
 Demographic projections performed by the Statistics Forecasting for elementary, middle and high school level students.
