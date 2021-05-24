@@ -20,7 +20,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/tngj-drbu/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/2510132c-102c-4516-ac26-9cbfab703749
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-b7cc6454-eedc-4905-84c0-8d97085cf0fe
 ---
 The Table representing "Target Community District Probation Demographic Data" as of 08/05/2011
