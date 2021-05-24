@@ -12,7 +12,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/h922-d8e5/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/626c8106-1c8e-401b-ac28-fb9f6c34eb24
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-ffef06b0-2902-4974-b3b2-1efd88e78bbe
 ---
 This is a list of locations where you can take the TLC Driver License Exam, which is administered by PSI Services. Certain locations may be operated by a third party
