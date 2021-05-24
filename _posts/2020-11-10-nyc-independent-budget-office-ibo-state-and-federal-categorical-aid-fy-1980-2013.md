@@ -31,6 +31,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/fu34-wamz/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/fu34-wamz/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/3b839e00-08a4-4e6e-ae78-88f48e2319e9
 ---
 Annual state and federal categorical aid by purpose of grant, from FY 1980 through FY 2013
