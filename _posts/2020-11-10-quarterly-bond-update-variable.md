@@ -15,7 +15,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/xprg-trsi/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/221a5820-bd38-494f-9974-c706241b3f74
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-143039fc-c933-48b8-b8c2-0b33f420be0a
 ---
 This data set provides information on outstanding New York city bonds, interest rate exchange agreements, and projected debt service on those bonds
