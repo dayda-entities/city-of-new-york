@@ -14,7 +14,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/qxbt-vysj/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/00a316d4-996b-4a79-9512-a2bc83eb1eba
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-735321a3-aa60-4cb8-81c3-34179ab1c3c4
 ---
 A snapshot of mental health service coverage in DOE schools.  Data extracts from each mental health service program are compiled monthly, each record represents a school that is covered by a mental health program. Data can be used to determine DOE schools with mental health coverage.  The data does NOT show all mental health programs provided to a school.
