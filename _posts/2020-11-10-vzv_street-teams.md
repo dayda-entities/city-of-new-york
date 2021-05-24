@@ -17,8 +17,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/8ynp-ya8c/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/44c4efcd-32e6-415a-b55d-88ed4aa2403f
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-c230b710-cbcb-42ac-84d4-c6b5209c34e6
 ---
 Street Team members trained the general public with Vision Zero hands-on safety exercises including safe walking and biking, car safety tips and an opportunity to get inside of large delivery trucks to experience their blind spots. Vision Zero promotional materials were handed out along with educational handouts.
 
