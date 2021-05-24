@@ -16,8 +16,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/p937-wjvj/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/2c874b29-b0b7-4f81-bc62-f9aa131586b2
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-798a67af-03c5-4b80-a71c-0e12c2e66490
 ---
 Dataset contains information on rat inspections.
 
