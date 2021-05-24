@@ -12,7 +12,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/gt5i-dmde/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/9c9cbb34-86c4-4aa6-91b8-25cd163cd074
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-733f88f0-2b45-4f3a-8947-96d4c9a659ed
 ---
 List of ULURP Recommendations
