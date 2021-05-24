@@ -17,7 +17,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/kjxa-7ccf/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/0d4e8628-4d5a-462c-8dbb-a6efcf6b2984
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-8c3f88eb-aa95-46d3-a7d9-628211221ab6
 ---
 Quality of life conditions reported by city inspectors.
