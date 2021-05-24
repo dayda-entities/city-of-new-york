@@ -15,7 +15,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/fpxc-zjtm/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/f3c6956c-15ff-48e4-9dee-f09b3adcc726
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-7c7e73a5-89cd-4bf7-8842-670781d48ffe
 ---
 Proxy voting records for the New York City Retirement Systems. This data set sets forth how the New York City Retirement Systems have voted their shares in the companies in which they hold stock. These records reflect how the the Systems voted on such issues as board of director elections and company and shareholder proposals.
