@@ -16,7 +16,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/weh8-3ujf/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/f66815e1-4a88-4414-aff8-0f67772b79c7
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-542ef3f5-ac9e-442e-b149-b4f377603696
 ---
 Synthetic turf systems located on NYC Parks properties.
