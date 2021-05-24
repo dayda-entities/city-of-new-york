@@ -21,8 +21,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/i6ds-scnc/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/f05cbee8-8321-4e5e-919d-18f28998eedf
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-44bc5d97-2181-4538-b8b4-fc518b34eb82
 ---
 This datasets contains information about NYCHA residents who passed the <a href="https://www1.nyc.gov/nyc-resources/service/1763/ged-or-tasc-test">Test Assessing Secondary Completion (TASC)</a> exam, exams that assess if an exam-taker has the required knowledge to receive a high school equivalency certification. This number only includes Pathways to Graduation students who passed TASC in given year. Pathways to Graduation is a full-time free program that helps students earn their High School Equivalency Diploma. Each row in the dataset represents the number of public housing residents on a council district-level who passed the TASC exam.
 The dataset is part of the annual report compiled by the Mayor’s Office of Operations as mandated by the <a href="https://legistar.council.nyc.gov/LegislationDetail.aspx?ID=2745761&GUID=2A9FB1D2-A1A8-4484-9D49-6F8332171B66">Local Law 163 of 2016</a> on different services provided to NYCHA residents. See other datasets in this report by searching the keyword “Services available to NYCHA Residents - Local Law 163” on the Open Data Portal.
