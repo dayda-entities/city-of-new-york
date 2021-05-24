@@ -21,7 +21,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/vntq-qu86/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/2a3f0df8-9c41-4989-8849-933d5c07d8ec
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-9129c338-4a49-49f7-a941-8dd695881cc9
 ---
 In June 2015, Mayor de Blasio announced the formation of an interagency task force to review the use of three-quarter houses in New York City. Representatives from the task force began to visit and inspect these residences to identify immediate health and safety issues and to relocate residents. Local Law 13 of 2017 requires the Mayor’s Office of Operations to provide quarterly reports on the task force’s findings.
