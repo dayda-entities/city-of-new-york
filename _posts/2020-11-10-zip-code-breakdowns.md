@@ -25,8 +25,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/6bic-qvek/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/36b2721b-6717-41ec-b929-4a1820986519
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-c1fb838b-7472-4122-92a5-5ce4bb6e4979
 ---
 Demographic statistics broken down by zip code
 Update Schedule: As required
