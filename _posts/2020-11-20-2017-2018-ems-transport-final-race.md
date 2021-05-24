@@ -13,7 +13,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/egnf-uyp9/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/0816da15-7fc4-4b87-81c8-134b86aeae74
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-8af498bd-014d-4db3-b92d-2a118f5d7a67
 ---
 EMS Transports by district, borough, school and race.
