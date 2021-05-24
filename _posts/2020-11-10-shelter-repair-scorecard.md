@@ -18,7 +18,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/dvaj-b7yx/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/55a3fce7-1660-44b5-8bd0-3cec2973d583
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-da4a3a1b-ed49-4018-84a2-226db640c225
 ---
 A list of all shelter buildings in the DHS system with the number of violations issued to that building.
