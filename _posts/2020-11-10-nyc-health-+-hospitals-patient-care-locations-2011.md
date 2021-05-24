@@ -21,6 +21,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/f7b6-v6v3/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/f7b6-v6v3/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/1bbb9236-f114-4f1e-b3b3-85602df09d55
 ---
 NYC Health + Hospitals is the largest municipal health care system in the country serving more than one million New Yorkers every year. The City’s public health care delivery system provides trauma, emergency, medical, mental health and substance abuse services across the five boroughs. This is a list of the public hospitals, skilled nursing facilities, and some of the community-based health centers that are part of the NYC Health + Hospitals system as of 2011.
