@@ -26,7 +26,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/kk4q-3rt2/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/f6f00356-c8c0-4fac-bd89-a6132187ad02
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-20741b6d-78a1-44d7-8d28-409e160d413d
 ---
 City Subway Stations
