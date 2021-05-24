@@ -13,7 +13,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/pc34-d3sx/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/ebc9d5c2-e930-4c1e-bfc0-2f8b9ccbec5d
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-b7a58718-5e56-488e-bd69-98b062c8749a
 ---
 DOT analyzed citywide crash data and school data in order to identify a new group of 135 public, private and parochial elementary and middle schools Priority Schools. Each of DOT's Priority Schools receives an individualized planning study which determines both short-term and long-term measures to improve safety.
