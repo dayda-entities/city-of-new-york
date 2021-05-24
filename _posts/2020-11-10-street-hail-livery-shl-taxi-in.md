@@ -21,8 +21,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/rdxc-q253/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/1067b158-ec76-4434-8f6d-f21e0ca0a86a
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-26c4b10c-312d-469a-89ee-de401a485154
 ---
 This is a schedule of Street Hail Livery (SHL) Taxicab initial inspections at the Taxi and Limousine Commission’s Safety and Emissions Facility. This information is also available with the Vehicle Inspection Report (VIR) provided at the time of your last inspection, or on the back of your rate card. Please note that this schedule is tentative and subject to change. This schedule is updated bi-annually prior to January and July.
 
