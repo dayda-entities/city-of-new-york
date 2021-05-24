@@ -12,7 +12,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/4fvw-nn9c/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/a37663a8-d65a-4540-be7b-4846e9f8e69b
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-e8cadaa6-75e9-4df1-b750-7c789c4d98da
 ---
 Work orders associated with a CSR complaints
