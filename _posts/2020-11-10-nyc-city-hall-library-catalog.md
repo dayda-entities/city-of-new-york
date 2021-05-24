@@ -20,6 +20,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/gysc-yn4h/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/gysc-yn4h/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/8bff035b-8afe-43df-8309-33dbdf9bab75
 ---
 The City Hall Library is New York City's official depository for all agency published reports and studies. More info can be found at http://nyc.gov/html/records/html/about/chlibrary.shtml
