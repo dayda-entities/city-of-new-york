@@ -18,8 +18,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/vwkr-zzbu/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/dd925109-bf71-4994-b204-79403b694400
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-692eecaa-eb4e-4945-87a6-117a2b179eca
 ---
 Safety-oriented engineering improvements that use multiple treatments (signals, markings, concrete etc) on both corridors and intersections. Improvements are generally aimed at better organizing traffic, improving travel times, creating shorter, safer pedestrian crossings, and safe routes for bicycle travel. The map displays operational (non-capital) projects from 2009 to YTD.
 
