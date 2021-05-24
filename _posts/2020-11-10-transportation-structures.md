@@ -16,7 +16,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/r9cu-9r7b/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/98828e66-8e0b-48ad-910d-09e708a42fe5
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-26ee26f5-999b-4dc0-848e-0376f5e02619
 ---
 Transportation Structures. Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.
