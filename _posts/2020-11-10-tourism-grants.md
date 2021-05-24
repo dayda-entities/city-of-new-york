@@ -15,7 +15,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/x4ud-jhxu/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/defdd64a-2e56-4f83-9b2f-9d7eae13e709
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-b4ea3673-83b9-46f0-a7af-01a55f842bde
 ---
 This list contains information on tourism grants
