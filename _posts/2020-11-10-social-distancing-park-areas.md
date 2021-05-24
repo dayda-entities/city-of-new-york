@@ -12,8 +12,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/4iha-m5jk/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/d9e9d650-1831-4a90-a986-f50c3bd06a50
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-aa84e1c6-9c74-4d9b-bdd0-ac6a0b0488d9
 ---
 During the Covid-19 response, NYC Parks developed Social Distancing and Enforcement applications used by Parks and other city agencies. This dataset contains a comprehensive list of parks (or areas within a park) that can be selected in these applications.
 
