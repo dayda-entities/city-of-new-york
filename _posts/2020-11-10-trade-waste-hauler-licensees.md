@@ -20,8 +20,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/867j-5pgi/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/7102b58b-91a6-4c94-b468-7fbed69e1bd5
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-c280c7d2-a8d2-46ca-9e6b-5472fae37a4e
 ---
 Companies listed as of the most recent export date have been issued trade waste removal licenses by the Business Integrity Commission and, therefore, are authorized to collect and remove all types of trade waste covered by Local Law 42 of 1996.
 
