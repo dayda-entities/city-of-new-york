@@ -12,7 +12,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/8xru-fryn/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/794ad4e6-ee56-4d6f-9766-f7124f2d0a1e
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-700343e8-c841-42a9-ac90-79e950c705b8
 ---
 Universal Pre-K
