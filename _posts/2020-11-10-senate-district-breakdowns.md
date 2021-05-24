@@ -22,7 +22,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/uv67-wxba/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/09b6e649-4fee-4479-a2cc-187fc6d8e81e
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-545788a7-73a9-4b4d-9d53-b068957e2d90
 ---
 Demographic statistics broken down by senate districts
