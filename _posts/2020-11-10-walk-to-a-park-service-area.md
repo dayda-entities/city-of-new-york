@@ -20,8 +20,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/rg6q-zak8/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/28787a64-a6b8-4e9a-b9ee-78e5b80274ac
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-8afe6b03-184c-431b-8b39-a40e89b9ee33
 ---
 The Walk to a Park initiative focuses on increasing access to parks and open spaces, concentrating on areas of the city that are under-resourced and where residents are living further than a walk to a park. NYC Parks calculates the number of New Yorkers within walking distance of a park and reports on this as part of the Mayor’s Management Report. “Walking distance” is defined as a 1/4-mile or less for sites such as small playgrounds and sitting areas; or a 1/2-mile or less for larger parks that serve a wider region, typically over 8 acres or situated on the waterfront. Certain properties in NYC Parks' portfolio, such as cemeteries, community gardens, or sites with no recreational equipment were not included in this analysis. Similarly, some parks and open-space amenities not under the jurisdiction of NYC Parks were included in this analysis, as they provide recreational value.
 
