@@ -17,8 +17,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/7jiv-bbqn/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/66c92197-749a-4cd2-9612-1635e93d1427
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-78893b74-11e5-4889-8990-be3959e588ba
 ---
 All corridors in each borough were ranked on a pedestrian KSI (killed and severely injured) per-mile basis. Corridors were selected from the top of this list until the cumulative number of KSI reached half of the borough’s total. Developed as part of the Borough Pedestrian Safety Action Plans.
 
