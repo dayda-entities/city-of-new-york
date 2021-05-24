@@ -24,7 +24,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/sxx4-xhzg/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/581849fd-af84-4027-bc6f-c1ba197a0013
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-db7903b2-8b66-4880-be96-d1c4b6336c67
 ---
 Locations of public recycling bins throughout NYC
