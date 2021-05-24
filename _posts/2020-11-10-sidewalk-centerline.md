@@ -14,7 +14,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/fytp-pq92/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/3b96fabb-19c7-4b04-a197-9aa6c4d5e54b
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-55057133-fe56-4619-8816-43bd65cfbe2d
 ---
 Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.
