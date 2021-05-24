@@ -19,8 +19,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/krx7-u82t/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/72ec6e43-d63a-4143-94be-d78e5446f1d8
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-20d2e41a-397d-41b5-b0b6-0486665e5abc
 ---
 Companies listed as of the most recent export date have been issued trade waste broker's registrations by the Business Integrity Commission. They are authorized to broker agreements between business customers and trade waste removal
 companies and/or to conduct evaluations of the customers' waste stream in order to recommend cost efficient means of waste disposal or other changes.
