@@ -16,7 +16,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/qhm5-h46t/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/30d42eac-eb92-4375-8e6e-9db13da75680
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-a74bfe16-3672-41ff-aa58-ddbab8678a5f
 ---
 This dataset shows where the dollar comes from and goes to in the budget. Data is reported in dollars and updated annually.
