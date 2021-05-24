@@ -19,7 +19,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/4fwc-j3vn/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/3ae29138-d671-4025-80af-e5805d7a5b72
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-ff77efb2-513a-4ef5-9fa9-8ca61f0faa9d
 ---
 Weigh In Motion (WIM) devices are designed to capture and record the axle weights and gross vehicle weights as trucks drive over sensors at measurement sites. WIM devices are installed on all six lanes of the Brooklyn- Queens Expressway at Pearl Street, Brooklyn.
