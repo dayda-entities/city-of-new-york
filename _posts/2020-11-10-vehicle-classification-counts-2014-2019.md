@@ -13,7 +13,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/96ay-ea4r/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/0fef63b7-3c3a-4409-80fb-4d2cd201b936
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-c8624472-8e82-488b-b593-8544138a1d26
 ---
 Vehicle classification counts collected by DOT for New York Metropolitan Transportation Council (NYMTC) to validate the New York Best Practice Model (NYBPM). For NYBPM screenline locations where data has been collected within the last three years are not considered for data collection for the present year. DOT collects data on at least 10% of the total NYBPM screenline locations.
