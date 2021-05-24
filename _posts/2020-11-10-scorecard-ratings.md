@@ -17,8 +17,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/rqhp-hivt/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/e15d925a-411b-4cf1-850c-ccc03d581781
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-621a6504-6012-46e6-8730-fefc76716343
 ---
 Street and sidewalk cleanliness ratings.
 
