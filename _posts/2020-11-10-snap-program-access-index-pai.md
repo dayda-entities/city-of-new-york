@@ -12,7 +12,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/4c8i-cnte/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/b74caeb1-d652-4a9a-a05e-2104904d9148
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-c74118d4-6b0b-4dba-b661-6700e2fdeaa6
 ---
 SNAP Participation Rates
