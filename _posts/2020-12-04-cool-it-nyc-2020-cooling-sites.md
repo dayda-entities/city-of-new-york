@@ -15,8 +15,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/h2bn-gu9k/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/e41bc796-1538-402c-aafb-2a5bbca248dc
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-2d75ea35-79fc-415c-9de8-13f3ac48ca1e
 ---
 This dataset represents amenities activated as a part of Cool It! NYC, a Citywide plan to increase the amount of cooling features available to the public during heat emergencies, particularly in neighborhoods that face the dangers of high heat. This is part of the Cool It! NYC 2020 Data Collection, which includes the following amenities:
   
