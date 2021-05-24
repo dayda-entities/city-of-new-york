@@ -16,7 +16,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/wzur-rhz9/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/9a3fb948-fac5-45fe-b6fc-ac0251f3c710
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-95736098-c2c5-428a-8f7e-0fb7d16c624d
 ---
 This is a list of authorized providers who offer the TLC Driver License 24 hour TLC Driver Education Course and exam. All TLC Driver License applicants must complete the course and pass an 80-question multiple choice exam on a computer with a grade of 70% or higher (you must answer 56 out of 80 questions correctly in order to pass). The course covers the following topics: TLC rules and regulations; geography; safe driving skills; traffic rules; and customer service.
