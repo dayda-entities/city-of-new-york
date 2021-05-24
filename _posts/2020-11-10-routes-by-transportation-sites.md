@@ -12,8 +12,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/fgqh-vfzz/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/3fffc66d-90b0-4ca8-95bf-8d6d9add1c46
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-a7fee556-da6c-442a-932b-8c6a30ca3e69
 ---
 This dataset allows users to link the information in the Route dataset to the information in the Transportation Site dataset. 
 Please note that because OPT does not design routes for Pre-K service, those routes are not included in this dataset.
