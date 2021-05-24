@@ -16,7 +16,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/8z5h-tzdr/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/7a64153a-c443-4b8b-ae13-cf9263516850
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-689630ca-379c-4d39-8bb4-184d38824fc4
 ---
 List of all community board appointees, leadership, and employees.
