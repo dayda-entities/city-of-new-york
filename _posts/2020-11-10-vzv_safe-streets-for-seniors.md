@@ -18,8 +18,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/drzr-52hb/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/88581527-958d-45c6-9e23-6e973cb259de
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-197da81b-5885-48e8-a10c-8dc1c2198bfe
 ---
 The Safe Streets for Seniors program is an initiative aimed at increasing safety for older New Yorkers. Based on factors such as senior population density, injury crashes, and senior trip generators, DOT has selected and studied Senior Pedestrian Focus Areas. Within these areas, DOT evaluates potential safety improvements and also conducts educational outreach to senior centers.
 
