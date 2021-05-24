@@ -16,8 +16,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/yhuu-4pt3/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/f2952e2d-629f-4ad3-82d1-b5b0d1b78479
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-0c89ed2f-e798-4e59-9249-8ccb3106ebcd
 ---
 <b>PLEASE NOTE:</b> This dataset, which includes all TLC authorized Street Hail Livery Permits, is updated every day in the evening between 4-7pm. Please check the 'Last Update Date' field to make sure the list has updated successfully. 'Last Update Date'  should show either today or yesterday's date, depending on the time of day. If the list is outdated, please download the list from the most recent link below. 
 http://www1.nyc.gov/assets/tlc/downloads/datasets/tlc_street_hail_livery_permits.csv
