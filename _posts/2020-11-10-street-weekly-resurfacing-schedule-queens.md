@@ -16,7 +16,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/nuxu-5fjs/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/750a357b-fb7e-41c7-9f82-11fb8ca118ed
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-5848a6c0-30e6-4f86-8622-3d6d98a5458b
 ---
 Queens Milling and Paving Schedule
