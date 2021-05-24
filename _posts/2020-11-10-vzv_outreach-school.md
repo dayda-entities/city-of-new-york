@@ -18,8 +18,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/xhjq-at9u/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/0945f3f6-1e06-4d91-b697-e26c16e3f27b
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-b3b1a607-f0dc-44fb-a9cb-fcf3c861f355
 ---
 DOT is conducting outreach to numerous schools in the five boroughs, using age-appropriate materials to educate school children about traffic safety.
 
