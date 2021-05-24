@@ -17,7 +17,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/5fsv-ze7v/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/a4412a7b-db62-4ea6-8598-fb401b00b315
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-3416dd1e-f344-4e87-b393-6a7dae5c31f5
 ---
 List of projects that were submitted to and reviewed by the Public Design Commission on an annual basis.
