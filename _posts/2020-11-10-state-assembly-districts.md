@@ -18,7 +18,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/qbgu-kv2h/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-3062d794-e0f7-4fd5-9bc7-ffe255c62395
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-64846c5e-2cf9-41c1-951a-3afcb421068c
 ---
 GIS data: Boundaries of State Assembly Districts.
 
