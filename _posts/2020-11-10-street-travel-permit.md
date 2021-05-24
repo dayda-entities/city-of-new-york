@@ -18,7 +18,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/c3kh-heyp/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/ecf05367-7e37-4b77-a7c7-3929287f981d
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-50c9621f-c9b0-4ec4-9d85-97fe4cfd72cd
 ---
 Street Travel Permits allow approved business vehicles to travel on the Church Street Bus Way at Battery Place and Greenwich Street, an otherwise restricted road.
