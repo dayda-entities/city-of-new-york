@@ -17,8 +17,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/p7qs-56r4/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/d5dc3170-ee49-4d18-b729-0fe25965e66c
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-5764acac-872e-49b2-bd6a-94e6adf99f53
 ---
 DOT is partnering with Senior Centers across New York City to increase communication and obtain specific feedback from older New Yorkers about the challenges they face and potential street safety improvements.
 
