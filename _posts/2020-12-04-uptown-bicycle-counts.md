@@ -22,7 +22,6 @@ layout: post
 csv_url_cache: 'http://city-of-new-york.dayda.org/data/uptown-bicycle-counts.csv'
 json_url_cache: 'http://city-of-new-york.dayda.org/data/uptown-bicycle-counts.json'
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/ac46d556-2054-4c00-ab71-d6054aa29380
+  https://thedaydasource.postman.co/workspace/city-of-new-york/collection/15909983-695c2c11-7a20-4c26-a0e1-544e5b0c73db
 ---
 This count reflects cyclists traveling through Manhattan at on 86th Street along the avenues, in Central Park and on the greenways. Note: Data was not collected in years for which counts are missing.
