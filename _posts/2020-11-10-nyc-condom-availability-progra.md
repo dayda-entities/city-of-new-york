@@ -45,7 +45,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/p373-rwkn/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/p373-rwkn/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/1a519397-8b0f-4537-85da-3544fe0620cc
 ---
 This is a list of all in-active venues which were once listed on the NYC HealthMap. In-active venues may have been re-activated and now posted on the NYC HealthMap and within the “NYC Condom Availability Program HIV Condom Distribution Locations OpenData publication ( https://data.cityofnewyork.us/Health/NYC-Condom-Availability-Program-HIV-condom-distrib/4kpn-sezh 
 </p>
