@@ -18,8 +18,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/byz4-8k8n/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/600bad45-a6f1-439b-8ac3-c984f7e43ea6
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-2883dd48-eba1-4338-9f97-b007c83b6a6f
 ---
 Priority Bicycle Districts are neighborhoods with comparatively high numbers of cyclist KSI (Killed or Seriously Injured) and few dedicated bicycle facilities. These districts, seven in Brooklyn and three in Queens, represent 14% of the City’s bicycle lane network and 23% of cyclist KSI. NYC DOT identified these areas in the 2017 report “Safer Cycling: Bicycle Ridership and Safety in New York City.” The agency has prioritized these areas for bicycle network expansion.
 
