@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="website" property="og:type">
+    <meta content="http://localhost:4000/page60/" property="og:url"><title>Dayda</title>
+
+    <link rel="canonical" href="http://localhost:4000/page60/"/>
+    <link rel="apple-touch-icon" href="https://directory.dayda.org/assets/img/entities/city-of-new-york.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/atom.xml">
+
+    <script data-ad-client="ca-pub-0202072258759210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
+<header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Dayda</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">City of New York</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">This is a catalog of datasets organized and made more accessible from the City of New York, providing simple dowloadable CSV and JSON files, as well as Postman Collections you can use as part of workflows and other automation.</p>
+            </div> 
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="https://directory.dayda.org/assets/img/entities/city-of-new-york.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+               <img src="/assets/img/home-icon.png" width="40">
+               <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/about">
+                <img src="/assets/img/about-icon.png" width="40">                
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+                <img src="/assets/img/tags-icon.png" width="40">
+                <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+                <img src="/assets/img/feed-icon.png" width="40">
+                <p class="rss-p">Feed</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/apis.json">             
+                <img src="/assets/img/api-icon.png" width="40">
+                <p class="rss-p">APIs.json</p>
+            </a>
+        </div>   
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script>
+</header>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-adult-cases-snapshot-by-fiscal-year.html">
+        <a href="/2020/11/10/dop-adult-cases-snapshot-by-fiscal-year.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Adult Cases Snapshot by Fiscal Year</p>
+        <p class="feed-excerpt">The number of active adult probation supervision cases on the last day of the reporting period (June 30)</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-adult-cases-snapshot-by-fi.html">
+        <a href="/2020/11/10/dop-adult-cases-snapshot-by-fi.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Adult Cases Snapshot by Fiscal Year</p>
+        <p class="feed-excerpt">The number of active adult probation supervision cases on the last day of the reporting period (June 30)</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-adult-cases-snapshot-by-calendar-year.html">
+        <a href="/2020/11/10/dop-adult-cases-snapshot-by-calendar-year.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Adult Cases Snapshot by Calendar Year</p>
+        <p class="feed-excerpt">The number of active adult probation supervision cases on the last day of the reporting period (December 31)</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-adult-cases-snapshot-by-ca.html">
+        <a href="/2020/11/10/dop-adult-cases-snapshot-by-ca.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Adult Cases Snapshot by Calendar Year</p>
+        <p class="feed-excerpt">The number of active adult probation supervision cases on the last day of the reporting period (December 31)</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-adult-case-count-by-type.html">
+        <a href="/2020/11/10/dop-adult-case-count-by-type.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Adult Case Count By Type</p>
+        <p class="feed-excerpt">The number of active adult probation supervision cases on the last day of the reporting period: Intensive Engagement, Client Development, Community Progression, Anyone Can Excel (ACE), Neighborhood...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-adult-case-closings-by-type.html">
+        <a href="/2020/11/10/dop-adult-case-closings-by-type.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Adult Case Closings By Type</p>
+        <p class="feed-excerpt">The number of adult case closings by type: Intensive Engagement, Client Development, Community Progression, Anyone Can Excel (ACE), Neighborhood Opportunity Network (NeON), Special Program, Central...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-adult-case-closings-by-typ.html">
+        <a href="/2020/11/10/dop-adult-case-closings-by-typ.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Adult Case Closings By Type</p>
+        <p class="feed-excerpt">The number of adult case closings by type: Intensive Engagement, Client Development, Community Progression, Anyone Can Excel (ACE), Neighborhood Opportunity Network (NeON), Special Program, Central...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-adult-case-closings-by-reason.html">
+        <a href="/2020/11/10/dop-adult-case-closings-by-reason.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Adult Case Closings By Reason</p>
+        <p class="feed-excerpt">The number of adult case closings by reason: Maximum Expiration Date (MED), Death, Early Discharge (ED), Violation of Probation (VOP), Other, during the reporting period.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-adult-case-closings-by-rea.html">
+        <a href="/2020/11/10/dop-adult-case-closings-by-rea.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Adult Case Closings By Reason</p>
+        <p class="feed-excerpt">The number of adult case closings by reason: Maximum Expiration Date (MED), Death, Early Discharge (ED), Violation of Probation (VOP), Other, during the reporting period.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/donations-to-not-for-profit-organizations-affiliated-with-elected-officials.html">
+        <a href="/2020/11/10/donations-to-not-for-profit-organizations-affiliated-with-elected-officials.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Donations to Not-for-Profit Organizations Affiliated with Elected Officials</p>
+        <p class="feed-excerpt">Donations to Not-for-Profit Organizations Affiliated with Elected Officials.
+
+This data is collected pursuant to Chapter 9 of Title 3 of the New York City Administrative Code and the Rules of the C...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/donations-to-not-for-profit-or.html">
+        <a href="/2020/11/10/donations-to-not-for-profit-or.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Donations to Not-for-Profit Organizations Affiliated with Elected Officials</p>
+        <p class="feed-excerpt">Donations to Not-for-Profit Organizations Affiliated with Elected Officials.
+
+This data is collected pursuant to Chapter 9 of Title 3 of the New York City Administrative Code and the Rules of the C...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/domestic-violence-homicide-incidents-in-the-ten-largest-u.s.-cities.html">
+        <a href="/2020/11/10/domestic-violence-homicide-incidents-in-the-ten-largest-u.s.-cities.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Domestic Violence Homicide Incidents in the Ten Largest U.S. Cities</p>
+        <p class="feed-excerpt">This data set contains count data on domestic violence homicide and intimate partner homicide incidents from the 2015 the Federal Bureau of Investigation (FBI) Supplemental Homicide Report (SHR) an...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/domestic-violence-homicide-inc.html">
+        <a href="/2020/11/10/domestic-violence-homicide-inc.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Domestic Violence Homicide Incidents in the Ten Largest U.S. Cities</p>
+        <p class="feed-excerpt">This data set contains count data on domestic violence homicide and intimate partner homicide incidents from the 2015 the Federal Bureau of Investigation (FBI) Supplemental Homicide Report (SHR) an...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/doitt-classical-music.html">
+        <a href="/2020/11/10/doitt-classical-music.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOITT CLASSICAL MUSIC</p>
+        <p class="feed-excerpt">Classical Music</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/doing-business-search-people.html">
+        <a href="/2020/11/10/doing-business-search-people.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Doing Business Search - People</p>
+        <p class="feed-excerpt">The Doing Business Search provides access to information on entities and individuals that do business with the City of New York.
+
+http://www.nyc.gov/portal/site/DBusinessSite</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/doing-business-search-entities.html">
+        <a href="/2020/11/10/doing-business-search-entities.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Doing Business Search - Entities</p>
+        <p class="feed-excerpt">The Doing Business Search provides access to information on entities and individuals that do business with the City of New York.
+
+http://www.nyc.gov/portal/site/DBusinessSite</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dohmh-tuberculosis-surveillance-data-from-the-tuberculosis-control-annual-summary.html">
+        <a href="/2020/11/10/dohmh-tuberculosis-surveillance-data-from-the-tuberculosis-control-annual-summary.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOHMH Tuberculosis Surveillance Data from the Tuberculosis Control Annual Summary</p>
+        <p class="feed-excerpt">Tuberculosis cases and rates by select characteristics table (1900-2016) from the Tuberculosis Control Annual Summary</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dohmh-tuberculosis-surveillanc.html">
+        <a href="/2020/11/10/dohmh-tuberculosis-surveillanc.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOHMH Tuberculosis Surveillance Data from the Tuberculosis Control Annual Summary</p>
+        <p class="feed-excerpt">Tuberculosis cases and rates by select characteristics table (1900-2016) from the Tuberculosis Control Annual Summary</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dohmh-severe-maternal-morbidity.html">
+        <a href="/2020/11/10/dohmh-severe-maternal-morbidity.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOHMH Severe Maternal Morbidity</p>
+        <p class="feed-excerpt">Severe maternal morbidity (SMM) refers to life-threatening complications of labor and delivery that result in significant short- or long-term health consequences. SMM data are derived from linking ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dohmh-severe-maternal-morbidit.html">
+        <a href="/2020/11/10/dohmh-severe-maternal-morbidit.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOHMH Severe Maternal Morbidity</p>
+        <p class="feed-excerpt">Severe maternal morbidity (SMM) refers to life-threatening complications of labor and delivery that result in significant short- or long-term health consequences. SMM data are derived from linking ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dohmh-new-york-city-restaurant.html">
+        <a href="/2020/11/10/dohmh-new-york-city-restaurant.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOHMH New York City Restaurant Inspection Results</p>
+        <p class="feed-excerpt">The dataset contains every sustained or not yet adjudicated violation citation from every full or special program inspection conducted up to three years prior to the most recent inspection for rest...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dohmh-new-york-city-restaurant-inspection-results.html">
+        <a href="/2020/11/10/dohmh-new-york-city-restaurant-inspection-results.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOHMH New York City Restaurant Inspection Results</p>
+        <p class="feed-excerpt">The dataset contains every sustained or not yet adjudicated violation citation from every full or special program inspection conducted up to three years prior to the most recent inspection for rest...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dohmh-menustat.html">
+        <a href="/2020/11/10/dohmh-menustat.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOHMH MenuStat</p>
+        <p class="feed-excerpt">MenuStat.org is an interactive online database of nutrition and menu information from top national restaurant chains. Each item is coded a mutually exclusive food category and descriptive informati...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dohmh-indoor-environmental-complaints.html">
+        <a href="/2020/11/10/dohmh-indoor-environmental-complaints.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOHMH Indoor Environmental Complaints</p>
+        <p class="feed-excerpt">Indoor Environmental Complaints
+
+This data is largely received via complaints to 311; Each record represents a single complaint; This data can be used to help determine if the DOHMH has received an...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dohmh-indoor-environmental-com.html">
+        <a href="/2020/11/10/dohmh-indoor-environmental-com.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOHMH Indoor Environmental Complaints</p>
+        <p class="feed-excerpt">Indoor Environmental Complaints
+
+This data is largely received via complaints to 311; Each record represents a single complaint; This data can be used to help determine if the DOHMH has received an...</p>
+        </a>
+    </div>
+
+<hr>
+<table width="100%" align="center">
+    <tr>
+        <td width="30%" style="text-align:left;">
+            
+                <a href="/page59/" class="previous">
+                Previous
+                </a>
+            
+        </td>
+        <td width="30%" style="text-align:center;">
+            60 of 129
+        </td>
+        <td width="30%" style="text-align:right;">
+            
+                <a href="/page61/" class="next">Next</a>
+            
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>

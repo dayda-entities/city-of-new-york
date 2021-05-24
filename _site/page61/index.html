@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="website" property="og:type">
+    <meta content="http://localhost:4000/page61/" property="og:url"><title>Dayda</title>
+
+    <link rel="canonical" href="http://localhost:4000/page61/"/>
+    <link rel="apple-touch-icon" href="https://directory.dayda.org/assets/img/entities/city-of-new-york.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/atom.xml">
+
+    <script data-ad-client="ca-pub-0202072258759210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
+<header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Dayda</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">City of New York</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">This is a catalog of datasets organized and made more accessible from the City of New York, providing simple dowloadable CSV and JSON files, as well as Postman Collections you can use as part of workflows and other automation.</p>
+            </div> 
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="https://directory.dayda.org/assets/img/entities/city-of-new-york.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+               <img src="/assets/img/home-icon.png" width="40">
+               <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/about">
+                <img src="/assets/img/about-icon.png" width="40">                
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+                <img src="/assets/img/tags-icon.png" width="40">
+                <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+                <img src="/assets/img/feed-icon.png" width="40">
+                <p class="rss-p">Feed</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/apis.json">             
+                <img src="/assets/img/api-icon.png" width="40">
+                <p class="rss-p">APIs.json</p>
+            </a>
+        </div>   
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script>
+</header>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dohmh-hivaids-annual-report.html">
+        <a href="/2020/11/10/dohmh-hivaids-annual-report.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOHMH HIV/AIDS Annual Report</p>
+        <p class="feed-excerpt">HIV/AIDS data from the HIV Surveillance Annual Report&amp;lt;/br&amp;gt;
+
+  Note: Data reported to the HIV Epidemiology and Field Services Program by June 30, 2016. All data shown are for people ag...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dohmh-hiv-service-directory.html">
+        <a href="/2020/11/10/dohmh-hiv-service-directory.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOHMH HIV Service Directory</p>
+        <p class="feed-excerpt">This directory is for at-risk for HIV and eligible persons living with HIV in New York City seeking HIV medical and supportive services. The agencies and their listed programs receive CDC and Ryan ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dohmh-health-map-hepatitis.html">
+        <a href="/2020/11/10/dohmh-health-map-hepatitis.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOHMH Health Map - Hepatitis</p>
+        <p class="feed-excerpt">The Hepatitis category in NYC Health Map provides a list of facilities for the public and service providers looking for prevention services, testing, and treatment for hepatitis B and C. Due to sha...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dohmh-farmers-markets.html">
+        <a href="/2020/11/10/dohmh-farmers-markets.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOHMH Farmers Markets</p>
+        <p class="feed-excerpt">This is a list of farmers markets across the five boroughs. Farmers market vendors, products, and EBT acceptance varies by venue.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dohmh-dog-bite-data.html">
+        <a href="/2020/11/10/dohmh-dog-bite-data.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOHMH Dog Bite Data</p>
+        <p class="feed-excerpt">NYC Reported Dog Bites.
+
+Information reported assists the Health Department to determine if the biting dog is healthy ten days after the person was bitten in order to avoid having the person bitten...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dohmh-coverednyc.html">
+        <a href="/2020/11/10/dohmh-coverednyc.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOHMH CoveredNYC</p>
+        <p class="feed-excerpt">This dataset contains the number of NYC subscribers by opt-in year, opt-in month, zip code, language, and  opt-in status to the CoveredNYC/SeguroNYC health insurance enrollment mobile texting campa...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dohmh-cooling-tower-data.html">
+        <a href="/2020/11/10/dohmh-cooling-tower-data.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOHMH Cooling Tower Data</p>
+        <p class="feed-excerpt">The dataset contains all current registrations of commissioned cooling towers in NYC. Cooling tower registration in NYC is mandated by Local Law 77 of 2015. Registration data are provided by buildi...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dohmh-community-mental-health-survey.html">
+        <a href="/2020/11/10/dohmh-community-mental-health-survey.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOHMH Community Mental Health Survey</p>
+        <p class="feed-excerpt">The New York City Community Mental Health Survey (CMHS) was a one-time telephone survey conducted by the DOHMH.  The CMHS was conducted in conjunction with the annual 2012 Community health Survey (...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dohmh-community-mental-health.html">
+        <a href="/2020/11/10/dohmh-community-mental-health.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOHMH Community Mental Health Survey</p>
+        <p class="feed-excerpt">The New York City Community Mental Health Survey (CMHS) was a one-time telephone survey conducted by the DOHMH.  The CMHS was conducted in conjunction with the annual 2012 Community health Survey (...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dohmh-community-health-survey-2010-2016.html">
+        <a href="/2020/11/10/dohmh-community-health-survey-2010-2016.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOHMH Community Health Survey (2010-2016)</p>
+        <p class="feed-excerpt">Summary results from NYC Community Health Survey 2010-2016: adults ages 18 years and older 
+Source: NYC Community Health Survey (CHS) 2010-16.
+The Community Health Survey (CHS) includes self-report...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dohmh-community-health-survey.html">
+        <a href="/2020/11/10/dohmh-community-health-survey.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOHMH Community Health Survey (2010-2016)</p>
+        <p class="feed-excerpt">Summary results from NYC Community Health Survey 2010-2016: adults ages 18 years and older 
+Source: NYC Community Health Survey (CHS) 2010-16.
+The Community Health Survey (CHS) includes self-report...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dohmh-childcare-center-inspections.html">
+        <a href="/2020/11/10/dohmh-childcare-center-inspections.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOHMH Childcare Center Inspections</p>
+        <p class="feed-excerpt">This dataset contains a list of all inspections conducted and any associated violations at active, city-regulated, center-based child care programs and summer camps over the past 3 years. The viola...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dohmh-childcare-center-inspect.html">
+        <a href="/2020/11/10/dohmh-childcare-center-inspect.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOHMH Childcare Center Inspections</p>
+        <p class="feed-excerpt">This dataset contains a list of all inspections conducted and any associated violations at active, city-regulated, center-based child care programs and summer camps over the past 3 years. The viola...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dohmh-call-center-summary.html">
+        <a href="/2020/11/10/dohmh-call-center-summary.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOHMH Call Center Summary</p>
+        <p class="feed-excerpt">Total number of calls received by the agency’s call center
+
+This data is collected to assess and assist residents of NYC. The data is collected by a 3rd party application that goes by the name PRIM...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dohmh-beach-water-quality-data.html">
+        <a href="/2020/11/10/dohmh-beach-water-quality-data.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOHMH Beach Water Quality Data</p>
+        <p class="feed-excerpt">Water quality sample results collected by the Department of Health and Mental Hygiene at all New York City Beaches. These water quality results are used by the Department to determine the status (o...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dohmh-and-dep-waterborne-disease-risk-assessment-program-annual-report-data-percentage-of-interviewed-cryptosporidiosis-case-patients-by-type-of-tap-water-exposure-before-disease-onset-by-immune-status.html">
+        <a href="/2020/11/10/dohmh-and-dep-waterborne-disease-risk-assessment-program-annual-report-data-percentage-of-interviewed-cryptosporidiosis-case-patients-by-type-of-tap-water-exposure-before-disease-onset-by-immune-status.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOHMH and DEP Waterborne Disease Risk Assessment Program Annual Report Data Percentage of interviewed cryptosporidiosis case-patients by type of tap water exposure before disease onset, by Immune Status</p>
+        <p class="feed-excerpt">Percentage of interviewed cryptosporidiosis case-patients by type of tap water exposure before disease onset, by Immune Status, New York City, 1995 - 2016
+
+*Note: Determination of an association be...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dohmh-and-dep-waterborne-disease-risk-assessment-program-annual-report-data-cryptosporidiosis-by-raceethnicity-and-borough-of-residence.html">
+        <a href="/2020/11/10/dohmh-and-dep-waterborne-disease-risk-assessment-program-annual-report-data-cryptosporidiosis-by-raceethnicity-and-borough-of-residence.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOHMH and DEP Waterborne Disease Risk Assessment Program Annual Report Data Cryptosporidiosis by race/ethnicity and borough of residence</p>
+        <p class="feed-excerpt">Cryptosporidiosis by race/ethnicity and borough of residence
+Release 1.1: Cryptosporidiosis, number of cases and annual case rate per 100,000 population by Race/Ethnicity and Borough of residence T...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dohmh-and-dep-waterborne-disease-risk-assessment-program-annual-report-data-cryptosporidiosis-by-raceethnicity-and-age-group..html">
+        <a href="/2020/11/10/dohmh-and-dep-waterborne-disease-risk-assessment-program-annual-report-data-cryptosporidiosis-by-raceethnicity-and-age-group..html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOHMH and DEP Waterborne Disease Risk Assessment Program Annual Report Data Cryptosporidiosis by race/ethnicity and age group.</p>
+        <p class="feed-excerpt">Cryptosporidiosis, number of cases and annual case rate per 100,000 population  by race/ethnicity and age group Table from Waterborne Disease Risk Assessment Program annual report
+
+Surveillance dat...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dohmh-and-dep-waterborne-disea.html">
+        <a href="/2020/11/10/dohmh-and-dep-waterborne-disea.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOHMH and DEP Waterborne Disease Risk Assessment Program Annual Report Data Cryptosporidiosis by race/ethnicity and borough of residence</p>
+        <p class="feed-excerpt">Cryptosporidiosis by race/ethnicity and borough of residence
+Release 1.1: Cryptosporidiosis, number of cases and annual case rate per 100,000 population by Race/Ethnicity and Borough of residence T...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dof-summary-of-neighborhood-sales-in-the-bronx-for-class-1-2-and-3-family-homes-2008.html">
+        <a href="/2020/11/10/dof-summary-of-neighborhood-sales-in-the-bronx-for-class-1-2-and-3-family-homes-2008.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOF Summary of Neighborhood Sales in the Bronx for Class 1-, 2- and 3-Family homes - 2008</p>
+        <p class="feed-excerpt">The Department of Finance (DOF) maintains records for all property sales in New York City, including sales of family homes in each borough. This list is a summary of neighborhood sales for Class 1-...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dof-summary-of-neighborhood-sales-in-staten-island-for-class-1-2-and-3-family-homes-2008.html">
+        <a href="/2020/11/10/dof-summary-of-neighborhood-sales-in-staten-island-for-class-1-2-and-3-family-homes-2008.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOF Summary of Neighborhood Sales in Staten Island for Class 1-, 2- and 3-Family homes - 2008</p>
+        <p class="feed-excerpt">The Department of Finance (DOF) maintains records for all property sales in New York City, including sales of family homes in each borough. This list is a summary of neighborhood sales for Class 1-...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dof-summary-of-neighborhood-sales-in-queens-for-class-1-2-and-3-family-homes-2008.html">
+        <a href="/2020/11/10/dof-summary-of-neighborhood-sales-in-queens-for-class-1-2-and-3-family-homes-2008.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOF Summary of Neighborhood Sales in Queens for Class 1-, 2- and 3-Family homes - 2008</p>
+        <p class="feed-excerpt">The Department of Finance (DOF) maintains records for all property sales in New York City, including sales of family homes in each borough. This list is a summary of neighborhood sales for Class 1-...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dof-summary-of-neighborhood-sales-in-queens-for-class-1-2-and-3-family-homes-2007.html">
+        <a href="/2020/11/10/dof-summary-of-neighborhood-sales-in-queens-for-class-1-2-and-3-family-homes-2007.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOF Summary of Neighborhood Sales in Queens for Class 1-, 2- and 3-Family homes - 2007</p>
+        <p class="feed-excerpt">The Department of Finance (DOF) maintains records for all property sales in New York City, including sales of family homes in each borough. This list is a summary of neighborhood sales for Class 1-...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dof-summary-of-neighborhood-sales-in-queens-for-class-1-2-and-3-family-homes-2006.html">
+        <a href="/2020/11/10/dof-summary-of-neighborhood-sales-in-queens-for-class-1-2-and-3-family-homes-2006.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOF Summary of Neighborhood Sales in Queens for Class 1-, 2- and 3-Family homes - 2006</p>
+        <p class="feed-excerpt">The Department of Finance (DOF) maintains records for all property sales in New York City, including sales of family homes in each borough. This list is a summary of neighborhood sales for Class 1-...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dof-summary-of-neighborhood-sales-in-queens-for-class-1-2-and-3-family-homes-2005.html">
+        <a href="/2020/11/10/dof-summary-of-neighborhood-sales-in-queens-for-class-1-2-and-3-family-homes-2005.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOF Summary of Neighborhood Sales in Queens for Class 1-, 2- and 3-Family homes - 2005</p>
+        <p class="feed-excerpt">The Department of Finance (DOF) maintains records for all property sales in New York City, including sales of family homes in each borough. This list is a summary of neighborhood sales for Class 1-...</p>
+        </a>
+    </div>
+
+<hr>
+<table width="100%" align="center">
+    <tr>
+        <td width="30%" style="text-align:left;">
+            
+                <a href="/page60/" class="previous">
+                Previous
+                </a>
+            
+        </td>
+        <td width="30%" style="text-align:center;">
+            61 of 129
+        </td>
+        <td width="30%" style="text-align:right;">
+            
+                <a href="/page62/" class="next">Next</a>
+            
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>

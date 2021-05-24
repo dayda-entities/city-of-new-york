@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="website" property="og:type">
+    <meta content="http://localhost:4000/page73/" property="og:url"><title>Dayda</title>
+
+    <link rel="canonical" href="http://localhost:4000/page73/"/>
+    <link rel="apple-touch-icon" href="https://directory.dayda.org/assets/img/entities/city-of-new-york.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/atom.xml">
+
+    <script data-ad-client="ca-pub-0202072258759210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
+<header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Dayda</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">City of New York</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">This is a catalog of datasets organized and made more accessible from the City of New York, providing simple dowloadable CSV and JSON files, as well as Postman Collections you can use as part of workflows and other automation.</p>
+            </div> 
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="https://directory.dayda.org/assets/img/entities/city-of-new-york.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+               <img src="/assets/img/home-icon.png" width="40">
+               <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/about">
+                <img src="/assets/img/about-icon.png" width="40">                
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+                <img src="/assets/img/tags-icon.png" width="40">
+                <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+                <img src="/assets/img/feed-icon.png" width="40">
+                <p class="rss-p">Feed</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/apis.json">             
+                <img src="/assets/img/api-icon.png" width="40">
+                <p class="rss-p">APIs.json</p>
+            </a>
+        </div>   
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script>
+</header>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/community-parks-initiative-zon.html">
+        <a href="/2020/11/10/community-parks-initiative-zon.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Community Parks Initiative Zone Boundaries</p>
+        <p class="feed-excerpt">CPI Zones are neighborhoods where NYC Parks will pursue a combination of capital investment and/or targeted physical improvements, enhanced programming, and public outreach efforts through the Comm...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/community-health-survey.html">
+        <a href="/2020/11/10/community-health-survey.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Community Health Survey</p>
+        <p class="feed-excerpt">Summary results from NYC Community Health Survey 2010-2014: adults ages 18 years and older 
+Source: NYC Community Health Survey (CHS) 2010-14.
+The Community Health Survey (CHS) includes self-report...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/community-districts.html">
+        <a href="/2020/11/10/community-districts.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Community Districts</p>
+        <p class="feed-excerpt">GIS data: Boundaries of Community Districts.
+
+All previously released versions of this data are available at BYTES of the BIG APPLE- Archive</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/community-districts-water-areas-included.html">
+        <a href="/2020/11/10/community-districts-water-areas-included.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Community Districts (Water Areas Included)</p>
+        <p class="feed-excerpt">GIS data: Community Districts  (Water areas included)
+
+Community Districts are mandated by the city charter to review and monitor quality of life issues for New York City (NYC) neighborhoods.  NYC ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/community-districts-water-area.html">
+        <a href="/2020/11/10/community-districts-water-area.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Community Districts (Water Areas Included)</p>
+        <p class="feed-excerpt">GIS data: Community Districts  (Water areas included)
+
+Community Districts are mandated by the city charter to review and monitor quality of life issues for New York City (NYC) neighborhoods.  NYC ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/community-district-breakdowns.html">
+        <a href="/2020/11/10/community-district-breakdowns.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Community District Breakdowns</p>
+        <p class="feed-excerpt">Demographic statistics broken down by community districts</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/community-development-block-grant-cdbg-eligibility-by-census-tract-csv.html">
+        <a href="/2020/11/10/community-development-block-grant-cdbg-eligibility-by-census-tract-csv.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Community Development Block Grant (CDBG) Eligibility by Census Tract - CSV</p>
+        <p class="feed-excerpt">Community Development Block Grant (CDBG) eligible and ineligible census tracts. The U.S. Department of Housing and Urban Development requires local municipalities that receive CDBG formula entitlem...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/community-development-block-gr.html">
+        <a href="/2020/11/10/community-development-block-gr.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Community Development Block Grant (CDBG) Eligibility by Census Tract - CSV</p>
+        <p class="feed-excerpt">Community Development Block Grant (CDBG) eligible and ineligible census tracts. The U.S. Department of Housing and Urban Development requires local municipalities that receive CDBG formula entitlem...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/community-boards-geographic-report.html">
+        <a href="/2020/11/10/community-boards-geographic-report.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Community Boards Geographic Report</p>
+        <p class="feed-excerpt">This dataset represents the geographic section in the Geographic Report for Expense Budget. It breaks down a service delivery agency’s budget for current fiscal year and the next fiscal year by loc...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/community-boards-geographic-re.html">
+        <a href="/2020/11/10/community-boards-geographic-re.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Community Boards Geographic Report</p>
+        <p class="feed-excerpt">This dataset represents the geographic section in the Geographic Report for Expense Budget. It breaks down a service delivery agency’s budget for current fiscal year and the next fiscal year by loc...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/community-board-leadership.html">
+        <a href="/2020/11/10/community-board-leadership.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Community Board Leadership</p>
+        <p class="feed-excerpt">This is a comprehensive list of each Community Board and its respective Chair and District Manager. The list also includes the address, meeting time and telephone number of each Community Board. Co...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/community-board-contact-list.html">
+        <a href="/2020/11/10/community-board-contact-list.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Community Board Contact List</p>
+        <p class="feed-excerpt">This data set represents Community Board Contact List for all 18 Community Board within Brooklyn.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/community-and-ethnic-media-print-and-digital-outlet-directory.html">
+        <a href="/2020/11/10/community-and-ethnic-media-print-and-digital-outlet-directory.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Community and Ethnic Media Print and Digital Outlet Directory</p>
+        <p class="feed-excerpt">Executive Order 47 of 2019 calls for City agencies to spend at least 50% of their print and digital advertising budgets with Community and Ethnic Media outlets. This is a Directory of over 200 appr...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/community-and-ethnic-media-pri.html">
+        <a href="/2020/11/10/community-and-ethnic-media-pri.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Community and Ethnic Media Print and Digital Outlet Directory</p>
+        <p class="feed-excerpt">Executive Order 47 of 2019 calls for City agencies to spend at least 50% of their print and digital advertising budgets with Community and Ethnic Media outlets. This is a Directory of over 200 appr...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/commissioner's-correspondence.html">
+        <a href="/2020/11/10/commissioner's-correspondence.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Commissioner's Correspondence</p>
+        <p class="feed-excerpt">DOT receives, tracks, and responds to correspondences sent to the Commissioner’s Correspondence Unit (CCU) and Borough Commissioner’s (BC) offices. This includes some requests initially sent to 311...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/commercial-bicycle-unit-inspections.html">
+        <a href="/2020/11/10/commercial-bicycle-unit-inspections.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Commercial Bicycle Unit Inspections</p>
+        <p class="feed-excerpt">DOT’s Commercial Bicyclist Unit (CBU) conducts inspections of businesses that use bicycles for commercial purposes. This dataset lists the results of those inspections.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/commercial-bicycle-unit-inspec.html">
+        <a href="/2020/11/10/commercial-bicycle-unit-inspec.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Commercial Bicycle Unit Inspections</p>
+        <p class="feed-excerpt">DOT’s Commercial Bicyclist Unit (CBU) conducts inspections of businesses that use bicycles for commercial purposes. This dataset lists the results of those inspections.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/collisions-involving-vehicles-managed-by-department-of-health-and-mental-hygiene-dohmh.html">
+        <a href="/2020/11/10/collisions-involving-vehicles-managed-by-department-of-health-and-mental-hygiene-dohmh.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Collisions involving vehicles managed by Department of Health and Mental Hygiene (DOHMH)</p>
+        <p class="feed-excerpt">The total number of City-vehicle operated vehicles that are managed by DOHMH that were involved in collisions involving injury or property damage for the citywide fleet reported in the citywide col...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/collisions-involving-vehicles.html">
+        <a href="/2020/11/10/collisions-involving-vehicles.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Collisions involving vehicles managed by Department of Health and Mental Hygiene (DOHMH)</p>
+        <p class="feed-excerpt">The total number of City-vehicle operated vehicles that are managed by DOHMH that were involved in collisions involving injury or property damage for the citywide fleet reported in the citywide col...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/colleges-and-universities.html">
+        <a href="/2020/11/10/colleges-and-universities.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Colleges and Universities</p>
+        <p class="feed-excerpt">Colleges and Universities</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/clergy-parking-permits.html">
+        <a href="/2020/11/10/clergy-parking-permits.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Clergy Parking Permits</p>
+        <p class="feed-excerpt">Issued to members of the clergy for parking their personal passenger vehicles when conducting ministerial duties at their houses of worship, funeral establishments or hospitals. Allows parking for ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/class-size-reduction-projects.html">
+        <a href="/2020/11/10/class-size-reduction-projects.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Class Size Reduction Projects</p>
+        <p class="feed-excerpt">Class Size Reduction Projects</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/claims-report-underlying-settlements-and-claims-filed-data.html">
+        <a href="/2020/11/10/claims-report-underlying-settlements-and-claims-filed-data.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Claims Report - Underlying Settlements and Claims Filed Data</p>
+        <p class="feed-excerpt">Data set listing the individual claims filed against the City of New York and the individual claims settled by the City of New York during the prior fiscal year.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/claims-report-underlying-settl.html">
+        <a href="/2020/11/10/claims-report-underlying-settl.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Claims Report - Underlying Settlements and Claims Filed Data</p>
+        <p class="feed-excerpt">Data set listing the individual claims filed against the City of New York and the individual claims settled by the City of New York during the prior fiscal year.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/civilian-complaint-review-board-ccrb-complaints-received.html">
+        <a href="/2020/11/10/civilian-complaint-review-board-ccrb-complaints-received.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Civilian Complaint Review Board (CCRB) - Complaints Received</p>
+        <p class="feed-excerpt">The New York City Civilian Complaint Review Board (CCRB) is an independent agency. It is empowered to receive, investigate, mediate, hear, make findings, and recommend action on complaints against ...</p>
+        </a>
+    </div>
+
+<hr>
+<table width="100%" align="center">
+    <tr>
+        <td width="30%" style="text-align:left;">
+            
+                <a href="/page72/" class="previous">
+                Previous
+                </a>
+            
+        </td>
+        <td width="30%" style="text-align:center;">
+            73 of 129
+        </td>
+        <td width="30%" style="text-align:right;">
+            
+                <a href="/page74/" class="next">Next</a>
+            
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>

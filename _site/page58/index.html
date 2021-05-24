@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="website" property="og:type">
+    <meta content="http://localhost:4000/page58/" property="og:url"><title>Dayda</title>
+
+    <link rel="canonical" href="http://localhost:4000/page58/"/>
+    <link rel="apple-touch-icon" href="https://directory.dayda.org/assets/img/entities/city-of-new-york.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/atom.xml">
+
+    <script data-ad-client="ca-pub-0202072258759210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
+<header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Dayda</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">City of New York</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">This is a catalog of datasets organized and made more accessible from the City of New York, providing simple dowloadable CSV and JSON files, as well as Postman Collections you can use as part of workflows and other automation.</p>
+            </div> 
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="https://directory.dayda.org/assets/img/entities/city-of-new-york.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+               <img src="/assets/img/home-icon.png" width="40">
+               <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/about">
+                <img src="/assets/img/about-icon.png" width="40">                
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+                <img src="/assets/img/tags-icon.png" width="40">
+                <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+                <img src="/assets/img/feed-icon.png" width="40">
+                <p class="rss-p">Feed</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/apis.json">             
+                <img src="/assets/img/api-icon.png" width="40">
+                <p class="rss-p">APIs.json</p>
+            </a>
+        </div>   
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script>
+</header>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-juvenile-supervision-intakes-by-calendar-year.html">
+        <a href="/2020/11/10/dop-juvenile-supervision-intakes-by-calendar-year.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Juvenile Supervision Intakes by Calendar Year</p>
+        <p class="feed-excerpt">The number of youths sentenced to probation supervision during the reporting period.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-juvenile-supervision-intak.html">
+        <a href="/2020/11/10/dop-juvenile-supervision-intak.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Juvenile Supervision Intakes by Fiscal Year</p>
+        <p class="feed-excerpt">The number of youths sentenced to probation supervision during the reporting period.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-juvenile-rearrest-rate-monthly-average.html">
+        <a href="/2020/11/10/dop-juvenile-rearrest-rate-monthly-average.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Juvenile Rearrest Rate (Monthly Average)</p>
+        <p class="feed-excerpt">The number of juvenile probationers rearrested divided by the number supervised during the reporting period.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-juvenile-rearrest-rate-mon.html">
+        <a href="/2020/11/10/dop-juvenile-rearrest-rate-mon.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Juvenile Rearrest Rate (Monthly Average)</p>
+        <p class="feed-excerpt">The number of juvenile probationers rearrested divided by the number supervised during the reporting period.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-juvenile-probationers-rearrested-as-a-percentage-of-nypd-arrest-report-monthly-average.html">
+        <a href="/2020/11/10/dop-juvenile-probationers-rearrested-as-a-percentage-of-nypd-arrest-report-monthly-average.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Juvenile Probationers Rearrested As A Percentage Of NYPD Arrest Report (Monthly Average)</p>
+        <p class="feed-excerpt">The percentage of juvenile probationer arrests relative to all arrests recorded by the Police Department during the reporting period.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-juvenile-probationers-rear.html">
+        <a href="/2020/11/10/dop-juvenile-probationers-rear.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Juvenile Probationers Rearrested As A Percentage Of NYPD Arrest Report (Monthly Average)</p>
+        <p class="feed-excerpt">The percentage of juvenile probationer arrests relative to all arrests recorded by the Police Department during the reporting period.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-juvenile-investigations-by.html">
+        <a href="/2020/11/10/dop-juvenile-investigations-by.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Juvenile Investigations by Fiscal Year</p>
+        <p class="feed-excerpt">The number of presentence investigation reports completed for juveniles during the reporting period.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-juvenile-investigations-by-fiscal-year.html">
+        <a href="/2020/11/10/dop-juvenile-investigations-by-fiscal-year.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Juvenile Investigations by Fiscal Year</p>
+        <p class="feed-excerpt">The number of presentence investigation reports completed for juveniles during the reporting period.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-juvenile-investigations-by-calendar-year.html">
+        <a href="/2020/11/10/dop-juvenile-investigations-by-calendar-year.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Juvenile Investigations by Calendar Year</p>
+        <p class="feed-excerpt">The number of presentence investigation reports completed for juveniles during the reporting period.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-juvenile-investigations-assigned.html">
+        <a href="/2020/11/10/dop-juvenile-investigations-assigned.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Juvenile Investigations Assigned</p>
+        <p class="feed-excerpt">The number of investigation reports assigned for juveniles during the reporting period.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-juvenile-investigations-as.html">
+        <a href="/2020/11/10/dop-juvenile-investigations-as.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Juvenile Investigations Assigned</p>
+        <p class="feed-excerpt">The number of investigation reports assigned for juveniles during the reporting period.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-juvenile-intakes-by-fiscal.html">
+        <a href="/2020/11/10/dop-juvenile-intakes-by-fiscal.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Juvenile Intakes by Fiscal Year</p>
+        <p class="feed-excerpt">The number of youth received in probation intake (pre-adjudication services) during the reporting period.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-juvenile-intakes-by-fiscal-year.html">
+        <a href="/2020/11/10/dop-juvenile-intakes-by-fiscal-year.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Juvenile Intakes by Fiscal Year</p>
+        <p class="feed-excerpt">The number of youth received in probation intake (pre-adjudication services) during the reporting period.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-juvenile-intakes-by-calendar-year.html">
+        <a href="/2020/11/10/dop-juvenile-intakes-by-calendar-year.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Juvenile Intakes by Calendar Year</p>
+        <p class="feed-excerpt">The number of youth received in probation intake (pre-adjudication services) during the reporting period.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-juvenile-intakes-by-calend.html">
+        <a href="/2020/11/10/dop-juvenile-intakes-by-calend.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Juvenile Intakes by Calendar Year</p>
+        <p class="feed-excerpt">The number of youth received in probation intake (pre-adjudication services) during the reporting period.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-juvenile-cases-snapshot-by.html">
+        <a href="/2020/11/10/dop-juvenile-cases-snapshot-by.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Juvenile Cases Snapshot by Calendar Year</p>
+        <p class="feed-excerpt">The number of active juvenile probation supervision cases on the last day of the reporting period (December 31)</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-juvenile-cases-snapshot-by-fiscal-year.html">
+        <a href="/2020/11/10/dop-juvenile-cases-snapshot-by-fiscal-year.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Juvenile Cases Snapshot by Fiscal Year</p>
+        <p class="feed-excerpt">The number of active juvenile probation supervision cases on the last day of the reporting period (June 30)</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-juvenile-cases-snapshot-by-calendar-year.html">
+        <a href="/2020/11/10/dop-juvenile-cases-snapshot-by-calendar-year.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Juvenile Cases Snapshot by Calendar Year</p>
+        <p class="feed-excerpt">The number of active juvenile probation supervision cases on the last day of the reporting period (December 31)</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-juvenile-case-count-by-type.html">
+        <a href="/2020/11/10/dop-juvenile-case-count-by-type.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Juvenile Case Count By Type</p>
+        <p class="feed-excerpt">The number of active juvenile probation supervision cases on the last day of the reporting period: General Supervision, Pathways to Excellence Achievement and Knowledge (PEAK), Every Child Has An O...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-juvenile-case-count-by-typ.html">
+        <a href="/2020/11/10/dop-juvenile-case-count-by-typ.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Juvenile Case Count By Type</p>
+        <p class="feed-excerpt">The number of active juvenile probation supervision cases on the last day of the reporting period: General Supervision, Pathways to Excellence Achievement and Knowledge (PEAK), Every Child Has An O...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-juvenile-case-closings-by-type.html">
+        <a href="/2020/11/10/dop-juvenile-case-closings-by-type.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Juvenile Case Closings By Type</p>
+        <p class="feed-excerpt">The number of juvenile case closings by type: General Supervision, Pathways to Excellence Achievement and Knowledge (PEAK), Every Child Has An Opportunity To Excel And Succeed (ECHOES), IMPACT, Juv...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-juvenile-case-closings-by-reason.html">
+        <a href="/2020/11/10/dop-juvenile-case-closings-by-reason.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Juvenile Case Closings By Reason</p>
+        <p class="feed-excerpt">The number of juvenile case closings by reason: Maximum Expiration Date (MED), Death, Early Discharge (ED), Revoked, Other, during the reporting period.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-juvenile-case-closings-by.html">
+        <a href="/2020/11/10/dop-juvenile-case-closings-by.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Juvenile Case Closings By Type</p>
+        <p class="feed-excerpt">The number of juvenile case closings by type: General Supervision, Pathways to Excellence Achievement and Knowledge (PEAK), Every Child Has An Opportunity To Excel And Succeed (ECHOES), IMPACT, Juv...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-eligible-diversion-rate-for-juveniles-by-fiscal-year.html">
+        <a href="/2020/11/10/dop-eligible-diversion-rate-for-juveniles-by-fiscal-year.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Eligible Diversion Rate for Juveniles by Fiscal Year</p>
+        <p class="feed-excerpt">The percent of juvenile delinquency Intake cases opened for adjustment services (individual / family counseling, substance abuse treatment, etc.) 
+rather than being immediately referred to family c...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-eligible-diversion-rate-for-juveniles-by-calendar-year.html">
+        <a href="/2020/11/10/dop-eligible-diversion-rate-for-juveniles-by-calendar-year.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Eligible Diversion Rate for Juveniles by Calendar Year</p>
+        <p class="feed-excerpt">The percent of juvenile delinquency Intake cases opened for adjustment services (individual / family counseling, substance abuse treatment, etc.) rather than being immediately referred to family co...</p>
+        </a>
+    </div>
+
+<hr>
+<table width="100%" align="center">
+    <tr>
+        <td width="30%" style="text-align:left;">
+            
+                <a href="/page57/" class="previous">
+                Previous
+                </a>
+            
+        </td>
+        <td width="30%" style="text-align:center;">
+            58 of 129
+        </td>
+        <td width="30%" style="text-align:right;">
+            
+                <a href="/page59/" class="next">Next</a>
+            
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>

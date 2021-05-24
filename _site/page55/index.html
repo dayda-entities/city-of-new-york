@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="website" property="og:type">
+    <meta content="http://localhost:4000/page55/" property="og:url"><title>Dayda</title>
+
+    <link rel="canonical" href="http://localhost:4000/page55/"/>
+    <link rel="apple-touch-icon" href="https://directory.dayda.org/assets/img/entities/city-of-new-york.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/atom.xml">
+
+    <script data-ad-client="ca-pub-0202072258759210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
+<header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Dayda</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">City of New York</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">This is a catalog of datasets organized and made more accessible from the City of New York, providing simple dowloadable CSV and JSON files, as well as Postman Collections you can use as part of workflows and other automation.</p>
+            </div> 
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="https://directory.dayda.org/assets/img/entities/city-of-new-york.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+               <img src="/assets/img/home-icon.png" width="40">
+               <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/about">
+                <img src="/assets/img/about-icon.png" width="40">                
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+                <img src="/assets/img/tags-icon.png" width="40">
+                <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+                <img src="/assets/img/feed-icon.png" width="40">
+                <p class="rss-p">Feed</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/apis.json">             
+                <img src="/assets/img/api-icon.png" width="40">
+                <p class="rss-p">APIs.json</p>
+            </a>
+        </div>   
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script>
+</header>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dycd-after-school-programs-osy-out-of-school-youth-employment-programs.html">
+        <a href="/2020/11/10/dycd-after-school-programs-osy-out-of-school-youth-employment-programs.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DYCD after-school programs OSY Out Of School Youth Employment Programs</p>
+        <p class="feed-excerpt">Facilities in New York City, by agency and site, that offer “Out-Of -School Youth Employment (OSY) Program” after-school  job and internship programs for young adults ages 16 to 21.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dycd-after-school-programs-neighborhood-development-area-nda-family-support.html">
+        <a href="/2020/11/10/dycd-after-school-programs-neighborhood-development-area-nda-family-support.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DYCD after-school programs Neighborhood Development Area (NDA) Family Support</p>
+        <p class="feed-excerpt">A database of facilities in New York City, by agency and site, that offer NDA (Neighborhood Development Area) after-school “Family Support Programs,” including immigrant services, legal assistance,...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dycd-after-school-programs-nei.html">
+        <a href="/2020/11/10/dycd-after-school-programs-nei.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DYCD after-school programs Neighborhood Development Area (NDA) Family Support</p>
+        <p class="feed-excerpt">A database of facilities in New York City, by agency and site, that offer NDA (Neighborhood Development Area) after-school “Family Support Programs,” including immigrant services, legal assistance,...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dycd-after-school-programs-nda.html">
+        <a href="/2020/11/10/dycd-after-school-programs-nda.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DYCD after-school programs NDA Educational High School Progams</p>
+        <p class="feed-excerpt">Facilities in New York City, by agency and site, that offer “Neighborhood Development Area (NDA) Educational High School Programs” after-school  programs for children in High School.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dycd-after-school-programs-nda-youth-employment-programs.html">
+        <a href="/2020/11/10/dycd-after-school-programs-nda-youth-employment-programs.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DYCD after-school programs NDA Youth Employment Programs</p>
+        <p class="feed-excerpt">Facilities in New York City, by agency and site, that offer “NDA Neighborhood Development Area Youth Employment  Program” after-school  job and internship programs for children and young adults age...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dycd-after-school-programs-nda-family-literacy.html">
+        <a href="/2020/11/10/dycd-after-school-programs-nda-family-literacy.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DYCD after-school programs NDA Family Literacy</p>
+        <p class="feed-excerpt">Facilities in New York City, by agency and site, that offer “NDA (Neighborhood Development Area) Reading and Writing Program” after-school  family literacy programs.  - Department of Youth and Comm...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dycd-after-school-programs-nda-educational-middle-school-programs.html">
+        <a href="/2020/11/10/dycd-after-school-programs-nda-educational-middle-school-programs.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DYCD after-school programs NDA Educational Middle School Programs</p>
+        <p class="feed-excerpt">Facilities in New York City, by agency and site, that offer “Neighborhood Development Area (NDA) Educational Middle School Programs” after-school  programs for children in Middle School.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dycd-after-school-programs-nda-educational-high-school-progams.html">
+        <a href="/2020/11/10/dycd-after-school-programs-nda-educational-high-school-progams.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DYCD after-school programs NDA Educational High School Progams</p>
+        <p class="feed-excerpt">Facilities in New York City, by agency and site, that offer “Neighborhood Development Area (NDA) Educational High School Programs” after-school  programs for children in High School.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dycd-after-school-programs-nda-adult-literacy-programs.html">
+        <a href="/2020/11/10/dycd-after-school-programs-nda-adult-literacy-programs.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DYCD after-school programs NDA Adult Literacy Programs</p>
+        <p class="feed-excerpt">Facilities in New York City, by agency and site, that offer “Neighborhood Development Area (NDA) Reading and Writing Program” after-school adult literacy programs - the Department of Youth and Comm...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dycd-after-school-programs-jobs-and-internships.html">
+        <a href="/2020/11/10/dycd-after-school-programs-jobs-and-internships.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DYCD after-school programs Jobs and Internships</p>
+        <p class="feed-excerpt">Facilities in New York City, by agency and site, that offer the following after-school  job and internship programs: Summer Youth Employment, In-School Youth Employment (ISY), Out-of-School Youth E...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dycd-after-school-programs-job.html">
+        <a href="/2020/11/10/dycd-after-school-programs-job.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DYCD after-school programs Jobs and Internships</p>
+        <p class="feed-excerpt">Facilities in New York City, by agency and site, that offer the following after-school  job and internship programs: Summer Youth Employment, In-School Youth Employment (ISY), Out-of-School Youth E...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dycd-after-school-programs-isy.html">
+        <a href="/2020/11/10/dycd-after-school-programs-isy.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DYCD after-school programs ISY In-School Youth Employment Programs</p>
+        <p class="feed-excerpt">Facilities in New York City, by agency and site, that offer “In-School Youth Employment (ISY) Program” after-school  job and internship programs for students in High School.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dycd-after-school-programs-isy-in-school-youth-employment-programs.html">
+        <a href="/2020/11/10/dycd-after-school-programs-isy-in-school-youth-employment-programs.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DYCD after-school programs ISY In-School Youth Employment Programs</p>
+        <p class="feed-excerpt">Facilities in New York City, by agency and site, that offer “In-School Youth Employment (ISY) Program” after-school  job and internship programs for students in High School.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dycd-after-school-programs-immigrant-services.html">
+        <a href="/2020/11/10/dycd-after-school-programs-immigrant-services.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DYCD after-school programs Immigrant Services</p>
+        <p class="feed-excerpt">Facilities in New York City, by agency and site, that offer after-school programs for immigration services and immigrant support services. These include programs for legal assistance, legal service...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dycd-after-school-programs-imm.html">
+        <a href="/2020/11/10/dycd-after-school-programs-imm.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DYCD after-school programs Immigrant Services</p>
+        <p class="feed-excerpt">Facilities in New York City, by agency and site, that offer after-school programs for immigration services and immigrant support services. These include programs for legal assistance, legal service...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dycd-after-school-programs-housing.html">
+        <a href="/2020/11/10/dycd-after-school-programs-housing.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DYCD after-school-programs Housing</p>
+        <p class="feed-excerpt">Facilities in New York City, by agency and site, that offer Family Support after-school “Housing Assistance and Advocacy Programs” for adults and young adults ages 18 and up - Department of Youth a...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dycd-after-school-programs-hou.html">
+        <a href="/2020/11/10/dycd-after-school-programs-hou.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DYCD after-school-programs Housing</p>
+        <p class="feed-excerpt">Facilities in New York City, by agency and site, that offer Family Support after-school “Housing Assistance and Advocacy Programs” for adults and young adults ages 18 and up - Department of Youth a...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dycd-after-school-programs-healthy-families.html">
+        <a href="/2020/11/10/dycd-after-school-programs-healthy-families.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DYCD after-school programs Healthy Families</p>
+        <p class="feed-excerpt">Facilities in New York City, by agency and site, that offer “Healthy Family” after-school Family Support Programs, such as programs in Housing Assistance and Advocacy, Adult Health Awareness and Pr...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dycd-after-school-programs-health-stat.html">
+        <a href="/2020/11/10/dycd-after-school-programs-health-stat.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DYCD after-school programs Health Stat</p>
+        <p class="feed-excerpt">Facilities in New York City, by agency and site, that offer Neighborhood Development Area (NDA) “Health Stat” after-school Family Support Programs. - Department of Youth and Community Development (...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dycd-after-school-programs-hea.html">
+        <a href="/2020/11/10/dycd-after-school-programs-hea.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DYCD after-school programs Healthy Families</p>
+        <p class="feed-excerpt">Facilities in New York City, by agency and site, that offer “Healthy Family” after-school Family Support Programs, such as programs in Housing Assistance and Advocacy, Adult Health Awareness and Pr...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dycd-after-school-programs-fatherhood.html">
+        <a href="/2020/11/10/dycd-after-school-programs-fatherhood.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DYCD after-school programs Fatherhood</p>
+        <p class="feed-excerpt">Facilities in New York City, by agency and site, that offer Family Support after-school “Fatherhood Initiative Programs” for young adults ages 16 to 24. Submitted by the Department of Youth and Com...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dycd-after-school-programs-fat.html">
+        <a href="/2020/11/10/dycd-after-school-programs-fat.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DYCD after-school programs Fatherhood</p>
+        <p class="feed-excerpt">Facilities in New York City, by agency and site, that offer Family Support after-school “Fatherhood Initiative Programs” for young adults ages 16 to 24. Submitted by the Department of Youth and Com...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dycd-after-school-programs-family-support-programs-for-seniors.html">
+        <a href="/2020/11/10/dycd-after-school-programs-family-support-programs-for-seniors.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DYCD after-school programs Family Support  Programs for Seniors</p>
+        <p class="feed-excerpt">Facilities in New York City, by agency and site, that offer after-school Family Support Programs for seniors and older adults.Submitted by the Department of Youth and Community Development (DYCD).</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dycd-after-school-programs-fam.html">
+        <a href="/2020/11/10/dycd-after-school-programs-fam.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DYCD after-school programs Family Support  Programs for Seniors</p>
+        <p class="feed-excerpt">Facilities in New York City, by agency and site, that offer after-school Family Support Programs for seniors and older adults.Submitted by the Department of Youth and Community Development (DYCD).</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dycd-after-school-programs-beacon-satellite-at-nycha-programs.html">
+        <a href="/2020/11/10/dycd-after-school-programs-beacon-satellite-at-nycha-programs.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DYCD after-school programs Beacon Satellite At NYCHA Programs</p>
+        <p class="feed-excerpt">Facilities in New York City, by agency and site, that offer “Beacon Satellite at NYCHA Programs” after-school  programs.</p>
+        </a>
+    </div>
+
+<hr>
+<table width="100%" align="center">
+    <tr>
+        <td width="30%" style="text-align:left;">
+            
+                <a href="/page54/" class="previous">
+                Previous
+                </a>
+            
+        </td>
+        <td width="30%" style="text-align:center;">
+            55 of 129
+        </td>
+        <td width="30%" style="text-align:right;">
+            
+                <a href="/page56/" class="next">Next</a>
+            
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>

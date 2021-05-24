@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="website" property="og:type">
+    <meta content="http://localhost:4000/page69/" property="og:url"><title>Dayda</title>
+
+    <link rel="canonical" href="http://localhost:4000/page69/"/>
+    <link rel="apple-touch-icon" href="https://directory.dayda.org/assets/img/entities/city-of-new-york.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/atom.xml">
+
+    <script data-ad-client="ca-pub-0202072258759210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
+<header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Dayda</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">City of New York</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">This is a catalog of datasets organized and made more accessible from the City of New York, providing simple dowloadable CSV and JSON files, as well as Postman Collections you can use as part of workflows and other automation.</p>
+            </div> 
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="https://directory.dayda.org/assets/img/entities/city-of-new-york.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+               <img src="/assets/img/home-icon.png" width="40">
+               <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/about">
+                <img src="/assets/img/about-icon.png" width="40">                
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+                <img src="/assets/img/tags-icon.png" width="40">
+                <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+                <img src="/assets/img/feed-icon.png" width="40">
+                <p class="rss-p">Feed</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/apis.json">             
+                <img src="/assets/img/api-icon.png" width="40">
+                <p class="rss-p">APIs.json</p>
+            </a>
+        </div>   
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script>
+</header>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/department-for-the-aging-dfta-bottom-line-budgets-of-case-management-contracted-providers.html">
+        <a href="/2020/11/10/department-for-the-aging-dfta-bottom-line-budgets-of-case-management-contracted-providers.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Department for the Aging (DFTA) Bottom Line Budgets of Case Management Contracted Providers</p>
+        <p class="feed-excerpt">Bottom Line Budgets of contracted agencies providing Case Management Services.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/department-for-the-aging-dfta-bottom-line-budgets-of-caregiver-resources-contracted-providers.html">
+        <a href="/2020/11/10/department-for-the-aging-dfta-bottom-line-budgets-of-caregiver-resources-contracted-providers.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Department for the Aging (DFTA) Bottom Line Budgets of Caregiver Resources Contracted Providers</p>
+        <p class="feed-excerpt">Bottom Line Budgets of contracted agencies providing Caregiver Resources Services.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/department-for-the-aging-dfta-all-contracted-providers.html">
+        <a href="/2020/11/10/department-for-the-aging-dfta-all-contracted-providers.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Department for the Aging (DFTA) All Contracted Providers</p>
+        <p class="feed-excerpt">Listing of all Senior Centers, Abuse Prevention Contracts, Home Care Contracts, Legal Services Contracts, NORC Contracts, Transportation Contracts, Case Mangement Contracts, Home Delivered Meal Con...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/department-for-the-aging-dfta.html">
+        <a href="/2020/11/10/department-for-the-aging-dfta.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Department for the Aging (DFTA) Bottom Line Budgets of Legal Services Contracted Providers</p>
+        <p class="feed-excerpt">Bottom Line Budgets of contracted agencies providing Legal Services.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dep-green-infrastructure.html">
+        <a href="/2020/11/10/dep-green-infrastructure.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DEP Green Infrastructure</p>
+        <p class="feed-excerpt">Locations from the NYC Green Infrastructure initiative which presents an alternative approach to improving water quality that integrates “green infrastructure,” such as swales and green roofs, with...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dep-cryptosporidium-and-giardia-data-set.html">
+        <a href="/2020/11/10/dep-cryptosporidium-and-giardia-data-set.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DEP - Cryptosporidium And Giardia Data Set</p>
+        <p class="feed-excerpt">Cryptosporidium and Giardia Analytical Results for Source Waters</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dep-cryptosporidium-and-giardi.html">
+        <a href="/2020/11/10/dep-cryptosporidium-and-giardi.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DEP - Cryptosporidium And Giardia Data Set</p>
+        <p class="feed-excerpt">Cryptosporidium and Giardia Analytical Results for Source Waters</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/denied-tw-and-wholesale-market.html">
+        <a href="/2020/11/10/denied-tw-and-wholesale-market.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Denied TW and Wholesale Market Companies</p>
+        <p class="feed-excerpt">Denied TW and Wholesale Market Companies dataset has a list of Trade Waste and Wholesale Market Companies that were denied to receive a license or a registration by Business Integrity Commission.
+T...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/denied-tw-and-wholesale-market-companies.html">
+        <a href="/2020/11/10/denied-tw-and-wholesale-market-companies.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Denied TW and Wholesale Market Companies</p>
+        <p class="feed-excerpt">Denied TW and Wholesale Market Companies dataset has a list of Trade Waste and Wholesale Market Companies that were denied to receive a license or a registration by Business Integrity Commission.
+T...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/demographics-by-zip-code.html">
+        <a href="/2020/11/10/demographics-by-zip-code.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Demographics by Zip Code</p>
+        <p class="feed-excerpt">This dataset provides a Demographic breakdown of only DYCD-funded participants within a Zip Code of NYC. The data displays the counts, and percentages of the participants in each of the following c...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/demographics-by-community-district.html">
+        <a href="/2020/11/10/demographics-by-community-district.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Demographics by Community District</p>
+        <p class="feed-excerpt">This dataset provides a Demographic breakdown of only DYCD-funded participants within Community District of NYC. The data displays the counts, and percentages of the participants in each of the fol...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/demographics-by-community-dist.html">
+        <a href="/2020/11/10/demographics-by-community-dist.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Demographics by Community District</p>
+        <p class="feed-excerpt">This dataset provides a Demographic breakdown of only DYCD-funded participants within Community District of NYC. The data displays the counts, and percentages of the participants in each of the fol...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/demographics-by-borough.html">
+        <a href="/2020/11/10/demographics-by-borough.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Demographics by Borough</p>
+        <p class="feed-excerpt">This dataset provides a Demographic breakdown of only DYCD-funded participants within a Borough of NYC. The data displays the counts, and percentages of the participants in each of the following ca...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/demographic-statistics-by-zip-code.html">
+        <a href="/2020/11/10/demographic-statistics-by-zip-code.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Demographic Statistics By Zip Code</p>
+        <p class="feed-excerpt">Demographic statistics broken down by zip code</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/demographic-statistics-by-zip.html">
+        <a href="/2020/11/10/demographic-statistics-by-zip.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Demographic Statistics By Zip Code</p>
+        <p class="feed-excerpt">Demographic statistics broken down by zip code</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/demographic-projection-report-enrollment-projections-new-york-city-public-schools-prepared-by-statistical-forecasting.html">
+        <a href="/2020/11/10/demographic-projection-report-enrollment-projections-new-york-city-public-schools-prepared-by-statistical-forecasting.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Demographic Projection Report - Enrollment Projections - New York City Public Schools prepared by Statistical Forecasting</p>
+        <p class="feed-excerpt">The SCA’s comprehensive capital planning process includes developing and analyzing quality data, creating and updating the Department of Education’s Five-Year Capital Plans, and monitoring projects...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/demographic-projection-report.html">
+        <a href="/2020/11/10/demographic-projection-report.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Demographic Projection Report - Enrollment Projections - New York City Public Schools prepared by Statistical Forecasting</p>
+        <p class="feed-excerpt">The SCA’s comprehensive capital planning process includes developing and analyzing quality data, creating and updating the Department of Education’s Five-Year Capital Plans, and monitoring projects...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/deed-restriction-database.html">
+        <a href="/2020/11/10/deed-restriction-database.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Deed Restriction Database</p>
+        <p class="feed-excerpt">A searchable electronic database of all real property upon which a deed restriction was imposed by the Department of Citywide Administrative Services, pursuant to Local Law 176 of 2016. Current dat...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/debt-affordability-statement-schedules.html">
+        <a href="/2020/11/10/debt-affordability-statement-schedules.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Debt Affordability Statement Schedules</p>
+        <p class="feed-excerpt">Statement of Debt Affordability pursuant to Chapter 16 of the Laws of 1997 of the State of New York. This dataset is updated annually. Numerical data is shown in $ in Millions or in Persons and ide...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/debt-affordability-statement-s.html">
+        <a href="/2020/11/10/debt-affordability-statement-s.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Debt Affordability Statement Schedules</p>
+        <p class="feed-excerpt">Statement of Debt Affordability pursuant to Chapter 16 of the Laws of 1997 of the State of New York. This dataset is updated annually. Numerical data is shown in $ in Millions or in Persons and ide...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dcla-programs-funding.html">
+        <a href="/2020/11/10/dcla-programs-funding.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DCLA Programs Funding</p>
+        <p class="feed-excerpt">This data set is the Programs funding award amount by fiscal year</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dcla-programs-funding-for-fy2010.html">
+        <a href="/2020/11/10/dcla-programs-funding-for-fy2010.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DCLA Programs Funding for FY2010</p>
+        <p class="feed-excerpt">Department of Cultural Affairs (DCLA)
+This data set is the Programs funding award amount for FY10.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dcla-programs-funding-for-fy20.html">
+        <a href="/2020/11/10/dcla-programs-funding-for-fy20.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DCLA Programs Funding for FY2010</p>
+        <p class="feed-excerpt">Department of Cultural Affairs (DCLA)
+This data set is the Programs funding award amount for FY10.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dcla-program-funding-for-fy11.html">
+        <a href="/2020/11/10/dcla-program-funding-for-fy11.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DCLA Program Funding for FY11</p>
+        <p class="feed-excerpt">Department of Cultural Affairs (DCLA)
+This data set is the Programs funding award amount for FY11</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dcla-materials-for-the-arts-donor-information.html">
+        <a href="/2020/11/10/dcla-materials-for-the-arts-donor-information.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DCLA Materials For The Arts - Donor Information</p>
+        <p class="feed-excerpt">Data regarding donations processed through  Materials For The Arts (MFTA).</p>
+        </a>
+    </div>
+
+<hr>
+<table width="100%" align="center">
+    <tr>
+        <td width="30%" style="text-align:left;">
+            
+                <a href="/page68/" class="previous">
+                Previous
+                </a>
+            
+        </td>
+        <td width="30%" style="text-align:center;">
+            69 of 129
+        </td>
+        <td width="30%" style="text-align:right;">
+            
+                <a href="/page70/" class="next">Next</a>
+            
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>

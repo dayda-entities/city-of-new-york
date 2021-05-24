@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="website" property="og:type">
+    <meta content="http://localhost:4000/page29/" property="og:url"><title>Dayda</title>
+
+    <link rel="canonical" href="http://localhost:4000/page29/"/>
+    <link rel="apple-touch-icon" href="https://directory.dayda.org/assets/img/entities/city-of-new-york.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/atom.xml">
+
+    <script data-ad-client="ca-pub-0202072258759210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
+<header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Dayda</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">City of New York</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">This is a catalog of datasets organized and made more accessible from the City of New York, providing simple dowloadable CSV and JSON files, as well as Postman Collections you can use as part of workflows and other automation.</p>
+            </div> 
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="https://directory.dayda.org/assets/img/entities/city-of-new-york.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+               <img src="/assets/img/home-icon.png" width="40">
+               <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/about">
+                <img src="/assets/img/about-icon.png" width="40">                
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+                <img src="/assets/img/tags-icon.png" width="40">
+                <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+                <img src="/assets/img/feed-icon.png" width="40">
+                <p class="rss-p">Feed</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/apis.json">             
+                <img src="/assets/img/api-icon.png" width="40">
+                <p class="rss-p">APIs.json</p>
+            </a>
+        </div>   
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script>
+</header>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-independent-budget-office-ibo-full-time-positions-in-city-government-by-fiscal-year.html">
+        <a href="/2020/11/10/nyc-independent-budget-office-ibo-full-time-positions-in-city-government-by-fiscal-year.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Independent Budget Office (IBO) Full Time Positions in city government, by fiscal year</p>
+        <p class="feed-excerpt">Actual full-time positions as of June 30 of each year by agency, from FY 1980 through FY 1913</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-independent-budget-office-ibo-debt-service-since-fy-2000.html">
+        <a href="/2020/11/10/nyc-independent-budget-office-ibo-debt-service-since-fy-2000.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Independent Budget Office (IBO) Debt Service Since FY 2000</p>
+        <p class="feed-excerpt">Annual spending on debt service from FY 2000 - 2014.
+
+SOURCES: IBO; Mayor’s Office of Management and Budget (OMB); New York City Comprehensive Annual Financial Report of the Comptroller (various ye...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-independent-budget-office-ibo-debt-outstanding-since-fy-2000.html">
+        <a href="/2020/11/10/nyc-independent-budget-office-ibo-debt-outstanding-since-fy-2000.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Independent Budget Office (IBO) Debt Outstanding Since FY 2000</p>
+        <p class="feed-excerpt">Amount of debt outstanding as of June 30 of each year.
+
+SOURCES: IBO; New York City Comprehensive Annual Financial Report of the Comptroller (various years); Annual Report of the Comptroller on Cap...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-independent-budget-office-ibo-capital-expenditures-since-1985.html">
+        <a href="/2020/11/10/nyc-independent-budget-office-ibo-capital-expenditures-since-1985.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Independent Budget Office (IBO) Capital Expenditures Since 1985</p>
+        <p class="feed-excerpt">Annual capital expenditures, by capital budget area and agency, from FY 1985 - 2013. Source: Comprehensive Annual Financial Reports of the Comptroller</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-independent-budget-office-ibo-agency-expenditures-fy-1980-2018.html">
+        <a href="/2020/11/10/nyc-independent-budget-office-ibo-agency-expenditures-fy-1980-2018.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Independent Budget Office (IBO) Agency Expenditures FY 1980 - 2018</p>
+        <p class="feed-excerpt">Annual spending for personal services and other than personal services(OTPS) within each city agency from FY 1980 through FY 2018. Source: Comprehensive Annual Financial Reports of the Comptroller</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-independent-budget-office.html">
+        <a href="/2020/11/10/nyc-independent-budget-office.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Independent Budget Office (IBO) Revenue And Spending Summary FY 1980 - FY 2013</p>
+        <p class="feed-excerpt">Annual revenue and spending data by major areas of the budget from FY 1980 through FY 1963</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-health-+-hospitalsoptions-fees-2011.html">
+        <a href="/2020/11/10/nyc-health-+-hospitalsoptions-fees-2011.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Health + Hospitals/Options - fees - 2011</p>
+        <p class="feed-excerpt">NYC Health + Hospitals Options is a discount payment scale that determines fees for NYC Health + Hospitals services for New Yorkers who do not qualify or cannot afford any of the free or low cost h...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-health-+-hospitalsoptions.html">
+        <a href="/2020/11/10/nyc-health-+-hospitalsoptions.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Health + Hospitals/Options - fees - 2011</p>
+        <p class="feed-excerpt">NYC Health + Hospitals Options is a discount payment scale that determines fees for NYC Health + Hospitals services for New Yorkers who do not qualify or cannot afford any of the free or low cost h...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-health-+-hospitals-patient.html">
+        <a href="/2020/11/10/nyc-health-+-hospitals-patient.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Health + Hospitals patient care locations - 2011</p>
+        <p class="feed-excerpt">NYC Health + Hospitals is the largest municipal health care system in the country serving more than one million New Yorkers every year. The City’s public health care delivery system provides trauma...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-health-+-hospitals-patient-care-locations-2011.html">
+        <a href="/2020/11/10/nyc-health-+-hospitals-patient-care-locations-2011.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Health + Hospitals patient care locations - 2011</p>
+        <p class="feed-excerpt">NYC Health + Hospitals is the largest municipal health care system in the country serving more than one million New Yorkers every year. The City’s public health care delivery system provides trauma...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-health-+-hospitals-options.html">
+        <a href="/2020/11/10/nyc-health-+-hospitals-options.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Health + Hospitals Options - income eligibility - 2011</p>
+        <p class="feed-excerpt">The NYC Health + Hospitals Options is a discount payment scale that determines fees for NYC Health + Hospitals services for New Yorkers who do not qualify or cannot afford any of the free or low co...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-health-+-hospitals-options-income-eligibility-2011.html">
+        <a href="/2020/11/10/nyc-health-+-hospitals-options-income-eligibility-2011.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Health + Hospitals Options - income eligibility - 2011</p>
+        <p class="feed-excerpt">The NYC Health + Hospitals Options is a discount payment scale that determines fees for NYC Health + Hospitals services for New Yorkers who do not qualify or cannot afford any of the free or low co...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-free-tax-prep-sites.html">
+        <a href="/2020/11/10/nyc-free-tax-prep-sites.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Free Tax Prep Sites</p>
+        <p class="feed-excerpt">This dataset provides a machine-readable format for the data that populates the “NYC Free Tax Preparation Site Finder” map hosted on DCA’s website.  The dataset includes the name and address of the...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-fire-department-building-vacate-list.html">
+        <a href="/2020/11/10/nyc-fire-department-building-vacate-list.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Fire Department Building Vacate List</p>
+        <p class="feed-excerpt">List of ordered vacated buildings declared unsafe and off-limits</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-fire-department-building-v.html">
+        <a href="/2020/11/10/nyc-fire-department-building-v.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Fire Department Building Vacate List</p>
+        <p class="feed-excerpt">List of ordered vacated buildings declared unsafe and off-limits</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-dot-pedestrian-plazas.html">
+        <a href="/2020/11/10/nyc-dot-pedestrian-plazas.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC DOT Pedestrian Plazas</p>
+        <p class="feed-excerpt">A shapefile with all DOT pedestrian plaza locations across New York City.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-domain-registrations.html">
+        <a href="/2020/11/10/nyc-domain-registrations.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">.nyc Domain Registrations</p>
+        <p class="feed-excerpt">A list of all .nyc domains registered along with the registration date and registrant type. This list is updated daily.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-domain-registrations-by-zi.html">
+        <a href="/2020/11/10/nyc-domain-registrations-by-zi.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">.nyc Domain Registrations by Zip Code</p>
+        <p class="feed-excerpt">.nyc domain registrations broken down by zip code.  This list is updated monthly.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-dog-licensing-dataset.html">
+        <a href="/2020/11/10/nyc-dog-licensing-dataset.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Dog Licensing Dataset</p>
+        <p class="feed-excerpt">Active Dog Licenses.
+
+All dog owners residing in NYC are required by law to license their dogs. The data is sourced from the DOHMH Dog Licensing System (https://a816-healthpsi.nyc.gov/DogLicense), ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-covered-building's-list-2020.html">
+        <a href="/2020/11/10/nyc-covered-building's-list-2020.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Covered Building's List (2020)</p>
+        <p class="feed-excerpt">The covered building list identifies properties required to comply with Local Law 84: Benchmarking.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-covered-building's-list-2019.html">
+        <a href="/2020/11/10/nyc-covered-building's-list-2019.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Covered Building's List (2019)</p>
+        <p class="feed-excerpt">The covered building list identifies properties required to comply with Local Law 84: Benchmarking.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-covered-building's-list-2018.html">
+        <a href="/2020/11/10/nyc-covered-building's-list-2018.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Covered Building's List (2018)</p>
+        <p class="feed-excerpt">The covered building list identifies properties required to comply with Local Law 84: Benchmarking.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-covered-building's-list-2017.html">
+        <a href="/2020/11/10/nyc-covered-building's-list-2017.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Covered Building's List (2017)</p>
+        <p class="feed-excerpt">The covered building list identifies properties required to comply with Local Law 84: Benchmarking.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-covered-building's-list-2016.html">
+        <a href="/2020/11/10/nyc-covered-building's-list-2016.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Covered Building's List (2016)</p>
+        <p class="feed-excerpt">The covered building list identifies properties required to comply with Local Law 84: Benchmarking.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-covered-building's-list-2015.html">
+        <a href="/2020/11/10/nyc-covered-building's-list-2015.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Covered Building's List (2015)</p>
+        <p class="feed-excerpt">The covered building list identifies properties required to comply with Local Law 84: Benchmarking.</p>
+        </a>
+    </div>
+
+<hr>
+<table width="100%" align="center">
+    <tr>
+        <td width="30%" style="text-align:left;">
+            
+                <a href="/page28/" class="previous">
+                Previous
+                </a>
+            
+        </td>
+        <td width="30%" style="text-align:center;">
+            29 of 129
+        </td>
+        <td width="30%" style="text-align:right;">
+            
+                <a href="/page30/" class="next">Next</a>
+            
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="website" property="og:type">
+    <meta content="http://localhost:4000/page101/" property="og:url"><title>Dayda</title>
+
+    <link rel="canonical" href="http://localhost:4000/page101/"/>
+    <link rel="apple-touch-icon" href="https://directory.dayda.org/assets/img/entities/city-of-new-york.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/atom.xml">
+
+    <script data-ad-client="ca-pub-0202072258759210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
+<header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Dayda</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">City of New York</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">This is a catalog of datasets organized and made more accessible from the City of New York, providing simple dowloadable CSV and JSON files, as well as Postman Collections you can use as part of workflows and other automation.</p>
+            </div> 
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="https://directory.dayda.org/assets/img/entities/city-of-new-york.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+               <img src="/assets/img/home-icon.png" width="40">
+               <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/about">
+                <img src="/assets/img/about-icon.png" width="40">                
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+                <img src="/assets/img/tags-icon.png" width="40">
+                <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+                <img src="/assets/img/feed-icon.png" width="40">
+                <p class="rss-p">Feed</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/apis.json">             
+                <img src="/assets/img/api-icon.png" width="40">
+                <p class="rss-p">APIs.json</p>
+            </a>
+        </div>   
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script>
+</header>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-suspension-report-nypd-contacts-gender.html">
+        <a href="/2020/11/10/2015-2016-suspension-report-nypd-contacts-gender.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 Suspension Report NYPD Contacts - Gender</p>
+        <p class="feed-excerpt">Suspensions reported by Student in Temporary Housing (STB), Student with Disabilities, Race, Gender, English Language Learner (ELL), Date of Birth, Grade Level</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-suspension-report-nypd-contacts-ell.html">
+        <a href="/2020/11/10/2015-2016-suspension-report-nypd-contacts-ell.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 Suspension Report NYPD Contacts - ELL</p>
+        <p class="feed-excerpt">Suspensions reported by Student in Temporary Housing (STB), Student with Disabilities, Race, Gender, English Language Learner (ELL), Date of Birth, Grade Level</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-suspension-report-nypd-contacts-date-of-birth.html">
+        <a href="/2020/11/10/2015-2016-suspension-report-nypd-contacts-date-of-birth.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 Suspension Report NYPD Contacts - Date Of Birth</p>
+        <p class="feed-excerpt">Suspensions reported by Student in Temporary Housing (STB), Student with Disabilities, Race, Gender, English Language Learner (ELL), Date of Birth, Grade Level</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-suspension-report-ny.html">
+        <a href="/2020/11/10/2015-2016-suspension-report-ny.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 Suspension Report NYPD Contacts - STH</p>
+        <p class="feed-excerpt">Suspensions reported by Student in Temporary Housing (STB), Student with Disabilities, Race, Gender, English Language Learner (ELL), Date of Birth, Grade Level</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-students-with-multiple-removals-or-suspensions.html">
+        <a href="/2020/11/10/2015-2016-students-with-multiple-removals-or-suspensions.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 - 2016 Students with Multiple Removals or Suspensions</p>
+        <p class="feed-excerpt">New York City Department of Education 2015 - 2016 Students with Multiple Removals or Suspensions.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-students-with-multip.html">
+        <a href="/2020/11/10/2015-2016-students-with-multip.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 - 2016 Students with Multiple Removals or Suspensions</p>
+        <p class="feed-excerpt">New York City Department of Education 2015 - 2016 Students with Multiple Removals or Suspensions.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-student-discipline-annual-report-transfers.html">
+        <a href="/2020/11/10/2015-2016-student-discipline-annual-report-transfers.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 2016 Student Discipline Annual Report - Transfers</p>
+        <p class="feed-excerpt">Student Discipline Annual Report - Transfers</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-student-discipline-annual-report-students-in-temporary-housing.html">
+        <a href="/2020/11/10/2015-2016-student-discipline-annual-report-students-in-temporary-housing.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 2016 Student Discipline Annual Report - Students In Temporary Housing</p>
+        <p class="feed-excerpt">Student Discipline Annual Report - Students In Temporary Housing</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-student-discipline-annual-report-race.html">
+        <a href="/2020/11/10/2015-2016-student-discipline-annual-report-race.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 2016 Student Discipline Annual Report - RACE</p>
+        <p class="feed-excerpt">Student Discipline Annual Report - RACE</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-student-discipline-annual-report-r-p-s-totals.html">
+        <a href="/2020/11/10/2015-2016-student-discipline-annual-report-r-p-s-totals.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 2016 Student Discipline Annual Report - R P S TOTALS</p>
+        <p class="feed-excerpt">Student Discipline Annual Report - Removals Principals/Supt TOTALS</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-student-discipline-annual-report-length-in-days.html">
+        <a href="/2020/11/10/2015-2016-student-discipline-annual-report-length-in-days.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 2016 Student Discipline Annual Report - LENGTH IN DAYS</p>
+        <p class="feed-excerpt">Student Discipline Annual Report - LENGTH IN DAYS</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-student-discipline-annual-report-iep.html">
+        <a href="/2020/11/10/2015-2016-student-discipline-annual-report-iep.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 2016 Student Discipline Annual Report - IEP</p>
+        <p class="feed-excerpt">Student Discipline Annual Report - IEP</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-student-discipline-annual-report-grade-level.html">
+        <a href="/2020/11/10/2015-2016-student-discipline-annual-report-grade-level.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 2016 Student Discipline Annual Report - GRADE LEVEL</p>
+        <p class="feed-excerpt">Student Discipline Annual Report - GRADE LEVEL</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-student-discipline-annual-report-gender.html">
+        <a href="/2020/11/10/2015-2016-student-discipline-annual-report-gender.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 2016 Student Discipline Annual Report - GENDER</p>
+        <p class="feed-excerpt">Student Discipline Annual Report - GENDER</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-student-discipline-annual-report-ell.html">
+        <a href="/2020/11/10/2015-2016-student-discipline-annual-report-ell.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 2016 Student Discipline Annual Report - ELL</p>
+        <p class="feed-excerpt">Student Discipline Annual Report - Limited English Proficiency</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-student-discipline-annual-report-d-code.html">
+        <a href="/2020/11/10/2015-2016-student-discipline-annual-report-d-code.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 2016 Student Discipline Annual Report - D Code</p>
+        <p class="feed-excerpt">Student Discipline Annual Report - Discharge Code</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-student-discipline-annual-report-age.html">
+        <a href="/2020/11/10/2015-2016-student-discipline-annual-report-age.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 - 2016 Student Discipline Annual Report- AGE</p>
+        <p class="feed-excerpt">New York City Department of Education 2015 - 2016 Student Discipline Annual Report - AGE.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-student-discipline-a.html">
+        <a href="/2020/11/10/2015-2016-student-discipline-a.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 2016 Student Discipline Annual Report - D Code</p>
+        <p class="feed-excerpt">Student Discipline Annual Report - Discharge Code</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-shsat-admissions-test-offers-by-sending-school.html">
+        <a href="/2020/11/10/2015-2016-shsat-admissions-test-offers-by-sending-school.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 SHSAT Admissions Test Offers By Sending School</p>
+        <p class="feed-excerpt">SHSAT Admissions test offers.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-shsat-admissions-tes.html">
+        <a href="/2020/11/10/2015-2016-shsat-admissions-tes.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 SHSAT Admissions Test Offers By Sending School</p>
+        <p class="feed-excerpt">SHSAT Admissions test offers.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-school-zones.html">
+        <a href="/2020/11/10/2015-2016-school-zones.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 School Zones</p>
+        <p class="feed-excerpt">2015-2016 School Zones. Files are in a GIS Shapefile format. They are broken down by elementary school zones (ES_Zones), middle school zones (MS_Zones) and high school zones (HS_Zones).</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-school-quality-report-results-for-yabc.html">
+        <a href="/2020/11/10/2015-2016-school-quality-report-results-for-yabc.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 - 2016 School Quality Report Results for YABC</p>
+        <p class="feed-excerpt">New York City Department of Education 2015 - 2016 School Quality Report Results for YABC.
+The Quality Review is a process that evaluates how well schools are organized to support student learning a...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-school-quality-report-results-for-prek.html">
+        <a href="/2020/11/10/2015-2016-school-quality-report-results-for-prek.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 - 2016 School Quality Report Results for PreK</p>
+        <p class="feed-excerpt">New York City Department of Education 2015 - 2016 School Quality Report Results for PreK.
+The Quality Review is a process that evaluates how well schools are organized to support student learning a...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-school-quality-report-results-for-high-school.html">
+        <a href="/2020/11/10/2015-2016-school-quality-report-results-for-high-school.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 - 2016 School Quality Report Results for High School</p>
+        <p class="feed-excerpt">New York City Department of Education 2015 - 2016 School Quality Report Results for High School.
+The Quality Review is a process that evaluates how well schools are organized to support student lea...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-school-quality-report-results-for-high-school-transfer.html">
+        <a href="/2020/11/10/2015-2016-school-quality-report-results-for-high-school-transfer.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 - 2016 School Quality Report Results for High School Transfer</p>
+        <p class="feed-excerpt">New York City Department of Education 2015 - 2016 School Quality Report Results for High School Transfer.
+The Quality Review is a process that evaluates how well schools are organized to support st...</p>
+        </a>
+    </div>
+
+<hr>
+<table width="100%" align="center">
+    <tr>
+        <td width="30%" style="text-align:left;">
+            
+                <a href="/page100/" class="previous">
+                Previous
+                </a>
+            
+        </td>
+        <td width="30%" style="text-align:center;">
+            101 of 129
+        </td>
+        <td width="30%" style="text-align:right;">
+            
+                <a href="/page102/" class="next">Next</a>
+            
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>

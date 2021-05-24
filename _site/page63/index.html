@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="website" property="og:type">
+    <meta content="http://localhost:4000/page63/" property="og:url"><title>Dayda</title>
+
+    <link rel="canonical" href="http://localhost:4000/page63/"/>
+    <link rel="apple-touch-icon" href="https://directory.dayda.org/assets/img/entities/city-of-new-york.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/atom.xml">
+
+    <script data-ad-client="ca-pub-0202072258759210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
+<header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Dayda</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">City of New York</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">This is a catalog of datasets organized and made more accessible from the City of New York, providing simple dowloadable CSV and JSON files, as well as Postman Collections you can use as part of workflows and other automation.</p>
+            </div> 
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="https://directory.dayda.org/assets/img/entities/city-of-new-york.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+               <img src="/assets/img/home-icon.png" width="40">
+               <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/about">
+                <img src="/assets/img/about-icon.png" width="40">                
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+                <img src="/assets/img/tags-icon.png" width="40">
+                <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+                <img src="/assets/img/feed-icon.png" width="40">
+                <p class="rss-p">Feed</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/apis.json">             
+                <img src="/assets/img/api-icon.png" width="40">
+                <p class="rss-p">APIs.json</p>
+            </a>
+        </div>   
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script>
+</header>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dof-condominium-comparable-ren.html">
+        <a href="/2020/11/10/dof-condominium-comparable-ren.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOF Condominium Comparable Rental Income in NYC</p>
+        <p class="feed-excerpt">The Department of Finance (DOF) is required by NY State law to value condominiums or cooperatives as if they were residential rental apartment buildings. DOF uses income information from rental pro...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/doe-high-school-programs-2014-2015.html">
+        <a href="/2020/11/10/doe-high-school-programs-2014-2015.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOE High School Programs 2014-2015</p>
+        <p class="feed-excerpt">Directory of NYC High School programs</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/doe-high-school-programs-2014.html">
+        <a href="/2020/11/10/doe-high-school-programs-2014.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOE High School Programs 2014-2015</p>
+        <p class="feed-excerpt">Directory of NYC High School programs</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/doe-high-school-directory-2013.html">
+        <a href="/2020/11/10/doe-high-school-directory-2013.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOE High School Directory 2013-2014</p>
+        <p class="feed-excerpt">Directory of NYC High Schools.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/doe-high-school-directory-2013-2014.html">
+        <a href="/2020/11/10/doe-high-school-directory-2013-2014.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOE High School Directory 2013-2014</p>
+        <p class="feed-excerpt">Directory of NYC High Schools.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/doe-building-space-usage.html">
+        <a href="/2020/11/10/doe-building-space-usage.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOE Building Space Usage</p>
+        <p class="feed-excerpt">List of DOE buildings schools housed within the building and with listing of rooms by size, usage.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dob-violations.html">
+        <a href="/2020/11/10/dob-violations.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOB Violations</p>
+        <p class="feed-excerpt">Violations that have been issued by the Department of Buildings. There may also be an ECB violation. (https://data.cityofnewyork.us/Housing-Development/DOB-ECB-Violations/6bgk-3dad)</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dob-stalled-construction-sites.html">
+        <a href="/2020/11/10/dob-stalled-construction-sites.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOB Stalled Construction Sites</p>
+        <p class="feed-excerpt">A list of sites across the five boroughs where a complaint was made that construction activity has come to an abrupt halt. Daily updates provide all sites where the stalled status is currently active.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dob-sign-application-filings.html">
+        <a href="/2020/11/10/dob-sign-application-filings.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOB Sign Application Filings</p>
+        <p class="feed-excerpt">Outdoor advertising regulations and zoning laws reduce visual clutter and protect people from dangerous and illegally installed signs. Signs must comply with regulations outlined in the NYC Constru...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dob-permit-issuance.html">
+        <a href="/2020/11/10/dob-permit-issuance.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOB Permit Issuance</p>
+        <p class="feed-excerpt">The Department of Buildings (DOB) issues permits for construction and demolition activities in the City of New York. The construction industry must submit an application to DOB with details of the ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dob-now-safety-boiler.html">
+        <a href="/2020/11/10/dob-now-safety-boiler.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOB NOW Safety Boiler</p>
+        <p class="feed-excerpt">Annual compliance filings for high and low pressure boilers installed in buildings.
+
+The Department of Buildings’ Boiler Unit oversees the installation and operation of New York City’s boilers. Pro...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dob-now-electrical-permit-details.html">
+        <a href="/2020/11/10/dob-now-electrical-permit-details.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOB NOW Electrical Permit Details</p>
+        <p class="feed-excerpt">This dataset is part of the DOB NOW Electrical Permit Data Collection: https://data.cityofnewyork.us/browse?Data-Collection_Data-Collection=DOB+NOW+Electrical+Permits+Data 
+This dataset contains de...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dob-now-electrical-permit-deta.html">
+        <a href="/2020/11/10/dob-now-electrical-permit-deta.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOB NOW Electrical Permit Details</p>
+        <p class="feed-excerpt">This dataset is part of the DOB NOW Electrical Permit Data Collection: https://data.cityofnewyork.us/browse?Data-Collection_Data-Collection=DOB+NOW+Electrical+Permits+Data 
+This dataset contains de...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dob-now-electrical-permit-applications.html">
+        <a href="/2020/11/10/dob-now-electrical-permit-applications.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOB NOW Electrical Permit Applications</p>
+        <p class="feed-excerpt">This dataset is part of the DOB NOW Electrical Permit Data Collection: https://data.cityofnewyork.us/browse?Data-Collection_Data-Collection=DOB+NOW+Electrical+Permits+Data
+This dataset contains gen...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dob-now-electrical-permit-appl.html">
+        <a href="/2020/11/10/dob-now-electrical-permit-appl.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOB NOW Electrical Permit Applications</p>
+        <p class="feed-excerpt">This dataset is part of the DOB NOW Electrical Permit Data Collection: https://data.cityofnewyork.us/browse?Data-Collection_Data-Collection=DOB+NOW+Electrical+Permits+Data
+This dataset contains gen...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dob-now-build-elevator-permit-applications.html">
+        <a href="/2020/11/10/dob-now-build-elevator-permit-applications.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOB NOW Build Elevator Permit Applications</p>
+        <p class="feed-excerpt">This collection contains applications submitted online via “DOB NOW: BUILD” portal by Design Professionals to get an authorization to begin work on an elevator project.
+&amp;lt;/p&amp;gt;
+Data in t...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dob-now-build-elevator-permit.html">
+        <a href="/2020/11/10/dob-now-build-elevator-permit.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOB NOW Build Elevator Permit Applications</p>
+        <p class="feed-excerpt">This collection contains applications submitted online via “DOB NOW: BUILD” portal by Design Professionals to get an authorization to begin work on an elevator project.
+&amp;lt;/p&amp;gt;
+Data in t...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dob-now-build-elevator-device-details.html">
+        <a href="/2020/11/10/dob-now-build-elevator-device-details.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOB NOW Build Elevator Device Details</p>
+        <p class="feed-excerpt">This collection contains elevator applications, aka job filings, submitted online through the “DOB NOW: BUILD” portal. An approved application allows the applicant to pull a permit and begin work o...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dob-now-build-elevator-device.html">
+        <a href="/2020/11/10/dob-now-build-elevator-device.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOB NOW Build Elevator Device Details</p>
+        <p class="feed-excerpt">This collection contains elevator applications, aka job filings, submitted online through the “DOB NOW: BUILD” portal. An approved application allows the applicant to pull a permit and begin work o...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dob-license-info.html">
+        <a href="/2020/11/10/dob-license-info.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOB License Info</p>
+        <p class="feed-excerpt">DOB licenses and registrations issued by the Department to individuals working with our Department and/or within the construction trades in New York City</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dob-job-application-filings.html">
+        <a href="/2020/11/10/dob-job-application-filings.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOB Job Application Filings</p>
+        <p class="feed-excerpt">This dataset contains all job applications submitted through the Borough Offices, through eFiling, or through the HUB, which have a “Latest Action Date” since January 1, 2000. This dataset does not...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dob-ecb-violations.html">
+        <a href="/2020/11/10/dob-ecb-violations.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOB ECB Violations</p>
+        <p class="feed-excerpt">Violations by the Department of Buildings that are adjudicated by OATH/ECB. There may also be a DOB violation. (https://data.cityofnewyork.us/Housing-Development/DOB-Violations/3h2n-5cm9)</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dob-disciplinary-actions.html">
+        <a href="/2020/11/10/dob-disciplinary-actions.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOB Disciplinary Actions</p>
+        <p class="feed-excerpt">The Department of Buildings investigates and takes disciplinary action against construction professionals when their conduct violates standards set forth in the New York City Construction Codes. Ac...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dob-complaints-received.html">
+        <a href="/2020/11/10/dob-complaints-received.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOB Complaints Received</p>
+        <p class="feed-excerpt">This is the universe of complaints received by Department of Buildings (DOB). It includes complaints that come from 311 or that are entered into the system by DOB staff.
+
+A Complaint Categories cod...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dob-certificate-of-occupancy.html">
+        <a href="/2020/11/10/dob-certificate-of-occupancy.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOB Certificate Of Occupancy</p>
+        <p class="feed-excerpt">A Certificate of Occupancy (CO) states a building’s legal use and/or type of permitted occupancy. New buildings must have a CO, and existing buildings must have a current or amended CO when there i...</p>
+        </a>
+    </div>
+
+<hr>
+<table width="100%" align="center">
+    <tr>
+        <td width="30%" style="text-align:left;">
+            
+                <a href="/page62/" class="previous">
+                Previous
+                </a>
+            
+        </td>
+        <td width="30%" style="text-align:center;">
+            63 of 129
+        </td>
+        <td width="30%" style="text-align:right;">
+            
+                <a href="/page64/" class="next">Next</a>
+            
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="website" property="og:type">
+    <meta content="http://localhost:4000/page6/" property="og:url"><title>Dayda</title>
+
+    <link rel="canonical" href="http://localhost:4000/page6/"/>
+    <link rel="apple-touch-icon" href="https://directory.dayda.org/assets/img/entities/city-of-new-york.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/atom.xml">
+
+    <script data-ad-client="ca-pub-0202072258759210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
+<header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Dayda</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">City of New York</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">This is a catalog of datasets organized and made more accessible from the City of New York, providing simple dowloadable CSV and JSON files, as well as Postman Collections you can use as part of workflows and other automation.</p>
+            </div> 
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="https://directory.dayda.org/assets/img/entities/city-of-new-york.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+               <img src="/assets/img/home-icon.png" width="40">
+               <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/about">
+                <img src="/assets/img/about-icon.png" width="40">                
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+                <img src="/assets/img/tags-icon.png" width="40">
+                <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+                <img src="/assets/img/feed-icon.png" width="40">
+                <p class="rss-p">Feed</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/apis.json">             
+                <img src="/assets/img/api-icon.png" width="40">
+                <p class="rss-p">APIs.json</p>
+            </a>
+        </div>   
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script>
+</header>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/veteran-peer-coordinator-vpc-p.html">
+        <a href="/2020/11/10/veteran-peer-coordinator-vpc-p.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Veteran Peer Coordinator (VPC) Program Moves</p>
+        <p class="feed-excerpt">Clients (veterans or Veterans w/ family) that were successfully housed through the Veteran Peer Coordinator (VPC) program during Fiscal 2019.
+&amp;lt;/br&amp;gt;
+This table reports the clients (vet...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/verified-locations-for-nyc-city-funded-social-service-contracts-taxomony.html">
+        <a href="/2020/11/10/verified-locations-for-nyc-city-funded-social-service-contracts-taxomony.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Verified Locations for NYC City-Funded Social Service Contracts (Taxomony)</p>
+        <p class="feed-excerpt">An agency-verified dataset of City-funded contracted social service provision locations.
+This is part of the &amp;lt;a Verified Locations for NYC City-Funded Social Service Contracts collection.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/verified-locations-for-nyc-city-funded-social-service-contracts-fy2018-service.html">
+        <a href="/2020/11/10/verified-locations-for-nyc-city-funded-social-service-contracts-fy2018-service.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Verified Locations for NYC City-Funded Social Service Contracts FY2018 (Service)</p>
+        <p class="feed-excerpt">An agency-verified dataset of City-funded contracted social service provision locations.
+This is part of the &amp;lt;a Verified Locations for NYC City-Funded Social Service Contracts collection.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/verified-locations-for-nyc-city-funded-social-service-contracts-fy2018-service-taxomony.html">
+        <a href="/2020/11/10/verified-locations-for-nyc-city-funded-social-service-contracts-fy2018-service-taxomony.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Verified Locations for NYC City-Funded Social Service Contracts FY2018 (Service Taxomony)</p>
+        <p class="feed-excerpt">n agency-verified dataset of City-funded contracted social service provision locations.
+This is part of the &amp;lt;a Verified Locations for NYC City-Funded Social Service Contracts collection.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/verified-locations-for-nyc-city-funded-social-service-contracts-fy2018-service-at-location.html">
+        <a href="/2020/11/10/verified-locations-for-nyc-city-funded-social-service-contracts-fy2018-service-at-location.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Verified Locations for NYC City-Funded Social Service Contracts FY2018 (Service At Location)</p>
+        <p class="feed-excerpt">An agency-verified dataset of City-funded contracted social service provision locations.
+This is part of the &amp;lt;a Verified Locations for NYC City-Funded Social Service Contracts collection.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/verified-locations-for-nyc-city-funded-social-service-contracts-fy2018-physical-address.html">
+        <a href="/2020/11/10/verified-locations-for-nyc-city-funded-social-service-contracts-fy2018-physical-address.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Verified Locations for NYC City-Funded Social Service Contracts FY2018 (Physical Address)</p>
+        <p class="feed-excerpt">An agency-verified dataset of City-funded contracted social service provision locations.
+This is part of the &amp;lt;a Verified Locations for NYC City-Funded Social Service Contracts collection.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/verified-locations-for-nyc-city-funded-social-service-contracts-fy2018-organization.html">
+        <a href="/2020/11/10/verified-locations-for-nyc-city-funded-social-service-contracts-fy2018-organization.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Verified Locations for NYC City-Funded Social Service Contracts FY2018 (Organization)</p>
+        <p class="feed-excerpt">An agency-verified dataset of City-funded contracted social service provision locations.
+This is part of the &amp;lt;a Verified Locations for NYC City-Funded Social Service Contracts collection.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/verified-locations-for-nyc-city-funded-social-service-contracts-fy2018-location.html">
+        <a href="/2020/11/10/verified-locations-for-nyc-city-funded-social-service-contracts-fy2018-location.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Verified Locations for NYC City-Funded Social Service Contracts FY2018 (Location)</p>
+        <p class="feed-excerpt">An agency-verified dataset of City-funded contracted social service provision locations.
+This is part of the &amp;lt;a Verified Locations for NYC City-Funded Social Service Contracts collection.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/verified-locations-for-nyc-city-funded-social-service-contracts-fy2018-contract.html">
+        <a href="/2020/11/10/verified-locations-for-nyc-city-funded-social-service-contracts-fy2018-contract.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Verified Locations for NYC City-Funded Social Service Contracts FY2018 (Contract)</p>
+        <p class="feed-excerpt">An agency-verified dataset of City-funded contracted social service provision locations.
+This is part of the &amp;lt;a Verified Locations for NYC City-Funded Social Service Contracts collection.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/verified-locations-for-nyc-city-funded-social-service-contracts-address-verification.html">
+        <a href="/2020/11/10/verified-locations-for-nyc-city-funded-social-service-contracts-address-verification.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Verified Locations for NYC City-Funded Social Service Contracts (Address Verification)</p>
+        <p class="feed-excerpt">An agency-verified dataset of City-funded contracted social service provision locations.
+This is part of the &amp;lt;a Verified Locations for NYC City-Funded Social Service Contracts collection.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/verified-locations-for-nyc-cit.html">
+        <a href="/2020/11/10/verified-locations-for-nyc-cit.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Verified Locations for NYC City-Funded Social Service Contracts FY2018 (Service At Location)</p>
+        <p class="feed-excerpt">An agency-verified dataset of City-funded contracted social service provision locations.
+This is part of the &amp;lt;a Verified Locations for NYC City-Funded Social Service Contracts collection.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/vendor-list-by-commodity.html">
+        <a href="/2020/11/10/vendor-list-by-commodity.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Vendor List by Commodity</p>
+        <p class="feed-excerpt">This list will include commodity enrollments by Passport-enrolled vendors.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/vehicles.html">
+        <a href="/2020/11/10/vehicles.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Vehicles</p>
+        <p class="feed-excerpt">OPT maintains an inventory of all the vehicles used by contracted bus vendors in service to the Department of Education. The vehicles inventory can include school buses, ambulances or coach buses. ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/vehicle-classification-counts-2014-2019.html">
+        <a href="/2020/11/10/vehicle-classification-counts-2014-2019.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Vehicle Classification Counts (2014-2019)</p>
+        <p class="feed-excerpt">Vehicle classification counts collected by DOT for New York Metropolitan Transportation Council (NYMTC) to validate the New York Best Practice Model (NYBPM). For NYBPM screenline locations where da...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/vehicle-classification-counts-2012-2013.html">
+        <a href="/2020/11/10/vehicle-classification-counts-2012-2013.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Vehicle Classification Counts (2012-2013)</p>
+        <p class="feed-excerpt">Vehicle classification counts collected by DOT for New York Metropolitan Transportation Council (NYMTC) to validate the New York Best Practice Model (NYBPM).</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/vehicle-classification-counts-2011-2012.html">
+        <a href="/2020/11/10/vehicle-classification-counts-2011-2012.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Vehicle Classification Counts (2011-2012)</p>
+        <p class="feed-excerpt">Vehicle classification counts collected by DOT for New York Metropolitan Transportation Council (NYMTC) to validate the New York Best Practice Model (NYBPM).</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/vehicle-classification-counts.html">
+        <a href="/2020/11/10/vehicle-classification-counts.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Vehicle Classification Counts (2014-2019)</p>
+        <p class="feed-excerpt">Vehicle classification counts collected by DOT for New York Metropolitan Transportation Council (NYMTC) to validate the New York Best Practice Model (NYBPM). For NYBPM screenline locations where da...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/value-of-energy-cost-savings-program-savings-for-businesses-fy2019.html">
+        <a href="/2020/11/10/value-of-energy-cost-savings-program-savings-for-businesses-fy2019.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Value of Energy Cost Savings Program Savings for Businesses - FY2019</p>
+        <p class="feed-excerpt">Total estimated annual dollar value of utility discounts for businesses approved for ECSP benefits during the fiscal year.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/value-of-energy-cost-savings-program-savings-for-businesses-fy2018.html">
+        <a href="/2020/11/10/value-of-energy-cost-savings-program-savings-for-businesses-fy2018.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Value of Energy Cost Savings Program Savings for Businesses - FY2018</p>
+        <p class="feed-excerpt">Total estimated annual dollar value of utility discounts for businesses approved for ECSP benefits during the fiscal year</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/value-of-energy-cost-savings-p.html">
+        <a href="/2020/11/10/value-of-energy-cost-savings-p.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Value of Energy Cost Savings Program Savings for Businesses - FY2019</p>
+        <p class="feed-excerpt">Total estimated annual dollar value of utility discounts for businesses approved for ECSP benefits during the fiscal year.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/use-of-arra-stimulus-funds.html">
+        <a href="/2020/11/10/use-of-arra-stimulus-funds.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Use of ARRA Stimulus Funds</p>
+        <p class="feed-excerpt">Data on the usage of stimulus/recovery funds provided through the American Recovery and Reinvestment Act of 2009 (ARRA)</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/urban-park-ranger-engagement-tracker.html">
+        <a href="/2020/11/10/urban-park-ranger-engagement-tracker.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Urban Park Ranger Engagement Tracker</p>
+        <p class="feed-excerpt">Information about education programs run by Urban Park Ranger staff, including program types, activities, locations, and attendance.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/urban-park-ranger-engagement-t.html">
+        <a href="/2020/11/10/urban-park-ranger-engagement-t.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Urban Park Ranger Engagement Tracker</p>
+        <p class="feed-excerpt">Information about education programs run by Urban Park Ranger staff, including program types, activities, locations, and attendance.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/urban-park-ranger-animal-condition-response.html">
+        <a href="/2020/11/10/urban-park-ranger-animal-condition-response.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Urban Park Ranger Animal Condition Response</p>
+        <p class="feed-excerpt">This dataset contains information about requests for animal assistance, relocation, and/or rescue completed by the Urban Park Rangers</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/urban-park-ranger-animal-condi.html">
+        <a href="/2020/11/10/urban-park-ranger-animal-condi.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Urban Park Ranger Animal Condition Response</p>
+        <p class="feed-excerpt">This dataset contains information about requests for animal assistance, relocation, and/or rescue completed by the Urban Park Rangers</p>
+        </a>
+    </div>
+
+<hr>
+<table width="100%" align="center">
+    <tr>
+        <td width="30%" style="text-align:left;">
+            
+                <a href="/page5/" class="previous">
+                Previous
+                </a>
+            
+        </td>
+        <td width="30%" style="text-align:center;">
+            6 of 129
+        </td>
+        <td width="30%" style="text-align:right;">
+            
+                <a href="/page7/" class="next">Next</a>
+            
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>

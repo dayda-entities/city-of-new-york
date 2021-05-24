@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="website" property="og:type">
+    <meta content="http://localhost:4000/page111/" property="og:url"><title>Dayda</title>
+
+    <link rel="canonical" href="http://localhost:4000/page111/"/>
+    <link rel="apple-touch-icon" href="https://directory.dayda.org/assets/img/entities/city-of-new-york.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/atom.xml">
+
+    <script data-ad-client="ca-pub-0202072258759210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
+<header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Dayda</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">City of New York</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">This is a catalog of datasets organized and made more accessible from the City of New York, providing simple dowloadable CSV and JSON files, as well as Postman Collections you can use as part of workflows and other automation.</p>
+            </div> 
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="https://directory.dayda.org/assets/img/entities/city-of-new-york.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+               <img src="/assets/img/home-icon.png" width="40">
+               <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/about">
+                <img src="/assets/img/about-icon.png" width="40">                
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+                <img src="/assets/img/tags-icon.png" width="40">
+                <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+                <img src="/assets/img/feed-icon.png" width="40">
+                <p class="rss-p">Feed</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/apis.json">             
+                <img src="/assets/img/api-icon.png" width="40">
+                <p class="rss-p">APIs.json</p>
+            </a>
+        </div>   
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script>
+</header>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2018-borough-math-results.html">
+        <a href="/2020/11/10/2013-2018-borough-math-results.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013 - 2018 Borough Math Results</p>
+        <p class="feed-excerpt">Borough results on the New York State (NYS) Math exam</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2018-borough-ela-results.html">
+        <a href="/2020/11/10/2013-2018-borough-ela-results.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013 - 2018 Borough ELA Results</p>
+        <p class="feed-excerpt">Borough results on the New York State (NYS) ELA exam</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2017-school-math-results-all.html">
+        <a href="/2020/11/10/2013-2017-school-math-results-all.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013-2017 School Math Results - All</p>
+        <p class="feed-excerpt">New York City data and trends for state assessment results of math test for grades 3 through 8. Data’s disaggregated by school, by all students, ethnicity, economic status, gender, English language...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2017-school-math-results.html">
+        <a href="/2020/11/10/2013-2017-school-math-results.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013-2017 School Math Results - All</p>
+        <p class="feed-excerpt">New York City data and trends for state assessment results of math test for grades 3 through 8. Data’s disaggregated by school, by all students, ethnicity, economic status, gender, English language...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2017-ela-test-results-by-grade-school-all.html">
+        <a href="/2020/11/10/2013-2017-ela-test-results-by-grade-school-all.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013-2017 ELA Test Results by Grade - School - All</p>
+        <p class="feed-excerpt">Starting in 2013, the NY State Education Department (NYSED) changed the exams to be common core aligned.  In order to comply with FERPA regulations on public reporting of education outcomes, rows w...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2017-ela-test-results-by-grade-districts-all.html">
+        <a href="/2020/11/10/2013-2017-ela-test-results-by-grade-districts-all.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013-2017 ELA Test Results by Grade - Districts - All</p>
+        <p class="feed-excerpt">Latest available data and trends in the state assessment results of English Language Arts for grades 3rd through 8th by district, grade and year in following categories (all students, ethnicity, ec...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2017-ela-test-results-by-grade-citywide-all.html">
+        <a href="/2020/11/10/2013-2017-ela-test-results-by-grade-citywide-all.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013-2017 ELA Test Results by Grade - Citywide - All</p>
+        <p class="feed-excerpt">Latest available data and trends in the state assessment results of English Language Arts for grades 3 through 8 by year and following categories (all students, ethnicity, econ_status, gender, Ever...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2017-ela-test-results-by-grade-borough-all.html">
+        <a href="/2020/11/10/2013-2017-ela-test-results-by-grade-borough-all.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013-2017 ELA Test Results by Grade - Borough - All</p>
+        <p class="feed-excerpt">Latest available data and trends in the state assessment results of English Language Arts for grades 3rd through 8th by borough and year in following categories (all students, ethnicity, econ_statu...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2017-ela-test-results-by.html">
+        <a href="/2020/11/10/2013-2017-ela-test-results-by.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013-2017 ELA Test Results by Grade - Districts - All</p>
+        <p class="feed-excerpt">Latest available data and trends in the state assessment results of English Language Arts for grades 3rd through 8th by district, grade and year in following categories (all students, ethnicity, ec...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2017-district-math-results-all.html">
+        <a href="/2020/11/10/2013-2017-district-math-results-all.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013-2017 District Math Results - All</p>
+        <p class="feed-excerpt">New York City data and trends for state assessment results of math test for grades 3 through 8. Data’s disaggregated by district, by all students, ethnicity, economic status, gender, English langua...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2017-district-math-result.html">
+        <a href="/2020/11/10/2013-2017-district-math-result.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013-2017 District Math Results - All</p>
+        <p class="feed-excerpt">New York City data and trends for state assessment results of math test for grades 3 through 8. Data’s disaggregated by district, by all students, ethnicity, economic status, gender, English langua...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2017-citywide-math-results-all.html">
+        <a href="/2020/11/10/2013-2017-citywide-math-results-all.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013-2017 Citywide Math Results - All</p>
+        <p class="feed-excerpt">New York City data and trends for state assessment results of math test for grades 3 through 8. Data’s disaggregated by all students, ethnicity, economic status, gender, English language limited an...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2017-citywide-math-result.html">
+        <a href="/2020/11/10/2013-2017-citywide-math-result.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013-2017 Citywide Math Results - All</p>
+        <p class="feed-excerpt">New York City data and trends for state assessment results of math test for grades 3 through 8. Data’s disaggregated by all students, ethnicity, economic status, gender, English language limited an...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2017-borough-math-results.html">
+        <a href="/2020/11/10/2013-2017-borough-math-results.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013-2017 Borough Math Results - All</p>
+        <p class="feed-excerpt">New York City data and trends for state assessment results of math test for grades 3 through 8. Data’s disaggregated by borough, by all students, ethnicity, economic status, gender, English languag...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2017-borough-math-results-all.html">
+        <a href="/2020/11/10/2013-2017-borough-math-results-all.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013-2017 Borough Math Results - All</p>
+        <p class="feed-excerpt">New York City data and trends for state assessment results of math test for grades 3 through 8. Data’s disaggregated by borough, by all students, ethnicity, economic status, gender, English languag...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2015-nyc-results-on-the-new-york-state-math-test-with-math-regents-included.html">
+        <a href="/2020/11/10/2013-2015-nyc-results-on-the-new-york-state-math-test-with-math-regents-included.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013 - 2015  NYC Results On The New York State Math Test With Math Regents Included</p>
+        <p class="feed-excerpt">NYC Results On The New York State Math Test With Math Regents Included</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2015-nyc-results-on-the-n.html">
+        <a href="/2020/11/10/2013-2015-nyc-results-on-the-n.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013 - 2015  NYC Results On The New York State Math Test With Math Regents Included</p>
+        <p class="feed-excerpt">NYC Results On The New York State Math Test With Math Regents Included</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2015-new-york-state-mathematics-exam.html">
+        <a href="/2020/11/10/2013-2015-new-york-state-mathematics-exam.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013 - 2015 New York State Mathematics Exam</p>
+        <p class="feed-excerpt">NEW YORK CITY Results on the NEW YORK STATE English Language Arts (ELA) &amp;amp; Mathematics Exams
+(Grades 3 - 8)
+
+Notes 
+Starting in 2013, the NY State Education Department (NYSED) changed the ex...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2015-new-york-state-mathematics-exam-by-school.html">
+        <a href="/2020/11/10/2013-2015-new-york-state-mathematics-exam-by-school.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013 - 2015 New York State Mathematics Exam by School</p>
+        <p class="feed-excerpt">(Grades 3 - 8) 
+2013 - 2015 
+Notes 
+Starting in 2013, the NY State Education Department (NYSED) changed the exams to be Common Core aligned. Results on earlier exams from 2006-2012 can be found at ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2015-new-york-state-mathe.html">
+        <a href="/2020/11/10/2013-2015-new-york-state-mathe.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013 - 2015 New York State Mathematics Exam</p>
+        <p class="feed-excerpt">NEW YORK CITY Results on the NEW YORK STATE English Language Arts (ELA) &amp;amp; Mathematics Exams
+(Grades 3 - 8)
+
+Notes 
+Starting in 2013, the NY State Education Department (NYSED) changed the ex...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2015-new-york-state-english-language-arts-ela-exam.html">
+        <a href="/2020/11/10/2013-2015-new-york-state-english-language-arts-ela-exam.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013 - 2015 New York State English Language Arts (ELA) Exam</p>
+        <p class="feed-excerpt">(Grades 3 - 8)
+
+Notes 
+Starting in 2013, the NY State Education Department (NYSED) changed the exams to be Common Core aligned. Results on earlier exams from 2006-2012 can be found at this link: ht...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2015-new-york-state-english-language-arts-ela-exam-by-school.html">
+        <a href="/2020/11/10/2013-2015-new-york-state-english-language-arts-ela-exam-by-school.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013 - 2015 New York State English Language Arts (ELA) Exam by School</p>
+        <p class="feed-excerpt">NEW YORK CITY Results on the NEW YORK STATE English Language Arts (ELA) &amp;amp; Mathematics Exams
+(Grades 3 - 8)
+2013 - 2015
+Notes 
+Starting in 2013, the NY State Education Department (NYSED) cha...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2015-new-york-state-engli.html">
+        <a href="/2020/11/10/2013-2015-new-york-state-engli.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013 - 2015 New York State English Language Arts (ELA) Exam</p>
+        <p class="feed-excerpt">(Grades 3 - 8)
+
+Notes 
+Starting in 2013, the NY State Education Department (NYSED) changed the exams to be Common Core aligned. Results on earlier exams from 2006-2012 can be found at this link: ht...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2015-ela-results-all.html">
+        <a href="/2020/11/10/2013-2015-ela-results-all.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013-2015 ELA Results - All</p>
+        <p class="feed-excerpt">Beginning in 2013, the NY State Education Department changed the exams to align them with common core. Results from exams from 2006 - 2012 can be found at this link http:\schools.nyc.gov/NR/exeres/...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2014-vadir-incidents.html">
+        <a href="/2020/11/10/2013-2014-vadir-incidents.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013-2014 VADIR INCIDENTS</p>
+        <p class="feed-excerpt">Violent and Disruptive Incidents Report</p>
+        </a>
+    </div>
+
+<hr>
+<table width="100%" align="center">
+    <tr>
+        <td width="30%" style="text-align:left;">
+            
+                <a href="/page110/" class="previous">
+                Previous
+                </a>
+            
+        </td>
+        <td width="30%" style="text-align:center;">
+            111 of 129
+        </td>
+        <td width="30%" style="text-align:right;">
+            
+                <a href="/page112/" class="next">Next</a>
+            
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>

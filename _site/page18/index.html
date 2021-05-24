@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="website" property="og:type">
+    <meta content="http://localhost:4000/page18/" property="og:url"><title>Dayda</title>
+
+    <link rel="canonical" href="http://localhost:4000/page18/"/>
+    <link rel="apple-touch-icon" href="https://directory.dayda.org/assets/img/entities/city-of-new-york.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/atom.xml">
+
+    <script data-ad-client="ca-pub-0202072258759210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
+<header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Dayda</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">City of New York</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">This is a catalog of datasets organized and made more accessible from the City of New York, providing simple dowloadable CSV and JSON files, as well as Postman Collections you can use as part of workflows and other automation.</p>
+            </div> 
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="https://directory.dayda.org/assets/img/entities/city-of-new-york.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+               <img src="/assets/img/home-icon.png" width="40">
+               <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/about">
+                <img src="/assets/img/about-icon.png" width="40">                
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+                <img src="/assets/img/tags-icon.png" width="40">
+                <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+                <img src="/assets/img/feed-icon.png" width="40">
+                <p class="rss-p">Feed</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/apis.json">             
+                <img src="/assets/img/api-icon.png" width="40">
+                <p class="rss-p">APIs.json</p>
+            </a>
+        </div>   
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script>
+</header>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/public-design-commission-annual-report.html">
+        <a href="/2020/11/10/public-design-commission-annual-report.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Public Design Commission Annual Report</p>
+        <p class="feed-excerpt">List of projects that were submitted to and reviewed by the Public Design Commission on an annual basis.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/public-design-commission-annua.html">
+        <a href="/2020/11/10/public-design-commission-annua.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Public Design Commission Annual Report</p>
+        <p class="feed-excerpt">List of projects that were submitted to and reviewed by the Public Design Commission on an annual basis.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/proxy-voting-records.html">
+        <a href="/2020/11/10/proxy-voting-records.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Proxy Voting Records</p>
+        <p class="feed-excerpt">Proxy voting records for the New York City Retirement Systems. This data set sets forth how the New York City Retirement Systems have voted their shares in the companies in which they hold stock. T...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/property-valuation-and-assessment-data.html">
+        <a href="/2020/11/10/property-valuation-and-assessment-data.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Property Valuation and Assessment Data</p>
+        <p class="feed-excerpt">Real Estate Assessment Property data.
+The Department of Finance values properties every year as one step in calculating property tax bills.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/property-valuation-and-assessment-data-tax-classes-234.html">
+        <a href="/2020/11/10/property-valuation-and-assessment-data-tax-classes-234.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Property Valuation and Assessment data Tax Classes 2,3,4</p>
+        <p class="feed-excerpt">Real Estate Assessment Property data.
+
+Data represent NYC properties assesments for purpose to calculate Property Tax, Grant eligibale properties Exemptions and/or Abatements. Data collected and en...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/property-valuation-and-assessment-data-tax-classes-1234.html">
+        <a href="/2020/11/10/property-valuation-and-assessment-data-tax-classes-1234.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Property Valuation and Assessment Data Tax Classes 1,2,3,4</p>
+        <p class="feed-excerpt">Real Estate Assessment Property data. Data represent NYC properties assessments for purpose to calculate Property Tax, Grant eligible properties Exemptions and/or Abatements. Data collected and ent...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/property-valuation-and-assessment-data-tax-class-1.html">
+        <a href="/2020/11/10/property-valuation-and-assessment-data-tax-class-1.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Property Valuation and Assessment Data Tax Class 1</p>
+        <p class="feed-excerpt">Real Estate Assessment Property data.
+
+Data represent NYC properties assesments for purpose to calculate Property Tax, Grant eligibale properties Exemptions and/or Abatements. Data collected and en...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/property-valuation-and-assessm.html">
+        <a href="/2020/11/10/property-valuation-and-assessm.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Property Valuation and Assessment Data</p>
+        <p class="feed-excerpt">Real Estate Assessment Property data.
+The Department of Finance values properties every year as one step in calculating property tax bills.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/property-tax-rates-by-tax-class.html">
+        <a href="/2020/11/10/property-tax-rates-by-tax-class.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Property Tax Rates by Tax Class</p>
+        <p class="feed-excerpt">Table of tax rates by year</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/property-tax-rates-by-tax-clas.html">
+        <a href="/2020/11/10/property-tax-rates-by-tax-clas.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Property Tax Rates by Tax Class</p>
+        <p class="feed-excerpt">Table of tax rates by year</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/property-exemption-detail.html">
+        <a href="/2020/11/10/property-exemption-detail.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Property Exemption Detail</p>
+        <p class="feed-excerpt">Government, Not-for-Profit and Commercial Exemptions maintained by NYC Department of Finance.
+
+The Department of Finance administers a number of benefits for property owners in the form of exemptio...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/property-data-buildings-information-system.html">
+        <a href="/2020/11/10/property-data-buildings-information-system.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Property Data (Buildings Information System)</p>
+        <p class="feed-excerpt">Do not use this dataset. It does not actually provide Property Data in its current form. We are working on improvements to the dataset to more accurately reflect its title and original intent.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/property-data-buildings-inform.html">
+        <a href="/2020/11/10/property-data-buildings-inform.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Property Data (Buildings Information System)</p>
+        <p class="feed-excerpt">Do not use this dataset. It does not actually provide Property Data in its current form. We are working on improvements to the dataset to more accurately reflect its title and original intent.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/prompt-payment-interest-rates.html">
+        <a href="/2020/11/10/prompt-payment-interest-rates.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Prompt Payment Interest Rates</p>
+        <p class="feed-excerpt">PPB shall coordinate and publish an annual prompt payment performance report detailing each agency’s performance pursuant to Charter Section 332. PPB shall additionally make cumulative prompt payme...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/projection-of-cash-source-and-use.html">
+        <a href="/2020/11/10/projection-of-cash-source-and-use.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Projection of Cash Source and Use</p>
+        <p class="feed-excerpt">The description of the change from beginning to ending cash balance for a given fiscal year by operating, cashflow financing, and capital financing inflows and outflows. Data is reported in million...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/projection-of-cash-source-and.html">
+        <a href="/2020/11/10/projection-of-cash-source-and.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Projection of Cash Source and Use</p>
+        <p class="feed-excerpt">The description of the change from beginning to ending cash balance for a given fiscal year by operating, cashflow financing, and capital financing inflows and outflows. Data is reported in million...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/projected-public-school-ratio.html">
+        <a href="/2020/11/10/projected-public-school-ratio.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Projected Public School Ratio</p>
+        <p class="feed-excerpt">Estimated # of students to be generated by future housing growth</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/projected-population-2010-2040.html">
+        <a href="/2020/11/10/projected-population-2010-2040.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Projected Population 2010-2040 - Total By Age Groups</p>
+        <p class="feed-excerpt">Projected total New York City population for five intervals from 2010 through 2040 by Borough, broken down by 18 age cohorts. (Age groups may not add up to the total due to rounding.)</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/projected-population-2010-2040-total-by-age-groups.html">
+        <a href="/2020/11/10/projected-population-2010-2040-total-by-age-groups.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Projected Population 2010-2040 - Total By Age Groups</p>
+        <p class="feed-excerpt">Projected total New York City population for five intervals from 2010 through 2040 by Borough, broken down by 18 age cohorts. (Age groups may not add up to the total due to rounding.)</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/projected-population-2010-2040-summary.html">
+        <a href="/2020/11/10/projected-population-2010-2040-summary.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Projected Population 2010-2040 - Summary</p>
+        <p class="feed-excerpt">Projected New York City population numbers and percentage changes from 2010 through 2040 by Borough, including school-age, 65 and Over, and total population.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/projected-new-housing-starts-as-used-in-enrollment-projection.html">
+        <a href="/2020/11/10/projected-new-housing-starts-as-used-in-enrollment-projection.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Projected New Housing Starts - as Used in Enrollment Projection</p>
+        <p class="feed-excerpt">of units from projected future housing growth in the City</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/projected-new-housing-starts-a.html">
+        <a href="/2020/11/10/projected-new-housing-starts-a.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Projected New Housing Starts - as Used in Enrollment Projection</p>
+        <p class="feed-excerpt">of units from projected future housing growth in the City</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/projected-citywide-energy-cost.html">
+        <a href="/2020/11/10/projected-citywide-energy-cost.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Projected Citywide Energy Cost</p>
+        <p class="feed-excerpt">This dataset summarizes  citywide energy cost projections.  Dollar amounts are rounded to millions.  This dataset is updated bi-annually,</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/production-office-space.html">
+        <a href="/2020/11/10/production-office-space.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Production office space</p>
+        <p class="feed-excerpt">List of Commercial space for recording and sound production in New York City. This is a list of studios which have requested to be included, rather than a comprehensive list of NYC facilities.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/procurements-by-size.html">
+        <a href="/2020/11/10/procurements-by-size.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Procurements by Size</p>
+        <p class="feed-excerpt">Summary table of procurements in the fiscal year grouped by agency and size</p>
+        </a>
+    </div>
+
+<hr>
+<table width="100%" align="center">
+    <tr>
+        <td width="30%" style="text-align:left;">
+            
+                <a href="/page17/" class="previous">
+                Previous
+                </a>
+            
+        </td>
+        <td width="30%" style="text-align:center;">
+            18 of 129
+        </td>
+        <td width="30%" style="text-align:right;">
+            
+                <a href="/page19/" class="next">Next</a>
+            
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>

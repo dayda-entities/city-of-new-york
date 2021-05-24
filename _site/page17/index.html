@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="website" property="og:type">
+    <meta content="http://localhost:4000/page17/" property="og:url"><title>Dayda</title>
+
+    <link rel="canonical" href="http://localhost:4000/page17/"/>
+    <link rel="apple-touch-icon" href="https://directory.dayda.org/assets/img/entities/city-of-new-york.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/atom.xml">
+
+    <script data-ad-client="ca-pub-0202072258759210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
+<header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Dayda</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">City of New York</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">This is a catalog of datasets organized and made more accessible from the City of New York, providing simple dowloadable CSV and JSON files, as well as Postman Collections you can use as part of workflows and other automation.</p>
+            </div> 
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="https://directory.dayda.org/assets/img/entities/city-of-new-york.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+               <img src="/assets/img/home-icon.png" width="40">
+               <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/about">
+                <img src="/assets/img/about-icon.png" width="40">                
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+                <img src="/assets/img/tags-icon.png" width="40">
+                <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+                <img src="/assets/img/feed-icon.png" width="40">
+                <p class="rss-p">Feed</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/apis.json">             
+                <img src="/assets/img/api-icon.png" width="40">
+                <p class="rss-p">APIs.json</p>
+            </a>
+        </div>   
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script>
+</header>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/recognized-shop-healthy-stores.html">
+        <a href="/2020/11/10/recognized-shop-healthy-stores.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Recognized Shop Healthy Stores</p>
+        <p class="feed-excerpt">Bodegas &amp;amp; Grocery Stores Receiving Recognition from Borough President’s Office
+
+Each year, bodegas and grocery stores located in and around  Action Center catchment areas participate in the...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/real-property-income-and-expense-form-non-compliance-list.html">
+        <a href="/2020/11/10/real-property-income-and-expense-form-non-compliance-list.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Real Property Income and Expense Form non-compliance list</p>
+        <p class="feed-excerpt">Properties required to file RPIE-2107 which did not do so</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/real-property-income-and-expen.html">
+        <a href="/2020/11/10/real-property-income-and-expen.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Real Property Income and Expense Form non-compliance list</p>
+        <p class="feed-excerpt">Properties required to file RPIE-2107 which did not do so</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/ready-ny-events.html">
+        <a href="/2020/11/10/ready-ny-events.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Ready NY Events</p>
+        <p class="feed-excerpt">Events held to increase public preparedness</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/railroad-structure.html">
+        <a href="/2020/11/10/railroad-structure.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Railroad Structure</p>
+        <p class="feed-excerpt">Railroad Structure. Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/railroad-line.html">
+        <a href="/2020/11/10/railroad-line.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Railroad Line</p>
+        <p class="feed-excerpt">Planimetric basemap layer containing railroad lines. Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/radiation-producing-equipment.html">
+        <a href="/2020/11/10/radiation-producing-equipment.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Radiation Producing Equipment</p>
+        <p class="feed-excerpt">This dataset consists of registrations for radiation producing equipment. The owner or operator of any radiation installation or of any radiation equipment in operable condition intended to be used...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/queens-library-branches.html">
+        <a href="/2020/11/10/queens-library-branches.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Queens Library Branches</p>
+        <p class="feed-excerpt">Hours and locations of Queens Library Branches</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/queens-community-board-members.html">
+        <a href="/2020/11/10/queens-community-board-members.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Queens Community Board Members</p>
+        <p class="feed-excerpt">List of all community board appointees, leadership, and employees.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/queens-community-board-district-managers-and-chairs.html">
+        <a href="/2020/11/10/queens-community-board-district-managers-and-chairs.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Queens Community Board District Managers and Chairs</p>
+        <p class="feed-excerpt">List of all community board appointees, leadership, and employees.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/queens-community-board-distric.html">
+        <a href="/2020/11/10/queens-community-board-distric.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Queens Community Board District Managers and Chairs</p>
+        <p class="feed-excerpt">List of all community board appointees, leadership, and employees.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/quarterly-borrowing-schedule.html">
+        <a href="/2020/11/10/quarterly-borrowing-schedule.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Quarterly Borrowing Schedule</p>
+        <p class="feed-excerpt">This dataset shows the amount of borrowing per quarter, broken down by both long and short term borrowing type and by type of debt issuer. Amounts are in billions and are updated quarterly.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/quarterly-bond-update-variable.html">
+        <a href="/2020/11/10/quarterly-bond-update-variable.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Quarterly Bond Update Variable Bond Outstanding</p>
+        <p class="feed-excerpt">This data set provides information on outstanding New York city bonds, interest rate exchange agreements, and projected debt service on those bonds</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/quarterly-bond-update-variable-bond-outstanding.html">
+        <a href="/2020/11/10/quarterly-bond-update-variable-bond-outstanding.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Quarterly Bond Update Variable Bond Outstanding</p>
+        <p class="feed-excerpt">This data set provides information on outstanding New York city bonds, interest rate exchange agreements, and projected debt service on those bonds</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/published-audit-list.html">
+        <a href="/2020/11/10/published-audit-list.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Published Audit List</p>
+        <p class="feed-excerpt">List of published audits performed by the Comptroller’s Audit Bureau.
+
+This data set provides a list of published audits conducted by the Comptroller’s Audit Bureau. The audits listed here can be r...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/public-wi-fi-systems-nyc.html">
+        <a href="/2020/11/10/public-wi-fi-systems-nyc.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Public Wi-Fi Systems NYC</p>
+        <p class="feed-excerpt">The different providers in New York City of Public Wi-Fi at locations or “Hotspots” distributed across the city, not including service provided on buses or ferries.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/public-wi-fi-in-pedestrian-corridors-and-public-computer-centers.html">
+        <a href="/2020/11/10/public-wi-fi-in-pedestrian-corridors-and-public-computer-centers.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Public Wi-Fi in Pedestrian Corridors and Public Computer Centers</p>
+        <p class="feed-excerpt">The Public Wi-Fi in Pedestrian Corridors and Public Computer Centers dataset is an analysis of Public Wi-Fi hotspots in pedestrian corridors (zones of commercial activity in each neighborhood that ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/public-wi-fi-in-pedestrian-cor.html">
+        <a href="/2020/11/10/public-wi-fi-in-pedestrian-cor.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Public Wi-Fi in Pedestrian Corridors and Public Computer Centers</p>
+        <p class="feed-excerpt">The Public Wi-Fi in Pedestrian Corridors and Public Computer Centers dataset is an analysis of Public Wi-Fi hotspots in pedestrian corridors (zones of commercial activity in each neighborhood that ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/public-use-microdata-areas-puma.html">
+        <a href="/2020/11/10/public-use-microdata-areas-puma.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Public Use Microdata Areas (PUMA)</p>
+        <p class="feed-excerpt">Shapefile of NYC Public Use Microdata Areas (PUMAs). PUMAs are statistical geographic areas defined for the dissemination of Public Use Microdata Sample (PUMS) data. PUMAs have a minimum population...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/public-use-microdata-areas-pum.html">
+        <a href="/2020/11/10/public-use-microdata-areas-pum.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Public Use Microdata Areas (PUMA)</p>
+        <p class="feed-excerpt">Shapefile of NYC Public Use Microdata Areas (PUMAs). PUMAs are statistical geographic areas defined for the dissemination of Public Use Microdata Sample (PUMS) data. PUMAs have a minimum population...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/public-recycling-bins.html">
+        <a href="/2020/11/10/public-recycling-bins.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Public Recycling Bins</p>
+        <p class="feed-excerpt">Locations of public recycling bins throughout NYC</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/public-plazas.html">
+        <a href="/2020/11/10/public-plazas.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Public Plazas</p>
+        <p class="feed-excerpt">Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/public-pay-telephone-locations.html">
+        <a href="/2020/11/10/public-pay-telephone-locations.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Public Pay Telephone Locations</p>
+        <p class="feed-excerpt">DoITT regulates public pay telephones installed on and over the City’s sidewalks except for phones that are attached to subway stations (which are handled by the Metropolitan Transportation Authori...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/public-design-commission-monthly-design-review.html">
+        <a href="/2020/11/10/public-design-commission-monthly-design-review.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Public Design Commission Monthly Design Review</p>
+        <p class="feed-excerpt">List of projects that were reviewed by the Public Design Commission on a monthly basis.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/public-design-commission-month.html">
+        <a href="/2020/11/10/public-design-commission-month.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Public Design Commission Monthly Design Review</p>
+        <p class="feed-excerpt">List of projects that were reviewed by the Public Design Commission on a monthly basis.</p>
+        </a>
+    </div>
+
+<hr>
+<table width="100%" align="center">
+    <tr>
+        <td width="30%" style="text-align:left;">
+            
+                <a href="/page16/" class="previous">
+                Previous
+                </a>
+            
+        </td>
+        <td width="30%" style="text-align:center;">
+            17 of 129
+        </td>
+        <td width="30%" style="text-align:right;">
+            
+                <a href="/page18/" class="next">Next</a>
+            
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>

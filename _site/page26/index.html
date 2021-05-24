@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="website" property="og:type">
+    <meta content="http://localhost:4000/page26/" property="og:url"><title>Dayda</title>
+
+    <link rel="canonical" href="http://localhost:4000/page26/"/>
+    <link rel="apple-touch-icon" href="https://directory.dayda.org/assets/img/entities/city-of-new-york.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/atom.xml">
+
+    <script data-ad-client="ca-pub-0202072258759210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
+<header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Dayda</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">City of New York</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">This is a catalog of datasets organized and made more accessible from the City of New York, providing simple dowloadable CSV and JSON files, as well as Postman Collections you can use as part of workflows and other automation.</p>
+            </div> 
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="https://directory.dayda.org/assets/img/entities/city-of-new-york.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+               <img src="/assets/img/home-icon.png" width="40">
+               <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/about">
+                <img src="/assets/img/about-icon.png" width="40">                
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+                <img src="/assets/img/tags-icon.png" width="40">
+                <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+                <img src="/assets/img/feed-icon.png" width="40">
+                <p class="rss-p">Feed</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/apis.json">             
+                <img src="/assets/img/api-icon.png" width="40">
+                <p class="rss-p">APIs.json</p>
+            </a>
+        </div>   
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script>
+</header>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nycgov-web-analytics.html">
+        <a href="/2020/11/10/nycgov-web-analytics.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC.gov Web Analytics</p>
+        <p class="feed-excerpt">Web traffic statistics for the top 2000 most visited pages on nyc.gov by month.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nycgov-poverty-measure-data-2018.html">
+        <a href="/2020/11/10/nycgov-poverty-measure-data-2018.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYCgov Poverty Measure Data (2018)</p>
+        <p class="feed-excerpt">American Community Survey Public Use Micro Sample, augmented by NYC Opportunity.
+
+This file contains poverty rates and related data from the NYCgov poverty measure data. The NYCgov poverty measure ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nycgov-poverty-measure-data-2017.html">
+        <a href="/2020/11/10/nycgov-poverty-measure-data-2017.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYCgov Poverty Measure Data (2017)</p>
+        <p class="feed-excerpt">American Community Survey Public Use Micro Sample, augmented by NYC Opportunity.
+
+This file contains poverty rates and related data from the NYCgov poverty measure data. The NYCgov poverty measure ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nycgov-poverty-measure-data-2016.html">
+        <a href="/2020/11/10/nycgov-poverty-measure-data-2016.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYCgov Poverty Measure Data (2016)</p>
+        <p class="feed-excerpt">American Community Survey Public Use Micro Sample, augmented by NYC Opportunity.
+
+This file contains poverty rates and related data from the NYCgov poverty measure data. The NYCgov poverty measure ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nycgov-poverty-measure-data-2015.html">
+        <a href="/2020/11/10/nycgov-poverty-measure-data-2015.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYCgov Poverty Measure Data (2015)</p>
+        <p class="feed-excerpt">American Community Survey Public Use Micro Sample, augmented by NYC Opportunity.
+
+This file contains poverty rates and related data from the NYCgov poverty measure data. The NYCgov poverty measure ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nycgov-poverty-measure-data-2014.html">
+        <a href="/2020/11/10/nycgov-poverty-measure-data-2014.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYCgov Poverty Measure Data (2014)</p>
+        <p class="feed-excerpt">American Community Survey Public Use Micro Sample, augmented by NYC Opportunity.
+
+This file contains poverty rates and related data from the NYCgov poverty measure data. The NYCgov poverty measure ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nycgov-poverty-measure-data-2013.html">
+        <a href="/2020/11/10/nycgov-poverty-measure-data-2013.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYCgov Poverty Measure Data (2013)</p>
+        <p class="feed-excerpt">American Community Survey Public Use Micro Sample, augmented by NYC Opportunity.
+
+This file contains poverty rates and related data from the NYCgov poverty measure data. The NYCgov poverty measure ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nycgov-poverty-measure-data-2012.html">
+        <a href="/2020/11/10/nycgov-poverty-measure-data-2012.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYCgov Poverty Measure Data (2012)</p>
+        <p class="feed-excerpt">American Community Survey Public Use Micro Sample, augmented by NYC Opportunity.
+
+This file contains poverty rates and related data from the NYCgov poverty measure data. The NYCgov poverty measure ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nycgov-poverty-measure-data-2011.html">
+        <a href="/2020/11/10/nycgov-poverty-measure-data-2011.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYCgov Poverty Measure Data (2011)</p>
+        <p class="feed-excerpt">American Community Survey Public Use Micro Sample, augmented by NYC Opportunity.
+
+This file contains poverty rates and related data from the NYCgov poverty measure data. The NYCgov poverty measure ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nycgov-poverty-measure-data-2010.html">
+        <a href="/2020/11/10/nycgov-poverty-measure-data-2010.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYCgov Poverty Measure Data (2010)</p>
+        <p class="feed-excerpt">American Community Survey Public Use Micro Sample, augmented by NYC Opportunity.
+
+This file contains poverty rates and related data from the NYCgov poverty measure data. The NYCgov poverty measure ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nycgov-poverty-measure-data-2009.html">
+        <a href="/2020/11/10/nycgov-poverty-measure-data-2009.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYCgov Poverty Measure Data (2009)</p>
+        <p class="feed-excerpt">American Community Survey Public Use Micro Sample, augmented by NYC Opportunity.
+
+This file contains poverty rates and related data from the NYCgov poverty measure data. The NYCgov poverty measure ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nycgov-poverty-measure-data-2008.html">
+        <a href="/2020/11/10/nycgov-poverty-measure-data-2008.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYCgov Poverty Measure Data (2008)</p>
+        <p class="feed-excerpt">American Community Survey Public Use Micro Sample, augmented by NYC Opportunity.
+
+This file contains poverty rates and related data from the NYCgov poverty measure data. The NYCgov poverty measure ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nycgov-poverty-measure-data-2007.html">
+        <a href="/2020/11/10/nycgov-poverty-measure-data-2007.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYCgov Poverty Measure Data (2007)</p>
+        <p class="feed-excerpt">American Community Survey Public Use Micro Sample, augmented by NYC Opportunity.
+
+This file contains poverty rates and related data from the NYCgov poverty measure data. The NYCgov poverty measure ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nycgov-poverty-measure-data-2006.html">
+        <a href="/2020/11/10/nycgov-poverty-measure-data-2006.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYCgov Poverty Measure Data (2006)</p>
+        <p class="feed-excerpt">American Community Survey Public Use Micro Sample, augmented by NYC Opportunity.
+
+This file contains poverty rates and related data from the NYCgov poverty measure data. The NYCgov poverty measure ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nycgov-poverty-measure-data-2005.html">
+        <a href="/2020/11/10/nycgov-poverty-measure-data-2005.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYCgov Poverty Measure Data (2005)</p>
+        <p class="feed-excerpt">American Community Survey Public Use Micro Sample, augmented by NYC Opportunity.
+
+This file contains poverty rates and related data from the NYCgov poverty measure data. The NYCgov poverty measure ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nycgov-poverty-measure-data-20.html">
+        <a href="/2020/11/10/nycgov-poverty-measure-data-20.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYCgov Poverty Measure Data (2016)</p>
+        <p class="feed-excerpt">American Community Survey Public Use Micro Sample, augmented by NYC Opportunity.
+
+This file contains poverty rates and related data from the NYCgov poverty measure data. The NYCgov poverty measure ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nycdep-recreation-area-maps.html">
+        <a href="/2020/11/10/nycdep-recreation-area-maps.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYCDEP Recreation Area Maps</p>
+        <p class="feed-excerpt">NYCDEP Recreation Area Maps
+
+Note:
+WMU = New York State Department of Environmental Conservation Wildlife Management Unit. Hunters should verify the WMU is correct.
+** Hunting by Bow only.  
+* Hunt...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nycdcp-manhattan-bike-counts-on-street-weekday.html">
+        <a href="/2020/11/10/nycdcp-manhattan-bike-counts-on-street-weekday.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYCDCP Manhattan Bike Counts - On Street Weekday</p>
+        <p class="feed-excerpt">The Transportation Division of the New York City Department of City Planning (NYCDCP) has performed annual bike counts in Manhattan since 1999. The counts have been conducted along designated bicyc...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nycdcp-manhattan-bike-counts-off-street.html">
+        <a href="/2020/11/10/nycdcp-manhattan-bike-counts-off-street.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYCDCP Manhattan Bike Counts - Off Street</p>
+        <p class="feed-excerpt">The Transportation Division of the New York City Department of City Planning (NYCDCP) has performed annual bike counts in Manhattan since 1999. The counts have been conducted along designated bicyc...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nycdcp-manhattan-bike-counts-o.html">
+        <a href="/2020/11/10/nycdcp-manhattan-bike-counts-o.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYCDCP Manhattan Bike Counts - On Street Weekday</p>
+        <p class="feed-excerpt">The Transportation Division of the New York City Department of City Planning (NYCDCP) has performed annual bike counts in Manhattan since 1999. The counts have been conducted along designated bicyc...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nycdcp-manhattan-bike-count-locations.html">
+        <a href="/2020/11/10/nycdcp-manhattan-bike-count-locations.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYCDCP Manhattan Bike Count Locations</p>
+        <p class="feed-excerpt">The Transportation Division of the New York City Department of City Planning (NYCDCP) has performed annual bike counts in Manhattan since 1999. The counts have been conducted along designated bicyc...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nycdcp-manhattan-bike-count-lo.html">
+        <a href="/2020/11/10/nycdcp-manhattan-bike-count-lo.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYCDCP Manhattan Bike Count Locations</p>
+        <p class="feed-excerpt">The Transportation Division of the New York City Department of City Planning (NYCDCP) has performed annual bike counts in Manhattan since 1999. The counts have been conducted along designated bicyc...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc.gov-web-analytics.html">
+        <a href="/2020/11/10/nyc.gov-web-analytics.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC.gov Web Analytics</p>
+        <p class="feed-excerpt">Web traffic statistics for the top 2000 most visited pages on nyc.gov by month.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-zoning-tax-lot-database.html">
+        <a href="/2020/11/10/nyc-zoning-tax-lot-database.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Zoning Tax Lot Database</p>
+        <p class="feed-excerpt">The Zoning Tax Lot Database is a comma–separated values (CSV) file format that contains up-to-date zoning by parcel. The Database includes the zoning designations and zoning map associated with a s...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-women's-resource-network-database.html">
+        <a href="/2020/11/10/nyc-women's-resource-network-database.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Women's Resource Network Database</p>
+        <p class="feed-excerpt">The NYC Women’s Resource Network is a free, user-friendly database of over 1,000 nonprofit organizations and governmental agencies that work to advance and benefit women and families in New York Ci...</p>
+        </a>
+    </div>
+
+<hr>
+<table width="100%" align="center">
+    <tr>
+        <td width="30%" style="text-align:left;">
+            
+                <a href="/page25/" class="previous">
+                Previous
+                </a>
+            
+        </td>
+        <td width="30%" style="text-align:center;">
+            26 of 129
+        </td>
+        <td width="30%" style="text-align:right;">
+            
+                <a href="/page27/" class="next">Next</a>
+            
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>

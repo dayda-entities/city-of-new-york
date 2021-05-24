@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="website" property="og:type">
+    <meta content="http://localhost:4000/page67/" property="og:url"><title>Dayda</title>
+
+    <link rel="canonical" href="http://localhost:4000/page67/"/>
+    <link rel="apple-touch-icon" href="https://directory.dayda.org/assets/img/entities/city-of-new-york.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/atom.xml">
+
+    <script data-ad-client="ca-pub-0202072258759210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
+<header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Dayda</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">City of New York</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">This is a catalog of datasets organized and made more accessible from the City of New York, providing simple dowloadable CSV and JSON files, as well as Postman Collections you can use as part of workflows and other automation.</p>
+            </div> 
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="https://directory.dayda.org/assets/img/entities/city-of-new-york.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+               <img src="/assets/img/home-icon.png" width="40">
+               <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/about">
+                <img src="/assets/img/about-icon.png" width="40">                
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+                <img src="/assets/img/tags-icon.png" width="40">
+                <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+                <img src="/assets/img/feed-icon.png" width="40">
+                <p class="rss-p">Feed</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/apis.json">             
+                <img src="/assets/img/api-icon.png" width="40">
+                <p class="rss-p">APIs.json</p>
+            </a>
+        </div>   
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script>
+</header>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/department-for-the-aging-dfta-services-by-city-meals-on-wheels-administration-contracted-providers.html">
+        <a href="/2020/11/10/department-for-the-aging-dfta-services-by-city-meals-on-wheels-administration-contracted-providers.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Department for the Aging (DFTA) Services by City Meals on Wheels Administration Contracted Providers</p>
+        <p class="feed-excerpt">Summary of DFTA City Meals Administration Contracts Budgeted Service Units by Service.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/department-for-the-aging-dfta-services-by-case-management-contracted-providers.html">
+        <a href="/2020/11/10/department-for-the-aging-dfta-services-by-case-management-contracted-providers.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Department for the Aging (DFTA) Services by Case Management Contracted Providers</p>
+        <p class="feed-excerpt">Listing of registered and contracted agencies providing Case Management Services with Budgeted Units of Service</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/department-for-the-aging-dfta-services-by-caregiver-resources-contracted-providers.html">
+        <a href="/2020/11/10/department-for-the-aging-dfta-services-by-caregiver-resources-contracted-providers.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Department for the Aging (DFTA) Services by Caregiver Resources Contracted Providers</p>
+        <p class="feed-excerpt">Summary of DFTA Caregivers Contracts Budgeted Service Units by Service.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/department-for-the-aging-dfta-senior-center-local-law-140-data.html">
+        <a href="/2020/11/10/department-for-the-aging-dfta-senior-center-local-law-140-data.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Department for the Aging (DFTA) - Senior Center Local Law 140 data</p>
+        <p class="feed-excerpt">Senior Centers ID information, days open and budgeted and expenditure data.
+This information is required by Local Law 140 to provide to the city council and publish on DFTA’s website and open data ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/department-for-the-aging-dfta-senior-center-local-law-140-client-data.html">
+        <a href="/2020/11/10/department-for-the-aging-dfta-senior-center-local-law-140-client-data.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Department for the Aging (DFTA) - Senior Center Local Law 140 Client Data</p>
+        <p class="feed-excerpt">Client participation at senior centers.
+This information is required by Local Law 140 to provide to the city council and publish on DFTA’s website and open data source.  It contents data on senior ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/department-for-the-aging-dfta-senior-center-contracted-providers.html">
+        <a href="/2020/11/10/department-for-the-aging-dfta-senior-center-contracted-providers.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Department for the Aging (DFTA) Senior Center Contracted Providers</p>
+        <p class="feed-excerpt">Listing of registered and contracted agencies providing Senior Center Services with hours of operation.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/department-for-the-aging-dfta-reported-service-units-by-month-of-transportation-contracted-providers.html">
+        <a href="/2020/11/10/department-for-the-aging-dfta-reported-service-units-by-month-of-transportation-contracted-providers.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Department for the Aging (DFTA) Reported Service Units by Month of Transportation Contracted Providers</p>
+        <p class="feed-excerpt">Reported Units of Service by Month of registered and contracted agencies providing Transportation Services.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/department-for-the-aging-dfta-reported-service-units-by-month-of-senior-center-contracted-providers.html">
+        <a href="/2020/11/10/department-for-the-aging-dfta-reported-service-units-by-month-of-senior-center-contracted-providers.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Department for the Aging (DFTA) Reported Service Units by Month of Senior Center Contracted Providers</p>
+        <p class="feed-excerpt">Reported Units of Service by Month of registered and contracted agencies providing Senior Center Services.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/department-for-the-aging-dfta-reported-service-units-by-month-of-ny-connects-contracted-providers.html">
+        <a href="/2020/11/10/department-for-the-aging-dfta-reported-service-units-by-month-of-ny-connects-contracted-providers.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Department for the Aging (DFTA) Reported Service Units by Month of NY Connects Contracted Providers</p>
+        <p class="feed-excerpt">Reported Units of Service by Month of registered and contracted agencies providing New York Connects Services.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/department-for-the-aging-dfta-reported-service-units-by-month-of-norc-contracted-providers.html">
+        <a href="/2020/11/10/department-for-the-aging-dfta-reported-service-units-by-month-of-norc-contracted-providers.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Department for the Aging (DFTA) Reported Service Units by Month of NORC Contracted Providers</p>
+        <p class="feed-excerpt">Reported Units of Service by Month of registered and contracted agencies providing NORC Services.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/department-for-the-aging-dfta-reported-service-units-by-month-of-legal-contracted-providers.html">
+        <a href="/2020/11/10/department-for-the-aging-dfta-reported-service-units-by-month-of-legal-contracted-providers.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Department for the Aging (DFTA) Reported Service Units by Month of Legal Contracted Providers</p>
+        <p class="feed-excerpt">Reported Units of Service by Month of registered and contracted agencies providing Legal Services.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/department-for-the-aging-dfta-reported-service-units-by-month-of-home-delivered-meals-contracted-providers.html">
+        <a href="/2020/11/10/department-for-the-aging-dfta-reported-service-units-by-month-of-home-delivered-meals-contracted-providers.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Department for the Aging (DFTA) Reported Service Units by Month of Home Delivered Meals Contracted Providers</p>
+        <p class="feed-excerpt">Reported Units of Service by Month of registered and contracted agencies providing Home Delivered Meals Services.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/department-for-the-aging-dfta-reported-service-units-by-month-of-home-care-agency-contracted-providers.html">
+        <a href="/2020/11/10/department-for-the-aging-dfta-reported-service-units-by-month-of-home-care-agency-contracted-providers.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Department for the Aging (DFTA) Reported Service Units by Month of Home Care Agency Contracted Providers</p>
+        <p class="feed-excerpt">Reported Units of Service by Month of registered and contracted agencies providing Home Care Services.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/department-for-the-aging-dfta-reported-service-units-by-month-of-geriatric-mental-health-contracted-providers.html">
+        <a href="/2020/11/10/department-for-the-aging-dfta-reported-service-units-by-month-of-geriatric-mental-health-contracted-providers.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Department for the Aging (DFTA) Reported Service Units by Month of Geriatric Mental Health Contracted Providers</p>
+        <p class="feed-excerpt">Reported Units of Service by Month of registered and contracted agencies providing Geriatric Mental Health Services.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/department-for-the-aging-dfta-reported-service-units-by-month-of-elderly-abuse-and-crime-prevention-contracted-providers.html">
+        <a href="/2020/11/10/department-for-the-aging-dfta-reported-service-units-by-month-of-elderly-abuse-and-crime-prevention-contracted-providers.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Department for the Aging (DFTA) Reported Service Units by Month of Elderly Abuse and Crime Prevention Contracted Providers</p>
+        <p class="feed-excerpt">Reported Units of Service by Month of registered and contracted agencies providing Elderly Abuse and Crime Prevention Services.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/department-for-the-aging-dfta-reported-service-units-by-month-of-city-meals-on-wheels-administration-contracted-providers.html">
+        <a href="/2020/11/10/department-for-the-aging-dfta-reported-service-units-by-month-of-city-meals-on-wheels-administration-contracted-providers.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Department for the Aging (DFTA) Reported Service Units by Month of City Meals on Wheels Administration Contracted Providers</p>
+        <p class="feed-excerpt">Reported Units of Service by Month of registered and contracted agencies providing City Meals on Wheels Administration Services.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/department-for-the-aging-dfta-reported-service-units-by-month-of-case-management-agency-contracted-providers.html">
+        <a href="/2020/11/10/department-for-the-aging-dfta-reported-service-units-by-month-of-case-management-agency-contracted-providers.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Department for the Aging (DFTA) Reported Service Units by Month of Case Management Agency Contracted Providers</p>
+        <p class="feed-excerpt">Reported Units of Service by Month of registered and contracted agencies providing Case Management Services/</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/department-for-the-aging-dfta-reported-service-units-by-month-of-care-giver-contracted-providers.html">
+        <a href="/2020/11/10/department-for-the-aging-dfta-reported-service-units-by-month-of-care-giver-contracted-providers.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Department for the Aging (DFTA) Reported Service Units by Month of Care Giver Contracted Providers</p>
+        <p class="feed-excerpt">Reported Units of Service by Month of registered and contracted agencies providing Caregiver Resource Services.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/department-for-the-aging-dfta-reported-line-item-expenditures-by-month-of-transportation-services-contracted-providers.html">
+        <a href="/2020/11/10/department-for-the-aging-dfta-reported-line-item-expenditures-by-month-of-transportation-services-contracted-providers.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Department for the Aging (DFTA) Reported Line Item Expenditures by Month of Transportation Services Contracted Providers</p>
+        <p class="feed-excerpt">Reported Expenditures of Line Items by Month of registered and contracted agencies providing Transportation Services.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/department-for-the-aging-dfta-reported-line-item-expenditures-by-month-of-senior-center-contracted-providers.html">
+        <a href="/2020/11/10/department-for-the-aging-dfta-reported-line-item-expenditures-by-month-of-senior-center-contracted-providers.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Department for the Aging (DFTA) Reported Line Item Expenditures by Month of Senior Center Contracted Providers</p>
+        <p class="feed-excerpt">Reported Expenditures of Line Items by Month of registered and contracted agencies providing Senior Center Services.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/department-for-the-aging-dfta-reported-line-item-expenditures-by-month-of-ny-connects-services-contracted-providers.html">
+        <a href="/2020/11/10/department-for-the-aging-dfta-reported-line-item-expenditures-by-month-of-ny-connects-services-contracted-providers.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Department for the Aging (DFTA) Reported Line Item Expenditures by Month of NY Connects Services Contracted Providers</p>
+        <p class="feed-excerpt">Reported Expenditures of Line Items by Month of registered and contracted agencies providing NY Connects Services.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/department-for-the-aging-dfta-reported-line-item-expenditures-by-month-of-norc-services-contracted-providers.html">
+        <a href="/2020/11/10/department-for-the-aging-dfta-reported-line-item-expenditures-by-month-of-norc-services-contracted-providers.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Department for the Aging (DFTA) Reported Line Item Expenditures by Month of NORC Services Contracted Providers</p>
+        <p class="feed-excerpt">Reported Expenditures of Line Items by Month of registered and contracted agencies providing NORC Services.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/department-for-the-aging-dfta-reported-line-item-expenditures-by-month-of-legal-services-contracted-providers.html">
+        <a href="/2020/11/10/department-for-the-aging-dfta-reported-line-item-expenditures-by-month-of-legal-services-contracted-providers.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Department for the Aging (DFTA) Reported Line Item Expenditures by Month of Legal Services Contracted Providers</p>
+        <p class="feed-excerpt">Reported Expenditures of Line Items by Month of registered and contracted agencies providing Legal Services.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/department-for-the-aging-dfta-reported-line-item-expenditures-by-month-of-homecare-contracted-providers.html">
+        <a href="/2020/11/10/department-for-the-aging-dfta-reported-line-item-expenditures-by-month-of-homecare-contracted-providers.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Department for the Aging (DFTA) Reported Line Item Expenditures by Month of Homecare Contracted Providers</p>
+        <p class="feed-excerpt">Reported Expenditures of Line Items by Month of registered and contracted agencies providing Homecare Services.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/department-for-the-aging-dfta-reported-line-item-expenditures-by-month-of-home-delivered-meals-contracted-providers.html">
+        <a href="/2020/11/10/department-for-the-aging-dfta-reported-line-item-expenditures-by-month-of-home-delivered-meals-contracted-providers.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Department for the Aging (DFTA) Reported Line Item Expenditures by Month of Home Delivered Meals Contracted Providers</p>
+        <p class="feed-excerpt">Reported Expenditures of Line Items by Month of registered and contracted agencies providing Home Delivered Meals Services.</p>
+        </a>
+    </div>
+
+<hr>
+<table width="100%" align="center">
+    <tr>
+        <td width="30%" style="text-align:left;">
+            
+                <a href="/page66/" class="previous">
+                Previous
+                </a>
+            
+        </td>
+        <td width="30%" style="text-align:center;">
+            67 of 129
+        </td>
+        <td width="30%" style="text-align:right;">
+            
+                <a href="/page68/" class="next">Next</a>
+            
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>

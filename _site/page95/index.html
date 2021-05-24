@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="website" property="og:type">
+    <meta content="http://localhost:4000/page95/" property="og:url"><title>Dayda</title>
+
+    <link rel="canonical" href="http://localhost:4000/page95/"/>
+    <link rel="apple-touch-icon" href="https://directory.dayda.org/assets/img/entities/city-of-new-york.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/atom.xml">
+
+    <script data-ad-client="ca-pub-0202072258759210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
+<header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Dayda</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">City of New York</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">This is a catalog of datasets organized and made more accessible from the City of New York, providing simple dowloadable CSV and JSON files, as well as Postman Collections you can use as part of workflows and other automation.</p>
+            </div> 
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="https://directory.dayda.org/assets/img/entities/city-of-new-york.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+               <img src="/assets/img/home-icon.png" width="40">
+               <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/about">
+                <img src="/assets/img/about-icon.png" width="40">                
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+                <img src="/assets/img/tags-icon.png" width="40">
+                <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+                <img src="/assets/img/feed-icon.png" width="40">
+                <p class="rss-p">Feed</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/apis.json">             
+                <img src="/assets/img/api-icon.png" width="40">
+                <p class="rss-p">APIs.json</p>
+            </a>
+        </div>   
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script>
+</header>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2017-2018-pct-class-size-borou.html">
+        <a href="/2020/11/10/2017-2018-pct-class-size-borou.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2017 - 2018 Pct Class Size Borough MSHS - Open Data Portal</p>
+        <p class="feed-excerpt">MSHS Class Size Reports - Aggregated by Borough</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2017-2018-november2017-pct-class-size-district-mshs-open-data-portal.html">
+        <a href="/2020/11/10/2017-2018-november2017-pct-class-size-district-mshs-open-data-portal.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2017-2018 November2017 Pct Class Size District MSHS - Open Data Portal</p>
+        <p class="feed-excerpt">MSHS Class Size Reports - Aggregated by Districts</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2017-2018-november2017-pct-class-size-district-k8-open-data-portal.html">
+        <a href="/2020/11/10/2017-2018-november2017-pct-class-size-district-k8-open-data-portal.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2017 - 2018 November2017 Pct Class Size District K8 - Open Data Portal</p>
+        <p class="feed-excerpt">K8 Class Size Report - Aggregated by Districts</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2017-2018-november2017-pct-class-size-city-mshs-open-data-portal.html">
+        <a href="/2020/11/10/2017-2018-november2017-pct-class-size-city-mshs-open-data-portal.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2017 - 2018 November2017 Pct Class Size City MSHS - Open Data Portal</p>
+        <p class="feed-excerpt">MSHS Class Size  - City Aggregation</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2017-2018-november2017-pct-class-size-city-k8-open-data-portal.html">
+        <a href="/2020/11/10/2017-2018-november2017-pct-class-size-city-k8-open-data-portal.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2017 - 2018 November2017 Pct Class Size City K8  - Open Data Portal</p>
+        <p class="feed-excerpt">Class Size K8 - City Aggregation</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2017-2018-november2017-pct-class-size-borough-k8-open-data-portal.html">
+        <a href="/2020/11/10/2017-2018-november2017-pct-class-size-borough-k8-open-data-portal.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2017 - 2018 November2017 Pct Class Size Borough K8 - Open Data Portal</p>
+        <p class="feed-excerpt">Class Size Reports - Aggregated by Borough</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2017-2018-november2017-pct-cla.html">
+        <a href="/2020/11/10/2017-2018-november2017-pct-cla.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2017 - 2018 November2017 Pct Class Size Borough K8 - Open Data Portal</p>
+        <p class="feed-excerpt">Class Size Reports - Aggregated by Borough</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2017-2018-november2017-avg-class-size-school-ptr-open-data-portal.html">
+        <a href="/2020/11/10/2017-2018-november2017-avg-class-size-school-ptr-open-data-portal.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2017 - 2018 November2017 Avg Class Size School PTR - Open Data Portal</p>
+        <p class="feed-excerpt">Pupil Teacher Ratio</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2017-2018-november2017-avg-class-size-school-mshs-open-data-portal.html">
+        <a href="/2020/11/10/2017-2018-november2017-avg-class-size-school-mshs-open-data-portal.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2017 - 2018 November2017 Avg Class Size School MSHS - Open Data Portal</p>
+        <p class="feed-excerpt">MSHS School Level Class Size Reports</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2017-2018-november2017-avg-class-size-school-k8-open-data-portal.html">
+        <a href="/2020/11/10/2017-2018-november2017-avg-class-size-school-k8-open-data-portal.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2017 - 2018 November2017 Avg Class Size School K8 - Open Data Portal</p>
+        <p class="feed-excerpt">K8 Average Class Size</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2017-2018-november2017-avg-class-size-district-mshs-open-data-portal.html">
+        <a href="/2020/11/10/2017-2018-november2017-avg-class-size-district-mshs-open-data-portal.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2017 - 2018 November2017 Avg Class Size District MSHS - Open Data Portal</p>
+        <p class="feed-excerpt">MSHA Class Size Report - Aggregated by Districts</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2017-2018-november2017-avg-class-size-district-k8-open-data-portal.html">
+        <a href="/2020/11/10/2017-2018-november2017-avg-class-size-district-k8-open-data-portal.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2017 - 2018 November2017 Avg Class Size District K8 - Open Data Portal</p>
+        <p class="feed-excerpt">K8 Class Size Reports - Aggregated by District</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2017-2018-november2017-avg-class-size-city-mshs-open-data-portal.html">
+        <a href="/2020/11/10/2017-2018-november2017-avg-class-size-city-mshs-open-data-portal.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2017 - 2018 November2017 Avg Class Size City MSHS - Open Data Portal</p>
+        <p class="feed-excerpt">MSHS Class Size Reports - Aggregated by City</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2017-2018-november2017-avg-class-size-city-k8-open-data-portal.html">
+        <a href="/2020/11/10/2017-2018-november2017-avg-class-size-city-k8-open-data-portal.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2017 - 2018 November2017 Avg Class Size City K8 - Open Data Portal</p>
+        <p class="feed-excerpt">K8 Class Size Reports - Aggregated by City</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2017-2018-november2017-avg-class-size-borough-mshs-open-data-portal.html">
+        <a href="/2020/11/10/2017-2018-november2017-avg-class-size-borough-mshs-open-data-portal.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2017 - 2018 November2017 Avg Class Size Borough MSHS - Open Data Portal</p>
+        <p class="feed-excerpt">MSHS Class Size Reports - Aggregated by Borough</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2017-2018-november2017-avg-class-size-borough-k8-open-data-portal.html">
+        <a href="/2020/11/10/2017-2018-november2017-avg-class-size-borough-k8-open-data-portal.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2017 - 2018 November2017 Avg Class Size Borough K8 - Open Data Portal</p>
+        <p class="feed-excerpt">K8 Class Size Report - Aggregated by Borough</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2017-2018-november2017-avg-cla.html">
+        <a href="/2020/11/10/2017-2018-november2017-avg-cla.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2017 - 2018 November2017 Avg Class Size District MSHS - Open Data Portal</p>
+        <p class="feed-excerpt">MSHA Class Size Report - Aggregated by Districts</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2017-2018-monthly-attendance.html">
+        <a href="/2020/11/10/2017-2018-monthly-attendance.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2017-2018 Monthly Attendance</p>
+        <p class="feed-excerpt">Monthly counts of roster students  present, absent and released by Grade Level within School district, borough and three digit school number. There may be differences due to the way non-scanned att...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2017-2018-guidance-counselor-report.html">
+        <a href="/2020/11/10/2017-2018-guidance-counselor-report.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2017 - 2018 Guidance Counselor Report</p>
+        <p class="feed-excerpt">New York City Department of Education 2017 - 2018 Guidance Counselor Report
+Data based on DBN, School Names and Year.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2017-2018-guidance-counselor-r.html">
+        <a href="/2020/11/10/2017-2018-guidance-counselor-r.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2017 - 2018 Guidance Counselor Report</p>
+        <p class="feed-excerpt">New York City Department of Education 2017 - 2018 Guidance Counselor Report
+Data based on DBN, School Names and Year.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2017-2018-graduation-outcomes-school.html">
+        <a href="/2020/11/10/2017-2018-graduation-outcomes-school.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2017 - 2018 Graduation Outcomes School</p>
+        <p class="feed-excerpt">“Cohorts of 2001 through 2014 (Classes of 2005 through 2018)
+Graduation Outcomes as Calculated by the New York State Education Department”</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2017-2018-graduation-outcomes-district.html">
+        <a href="/2020/11/10/2017-2018-graduation-outcomes-district.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2017 - 2018 Graduation Outcomes  District</p>
+        <p class="feed-excerpt">“Cohorts of 2001 through 2014 (Classes of 2005 through 2018)
+Graduation Outcomes as Calculated by the New York State Education Department”</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2017-2018-graduation-outcomes-citywide.html">
+        <a href="/2020/11/10/2017-2018-graduation-outcomes-citywide.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2017 - 2018 Graduation Outcomes Citywide</p>
+        <p class="feed-excerpt">“Cohorts of 2001 through 2014 (Classes of 2005 through 2018)
+Graduation Outcomes as Calculated by the New York State Education Department”</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2017-2018-graduation-outcomes-borough.html">
+        <a href="/2020/11/10/2017-2018-graduation-outcomes-borough.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2017-2018 Graduation Outcomes Borough</p>
+        <p class="feed-excerpt">“Cohorts of 2001 through 2014 (Classes of 2005 through 2018)
+Graduation Outcomes by Borough as Calculated by the New York State Education Department”</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2017-2018-graduation-outcomes.html">
+        <a href="/2020/11/10/2017-2018-graduation-outcomes.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2017-2018 Graduation Outcomes Borough</p>
+        <p class="feed-excerpt">“Cohorts of 2001 through 2014 (Classes of 2005 through 2018)
+Graduation Outcomes by Borough as Calculated by the New York State Education Department”</p>
+        </a>
+    </div>
+
+<hr>
+<table width="100%" align="center">
+    <tr>
+        <td width="30%" style="text-align:left;">
+            
+                <a href="/page94/" class="previous">
+                Previous
+                </a>
+            
+        </td>
+        <td width="30%" style="text-align:center;">
+            95 of 129
+        </td>
+        <td width="30%" style="text-align:right;">
+            
+                <a href="/page96/" class="next">Next</a>
+            
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>

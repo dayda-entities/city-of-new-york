@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="website" property="og:type">
+    <meta content="http://localhost:4000/page85/" property="og:url"><title>Dayda</title>
+
+    <link rel="canonical" href="http://localhost:4000/page85/"/>
+    <link rel="apple-touch-icon" href="https://directory.dayda.org/assets/img/entities/city-of-new-york.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/atom.xml">
+
+    <script data-ad-client="ca-pub-0202072258759210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
+<header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Dayda</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">City of New York</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">This is a catalog of datasets organized and made more accessible from the City of New York, providing simple dowloadable CSV and JSON files, as well as Postman Collections you can use as part of workflows and other automation.</p>
+            </div> 
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="https://directory.dayda.org/assets/img/entities/city-of-new-york.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+               <img src="/assets/img/home-icon.png" width="40">
+               <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/about">
+                <img src="/assets/img/about-icon.png" width="40">                
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+                <img src="/assets/img/tags-icon.png" width="40">
+                <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+                <img src="/assets/img/feed-icon.png" width="40">
+                <p class="rss-p">Feed</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/apis.json">             
+                <img src="/assets/img/api-icon.png" width="40">
+                <p class="rss-p">APIs.json</p>
+            </a>
+        </div>   
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script>
+</header>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/adult-protective-services-ineligible-referral.html">
+        <a href="/2020/11/10/adult-protective-services-ineligible-referral.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Adult Protective Services - Ineligible Referral</p>
+        <p class="feed-excerpt">APS ineligible referrals with their closing reasons</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/adult-protective-services-inel.html">
+        <a href="/2020/11/10/adult-protective-services-inel.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Adult Protective Services - Ineligible Referral</p>
+        <p class="feed-excerpt">APS ineligible referrals with their closing reasons</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/address-assignments.html">
+        <a href="/2020/11/10/address-assignments.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Address Assignments</p>
+        <p class="feed-excerpt">The borough president of each borough is responsible for assigning new addresses to new or significantly altered properties or buildings for the purpose of identification from the street and the de...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/added-projects.html">
+        <a href="/2020/11/10/added-projects.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Added Projects</p>
+        <p class="feed-excerpt">Projects added to the plan.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/active-projects-under-construction.html">
+        <a href="/2020/11/10/active-projects-under-construction.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Active Projects Under Construction</p>
+        <p class="feed-excerpt">Current report not available pending SCA program On Pause.
+New school projects (Capacity) and Capital Improvement Projects (CIP) currently under Construction.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/active-projects-under-construc.html">
+        <a href="/2020/11/10/active-projects-under-construc.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Active Projects Under Construction</p>
+        <p class="feed-excerpt">Current report not available pending SCA program On Pause.
+New school projects (Capacity) and Capital Improvement Projects (CIP) currently under Construction.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/active-projects-public-buildings.html">
+        <a href="/2020/11/10/active-projects-public-buildings.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Active Projects - Public Buildings</p>
+        <p class="feed-excerpt">List of currently active buildings projects including description and high level schedule and budget range.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/active-projects-public-buildin.html">
+        <a href="/2020/11/10/active-projects-public-buildin.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Active Projects - Public Buildings</p>
+        <p class="feed-excerpt">List of currently active buildings projects including description and high level schedule and budget range.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/active-projects-infrastructure.html">
+        <a href="/2020/11/10/active-projects-infrastructure.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Active Projects - Infrastructure</p>
+        <p class="feed-excerpt">List of currently active infrastructure projects including description and high level schedule and budget range.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/acs-community-partners.html">
+        <a href="/2020/11/10/acs-community-partners.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">ACS Community Partners</p>
+        <p class="feed-excerpt">List of preventive providers with locations, contact information, office hours.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/acris-ucc-collateral-codes.html">
+        <a href="/2020/11/10/acris-ucc-collateral-codes.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">ACRIS - UCC Collateral Codes</p>
+        <p class="feed-excerpt">ACRIS Collateral Type mapping for Codes in the ACRIS Personal Property Master Dataset</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/acris-state-codes.html">
+        <a href="/2020/11/10/acris-state-codes.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">ACRIS - State Codes</p>
+        <p class="feed-excerpt">ACRIS State mapping for Codes in the ACRIS Real and Personal Parties Property Datasets</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/acris-property-types-codes.html">
+        <a href="/2020/11/10/acris-property-types-codes.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">ACRIS - Property Types Codes</p>
+        <p class="feed-excerpt">ACRIS State mapping for Codes in the ACRIS Real and Personal Property Legals Datasets</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/acris-document-control-codes.html">
+        <a href="/2020/11/10/acris-document-control-codes.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">ACRIS - Document Control Codes</p>
+        <p class="feed-excerpt">ACRIS Document Type and Class Code mappings for Codes in the ACRIS Real and Personal Property Master Datasets</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/acris-country-codes.html">
+        <a href="/2020/11/10/acris-country-codes.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">ACRIS - Country Codes</p>
+        <p class="feed-excerpt">ACRIS Countries mapping for Codes in the ACRIS Real and Personal Parties Property Datasets</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/a-foundation-report-stalking.html">
+        <a href="/2020/11/10/a-foundation-report-stalking.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">A Foundation Report Stalking</p>
+        <p class="feed-excerpt">This data set contains count data of stalking related offenses that occurred in New York City between 2013 through 2018.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/a-foundation-report-family-violence.html">
+        <a href="/2020/11/10/a-foundation-report-family-violence.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">A Foundation Report Family Violence</p>
+        <p class="feed-excerpt">The dataset contains count data for the number of family-related domestic incident reports, family-related felony assaults, domestic violence related felony assaults, family-related rapes and domes...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/a-foundation-report-family-vio.html">
+        <a href="/2020/11/10/a-foundation-report-family-vio.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">A Foundation Report Family Violence</p>
+        <p class="feed-excerpt">The dataset contains count data for the number of family-related domestic incident reports, family-related felony assaults, domestic violence related felony assaults, family-related rapes and domes...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/911-open-data-local-law-119.html">
+        <a href="/2020/11/10/911-open-data-local-law-119.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">911 Open Data Local Law 119</p>
+        <p class="feed-excerpt">This data set provides counts and percent/average response times for the categories of incidents outlined in Local Law 119 of 2013: The Ariel Russo Emergency 9-1-1 Response Time Reporting Act.
+
+For...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/911-end-to-end-data.html">
+        <a href="/2020/11/10/911-end-to-end-data.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">911 End-to-End Data</p>
+        <p class="feed-excerpt">All incident segments for each of the first responding agencies (PD, FD and EMS) that contribute to the end-to-end response times.
+This data set provides call volumes broken down by incident type f...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/911-authorized-bus-parking-permit.html">
+        <a href="/2020/11/10/911-authorized-bus-parking-permit.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">9/11 Authorized Bus Parking Permit</p>
+        <p class="feed-excerpt">Parking Permits issued to Motor Coach Tour Bus operators to park in designated metered bus parking spaces below Houston Street from River to River to visit the 9/11 Memorial Museum.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/911-authorized-bus-parking-per.html">
+        <a href="/2020/11/10/911-authorized-bus-parking-per.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">9/11 Authorized Bus Parking Permit</p>
+        <p class="feed-excerpt">Parking Permits issued to Motor Coach Tour Bus operators to park in designated metered bus parking spaces below Houston Street from River to River to visit the 9/11 Memorial Museum.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/3k-projects-by-site-locations.html">
+        <a href="/2020/11/10/3k-projects-by-site-locations.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">3K Projects by Site Locations</p>
+        <p class="feed-excerpt">3K Projects by Site Locations</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/3k-projects-by-school.html">
+        <a href="/2020/11/10/3k-projects-by-school.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">3K Projects by School</p>
+        <p class="feed-excerpt">3K Projects by School</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/311-web-content-services.html">
+        <a href="/2020/11/10/311-web-content-services.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">311 Web Content - Services</p>
+        <p class="feed-excerpt">NOTE: This data does not present a full picture of 311 calls or service requests, in part because of operational and system complexities associated with remote call taking necessitated by the unpre...</p>
+        </a>
+    </div>
+
+<hr>
+<table width="100%" align="center">
+    <tr>
+        <td width="30%" style="text-align:left;">
+            
+                <a href="/page84/" class="previous">
+                Previous
+                </a>
+            
+        </td>
+        <td width="30%" style="text-align:center;">
+            85 of 129
+        </td>
+        <td width="30%" style="text-align:right;">
+            
+                <a href="/page86/" class="next">Next</a>
+            
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="website" property="og:type">
+    <meta content="http://localhost:4000/page43/" property="og:url"><title>Dayda</title>
+
+    <link rel="canonical" href="http://localhost:4000/page43/"/>
+    <link rel="apple-touch-icon" href="https://directory.dayda.org/assets/img/entities/city-of-new-york.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/atom.xml">
+
+    <script data-ad-client="ca-pub-0202072258759210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
+<header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Dayda</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">City of New York</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">This is a catalog of datasets organized and made more accessible from the City of New York, providing simple dowloadable CSV and JSON files, as well as Postman Collections you can use as part of workflows and other automation.</p>
+            </div> 
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="https://directory.dayda.org/assets/img/entities/city-of-new-york.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+               <img src="/assets/img/home-icon.png" width="40">
+               <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/about">
+                <img src="/assets/img/about-icon.png" width="40">                
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+                <img src="/assets/img/tags-icon.png" width="40">
+                <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+                <img src="/assets/img/feed-icon.png" width="40">
+                <p class="rss-p">Feed</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/apis.json">             
+                <img src="/assets/img/api-icon.png" width="40">
+                <p class="rss-p">APIs.json</p>
+            </a>
+        </div>   
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script>
+</header>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/housing-new-york-units-by-building.html">
+        <a href="/2020/11/10/housing-new-york-units-by-building.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Housing New York Units by Building</p>
+        <p class="feed-excerpt">The Department of Housing Preservation and Development (HPD) reports on buildings, units, and projects that began after January 1, 2014 and are counted towards the Housing New York plan. The Housin...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/housing-new-york-units-by-buil.html">
+        <a href="/2020/11/10/housing-new-york-units-by-buil.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Housing New York Units by Building</p>
+        <p class="feed-excerpt">The Department of Housing Preservation and Development (HPD) reports on buildings, units, and projects that began after January 1, 2014 and are counted towards the Housing New York plan. The Housin...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/housing-maintenance-code-violations.html">
+        <a href="/2020/11/10/housing-maintenance-code-violations.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Housing Maintenance Code Violations</p>
+        <p class="feed-excerpt">Pursuant to New York City’s Housing Maintenance Code, the Department of Housing Preservation and Development (HPD) issues violations against conditions in rental dwelling units that have been verif...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/housing-maintenance-code-viola.html">
+        <a href="/2020/11/10/housing-maintenance-code-viola.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Housing Maintenance Code Violations</p>
+        <p class="feed-excerpt">Pursuant to New York City’s Housing Maintenance Code, the Department of Housing Preservation and Development (HPD) issues violations against conditions in rental dwelling units that have been verif...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/housing-maintenance-code-complaints.html">
+        <a href="/2020/11/10/housing-maintenance-code-complaints.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Housing Maintenance Code Complaints</p>
+        <p class="feed-excerpt">The Department of Housing Preservation and Development (HPD) records complaints that are made by the public through the 311 Citizen Services Center, Code Enforcement Borough Offices or the internet...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/housing-maintenance-code-compl.html">
+        <a href="/2020/11/10/housing-maintenance-code-compl.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Housing Maintenance Code Complaints</p>
+        <p class="feed-excerpt">The Department of Housing Preservation and Development (HPD) records complaints that are made by the public through the 311 Citizen Services Center, Code Enforcement Borough Offices or the internet...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/housing-litigations.html">
+        <a href="/2020/11/10/housing-litigations.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Housing Litigations</p>
+        <p class="feed-excerpt">The Department of Housing Preservation and Development (HPD) Housing Litigation Division (HLD) initiates’ actions in the Housing Court against owners of privately-owned buildings to enforce complia...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/hotels-properties-citywide.html">
+        <a href="/2020/11/10/hotels-properties-citywide.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Hotels Properties Citywide</p>
+        <p class="feed-excerpt">Listing of hotels within the five boroughs.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/home-stat-weekly-dashboard.html">
+        <a href="/2020/11/10/home-stat-weekly-dashboard.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">HOME-STAT Weekly Dashboard</p>
+        <p class="feed-excerpt">Incremental data for Weekly Canvassing Observations</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/home-stat-monthly-dashboard.html">
+        <a href="/2020/11/10/home-stat-monthly-dashboard.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">HOME-STAT Monthly Dashboard</p>
+        <p class="feed-excerpt">Incremental data for Monthly Canvassing observations</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/home-care-caseload.html">
+        <a href="/2020/11/10/home-care-caseload.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Home Care Caseload</p>
+        <p class="feed-excerpt">Monthly trend analysis on home care cases.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/hivaids-diagnoses-by-neighborhood-sex-and-raceethnicity.html">
+        <a href="/2020/11/10/hivaids-diagnoses-by-neighborhood-sex-and-raceethnicity.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">HIV/AIDS Diagnoses by Neighborhood, Sex, and Race/Ethnicity</p>
+        <p class="feed-excerpt">These data were reported to the NYC DOHMH by June 30, 2014
+
+This dataset includes data on new diagnoses of HIV and AIDS in NYC for the calendar years 2010 through 2013. Reported cases and case rate...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/hivaids-diagnoses-by-neighborhood-age-group-and-raceethnicity.html">
+        <a href="/2020/11/10/hivaids-diagnoses-by-neighborhood-age-group-and-raceethnicity.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">HIV/AIDS Diagnoses by Neighborhood, Age Group, and Race/Ethnicity</p>
+        <p class="feed-excerpt">These data were reported to the NYC DOHMH by June 30, 2014
+
+This dataset includes data on new diagnoses of HIV and AIDS in NYC for the calendar years 2010 through 2013. Reported cases and case rate...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/hivaids-diagnoses-by-neighborh.html">
+        <a href="/2020/11/10/hivaids-diagnoses-by-neighborh.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">HIV/AIDS Diagnoses by Neighborhood, Sex, and Race/Ethnicity</p>
+        <p class="feed-excerpt">These data were reported to the NYC DOHMH by June 30, 2014
+
+This dataset includes data on new diagnoses of HIV and AIDS in NYC for the calendar years 2010 through 2013. Reported cases and case rate...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/hiv-testing-locations.html">
+        <a href="/2020/11/10/hiv-testing-locations.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">HIV Testing Locations</p>
+        <p class="feed-excerpt">Location and facility information for places in New York City that provide HIV testing.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/historical-medallion-vehicles-authorized.html">
+        <a href="/2020/11/10/historical-medallion-vehicles-authorized.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Historical Medallion  Vehicles - Authorized</p>
+        <p class="feed-excerpt">This list contains historical information on the status of current medallion vehicles authorized to operate in New York City. This list is accurate to the date and time represented in the Last Date...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/historical-medallion-vehicles.html">
+        <a href="/2020/11/10/historical-medallion-vehicles.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Historical Medallion  Vehicles - Authorized</p>
+        <p class="feed-excerpt">This list contains historical information on the status of current medallion vehicles authorized to operate in New York City. This list is accurate to the date and time represented in the Last Date...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/historical-driver-application-status.html">
+        <a href="/2020/11/10/historical-driver-application-status.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Historical Driver Application Status</p>
+        <p class="feed-excerpt">Historical licensee status data. Data dictionary available here: https://data.cityofnewyork.us/api/views/p32s-yqxq/files/20bca1de-74f0-462e-8574-f25ca66b8346?download=true&amp;amp;filename=NewDrive...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/historical-driver-application.html">
+        <a href="/2020/11/10/historical-driver-application.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Historical Driver Application Status</p>
+        <p class="feed-excerpt">Historical licensee status data. Data dictionary available here: https://data.cityofnewyork.us/api/views/p32s-yqxq/files/20bca1de-74f0-462e-8574-f25ca66b8346?download=true&amp;amp;filename=NewDrive...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/historical-dob-permit-issuance.html">
+        <a href="/2020/11/10/historical-dob-permit-issuance.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Historical DOB Permit Issuance</p>
+        <p class="feed-excerpt">A list of permits issued by the Department of Buildings from 1989 to 2013. This dataset was originally released to provide data from before the DOB Permit Issuance dataset began. DOB Permit Issuanc...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/historic-districts.html">
+        <a href="/2020/11/10/historic-districts.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Historic Districts</p>
+        <p class="feed-excerpt">This dataset contains boundaries and associated attribute information for all designated historic districts or areas under consideration for historic district designation (i.e. calendared) by the N...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/highway-travel-permit-single-use.html">
+        <a href="/2020/11/10/highway-travel-permit-single-use.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Highway Travel Permit- Single Use</p>
+        <p class="feed-excerpt">Highway Travel Permits are issued to not-for-profit organizations, summer camps, and others using high occupancy vehicles (e.g. Construction projects, school buses, and vans) to access parkways oth...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/highway-travel-permit-single-u.html">
+        <a href="/2020/11/10/highway-travel-permit-single-u.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Highway Travel Permit- Single Use</p>
+        <p class="feed-excerpt">Highway Travel Permits are issued to not-for-profit organizations, summer camps, and others using high occupancy vehicles (e.g. Construction projects, school buses, and vans) to access parkways oth...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/highway-travel-permit-annual.html">
+        <a href="/2020/11/10/highway-travel-permit-annual.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Highway Travel Permit- Annual</p>
+        <p class="feed-excerpt">Highway Travel Permits are issued almost exclusively to companies operating high occupancy vehicles (i.e. commuter/school buses and vans) for use of parkways otherwise available only to passenger v...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/highway-sign-installations.html">
+        <a href="/2020/11/10/highway-sign-installations.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Highway Sign Installations</p>
+        <p class="feed-excerpt">Tracks highway sign installations and repairs.</p>
+        </a>
+    </div>
+
+<hr>
+<table width="100%" align="center">
+    <tr>
+        <td width="30%" style="text-align:left;">
+            
+                <a href="/page42/" class="previous">
+                Previous
+                </a>
+            
+        </td>
+        <td width="30%" style="text-align:center;">
+            43 of 129
+        </td>
+        <td width="30%" style="text-align:right;">
+            
+                <a href="/page44/" class="next">Next</a>
+            
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>

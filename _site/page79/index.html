@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="website" property="og:type">
+    <meta content="http://localhost:4000/page79/" property="og:url"><title>Dayda</title>
+
+    <link rel="canonical" href="http://localhost:4000/page79/"/>
+    <link rel="apple-touch-icon" href="https://directory.dayda.org/assets/img/entities/city-of-new-york.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/atom.xml">
+
+    <script data-ad-client="ca-pub-0202072258759210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
+<header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Dayda</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">City of New York</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">This is a catalog of datasets organized and made more accessible from the City of New York, providing simple dowloadable CSV and JSON files, as well as Postman Collections you can use as part of workflows and other automation.</p>
+            </div> 
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="https://directory.dayda.org/assets/img/entities/city-of-new-york.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+               <img src="/assets/img/home-icon.png" width="40">
+               <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/about">
+                <img src="/assets/img/about-icon.png" width="40">                
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+                <img src="/assets/img/tags-icon.png" width="40">
+                <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+                <img src="/assets/img/feed-icon.png" width="40">
+                <p class="rss-p">Feed</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/apis.json">             
+                <img src="/assets/img/api-icon.png" width="40">
+                <p class="rss-p">APIs.json</p>
+            </a>
+        </div>   
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script>
+</header>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/bureau-of-fire-prevention-active-violation-orders.html">
+        <a href="/2020/11/10/bureau-of-fire-prevention-active-violation-orders.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Bureau of Fire Prevention - Active Violation Orders</p>
+        <p class="feed-excerpt">This dataset contains active violation orders given by the Bureau of Fire Prevention. This dataset does not contain Violation Orders given by fire companies, or any Notices of Violation. For data o...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/bureau-of-fire-prevention-acti.html">
+        <a href="/2020/11/10/bureau-of-fire-prevention-acti.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Bureau of Fire Prevention - Active Violation Orders</p>
+        <p class="feed-excerpt">This dataset contains active violation orders given by the Bureau of Fire Prevention. This dataset does not contain Violation Orders given by fire companies, or any Notices of Violation. For data o...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/buildings-subject-to-hpd-jurisdiction.html">
+        <a href="/2020/11/10/buildings-subject-to-hpd-jurisdiction.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Buildings Subject to HPD Jurisdiction</p>
+        <p class="feed-excerpt">Pursuant to New York City’s Housing Maintenance Code, the Department of Housing 
+Preservation and Development (HPD) collects information on multiple dwellings in New York 
+City, and other buildings...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/buildings-subject-to-hpd-juris.html">
+        <a href="/2020/11/10/buildings-subject-to-hpd-juris.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Buildings Subject to HPD Jurisdiction</p>
+        <p class="feed-excerpt">Pursuant to New York City’s Housing Maintenance Code, the Department of Housing 
+Preservation and Development (HPD) collects information on multiple dwellings in New York 
+City, and other buildings...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/buildings-selected-for-the-alternative-enforcement-program-aep.html">
+        <a href="/2020/11/10/buildings-selected-for-the-alternative-enforcement-program-aep.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Buildings Selected for the Alternative Enforcement Program (AEP)</p>
+        <p class="feed-excerpt">Each year, the Department of Housing Preservation and Development (HPD) designates severely distressed multiple dwellings for participation in the Alternative Enforcement Program (AEP). HPD is requ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/buildings-selected-for-the-alt.html">
+        <a href="/2020/11/10/buildings-selected-for-the-alt.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Buildings Selected for the Alternative Enforcement Program (AEP)</p>
+        <p class="feed-excerpt">Each year, the Department of Housing Preservation and Development (HPD) designates severely distressed multiple dwellings for participation in the Alternative Enforcement Program (AEP). HPD is requ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/buildings-by-borough-and-community-district.html">
+        <a href="/2020/11/10/buildings-by-borough-and-community-district.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Buildings by Borough and Community District</p>
+        <p class="feed-excerpt">Displays the total number of shelter buildings by borough and community district</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/buildings-by-borough-and-commu.html">
+        <a href="/2020/11/10/buildings-by-borough-and-commu.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Buildings by Borough and Community District</p>
+        <p class="feed-excerpt">Displays the total number of shelter buildings by borough and community district</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/building-footprints.html">
+        <a href="/2020/11/10/building-footprints.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Building Footprints</p>
+        <p class="feed-excerpt">Shapefile of footprint outlines of buildings in New York City. Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Metadata/Met...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/building-footprints-historical.html">
+        <a href="/2020/11/10/building-footprints-historical.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Building Footprints Historical Shape</p>
+        <p class="feed-excerpt">Shapefile of historical footprint outlines of buildings in New York City. Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/C...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/building-footprints-historical-shape.html">
+        <a href="/2020/11/10/building-footprints-historical-shape.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Building Footprints Historical Shape</p>
+        <p class="feed-excerpt">Shapefile of historical footprint outlines of buildings in New York City. Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/C...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/building-complaint-disposition.html">
+        <a href="/2020/11/10/building-complaint-disposition.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Building Complaint Disposition Codes</p>
+        <p class="feed-excerpt">A reference table of disposition codes for building complaints</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/building-complaint-disposition-codes.html">
+        <a href="/2020/11/10/building-complaint-disposition-codes.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Building Complaint Disposition Codes</p>
+        <p class="feed-excerpt">A reference table of disposition codes for building complaints</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/brooklyn-bridge-automated-pedestrian-counts-demonstration-project.html">
+        <a href="/2020/11/10/brooklyn-bridge-automated-pedestrian-counts-demonstration-project.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Brooklyn Bridge Automated Pedestrian Counts Demonstration Project</p>
+        <p class="feed-excerpt">DOT is testing automated technology to count pedestrians. The counter is located on the Manhattan approach of the Brooklyn Bridge.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/brooklyn-bridge-automated-pede.html">
+        <a href="/2020/11/10/brooklyn-bridge-automated-pede.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Brooklyn Bridge Automated Pedestrian Counts Demonstration Project</p>
+        <p class="feed-excerpt">DOT is testing automated technology to count pedestrians. The counter is located on the Manhattan approach of the Brooklyn Bridge.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/brooklyn-borough-president-office-requests-for-assistance.html">
+        <a href="/2020/11/10/brooklyn-borough-president-office-requests-for-assistance.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Brooklyn Borough President Office Requests for Assistance</p>
+        <p class="feed-excerpt">List of requests that come from inside and outside the office.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/brooklyn-borough-president-off.html">
+        <a href="/2020/11/10/brooklyn-borough-president-off.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Brooklyn Borough President Office Requests for Assistance</p>
+        <p class="feed-excerpt">List of requests that come from inside and outside the office.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/brooklyn-borough-president-meeting-requests.html">
+        <a href="/2020/11/10/brooklyn-borough-president-meeting-requests.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Brooklyn Borough President Meeting Requests</p>
+        <p class="feed-excerpt">This data set represents all meeting and event requests (internal and external) to the Borough President for 2017 and 2018.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/brooklyn-borough-president-mee.html">
+        <a href="/2020/11/10/brooklyn-borough-president-mee.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Brooklyn Borough President Meeting Requests</p>
+        <p class="feed-excerpt">This data set represents all meeting and event requests (internal and external) to the Borough President for 2017 and 2018.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/brooklyn-borough-president's-office-legislation-passed.html">
+        <a href="/2020/11/10/brooklyn-borough-president's-office-legislation-passed.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Brooklyn Borough President's Office Legislation - Passed</p>
+        <p class="feed-excerpt">List of legislation that was sponsored by the Borough President and passed.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/brooklyn-borough-president's-o.html">
+        <a href="/2020/11/10/brooklyn-borough-president's-o.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Brooklyn Borough President's Office Legislation - Passed</p>
+        <p class="feed-excerpt">List of legislation that was sponsored by the Borough President and passed.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/broadband-adoption-basic-indicators.html">
+        <a href="/2020/11/10/broadband-adoption-basic-indicators.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Broadband Adoption Basic Indicators</p>
+        <p class="feed-excerpt">Key indicators of broadband adoption, service and infrastructure in New York City by NTA.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/broadband-adoption-basic-indic.html">
+        <a href="/2020/11/10/broadband-adoption-basic-indic.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Broadband Adoption Basic Indicators</p>
+        <p class="feed-excerpt">Key indicators of broadband adoption, service and infrastructure in New York City by NTA.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/broadband-adoption-and-infrastructure-by-zip-code.html">
+        <a href="/2020/11/10/broadband-adoption-and-infrastructure-by-zip-code.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Broadband Adoption and Infrastructure by Zip Code</p>
+        <p class="feed-excerpt">Key indicators of broadband adoption, service and infrastructure in New York City by Zip Code.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/broadband-adoption-and-infrastructure-by-state-senate-district.html">
+        <a href="/2020/11/10/broadband-adoption-and-infrastructure-by-state-senate-district.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Broadband Adoption and Infrastructure by State Senate District</p>
+        <p class="feed-excerpt">Key indicators of broadband adoption, service and infrastructure in New York City by State Senate District.
+&amp;lt;/p&amp;gt;
+Data Limitations: Data accuracy is limited as of the date of publicati...</p>
+        </a>
+    </div>
+
+<hr>
+<table width="100%" align="center">
+    <tr>
+        <td width="30%" style="text-align:left;">
+            
+                <a href="/page78/" class="previous">
+                Previous
+                </a>
+            
+        </td>
+        <td width="30%" style="text-align:center;">
+            79 of 129
+        </td>
+        <td width="30%" style="text-align:right;">
+            
+                <a href="/page80/" class="next">Next</a>
+            
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>

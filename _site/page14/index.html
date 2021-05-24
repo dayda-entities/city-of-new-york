@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="website" property="og:type">
+    <meta content="http://localhost:4000/page14/" property="og:url"><title>Dayda</title>
+
+    <link rel="canonical" href="http://localhost:4000/page14/"/>
+    <link rel="apple-touch-icon" href="https://directory.dayda.org/assets/img/entities/city-of-new-york.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/atom.xml">
+
+    <script data-ad-client="ca-pub-0202072258759210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
+<header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Dayda</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">City of New York</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">This is a catalog of datasets organized and made more accessible from the City of New York, providing simple dowloadable CSV and JSON files, as well as Postman Collections you can use as part of workflows and other automation.</p>
+            </div> 
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="https://directory.dayda.org/assets/img/entities/city-of-new-york.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+               <img src="/assets/img/home-icon.png" width="40">
+               <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/about">
+                <img src="/assets/img/about-icon.png" width="40">                
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+                <img src="/assets/img/tags-icon.png" width="40">
+                <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+                <img src="/assets/img/feed-icon.png" width="40">
+                <p class="rss-p">Feed</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/apis.json">             
+                <img src="/assets/img/api-icon.png" width="40">
+                <p class="rss-p">APIs.json</p>
+            </a>
+        </div>   
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script>
+</header>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/sidewalk-dismissal-inspection-tracking.html">
+        <a href="/2020/11/10/sidewalk-dismissal-inspection-tracking.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Sidewalk Dismissal Inspection Tracking</p>
+        <p class="feed-excerpt">Tracks dismissal inspection requests and results from property owners who repairs their sidewalk privately.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/sidewalk-dismissal-inspection.html">
+        <a href="/2020/11/10/sidewalk-dismissal-inspection.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Sidewalk Dismissal Inspection Tracking</p>
+        <p class="feed-excerpt">Tracks dismissal inspection requests and results from property owners who repairs their sidewalk privately.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/sidewalk-correspondences.html">
+        <a href="/2020/11/10/sidewalk-correspondences.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Sidewalk Correspondences</p>
+        <p class="feed-excerpt">Tracks all written correspondences to the Sidewalk Program.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/sidewalk-centerline.html">
+        <a href="/2020/11/10/sidewalk-centerline.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Sidewalk Centerline</p>
+        <p class="feed-excerpt">Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/shoreline.html">
+        <a href="/2020/11/10/shoreline.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Shoreline</p>
+        <p class="feed-excerpt">Planimetric basemap line layer containing shoreline features. Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/shl-meter-shops.html">
+        <a href="/2020/11/10/shl-meter-shops.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">SHL - Meter Shops</p>
+        <p class="feed-excerpt">This list contains information on authorized SHL meter-shops.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/shelter-repair-scorecard.html">
+        <a href="/2020/11/10/shelter-repair-scorecard.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Shelter Repair Scorecard</p>
+        <p class="feed-excerpt">A list of all shelter buildings in the DHS system with the number of violations issued to that building.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/services-for-nycha-residents-local-law-163.html">
+        <a href="/2020/11/10/services-for-nycha-residents-local-law-163.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Services for NYCHA Residents Local Law 163</p>
+        <p class="feed-excerpt">This dataset contains information about 15 services available to NYCHA residents. The datasets for services listed form part of the annual report compiled by the Mayor’s Office of Operations as man...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/services-for-nycha-residents-l.html">
+        <a href="/2020/11/10/services-for-nycha-residents-l.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Services for NYCHA Residents Local Law 163</p>
+        <p class="feed-excerpt">This dataset contains information about 15 services available to NYCHA residents. The datasets for services listed form part of the annual report compiled by the Mayor’s Office of Operations as man...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/senate-district-breakdowns.html">
+        <a href="/2020/11/10/senate-district-breakdowns.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Senate District Breakdowns</p>
+        <p class="feed-excerpt">Demographic statistics broken down by senate districts</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/self-hauler-registrants.html">
+        <a href="/2020/11/10/self-hauler-registrants.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Self Hauler Registrants</p>
+        <p class="feed-excerpt">Companies listed as of the most recent export date have been issued Class 1 self-hauler registrations by the Business Integrity Commission. They are authorized to remove, collect or dispose of trad...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/sea-level-rise-maps-2050s-500-year-floodplain.html">
+        <a href="/2020/11/10/sea-level-rise-maps-2050s-500-year-floodplain.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Sea Level Rise Maps (2050s 500-year Floodplain)</p>
+        <p class="feed-excerpt">This is the 500-Year Floodplain for the 2050s based on FEMA’s Preliminary Work Map data and the New York Panel on Climate Change’s 90th Percentile Projects for Sea-Level Rise (31 inches).  Please s...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/sea-level-rise-maps-2050s-500.html">
+        <a href="/2020/11/10/sea-level-rise-maps-2050s-500.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Sea Level Rise Maps (2050s 500-year Floodplain)</p>
+        <p class="feed-excerpt">This is the 500-Year Floodplain for the 2050s based on FEMA’s Preliminary Work Map data and the New York Panel on Climate Change’s 90th Percentile Projects for Sea-Level Rise (31 inches).  Please s...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/sea-level-rise-maps-2050s-100-year-floodplain.html">
+        <a href="/2020/11/10/sea-level-rise-maps-2050s-100-year-floodplain.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Sea Level Rise Maps (2050s 100-year Floodplain)</p>
+        <p class="feed-excerpt">This is the 100-Year Floodplain for the 2050s based on FEMA’s Preliminary Work Map data and the New York Panel on Climate Change’s 90th Percentile Projects for Sea-Level Rise (31 inches).  Please s...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/sea-level-rise-maps-2050s-100.html">
+        <a href="/2020/11/10/sea-level-rise-maps-2050s-100.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Sea Level Rise Maps (2050s 100-year Floodplain)</p>
+        <p class="feed-excerpt">This is the 100-Year Floodplain for the 2050s based on FEMA’s Preliminary Work Map data and the New York Panel on Climate Change’s 90th Percentile Projects for Sea-Level Rise (31 inches).  Please s...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/sea-level-rise-maps-2020s-500-year-floodplain.html">
+        <a href="/2020/11/10/sea-level-rise-maps-2020s-500-year-floodplain.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Sea Level Rise Maps (2020s 500-year Floodplain)</p>
+        <p class="feed-excerpt">This is the 500-Year Floodplain for the 2020s based on FEMA’s Preliminary Work Map data and the New York Panel on Climate Change’s 90th Percentile Projects for Sea-Level Rise (11 inches).  Please s...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/sea-level-rise-maps-2020s-500.html">
+        <a href="/2020/11/10/sea-level-rise-maps-2020s-500.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Sea Level Rise Maps (2020s 500-year Floodplain)</p>
+        <p class="feed-excerpt">This is the 500-Year Floodplain for the 2020s based on FEMA’s Preliminary Work Map data and the New York Panel on Climate Change’s 90th Percentile Projects for Sea-Level Rise (11 inches).  Please s...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/sea-level-rise-maps-2020s-100-year-floodplain.html">
+        <a href="/2020/11/10/sea-level-rise-maps-2020s-100-year-floodplain.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Sea Level Rise Maps (2020s 100-year Floodplain)</p>
+        <p class="feed-excerpt">This is the 100-Year Floodplain for the 2020s based on FEMA’s Preliminary Work Map data and the New York Panel on Climate Change’s 90th Percentile Projects for Sea-Level Rise (11 inches).  Please s...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/sea-level-rise-maps-2020s-100.html">
+        <a href="/2020/11/10/sea-level-rise-maps-2020s-100.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Sea Level Rise Maps (2020s 100-year Floodplain)</p>
+        <p class="feed-excerpt">This is the 100-Year Floodplain for the 2020s based on FEMA’s Preliminary Work Map data and the New York Panel on Climate Change’s 90th Percentile Projects for Sea-Level Rise (11 inches).  Please s...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/scout-street-condition-observation-unit.html">
+        <a href="/2020/11/10/scout-street-condition-observation-unit.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">SCOUT (Street Condition Observation Unit)</p>
+        <p class="feed-excerpt">Quality of life conditions reported by city inspectors.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/scout-street-condition-observa.html">
+        <a href="/2020/11/10/scout-street-condition-observa.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">SCOUT (Street Condition Observation Unit)</p>
+        <p class="feed-excerpt">Quality of life conditions reported by city inspectors.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/scout-core.html">
+        <a href="/2020/11/10/scout-core.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">SCOUT CORE</p>
+        <p class="feed-excerpt">The Customers Observing and Reporting Experience (CORE) program is an inspection program that rates facility conditions and customer service at over 300 of the City’s walk-in service centers.
+CORE ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/scorecard-ratings.html">
+        <a href="/2020/11/10/scorecard-ratings.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Scorecard Ratings</p>
+        <p class="feed-excerpt">Street and sidewalk cleanliness ratings.
+
+NOTE: Due to a software coding error that’s since been corrected, some cleanliness rating data between November 2018 and July 2019 was found to be incomple...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/schoolyards-to-playgrounds.html">
+        <a href="/2020/11/10/schoolyards-to-playgrounds.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Schoolyards To Playgrounds</p>
+        <p class="feed-excerpt">Directory of Schoolyard to playground conversions</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/schools-progress-report-2012-2013.html">
+        <a href="/2020/11/10/schools-progress-report-2012-2013.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Schools Progress Report 2012-2013</p>
+        <p class="feed-excerpt">Schools Progress Report which focus on learning environment, student performance and progress.</p>
+        </a>
+    </div>
+
+<hr>
+<table width="100%" align="center">
+    <tr>
+        <td width="30%" style="text-align:left;">
+            
+                <a href="/page13/" class="previous">
+                Previous
+                </a>
+            
+        </td>
+        <td width="30%" style="text-align:center;">
+            14 of 129
+        </td>
+        <td width="30%" style="text-align:right;">
+            
+                <a href="/page15/" class="next">Next</a>
+            
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>

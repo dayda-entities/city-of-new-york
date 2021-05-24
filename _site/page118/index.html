@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="website" property="og:type">
+    <meta content="http://localhost:4000/page118/" property="og:url"><title>Dayda</title>
+
+    <link rel="canonical" href="http://localhost:4000/page118/"/>
+    <link rel="apple-touch-icon" href="https://directory.dayda.org/assets/img/entities/city-of-new-york.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/atom.xml">
+
+    <script data-ad-client="ca-pub-0202072258759210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
+<header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Dayda</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">City of New York</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">This is a catalog of datasets organized and made more accessible from the City of New York, providing simple dowloadable CSV and JSON files, as well as Postman Collections you can use as part of workflows and other automation.</p>
+            </div> 
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="https://directory.dayda.org/assets/img/entities/city-of-new-york.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+               <img src="/assets/img/home-icon.png" width="40">
+               <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/about">
+                <img src="/assets/img/about-icon.png" width="40">                
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+                <img src="/assets/img/tags-icon.png" width="40">
+                <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+                <img src="/assets/img/feed-icon.png" width="40">
+                <p class="rss-p">Feed</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/apis.json">             
+                <img src="/assets/img/api-icon.png" width="40">
+                <p class="rss-p">APIs.json</p>
+            </a>
+        </div>   
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script>
+</header>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2010-census-tracts.html">
+        <a href="/2020/11/10/2010-census-tracts.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2010 Census Tracts</p>
+        <p class="feed-excerpt">2010 Census Tracts - by Department of City Planning.
+
+All previously released versions of this data are available at BYTES of the BIG APPLE- Archive</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2010-census-tracts-water-areas.html">
+        <a href="/2020/11/10/2010-census-tracts-water-areas.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2010 Census Tracts (water areas included)</p>
+        <p class="feed-excerpt">GIS data: Boundaries of 2010 Census Tracts (water areas included).
+
+All previously released versions of this data are available at BYTES of the BIG APPLE- Archive</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2010-census-tracts-water-areas-included.html">
+        <a href="/2020/11/10/2010-census-tracts-water-areas-included.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2010 Census Tracts (water areas included)</p>
+        <p class="feed-excerpt">GIS data: Boundaries of 2010 Census Tracts (water areas included).
+
+All previously released versions of this data are available at BYTES of the BIG APPLE- Archive</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2010-census-tract-to-neighborhood-tabulation-area-equivalency-table.html">
+        <a href="/2020/11/10/2010-census-tract-to-neighborhood-tabulation-area-equivalency-table.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2010 Census Tract to Neighborhood Tabulation Area Equivalency table</p>
+        <p class="feed-excerpt">Excel table of census data created to project populations at the Neighborhood Tabulation Area, a small area level, from 2000 to 2030 for PlaNYC, the long-term sustainability plan for New York City</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2010-census-tract-to-neighborh.html">
+        <a href="/2020/11/10/2010-census-tract-to-neighborh.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2010 Census Tract to Neighborhood Tabulation Area Equivalency table</p>
+        <p class="feed-excerpt">Excel table of census data created to project populations at the Neighborhood Tabulation Area, a small area level, from 2000 to 2030 for PlaNYC, the long-term sustainability plan for New York City</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2010-census-blocks.html">
+        <a href="/2020/11/10/2010-census-blocks.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2010 Census Blocks</p>
+        <p class="feed-excerpt">GIS data: 2010 Census Blocks</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2010-census-blocks-water-areas.html">
+        <a href="/2020/11/10/2010-census-blocks-water-areas.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2010 Census Blocks (water areas included)</p>
+        <p class="feed-excerpt">GIS data: Boundaries of 2010 Census Blocks (water areas included).
+
+All previously released versions of this data are available at BYTES of the BIG APPLE- Archive</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2010-census-blocks-water-areas-included.html">
+        <a href="/2020/11/10/2010-census-blocks-water-areas-included.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2010 Census Blocks (water areas included)</p>
+        <p class="feed-excerpt">GIS data: Boundaries of 2010 Census Blocks (water areas included).
+
+All previously released versions of this data are available at BYTES of the BIG APPLE- Archive</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2010-ap-college-board-school-level-results.html">
+        <a href="/2020/11/10/2010-ap-college-board-school-level-results.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2010  AP (College Board) School Level Results</p>
+        <p class="feed-excerpt">New York City school level College Board AP results for 2010.
+
+Records with 5 or fewer students are suppressed.
+
+Students are linked to schools by identifying which school they attend when register...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2010-ap-college-board-school-l.html">
+        <a href="/2020/11/10/2010-ap-college-board-school-l.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2010  AP (College Board) School Level Results</p>
+        <p class="feed-excerpt">New York City school level College Board AP results for 2010.
+
+Records with 5 or fewer students are suppressed.
+
+Students are linked to schools by identifying which school they attend when register...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2010-2016-school-safety-report.html">
+        <a href="/2020/11/10/2010-2016-school-safety-report.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2010 - 2016 School Safety Report</p>
+        <p class="feed-excerpt">Since 1998, the New York City Police Department (NYPD) has been tasked with the collection and maintenance of crime data for incidents that occur in New York City public schools. The NYPD has provi...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2010-2011-vadir-incidents.html">
+        <a href="/2020/11/10/2010-2011-vadir-incidents.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2010-2011 VADIR INCIDENTS</p>
+        <p class="feed-excerpt">Violent and Disruptive Incidents Report</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2010-2011-school-zones.html">
+        <a href="/2020/11/10/2010-2011-school-zones.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2010 - 2011 School Zones</p>
+        <p class="feed-excerpt">2010 - 2011 Middle Elementary and High School zones</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2010-2011-school-progress-reports-all-schools.html">
+        <a href="/2020/11/10/2010-2011-school-progress-reports-all-schools.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2010 - 2011 School Progress Reports - All Schools</p>
+        <p class="feed-excerpt">2010/11 Progress Report results for all schools (As of 9/23/2011)
+
+Peer indexes are calculated differently depending on School Level.  Schools are only compared to other schools in the same School ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2010-2011-school-progress-report.html">
+        <a href="/2020/11/10/2010-2011-school-progress-report.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2010 - 2011 School Progress Report</p>
+        <p class="feed-excerpt">Progress Reports grade each school with an A, B, C, D, or F.  These reports focus on a school’s learning environment, student performance, and student progress.  They were designed to help parents,...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2010-2011-school-progress-repo.html">
+        <a href="/2020/11/10/2010-2011-school-progress-repo.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2010 - 2011 School Progress Reports - All Schools</p>
+        <p class="feed-excerpt">2010/11 Progress Report results for all schools (As of 9/23/2011)
+
+Peer indexes are calculated differently depending on School Level.  Schools are only compared to other schools in the same School ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2010-2011-school-closure-discharge-reporting-swd-school.html">
+        <a href="/2020/11/10/2010-2011-school-closure-discharge-reporting-swd-school.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2010-2011 School Closure Discharge Reporting SWD - School</p>
+        <p class="feed-excerpt">In June 2011, 15 New York City public schools closed for poor performance.  This report provides data regarding students enrolled in these schools during the 2010-2011 school year, according to the...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2010-2011-school-closure-discharge-reporting-swd-district.html">
+        <a href="/2020/11/10/2010-2011-school-closure-discharge-reporting-swd-district.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2010-2011 School Closure Discharge Reporting SWD - District</p>
+        <p class="feed-excerpt">In June 2011, 15 New York City public schools closed for poor performance.  This report provides data regarding students enrolled in these schools during the 2010-2011 school year, according to the...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2010-2011-school-closure-discharge-reporting-swd-borough.html">
+        <a href="/2020/11/10/2010-2011-school-closure-discharge-reporting-swd-borough.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2010-2011 School Closure Discharge Reporting SWD Borough</p>
+        <p class="feed-excerpt">In June 2011, 15 New York City public schools closed for poor performance.  This report provides data regarding students enrolled in these schools during the 2010-2011 school year, according to the...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2010-2011-school-closure-discharge-reporting-grade-school.html">
+        <a href="/2020/11/10/2010-2011-school-closure-discharge-reporting-grade-school.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2010-2011 School Closure Discharge Reporting Grade - School</p>
+        <p class="feed-excerpt">In June 2011, 15 New York City public schools closed for poor performance.  This report provides data regarding students enrolled in these schools during the 2010-2011 school year, according to the...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2010-2011-school-closure-discharge-reporting-grade-district.html">
+        <a href="/2020/11/10/2010-2011-school-closure-discharge-reporting-grade-district.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2010-2011 School Closure Discharge Reporting Grade - District</p>
+        <p class="feed-excerpt">In June 2011, 15 New York City public schools closed for poor performance.  This report provides data regarding students enrolled in these schools during the 2010-2011 school year, according to the...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2010-2011-school-closure-discharge-reporting-grade-borough.html">
+        <a href="/2020/11/10/2010-2011-school-closure-discharge-reporting-grade-borough.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2010-2011 School Closure Discharge Reporting Grade Borough</p>
+        <p class="feed-excerpt">In June 2011, 15 New York City public schools closed for poor performance.  This report provides data regarding students enrolled in these schools during the 2010-2011 school year, according to the...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2010-2011-school-closure-discharge-reporting-gpa.html">
+        <a href="/2020/11/10/2010-2011-school-closure-discharge-reporting-gpa.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2010-2011 School Closure Discharge Reporting GPA</p>
+        <p class="feed-excerpt">In June 2011, fifteen New York City public schools closed for poor performance.  This report provides data regarding students enrolled in these schools during the 2010-2011 school year, according t...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2010-2011-school-closure-discharge-reporting-gender-school.html">
+        <a href="/2020/11/10/2010-2011-school-closure-discharge-reporting-gender-school.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2010-2011 School Closure Discharge Reporting Gender - School</p>
+        <p class="feed-excerpt">In June 2011, 15 New York City public schools closed for poor performance.  This report provides data regarding students enrolled in these schools during the 2010-2011 school year, according to the...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2010-2011-school-closure-discharge-reporting-gender-district.html">
+        <a href="/2020/11/10/2010-2011-school-closure-discharge-reporting-gender-district.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2010-2011 School Closure Discharge Reporting Gender - District</p>
+        <p class="feed-excerpt">In June 2011, 15 New York City public schools closed for poor performance.  This report provides data regarding students enrolled in these schools during the 2010-2011 school year, according to the...</p>
+        </a>
+    </div>
+
+<hr>
+<table width="100%" align="center">
+    <tr>
+        <td width="30%" style="text-align:left;">
+            
+                <a href="/page117/" class="previous">
+                Previous
+                </a>
+            
+        </td>
+        <td width="30%" style="text-align:center;">
+            118 of 129
+        </td>
+        <td width="30%" style="text-align:right;">
+            
+                <a href="/page119/" class="next">Next</a>
+            
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>

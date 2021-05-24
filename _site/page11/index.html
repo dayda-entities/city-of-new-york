@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="website" property="og:type">
+    <meta content="http://localhost:4000/page11/" property="og:url"><title>Dayda</title>
+
+    <link rel="canonical" href="http://localhost:4000/page11/"/>
+    <link rel="apple-touch-icon" href="https://directory.dayda.org/assets/img/entities/city-of-new-york.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/atom.xml">
+
+    <script data-ad-client="ca-pub-0202072258759210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
+<header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Dayda</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">City of New York</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">This is a catalog of datasets organized and made more accessible from the City of New York, providing simple dowloadable CSV and JSON files, as well as Postman Collections you can use as part of workflows and other automation.</p>
+            </div> 
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="https://directory.dayda.org/assets/img/entities/city-of-new-york.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+               <img src="/assets/img/home-icon.png" width="40">
+               <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/about">
+                <img src="/assets/img/about-icon.png" width="40">                
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+                <img src="/assets/img/tags-icon.png" width="40">
+                <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+                <img src="/assets/img/feed-icon.png" width="40">
+                <p class="rss-p">Feed</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/apis.json">             
+                <img src="/assets/img/api-icon.png" width="40">
+                <p class="rss-p">APIs.json</p>
+            </a>
+        </div>   
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script>
+</header>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/street-weekly-resurfacing-sche.html">
+        <a href="/2020/11/10/street-weekly-resurfacing-sche.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Street Weekly Resurfacing Schedule - Brooklyn</p>
+        <p class="feed-excerpt">Brooklyn Milling and Paving Schedule</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/street-travel-permit.html">
+        <a href="/2020/11/10/street-travel-permit.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Street Travel Permit</p>
+        <p class="feed-excerpt">Street Travel Permits allow approved business vehicles to travel on the Church Street Bus Way at Battery Place and Greenwich Street, an otherwise restricted road.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/street-seats.html">
+        <a href="/2020/11/10/street-seats.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Street Seats</p>
+        <p class="feed-excerpt">Street Seats is a citywide program where partners apply to transform underused streets into vibrant, social public spaces between the months of March through December (the Season). Street Seats are...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/street-pothole-work-orders-closed-dataset.html">
+        <a href="/2020/11/10/street-pothole-work-orders-closed-dataset.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Street Pothole Work Orders - Closed (Dataset)</p>
+        <p class="feed-excerpt">The Street Pothole Work Orders data consists of closed street potholes inspected and repaired by the New York City Department of Transportation. The dataset includes the pothole’s location, the dat...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/street-pothole-work-orders-clo.html">
+        <a href="/2020/11/10/street-pothole-work-orders-clo.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Street Pothole Work Orders - Closed (Dataset)</p>
+        <p class="feed-excerpt">The Street Pothole Work Orders data consists of closed street potholes inspected and repaired by the New York City Department of Transportation. The dataset includes the pothole’s location, the dat...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/street-pavement-rating.html">
+        <a href="/2020/11/10/street-pavement-rating.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Street Pavement Rating</p>
+        <p class="feed-excerpt">The New York City Department of Transportation is responsible for keeping the City’s streets in good repair. The Agency performs ongoing assessment of New York City streets. Ratings are based on a ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/street-name-signs-work-orders.html">
+        <a href="/2020/11/10/street-name-signs-work-orders.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Street Name Signs Work Orders</p>
+        <p class="feed-excerpt">Work orders are used to repair and install street name signs located at street corners.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/street-hail-livery-shl-taxi-initial-inspection-schedule.html">
+        <a href="/2020/11/10/street-hail-livery-shl-taxi-initial-inspection-schedule.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Street Hail Livery (SHL) Taxi Initial Inspection Schedule</p>
+        <p class="feed-excerpt">This is a schedule of Street Hail Livery (SHL) Taxicab initial inspections at the Taxi and Limousine Commission’s Safety and Emissions Facility. This information is also available with the Vehicle ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/street-hail-livery-shl-taxi-in.html">
+        <a href="/2020/11/10/street-hail-livery-shl-taxi-in.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Street Hail Livery (SHL) Taxi Initial Inspection Schedule</p>
+        <p class="feed-excerpt">This is a schedule of Street Hail Livery (SHL) Taxicab initial inspections at the Taxi and Limousine Commission’s Safety and Emissions Facility. This information is also available with the Vehicle ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/street-hail-livery-shl-permits.html">
+        <a href="/2020/11/10/street-hail-livery-shl-permits.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Street Hail Livery (SHL) Permits</p>
+        <p class="feed-excerpt">PLEASE NOTE: This dataset, which includes all TLC authorized Street Hail Livery Permits, is updated every day in the evening between 4-7pm. Please check the ‘Last Update Date’ field to make sure th...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/street-hail-livery-shl-drivers.html">
+        <a href="/2020/11/10/street-hail-livery-shl-drivers.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Street Hail Livery (SHL) Drivers - Active</p>
+        <p class="feed-excerpt">PLEASE NOTE: This dataset, which includes all TLC Licensed Drivers who are in good standing and able to drive, is updated every day in the evening between 4-7pm. Please check the ‘Last Update Date’...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/street-hail-livery-shl-drivers-active.html">
+        <a href="/2020/11/10/street-hail-livery-shl-drivers-active.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Street Hail Livery (SHL) Drivers - Active</p>
+        <p class="feed-excerpt">PLEASE NOTE: This dataset, which includes all TLC Licensed Drivers who are in good standing and able to drive, is updated every day in the evening between 4-7pm. Please check the ‘Last Update Date’...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/street-construction-permits.html">
+        <a href="/2020/11/10/street-construction-permits.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Street Construction Permits</p>
+        <p class="feed-excerpt">DOT issues over 150 different types of sidewalk and roadway construction permits to utilities, contractors, government agencies and homeowners. Permits cover activities such as street openings, sid...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/street-construction-permits-stipulations.html">
+        <a href="/2020/11/10/street-construction-permits-stipulations.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Street Construction Permits - Stipulations</p>
+        <p class="feed-excerpt">For the list of permit stipulations for the 2013-2019, please refer to this link.
+
+DOT issues over 150 different types of sidewalk and roadway construction permits to utilities, contractors, govern...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/street-construction-permits-stipulations-historical.html">
+        <a href="/2020/11/10/street-construction-permits-stipulations-historical.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Street Construction Permits - Stipulations (Historical)</p>
+        <p class="feed-excerpt">DOT issues over 150 different types of sidewalk and roadway construction permits to utilities, contractors, government agencies and homeowners. Permits cover activities such as street openings, sid...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/street-construction-permits-st.html">
+        <a href="/2020/11/10/street-construction-permits-st.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Street Construction Permits - Stipulations</p>
+        <p class="feed-excerpt">For the list of permit stipulations for the 2013-2019, please refer to this link.
+
+DOT issues over 150 different types of sidewalk and roadway construction permits to utilities, contractors, govern...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/street-construction-permits-related-agency.html">
+        <a href="/2020/11/10/street-construction-permits-related-agency.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Street Construction Permits - Related Agency</p>
+        <p class="feed-excerpt">DOT issues over 150 different types of sidewalk and roadway construction permits to utilities, contractors, government agencies and homeowners. Permits cover activities such as street openings, sid...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/street-construction-permits-re.html">
+        <a href="/2020/11/10/street-construction-permits-re.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Street Construction Permits - Related Agency</p>
+        <p class="feed-excerpt">DOT issues over 150 different types of sidewalk and roadway construction permits to utilities, contractors, government agencies and homeowners. Permits cover activities such as street openings, sid...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/street-construction-permits-fee.html">
+        <a href="/2020/11/10/street-construction-permits-fee.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Street Construction Permits - Fee</p>
+        <p class="feed-excerpt">DOT issues over 150 different types of sidewalk and roadway construction permits to utilities, contractors, government agencies and homeowners. Permits cover activities such as street openings, sid...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/street-construction-permits-fe.html">
+        <a href="/2020/11/10/street-construction-permits-fe.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Street Construction Permits - Fee</p>
+        <p class="feed-excerpt">DOT issues over 150 different types of sidewalk and roadway construction permits to utilities, contractors, government agencies and homeowners. Permits cover activities such as street openings, sid...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/street-construction-permits-cranes.html">
+        <a href="/2020/11/10/street-construction-permits-cranes.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Street Construction Permits - Cranes</p>
+        <p class="feed-excerpt">DOT issues over 150 different types of sidewalk and roadway construction permits to utilities, contractors, government agencies and homeowners. Permits cover activities such as street openings, sid...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/street-construction-permits-cr.html">
+        <a href="/2020/11/10/street-construction-permits-cr.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Street Construction Permits - Cranes</p>
+        <p class="feed-excerpt">DOT issues over 150 different types of sidewalk and roadway construction permits to utilities, contractors, government agencies and homeowners. Permits cover activities such as street openings, sid...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/street-construction-inspections-and-corrective-action-requests.html">
+        <a href="/2020/11/10/street-construction-inspections-and-corrective-action-requests.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Street Construction Inspections and Corrective Action Requests</p>
+        <p class="feed-excerpt">DOT’s Highway Inspection &amp;amp; Quality Assurance (HIQA) enforces the laws and rules that govern the way utilities, plumbers, contractors, other governmental agencies, and property owners perfor...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/street-construction-inspection.html">
+        <a href="/2020/11/10/street-construction-inspection.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Street Construction Inspections and Corrective Action Requests</p>
+        <p class="feed-excerpt">DOT’s Highway Inspection &amp;amp; Quality Assurance (HIQA) enforces the laws and rules that govern the way utilities, plumbers, contractors, other governmental agencies, and property owners perfor...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/street-closures-due-to-construction-activities-by-intersection.html">
+        <a href="/2020/11/10/street-closures-due-to-construction-activities-by-intersection.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Street Closures due to construction activities by Intersection</p>
+        <p class="feed-excerpt">DOT Street Closure data identifies locations in the New York City Street Closure map where a street is subject to a full closure, restricting through traffic, for the purpose of conducting construc...</p>
+        </a>
+    </div>
+
+<hr>
+<table width="100%" align="center">
+    <tr>
+        <td width="30%" style="text-align:left;">
+            
+                <a href="/page10/" class="previous">
+                Previous
+                </a>
+            
+        </td>
+        <td width="30%" style="text-align:center;">
+            11 of 129
+        </td>
+        <td width="30%" style="text-align:right;">
+            
+                <a href="/page12/" class="next">Next</a>
+            
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>

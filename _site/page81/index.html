@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="website" property="og:type">
+    <meta content="http://localhost:4000/page81/" property="og:url"><title>Dayda</title>
+
+    <link rel="canonical" href="http://localhost:4000/page81/"/>
+    <link rel="apple-touch-icon" href="https://directory.dayda.org/assets/img/entities/city-of-new-york.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/atom.xml">
+
+    <script data-ad-client="ca-pub-0202072258759210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
+<header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Dayda</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">City of New York</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">This is a catalog of datasets organized and made more accessible from the City of New York, providing simple dowloadable CSV and JSON files, as well as Postman Collections you can use as part of workflows and other automation.</p>
+            </div> 
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="https://directory.dayda.org/assets/img/entities/city-of-new-york.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+               <img src="/assets/img/home-icon.png" width="40">
+               <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/about">
+                <img src="/assets/img/about-icon.png" width="40">                
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+                <img src="/assets/img/tags-icon.png" width="40">
+                <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+                <img src="/assets/img/feed-icon.png" width="40">
+                <p class="rss-p">Feed</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/apis.json">             
+                <img src="/assets/img/api-icon.png" width="40">
+                <p class="rss-p">APIs.json</p>
+            </a>
+        </div>   
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script>
+</header>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/boroughcommunity-district-repo.html">
+        <a href="/2020/11/10/boroughcommunity-district-repo.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Borough/Community District Report - CA Population</p>
+        <p class="feed-excerpt">CA Cases and Recipients Shown on the Borough Consultation Report, by Community District.
+
+For MA Enrollees dataset please visit https://data.cityofnewyork.us/d/2v2r-tx9r
+For SNAP Population dataset...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/borough-enrollment-offices.html">
+        <a href="/2020/11/10/borough-enrollment-offices.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Borough Enrollment Offices</p>
+        <p class="feed-excerpt">Department of Education borough enrollment offices</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/borough-enrollment-centers-additional-ways-to-graduate.html">
+        <a href="/2020/11/10/borough-enrollment-centers-additional-ways-to-graduate.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Borough Enrollment Centers (Additional Ways To Graduate)</p>
+        <p class="feed-excerpt">Listing of enrollment centers providing additional ways for High School graduation</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/borough-enrollment-centers-add.html">
+        <a href="/2020/11/10/borough-enrollment-centers-add.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Borough Enrollment Centers (Additional Ways To Graduate)</p>
+        <p class="feed-excerpt">Listing of enrollment centers providing additional ways for High School graduation</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/borough-engineering-tracking-system.html">
+        <a href="/2020/11/10/borough-engineering-tracking-system.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Borough Engineering Tracking System</p>
+        <p class="feed-excerpt">Tracking system for sign related requests that are received by each borough engineering operation.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/borough-engineering-tracking-s.html">
+        <a href="/2020/11/10/borough-engineering-tracking-s.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Borough Engineering Tracking System</p>
+        <p class="feed-excerpt">Tracking system for sign related requests that are received by each borough engineering operation.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/borough-boundaries.html">
+        <a href="/2020/11/10/borough-boundaries.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Borough Boundaries</p>
+        <p class="feed-excerpt">GIS data: Boundaries of Boroughs (water areas excluded).
+
+All previously released versions of this data are available at BYTES of the BIG APPLE- Archive</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/borough-boundaries-water-areas.html">
+        <a href="/2020/11/10/borough-boundaries-water-areas.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Borough Boundaries (Water Areas Included)</p>
+        <p class="feed-excerpt">GIS data: Boundaries of Boroughs (water areas included).
+
+All previously released versions of this data are available at BYTES of the BIG APPLE- Archive</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/borough-boundaries-water-areas-included.html">
+        <a href="/2020/11/10/borough-boundaries-water-areas-included.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Borough Boundaries (Water Areas Included)</p>
+        <p class="feed-excerpt">GIS data: Boundaries of Boroughs (water areas included).
+
+All previously released versions of this data are available at BYTES of the BIG APPLE- Archive</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/boardwalk.html">
+        <a href="/2020/11/10/boardwalk.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Boardwalk</p>
+        <p class="feed-excerpt">Boardwalks along beachfront. Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/board-of-standards-and-appeals.html">
+        <a href="/2020/11/10/board-of-standards-and-appeals.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Board of Standards and Appeals (BSA) Applications Status</p>
+        <p class="feed-excerpt">Decisions made by the Board of applications filed since January 1, 1998 to the present are available on this site. The decisions include both resolutions on new applications and resolutions on amen...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/board-of-standards-and-appeals-bsa-applications-status.html">
+        <a href="/2020/11/10/board-of-standards-and-appeals-bsa-applications-status.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Board of Standards and Appeals (BSA) Applications Status</p>
+        <p class="feed-excerpt">Decisions made by the Board of applications filed since January 1, 1998 to the present are available on this site. The decisions include both resolutions on new applications and resolutions on amen...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/board-of-standards-and-appeals-bsa-action-portal.html">
+        <a href="/2020/11/10/board-of-standards-and-appeals-bsa-action-portal.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Board of Standards and Appeals (BSA) Action Portal</p>
+        <p class="feed-excerpt">BSA Index Identifier from 1916 thru 1997.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/blood-pressure-checks-on-nyc-healthmap.html">
+        <a href="/2020/11/10/blood-pressure-checks-on-nyc-healthmap.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Blood pressure checks on NYC HealthMap</p>
+        <p class="feed-excerpt">The dataset includes locations in NYC that offer free blood pressure checks at self-serve blood pressure kiosks or by pharmacy staff.
+&amp;lt;/p&amp;gt;
+Blood pressure check data collected to promo...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/blood-pressure-checks-on-nyc-h.html">
+        <a href="/2020/11/10/blood-pressure-checks-on-nyc-h.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Blood pressure checks on NYC HealthMap</p>
+        <p class="feed-excerpt">The dataset includes locations in NYC that offer free blood pressure checks at self-serve blood pressure kiosks or by pharmacy staff.
+&amp;lt;/p&amp;gt;
+Blood pressure check data collected to promo...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/block-pruning.html">
+        <a href="/2020/11/10/block-pruning.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Block Pruning</p>
+        <p class="feed-excerpt">Record of routine block pruning cycles by block segment.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/block-planting.html">
+        <a href="/2020/11/10/block-planting.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Block Planting</p>
+        <p class="feed-excerpt">City blocks surveyed for tree planting by NYC Parks foresters.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/bikes-in-buildings-requests.html">
+        <a href="/2020/11/10/bikes-in-buildings-requests.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Bikes in Buildings Requests</p>
+        <p class="feed-excerpt">The Bicycle Access to Office Buildings Law aims to increase bicycle commuting by providing cyclists with the opportunity to securely park their bicycles in or close to their workplaces. The law all...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/bike-share-inspections.html">
+        <a href="/2020/11/10/bike-share-inspections.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Bike Share Inspections</p>
+        <p class="feed-excerpt">DOT field inspectors conduct inspections and issue tickets in real-time to the Bike Share system operator according to service level agreements. Stations, kiosks, docks, and bicycles are checked.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/bid-tabulations.html">
+        <a href="/2020/11/10/bid-tabulations.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Bid Tabulations</p>
+        <p class="feed-excerpt">Bids received in response to Competitive Sealed Bid (CSB) solicitations are opened publicly, at the time, date, and place designated in the Invitation for Bid (IFB). The name of each bidder, the bi...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/bicycle-routes.html">
+        <a href="/2020/11/10/bicycle-routes.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Bicycle Routes</p>
+        <p class="feed-excerpt">Locations of bike lanes and routes throughout the City</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/bicycle-parking.html">
+        <a href="/2020/11/10/bicycle-parking.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Bicycle Parking</p>
+        <p class="feed-excerpt">The dataset contains a list of bicycle racks.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/bicycle-parking-shelters.html">
+        <a href="/2020/11/10/bicycle-parking-shelters.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Bicycle Parking Shelters</p>
+        <p class="feed-excerpt">DOT, in coordination with our Coordinated Street Furniture vendor, JCDecaux, has installed bicycle parking shelters around the City. Each shelter contains stainless steel bike racks for eight bikes...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/bicycle-counts.html">
+        <a href="/2020/11/10/bicycle-counts.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Bicycle Counts</p>
+        <p class="feed-excerpt">Bicycle counts conducted around New York City at key locations. For the counter locations, please refer to the Bicycle Counters dataset. 
+Bicycle Counters: https://data.cityofnewyork.us/Transportat...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/bicycle-counters.html">
+        <a href="/2020/11/10/bicycle-counters.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Bicycle Counters</p>
+        <p class="feed-excerpt">Bicycle counts conducted around New York City at key locations.  For the counts data, please refer to the Bicycle Counts dataset. 
+Bicycle Counts: https://data.cityofnewyork.us/Transportation/Bicyc...</p>
+        </a>
+    </div>
+
+<hr>
+<table width="100%" align="center">
+    <tr>
+        <td width="30%" style="text-align:left;">
+            
+                <a href="/page80/" class="previous">
+                Previous
+                </a>
+            
+        </td>
+        <td width="30%" style="text-align:center;">
+            81 of 129
+        </td>
+        <td width="30%" style="text-align:right;">
+            
+                <a href="/page82/" class="next">Next</a>
+            
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>

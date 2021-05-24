@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="website" property="og:type">
+    <meta content="http://localhost:4000/page51/" property="og:url"><title>Dayda</title>
+
+    <link rel="canonical" href="http://localhost:4000/page51/"/>
+    <link rel="apple-touch-icon" href="https://directory.dayda.org/assets/img/entities/city-of-new-york.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/atom.xml">
+
+    <script data-ad-client="ca-pub-0202072258759210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
+<header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Dayda</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">City of New York</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">This is a catalog of datasets organized and made more accessible from the City of New York, providing simple dowloadable CSV and JSON files, as well as Postman Collections you can use as part of workflows and other automation.</p>
+            </div> 
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="https://directory.dayda.org/assets/img/entities/city-of-new-york.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+               <img src="/assets/img/home-icon.png" width="40">
+               <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/about">
+                <img src="/assets/img/about-icon.png" width="40">                
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+                <img src="/assets/img/tags-icon.png" width="40">
+                <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+                <img src="/assets/img/feed-icon.png" width="40">
+                <p class="rss-p">Feed</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/apis.json">             
+                <img src="/assets/img/api-icon.png" width="40">
+                <p class="rss-p">APIs.json</p>
+            </a>
+        </div>   
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script>
+</header>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/family-violence-related-snapsh.html">
+        <a href="/2020/11/10/family-violence-related-snapsh.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Family Violence Related Snapshots New York City Community Board Districts</p>
+        <p class="feed-excerpt">The dataset contains annual count data for the number of family-related domestic incident reports, family-related felony assaults, domestic violence related felony assaults, family-related rapes an...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/family-adult-court-contact-information.html">
+        <a href="/2020/11/10/family-adult-court-contact-information.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Family & Adult Court Contact Information</p>
+        <p class="feed-excerpt">This is the contact list for the Family and Adult Court Information.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/family-adult-court-contact-inf.html">
+        <a href="/2020/11/10/family-adult-court-contact-inf.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Family & Adult Court Contact Information</p>
+        <p class="feed-excerpt">This is the contact list for the Family and Adult Court Information.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/fair-student-funding-budget-detail-2.html">
+        <a href="/2020/11/10/fair-student-funding-budget-detail-2.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Fair Student Funding Budget Detail 2</p>
+        <p class="feed-excerpt">Fair Student Funding Budget Detail FY 2015 - Part II This detail data contains one row for each school’s data and calculations displayed on the Details screen starting from the “TOTAL FAIR STUDENT ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/fair-student-funding-budget-detail-1.html">
+        <a href="/2020/11/10/fair-student-funding-budget-detail-1.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Fair Student Funding Budget Detail 1</p>
+        <p class="feed-excerpt">Fair Student Funding Budget Detail FY 2015 - Part I This detail data contains has one row for each school for each of the weights that comprise the Fair Student Funding Formula (Grade Weight, Need ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/fair-student-funding-budget-de.html">
+        <a href="/2020/11/10/fair-student-funding-budget-de.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Fair Student Funding Budget Detail 1</p>
+        <p class="feed-excerpt">Fair Student Funding Budget Detail FY 2015 - Part I This detail data contains has one row for each school for each of the weights that comprise the Fair Student Funding Formula (Grade Weight, Need ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/facilities-database.html">
+        <a href="/2020/11/10/facilities-database.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Facilities Database</p>
+        <p class="feed-excerpt">The Facilities Database (FacDB) captures the locations and descriptions of public and
+private facilities ranging from the provision of social services, recreation, education, to
+solid waste managem...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/facilities-database-shapefile.html">
+        <a href="/2020/11/10/facilities-database-shapefile.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Facilities Database - Shapefile</p>
+        <p class="feed-excerpt">The City Planning Facilities Database (FacDB) aggregates information about 35,000+ public and private facilities and program sites that are owned, operated, funded, licensed or certified by a City,...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/expense-financial-plan-qtr1.html">
+        <a href="/2020/11/10/expense-financial-plan-qtr1.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Expense Financial Plan - Qtr1</p>
+        <p class="feed-excerpt">This dataset contains agency summary level data for PS, OTPS and Total by type of funds.  The dollar amount fields are rounded to the thousands. The Quarter 1 report,  published in October or Novem...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/expense-financial-plan-exec.html">
+        <a href="/2020/11/10/expense-financial-plan-exec.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Expense Financial Plan - Exec</p>
+        <p class="feed-excerpt">This dataset contains agency summary level data for PS, OTPS and Total by type of funds.  The dollar amount fields are rounded to the thousands.  The Executive Budget report, published in April or ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/expense-financial-plan-adpt-prel.html">
+        <a href="/2020/11/10/expense-financial-plan-adpt-prel.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Expense Financial Plan - Adpt\Prel</p>
+        <p class="feed-excerpt">This dataset contains agency summary level data for PS, OTPS and Total by type of funds.  The dollar amount fields are rounded to the thousands. The Adopted and Preliminary reports,  published by J...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/expense-financial-plan-adpt-pr.html">
+        <a href="/2020/11/10/expense-financial-plan-adpt-pr.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Expense Financial Plan - Adpt\Prel</p>
+        <p class="feed-excerpt">This dataset contains agency summary level data for PS, OTPS and Total by type of funds.  The dollar amount fields are rounded to the thousands. The Adopted and Preliminary reports,  published by J...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/expense-budget.html">
+        <a href="/2020/11/10/expense-budget.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Expense Budget</p>
+        <p class="feed-excerpt">This dataset contains expense agency data by unit of appropriation for the Adopted, Financial Plan and Modified conditions by object code.  The numbers within can be summarized to be consistent wit...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/expense-budget-miscellaneous-expense-by-category.html">
+        <a href="/2020/11/10/expense-budget-miscellaneous-expense-by-category.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Expense Budget--Miscellaneous Expense by Category</p>
+        <p class="feed-excerpt">This dataset is to provide expense categories in Miscellaneous Budget.  It is provided biannually and the amount is in exact dollar.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/expense-budget-miscellaneous-e.html">
+        <a href="/2020/11/10/expense-budget-miscellaneous-e.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Expense Budget--Miscellaneous Expense by Category</p>
+        <p class="feed-excerpt">This dataset is to provide expense categories in Miscellaneous Budget.  It is provided biannually and the amount is in exact dollar.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/expense-budget-funding-all-source.html">
+        <a href="/2020/11/10/expense-budget-funding-all-source.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Expense Budget Funding - All Source</p>
+        <p class="feed-excerpt">This dataset contains expense agency data by unit of appropriation for the Adopted, Financial Plan and Modified conditions by funding source.  The numbers within can be summarized to be consistent ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/expense-budget-funding-all-sou.html">
+        <a href="/2020/11/10/expense-budget-funding-all-sou.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Expense Budget Funding - All Source</p>
+        <p class="feed-excerpt">This dataset contains expense agency data by unit of appropriation for the Adopted, Financial Plan and Modified conditions by funding source.  The numbers within can be summarized to be consistent ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/expense-budget-debt-service-statement-ii.html">
+        <a href="/2020/11/10/expense-budget-debt-service-statement-ii.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Expense Budget--Debt Service Statement II</p>
+        <p class="feed-excerpt">Dataset shows the funded debt outstanding and debt service payable to bondholders during the next fiscal year. Debt and Debt Service is shown by category/purpose for which the debt was issued and i...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/expense-budget-debt-service-st.html">
+        <a href="/2020/11/10/expense-budget-debt-service-st.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Expense Budget--Debt Service Statement II</p>
+        <p class="feed-excerpt">Dataset shows the funded debt outstanding and debt service payable to bondholders during the next fiscal year. Debt and Debt Service is shown by category/purpose for which the debt was issued and i...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/expense-budget-debt-service-agency-otps-detail.html">
+        <a href="/2020/11/10/expense-budget-debt-service-agency-otps-detail.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Expense Budget-Debt Service Agency OTPS Detail</p>
+        <p class="feed-excerpt">The Debt Service Agency OTPS detail lays out the various expense and funding line items for Agency 099. It further compares the Adopted Budget, Current Modified Budget for the Current Year, and the...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/expense-budget-debt-service-ag.html">
+        <a href="/2020/11/10/expense-budget-debt-service-ag.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Expense Budget-Debt Service Agency OTPS Detail</p>
+        <p class="feed-excerpt">The Debt Service Agency OTPS detail lays out the various expense and funding line items for Agency 099. It further compares the Adopted Budget, Current Modified Budget for the Current Year, and the...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/expense-actuals.html">
+        <a href="/2020/11/10/expense-actuals.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Expense Actuals</p>
+        <p class="feed-excerpt">This dataset contains agency summary level data for total and city funded expense actuals.  The dollar amount fields are rounded to thousands. Data are from FY 2002 and updated once a year after an...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/exemption-classification-codes.html">
+        <a href="/2020/11/10/exemption-classification-codes.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Exemption Classification Codes</p>
+        <p class="feed-excerpt">Table of codes and the corresponding description</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/executive-order-47-community-and-ethnic-media-agency-ad-spend.html">
+        <a href="/2020/11/10/executive-order-47-community-and-ethnic-media-agency-ad-spend.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Executive Order 47 - Community and Ethnic Media Agency Ad Spend</p>
+        <p class="feed-excerpt">Executive Order 47 - Community and Ethnic Media Agency Ad Spend provides data from Fiscal Year 2020 on City agency compliance with Executive Order 47 of 2019.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/executive-order-47-community-a.html">
+        <a href="/2020/11/10/executive-order-47-community-a.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Executive Order 47 - Community and Ethnic Media Agency Ad Spend</p>
+        <p class="feed-excerpt">Executive Order 47 - Community and Ethnic Media Agency Ad Spend provides data from Fiscal Year 2020 on City agency compliance with Executive Order 47 of 2019.</p>
+        </a>
+    </div>
+
+<hr>
+<table width="100%" align="center">
+    <tr>
+        <td width="30%" style="text-align:left;">
+            
+                <a href="/page50/" class="previous">
+                Previous
+                </a>
+            
+        </td>
+        <td width="30%" style="text-align:center;">
+            51 of 129
+        </td>
+        <td width="30%" style="text-align:right;">
+            
+                <a href="/page52/" class="next">Next</a>
+            
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>

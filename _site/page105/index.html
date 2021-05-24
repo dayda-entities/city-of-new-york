@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="website" property="og:type">
+    <meta content="http://localhost:4000/page105/" property="og:url"><title>Dayda</title>
+
+    <link rel="canonical" href="http://localhost:4000/page105/"/>
+    <link rel="apple-touch-icon" href="https://directory.dayda.org/assets/img/entities/city-of-new-york.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/atom.xml">
+
+    <script data-ad-client="ca-pub-0202072258759210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
+<header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Dayda</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">City of New York</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">This is a catalog of datasets organized and made more accessible from the City of New York, providing simple dowloadable CSV and JSON files, as well as Postman Collections you can use as part of workflows and other automation.</p>
+            </div> 
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="https://directory.dayda.org/assets/img/entities/city-of-new-york.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+               <img src="/assets/img/home-icon.png" width="40">
+               <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/about">
+                <img src="/assets/img/about-icon.png" width="40">                
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+                <img src="/assets/img/tags-icon.png" width="40">
+                <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+                <img src="/assets/img/feed-icon.png" width="40">
+                <p class="rss-p">Feed</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/apis.json">             
+                <img src="/assets/img/api-icon.png" width="40">
+                <p class="rss-p">APIs.json</p>
+            </a>
+        </div>   
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script>
+</header>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-demographic-data-grades-k-8-school.html">
+        <a href="/2020/11/10/2015-2016-demographic-data-grades-k-8-school.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 Demographic Data - Grades K-8 School</p>
+        <p class="feed-excerpt">Report on Demographic Data in New York City Public Schools In Response to Local Law No. 59 2016
+Notes “Enrollment counts are based on the October 31st Audited Register for 2015.”</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-demographic-data-grades-k-8-district.html">
+        <a href="/2020/11/10/2015-2016-demographic-data-grades-k-8-district.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 Demographic Data - Grades K-8 District</p>
+        <p class="feed-excerpt">Report on Demographic Data in New York City Public Schools In Response to Local Law No. 59 2016
+Notes “Enrollment counts are based on the October 31st Audited Register for 2015.”</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-demographic-data-grades-9-12-school.html">
+        <a href="/2020/11/10/2015-2016-demographic-data-grades-9-12-school.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 Demographic Data - Grades 9-12 School</p>
+        <p class="feed-excerpt">Report on Demographic Data in New York City Public Schools In Response to Local Law No. 59 2016
+Notes  “Enrollment counts are based on the October 31st Audited Register for 2015.”</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-demographic-data-grades-9-12-district.html">
+        <a href="/2020/11/10/2015-2016-demographic-data-grades-9-12-district.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 Demographic Data - Grades 9-12 District</p>
+        <p class="feed-excerpt">Demographic Data - Grades 9-12 District</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-demographic-data-gra.html">
+        <a href="/2020/11/10/2015-2016-demographic-data-gra.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 Demographic Data - Grades K-8 School</p>
+        <p class="feed-excerpt">Report on Demographic Data in New York City Public Schools In Response to Local Law No. 59 2016
+Notes “Enrollment counts are based on the October 31st Audited Register for 2015.”</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-demographic-data-diversity-efforts.html">
+        <a href="/2020/11/10/2015-2016-demographic-data-diversity-efforts.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 Demographic Data - Diversity Efforts</p>
+        <p class="feed-excerpt">Demographic Data - Diversity Efforts</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-demographic-data-div.html">
+        <a href="/2020/11/10/2015-2016-demographic-data-div.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 Demographic Data - Diversity Efforts</p>
+        <p class="feed-excerpt">Demographic Data - Diversity Efforts</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-demographic-data-admissions-methods.html">
+        <a href="/2020/11/10/2015-2016-demographic-data-admissions-methods.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 Demographic Data - Admissions Methods</p>
+        <p class="feed-excerpt">Demographic Data - Admissions Methods</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-demographic-data-adm.html">
+        <a href="/2020/11/10/2015-2016-demographic-data-adm.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 Demographic Data - Admissions Methods</p>
+        <p class="feed-excerpt">Demographic Data - Admissions Methods</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-demographic-data-grades-k-8-school.html">
+        <a href="/2020/11/10/2015-2016-demographic-data-grades-k-8-school.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 Demographic Data - Grades K-8 School</p>
+        <p class="feed-excerpt">Report on Demographic Data in New York City Public Schools In Response to Local Law No. 59 2016
+Notes “Enrollment counts are based on the October 31st Audited Register for 2015.”</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-computer-science-report.html">
+        <a href="/2020/11/10/2015-2016-computer-science-report.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 - 2016 Computer Science Report</p>
+        <p class="feed-excerpt">New York City Department of Education 2015 - 2016 Computer Science Report</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-computer-science-rep.html">
+        <a href="/2020/11/10/2015-2016-computer-science-rep.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 - 2016 Computer Science Report</p>
+        <p class="feed-excerpt">New York City Department of Education 2015 - 2016 Computer Science Report</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-co-location-reports.html">
+        <a href="/2020/11/10/2015-2016-co-location-reports.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 - 2016 Co-Location Reports</p>
+        <p class="feed-excerpt">New York City Department of Education Demographic Snapshot and Student Achievement Data, School summary (District and Charter and results for All Co-Located Schools)</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-class-size-report-pupil-to-teacher-ratio.html">
+        <a href="/2020/11/10/2015-2016-class-size-report-pupil-to-teacher-ratio.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 Class Size Report - Pupil To Teacher Ratio</p>
+        <p class="feed-excerpt">Class Size Report - Pupil To Teacher Ratio</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-class-size-report-pu.html">
+        <a href="/2020/11/10/2015-2016-class-size-report-pu.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 Class Size Report - Pupil To Teacher Ratio</p>
+        <p class="feed-excerpt">Class Size Report - Pupil To Teacher Ratio</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-career-technical-education-report.html">
+        <a href="/2020/11/10/2015-2016-career-technical-education-report.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 - 2016 Career Technical Education Report</p>
+        <p class="feed-excerpt">New York City Department of Education 2015 - 2016 Career Technical Education Report.
+Local Law 174, enacted in 2016, requires the Department of Education of the New York City School District to sub...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-career-technical-edu.html">
+        <a href="/2020/11/10/2015-2016-career-technical-edu.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 - 2016 Career Technical Education Report</p>
+        <p class="feed-excerpt">New York City Department of Education 2015 - 2016 Career Technical Education Report.
+Local Law 174, enacted in 2016, requires the Department of Education of the New York City School District to sub...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-audited-register-data.html">
+        <a href="/2020/11/10/2015-2016-audited-register-data.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 - 2016 Audited Register Data</p>
+        <p class="feed-excerpt">Official audited register by school.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-audited-register-dat.html">
+        <a href="/2020/11/10/2015-2016-audited-register-dat.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 - 2016 Audited Register Data</p>
+        <p class="feed-excerpt">Official audited register by school.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-arts-survey-data.html">
+        <a href="/2020/11/10/2015-2016-arts-survey-data.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 Arts Survey Data</p>
+        <p class="feed-excerpt">The Annual Arts in Schools Report includes data about arts teachers, arts budgeting, space for the arts, partnerships with arts and cultural organizations and parent involvement for elementary, mid...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-arts-report.html">
+        <a href="/2020/11/10/2015-2016-arts-report.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 - 2016 Arts Report</p>
+        <p class="feed-excerpt">Data is  based off of STARS scheduling data for grades 1-6 and additional data for grades 1-5 is self-reported, collected through the Annual Arts Survey. All data is available at the school-level o...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-16-social-worker-data.html">
+        <a href="/2020/11/10/2015-16-social-worker-data.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-16 Social Worker Data</p>
+        <p class="feed-excerpt">New York City Department of Education 2015 - 16 Social Worker Data by school year.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-16-school-safety-report.html">
+        <a href="/2020/11/10/2015-16-school-safety-report.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 - 16 School Safety Report</p>
+        <p class="feed-excerpt">Since 1998, the New York City Police Department (NYPD) has been tasked with the collection and maintenance of crime data for incidents that occur in New York City public schools. The NYPD has provi...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-16-multiple-removals-year.html">
+        <a href="/2020/11/10/2015-16-multiple-removals-year.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-16 Multiple Removals - Year of Birth</p>
+        <p class="feed-excerpt">Students with two or more suspensions and/or removals annual report by year of birth, age, district, borough and school number.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-16-multiple-removals-year-of-birth.html">
+        <a href="/2020/11/10/2015-16-multiple-removals-year-of-birth.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-16 Multiple Removals - Year of Birth</p>
+        <p class="feed-excerpt">Students with two or more suspensions and/or removals annual report by year of birth, age, district, borough and school number.</p>
+        </a>
+    </div>
+
+<hr>
+<table width="100%" align="center">
+    <tr>
+        <td width="30%" style="text-align:left;">
+            
+                <a href="/page104/" class="previous">
+                Previous
+                </a>
+            
+        </td>
+        <td width="30%" style="text-align:center;">
+            105 of 129
+        </td>
+        <td width="30%" style="text-align:right;">
+            
+                <a href="/page106/" class="next">Next</a>
+            
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>

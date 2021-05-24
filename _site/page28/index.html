@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="website" property="og:type">
+    <meta content="http://localhost:4000/page28/" property="og:url"><title>Dayda</title>
+
+    <link rel="canonical" href="http://localhost:4000/page28/"/>
+    <link rel="apple-touch-icon" href="https://directory.dayda.org/assets/img/entities/city-of-new-york.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/atom.xml">
+
+    <script data-ad-client="ca-pub-0202072258759210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
+<header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Dayda</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">City of New York</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">This is a catalog of datasets organized and made more accessible from the City of New York, providing simple dowloadable CSV and JSON files, as well as Postman Collections you can use as part of workflows and other automation.</p>
+            </div> 
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="https://directory.dayda.org/assets/img/entities/city-of-new-york.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+               <img src="/assets/img/home-icon.png" width="40">
+               <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/about">
+                <img src="/assets/img/about-icon.png" width="40">                
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+                <img src="/assets/img/tags-icon.png" width="40">
+                <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+                <img src="/assets/img/feed-icon.png" width="40">
+                <p class="rss-p">Feed</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/apis.json">             
+                <img src="/assets/img/api-icon.png" width="40">
+                <p class="rss-p">APIs.json</p>
+            </a>
+        </div>   
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script>
+</header>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-parks-monuments.html">
+        <a href="/2020/11/10/nyc-parks-monuments.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Parks Monuments</p>
+        <p class="feed-excerpt">This data is table of monuments that is maintained by NYC Parks. Prior to being stored electronically the original data was stored on index cards dating back to the 1940s. The database is updated p...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-parks-ice-skating-rinks.html">
+        <a href="/2020/11/10/nyc-parks-ice-skating-rinks.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Parks Ice Skating Rinks</p>
+        <p class="feed-excerpt">Each record in this dataset is an individual ice skating rink.  The data was created using desktop GIS software.  In addition to the geometry for each ice skating rink, the dataset includes several...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-parks-drinking-fountains.html">
+        <a href="/2020/11/10/nyc-parks-drinking-fountains.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Parks Drinking Fountains</p>
+        <p class="feed-excerpt">Each record is either an individual drinking fountain or multiple drinking fountains that are attached to each other. NYC Parks created the dataset using collector for arcgis. All outdoor drinking ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-parks-dog-runs.html">
+        <a href="/2020/11/10/nyc-parks-dog-runs.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Parks Dog Runs</p>
+        <p class="feed-excerpt">Dog runs are large, fenced-in areas for dogs to exercise unleashed during park hours. Each record in this dataset is an individual dog run. Planimetrics have ensured good GIS quality of the data.
+
+...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-parks-districts.html">
+        <a href="/2020/11/10/nyc-parks-districts.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Parks Districts</p>
+        <p class="feed-excerpt">In order to appropriately manage City parks and allocate resources, NYC Parks has implemented three tiers of management [below the Borough level]. These three tiers can be represented as administra...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-parks-daily-tasks-cleaning.html">
+        <a href="/2020/11/10/nyc-parks-daily-tasks-cleaning.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Parks Daily Tasks Cleaning Routes, Fiscal Year 2016</p>
+        <p class="feed-excerpt">This data contains a snapshot of the routes used by NYC Parks’ mobile cleaning crews, and is accurate as of June 15, 2017. This data directly relates to https://data.cityofnewyork.us/Environment/NY...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-parks-daily-tasks-cleaning-routes-fiscal-year-2016.html">
+        <a href="/2020/11/10/nyc-parks-daily-tasks-cleaning-routes-fiscal-year-2016.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Parks Daily Tasks Cleaning Routes, Fiscal Year 2016</p>
+        <p class="feed-excerpt">This data contains a snapshot of the routes used by NYC Parks’ mobile cleaning crews, and is accurate as of June 15, 2017. This data directly relates to https://data.cityofnewyork.us/Environment/NY...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-outfalls.html">
+        <a href="/2020/11/10/nyc-outfalls.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Outfalls</p>
+        <p class="feed-excerpt">New York City Outfalls as of November 2017.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-open-data-release-tracker.html">
+        <a href="/2020/11/10/nyc-open-data-release-tracker.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Open Data Release Tracker</p>
+        <p class="feed-excerpt">A list of all datasets that were included on all the NYC Open Data plans (2013-2019) and their current release status. For a comprehensive information on each dataset on the Open Data Portal, pleas...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-open-data-questions-and-error-reporting.html">
+        <a href="/2020/11/10/nyc-open-data-questions-and-error-reporting.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Open Data Questions and Error Reporting</p>
+        <p class="feed-excerpt">This is a list of responses to public inquiries to the NYC Open Data Team via the “Contact Us” page on &amp;lt;/a href=”www.nyc.gov/opendata”&amp;gt; www.nyc.gov/opendata &amp;lt;/a&amp;gt; that ge...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-open-data-questions-and-er.html">
+        <a href="/2020/11/10/nyc-open-data-questions-and-er.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Open Data Questions and Error Reporting</p>
+        <p class="feed-excerpt">This is a list of responses to public inquiries to the NYC Open Data Team via the “Contact Us” page on &amp;lt;/a href=”www.nyc.gov/opendata”&amp;gt; www.nyc.gov/opendata &amp;lt;/a&amp;gt; that ge...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-open-data-public-dataset-requests.html">
+        <a href="/2020/11/10/nyc-open-data-public-dataset-requests.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Open Data Public Dataset Requests</p>
+        <p class="feed-excerpt">This dataset contains the list of dataset nominations submitted to the NYC Open Data team.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-open-data-public-dataset-r.html">
+        <a href="/2020/11/10/nyc-open-data-public-dataset-r.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Open Data Public Dataset Requests</p>
+        <p class="feed-excerpt">This dataset contains the list of dataset nominations submitted to the NYC Open Data team.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-open-data-plan-datasets-added-since-the-publication-nyc-open-data-plan-september-2013.html">
+        <a href="/2020/11/10/nyc-open-data-plan-datasets-added-since-the-publication-nyc-open-data-plan-september-2013.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Open Data Plan - Datasets Added  Since The Publication NYC Open Data Plan ( September 2013)</p>
+        <p class="feed-excerpt">This dataset will provide the list of datasets added to the portal since the publication of the Inaugural NYC Open Data Plan ( September 2013)</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-open-data-plan-datasets-ad.html">
+        <a href="/2020/11/10/nyc-open-data-plan-datasets-ad.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Open Data Plan - Datasets Added  Since The Publication NYC Open Data Plan ( September 2013)</p>
+        <p class="feed-excerpt">This dataset will provide the list of datasets added to the portal since the publication of the Inaugural NYC Open Data Plan ( September 2013)</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-office-of-the-comptroller-board-of-education-retirement-system-bers-holdings-data.html">
+        <a href="/2020/11/10/nyc-office-of-the-comptroller-board-of-education-retirement-system-bers-holdings-data.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Office of The Comptroller Board of Education Retirement System (BERS) Holdings Data</p>
+        <p class="feed-excerpt">This dataset sets forth the Board of Education Retirement System (BERS) holdings (both equity and fixed income) of the identified pension/retirement system as of the close of the fiscal year.&amp;l...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-office-of-the-comptroller.html">
+        <a href="/2020/11/10/nyc-office-of-the-comptroller.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Office of The Comptroller Board of Education Retirement System (BERS) Holdings Data</p>
+        <p class="feed-excerpt">This dataset sets forth the Board of Education Retirement System (BERS) holdings (both equity and fixed income) of the identified pension/retirement system as of the close of the fiscal year.&amp;l...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-municipal-building-energy-benchmarking-results.html">
+        <a href="/2020/11/10/nyc-municipal-building-energy-benchmarking-results.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Municipal Building Energy Benchmarking Results</p>
+        <p class="feed-excerpt">This is a list of New York City municipal buildings over 10,000 square feet by borough, block, lot, and agency, identifying each building’s energy intensity (kBtu/sq. ft.), Portfolio Manager benchm...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-municipal-building-energy-benchmarking-results-2014.html">
+        <a href="/2020/11/10/nyc-municipal-building-energy-benchmarking-results-2014.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Municipal Building Energy Benchmarking Results (2014)</p>
+        <p class="feed-excerpt">This is a list of New York City municipal buildings over 10,000 square feet by borough, block, lot, and agency, identifying each building’s energy intensity (kBtu/sq. ft.), Portfolio Manager benchm...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-municipal-building-energy.html">
+        <a href="/2020/11/10/nyc-municipal-building-energy.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Municipal Building Energy Benchmarking Results</p>
+        <p class="feed-excerpt">This is a list of New York City municipal buildings over 10,000 square feet by borough, block, lot, and agency, identifying each building’s energy intensity (kBtu/sq. ft.), Portfolio Manager benchm...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-jobs.html">
+        <a href="/2020/11/10/nyc-jobs.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Jobs</p>
+        <p class="feed-excerpt">This dataset contains current job postings available on the  City of New York’s official jobs site (http://www.nyc.gov/html/careers/html/search/search.shtml).  Internal postings available to city e...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-independent-budget-office-ibo-tax-revenue-fy-1980-fy-2014.html">
+        <a href="/2020/11/10/nyc-independent-budget-office-ibo-tax-revenue-fy-1980-fy-2014.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Independent Budget Office (IBO) Tax Revenue FY 1980 - FY 2014</p>
+        <p class="feed-excerpt">Annual tax revenue from major tax sources, from FY 1980 - FY 2014.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-independent-budget-office-ibo-state-and-federal-categorical-aid-fy-1980-2013.html">
+        <a href="/2020/11/10/nyc-independent-budget-office-ibo-state-and-federal-categorical-aid-fy-1980-2013.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Independent Budget Office (IBO) State And Federal Categorical Aid, FY 1980 - 2013</p>
+        <p class="feed-excerpt">Annual state and federal categorical aid by purpose of grant, from FY 1980 through FY 2013</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-independent-budget-office-ibo-revenue-and-spending-summary-fy-1980-fy-2013.html">
+        <a href="/2020/11/10/nyc-independent-budget-office-ibo-revenue-and-spending-summary-fy-1980-fy-2013.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Independent Budget Office (IBO) Revenue And Spending Summary FY 1980 - FY 2013</p>
+        <p class="feed-excerpt">Annual revenue and spending data by major areas of the budget from FY 1980 through FY 1963</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/nyc-independent-budget-office-ibo-non-tax-revenues-fy-1980-fy-2013.html">
+        <a href="/2020/11/10/nyc-independent-budget-office-ibo-non-tax-revenues-fy-1980-fy-2013.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">NYC Independent Budget Office (IBO) Non- Tax Revenues FY 1980 - FY 2013</p>
+        <p class="feed-excerpt">Annual non-tax revenue from major revenue sources, from FY 1980 through FY 2013</p>
+        </a>
+    </div>
+
+<hr>
+<table width="100%" align="center">
+    <tr>
+        <td width="30%" style="text-align:left;">
+            
+                <a href="/page27/" class="previous">
+                Previous
+                </a>
+            
+        </td>
+        <td width="30%" style="text-align:center;">
+            28 of 129
+        </td>
+        <td width="30%" style="text-align:right;">
+            
+                <a href="/page29/" class="next">Next</a>
+            
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>

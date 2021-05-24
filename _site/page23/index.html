@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="website" property="og:type">
+    <meta content="http://localhost:4000/page23/" property="og:url"><title>Dayda</title>
+
+    <link rel="canonical" href="http://localhost:4000/page23/"/>
+    <link rel="apple-touch-icon" href="https://directory.dayda.org/assets/img/entities/city-of-new-york.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/atom.xml">
+
+    <script data-ad-client="ca-pub-0202072258759210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
+<header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Dayda</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">City of New York</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">This is a catalog of datasets organized and made more accessible from the City of New York, providing simple dowloadable CSV and JSON files, as well as Postman Collections you can use as part of workflows and other automation.</p>
+            </div> 
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="https://directory.dayda.org/assets/img/entities/city-of-new-york.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+               <img src="/assets/img/home-icon.png" width="40">
+               <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/about">
+                <img src="/assets/img/about-icon.png" width="40">                
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+                <img src="/assets/img/tags-icon.png" width="40">
+                <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+                <img src="/assets/img/feed-icon.png" width="40">
+                <p class="rss-p">Feed</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/apis.json">             
+                <img src="/assets/img/api-icon.png" width="40">
+                <p class="rss-p">APIs.json</p>
+            </a>
+        </div>   
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script>
+</header>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/other-tobacco-products-license.html">
+        <a href="/2020/11/10/other-tobacco-products-license.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Other Tobacco Products License</p>
+        <p class="feed-excerpt">License tobacco wholesale/distributors dealers
+
+New York City issues one license to act as a wholesale dealer in cigarette and / or other tobacco products.  New York City wholesale dealers of other...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/order-to-repairvacate-orders.html">
+        <a href="/2020/11/10/order-to-repairvacate-orders.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Order to Repair/Vacate Orders</p>
+        <p class="feed-excerpt">Order to Repair/Vacate Orders</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/open-streets-locations.html">
+        <a href="/2020/11/10/open-streets-locations.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Open Streets Locations</p>
+        <p class="feed-excerpt">New York City is opening streets daily for pedestrians and cyclists to use the roadbed of the street for social distancing during the COVID-19 crisis.
+&amp;lt;/p&amp;gt;
+New York City is opening 40...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/open-space-parks.html">
+        <a href="/2020/11/10/open-space-parks.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Open Space (Parks)</p>
+        <p class="feed-excerpt">Description:  Planimetric basemap polygon layer containing open space features, such as courts, tracks, etc. including Parks. Please see the following link for additional documentation- https://git...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/open-space-other.html">
+        <a href="/2020/11/10/open-space-other.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Open Space (Other)</p>
+        <p class="feed-excerpt">Planimetric basemap layer containing open spaces (Excluding Parks). Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/open-restaurants-inspections.html">
+        <a href="/2020/11/10/open-restaurants-inspections.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Open Restaurants Inspections</p>
+        <p class="feed-excerpt">The Open Restaurants Inspections dataset contains records of site setup inspections performed throughout the five boroughs of New York City.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/open-restaurant-applications.html">
+        <a href="/2020/11/10/open-restaurant-applications.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Open Restaurant Applications</p>
+        <p class="feed-excerpt">Open Restaurant Applications is a dataset of applications from food service establishments seeking authorization to re-open under Phase Two of the State’s New York Forward Plan, and place outdoor s...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/open-parking-and-camera-violations.html">
+        <a href="/2020/11/10/open-parking-and-camera-violations.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Open Parking and Camera Violations</p>
+        <p class="feed-excerpt">The Open Parking and Camera Violations dataset was initially loaded with all violations contained in the mainframe database as of May 2016. Subsequent new violation issuance and updates to existing...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/open-parking-and-camera-violat.html">
+        <a href="/2020/11/10/open-parking-and-camera-violat.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Open Parking and Camera Violations</p>
+        <p class="feed-excerpt">The Open Parking and Camera Violations dataset was initially loaded with all violations contained in the mainframe database as of May 2016. Subsequent new violation issuance and updates to existing...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/open-market-order-omo-charges.html">
+        <a href="/2020/11/10/open-market-order-omo-charges.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Open Market Order (OMO) Charges</p>
+        <p class="feed-excerpt">The data set contains information on work orders created through HPD’s Emergency Repair Program, Alternative Enforcement Program and Demolition programs and fees assessed against properties by HPD ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/open-data-coordinators-odcs.html">
+        <a href="/2020/11/10/open-data-coordinators-odcs.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Open Data Coordinators (ODCs)</p>
+        <p class="feed-excerpt">This dataset contains the name and affiliation of NYC Open Data Coordinators (ODC). An organization’s Open Data Coordinator serves as the point person for all data sets published by the organizatio...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/open-article-7-petitions.html">
+        <a href="/2020/11/10/open-article-7-petitions.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Open Article 7 Petitions</p>
+        <p class="feed-excerpt">The information in the City’s computer records with respect to open petitions challenging real property tax assessments pursuant to Article 7 of the Real Property Tax Law: contains the index number...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/onenyc-indicators.html">
+        <a href="/2020/11/10/onenyc-indicators.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">OneNYC Indicators</p>
+        <p class="feed-excerpt">Annual Agency Performance Metrics
+
+Key indicators developed to track progress toward meeting the goals detailed in OneNYC. These quantitative indicators are designed for accountability, transparenc...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/onenyc-2050.html">
+        <a href="/2020/11/10/onenyc-2050.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">OneNYC 2050</p>
+        <p class="feed-excerpt">This dataset contains the indicators included in the OneNYC 2050 Strategic Plan that will be used to assess progress in achieving the eight overreaching goals of the plan: (1) Vibrant Democracy; (2...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/oil-usage-select-city-owned-buildings.html">
+        <a href="/2020/11/10/oil-usage-select-city-owned-buildings.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Oil Usage ( Select City Owned Buildings)</p>
+        <p class="feed-excerpt">Oil Usage (select City Owned Buildings), oil, city, data, statistics,heating, energy,heat</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/oil-usage-select-city-owned-bu.html">
+        <a href="/2020/11/10/oil-usage-select-city-owned-bu.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Oil Usage ( Select City Owned Buildings)</p>
+        <p class="feed-excerpt">Oil Usage (select City Owned Buildings), oil, city, data, statistics,heating, energy,heat</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/office-of-the-comptroller-teachers-retirement-system-holdings-data.html">
+        <a href="/2020/11/10/office-of-the-comptroller-teachers-retirement-system-holdings-data.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Office of The Comptroller Teachers Retirement System Holdings Data</p>
+        <p class="feed-excerpt">This dataset sets forth the Teachers Retirement System  holdings (both equity and fixed income) of the identified pension/retirement system as of the close of the fiscal year.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/office-of-the-comptroller-teac.html">
+        <a href="/2020/11/10/office-of-the-comptroller-teac.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Office of The Comptroller Teachers Retirement System Holdings Data</p>
+        <p class="feed-excerpt">This dataset sets forth the Teachers Retirement System  holdings (both equity and fixed income) of the identified pension/retirement system as of the close of the fiscal year.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/office-of-the-comptroller-police-retirement-system-holdings-data.html">
+        <a href="/2020/11/10/office-of-the-comptroller-police-retirement-system-holdings-data.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Office of The Comptroller Police Retirement System Holdings Data</p>
+        <p class="feed-excerpt">This dataset sets forth the Police Retirement System holdings (both equity and fixed income) of the identified pension/retirement system as of the close of the fiscal year.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/office-of-the-comptroller-poli.html">
+        <a href="/2020/11/10/office-of-the-comptroller-poli.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Office of The Comptroller Police Retirement System Holdings Data</p>
+        <p class="feed-excerpt">This dataset sets forth the Police Retirement System holdings (both equity and fixed income) of the identified pension/retirement system as of the close of the fiscal year.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/office-of-the-comptroller-nyc-employee-retirement-system-nycers-holdings-data.html">
+        <a href="/2020/11/10/office-of-the-comptroller-nyc-employee-retirement-system-nycers-holdings-data.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Office of The Comptroller NYC Employee Retirement System (NYCERS) Holdings Data</p>
+        <p class="feed-excerpt">This dataset sets forth the holdings NYC Employee Retirement System (NYCERS) (both equity and fixed income) of the identified pension/retirement system as of the close of the fiscal year.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/office-of-the-comptroller-nyc.html">
+        <a href="/2020/11/10/office-of-the-comptroller-nyc.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Office of The Comptroller NYC Employee Retirement System (NYCERS) Holdings Data</p>
+        <p class="feed-excerpt">This dataset sets forth the holdings NYC Employee Retirement System (NYCERS) (both equity and fixed income) of the identified pension/retirement system as of the close of the fiscal year.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/office-of-the-comptroller-fire.html">
+        <a href="/2020/11/10/office-of-the-comptroller-fire.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Office of The Comptroller Fire Department Retirement System Holdings Data</p>
+        <p class="feed-excerpt">This dataset sets forth the Fire Department Retirement System holdings (both equity and fixed income) of the identified pension/retirement system as of the close of the fiscal year.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/office-of-the-comptroller-fire-department-retirement-system-holdings-data.html">
+        <a href="/2020/11/10/office-of-the-comptroller-fire-department-retirement-system-holdings-data.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Office of The Comptroller Fire Department Retirement System Holdings Data</p>
+        <p class="feed-excerpt">This dataset sets forth the Fire Department Retirement System holdings (both equity and fixed income) of the identified pension/retirement system as of the close of the fiscal year.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/office-of-mediation-and-conflict-resolution-cases.html">
+        <a href="/2020/11/10/office-of-mediation-and-conflict-resolution-cases.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Office of Mediation and Conflict Resolution Cases</p>
+        <p class="feed-excerpt">The dataset contains the number of settlements negotiated to completion by the Commission’s Office of Mediation and Conflict Resolution each month.</p>
+        </a>
+    </div>
+
+<hr>
+<table width="100%" align="center">
+    <tr>
+        <td width="30%" style="text-align:left;">
+            
+                <a href="/page22/" class="previous">
+                Previous
+                </a>
+            
+        </td>
+        <td width="30%" style="text-align:center;">
+            23 of 129
+        </td>
+        <td width="30%" style="text-align:right;">
+            
+                <a href="/page24/" class="next">Next</a>
+            
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>

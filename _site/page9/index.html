@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="website" property="og:type">
+    <meta content="http://localhost:4000/page9/" property="og:url"><title>Dayda</title>
+
+    <link rel="canonical" href="http://localhost:4000/page9/"/>
+    <link rel="apple-touch-icon" href="https://directory.dayda.org/assets/img/entities/city-of-new-york.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/atom.xml">
+
+    <script data-ad-client="ca-pub-0202072258759210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
+<header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Dayda</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">City of New York</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">This is a catalog of datasets organized and made more accessible from the City of New York, providing simple dowloadable CSV and JSON files, as well as Postman Collections you can use as part of workflows and other automation.</p>
+            </div> 
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="https://directory.dayda.org/assets/img/entities/city-of-new-york.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+               <img src="/assets/img/home-icon.png" width="40">
+               <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/about">
+                <img src="/assets/img/about-icon.png" width="40">                
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+                <img src="/assets/img/tags-icon.png" width="40">
+                <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+                <img src="/assets/img/feed-icon.png" width="40">
+                <p class="rss-p">Feed</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/apis.json">             
+                <img src="/assets/img/api-icon.png" width="40">
+                <p class="rss-p">APIs.json</p>
+            </a>
+        </div>   
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script>
+</header>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/tlc-driver-education-24-hour-c.html">
+        <a href="/2020/11/10/tlc-driver-education-24-hour-c.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">TLC Driver Education 24 Hour Course Providers (Dataset)</p>
+        <p class="feed-excerpt">This is a list of authorized providers who offer the TLC Driver License 24 hour TLC Driver Education Course and exam. All TLC Driver License applicants must complete the course and pass an 80-quest...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/tlc-authorized-wheelchair-passenger-assistance-training-providers-dataset.html">
+        <a href="/2020/11/10/tlc-authorized-wheelchair-passenger-assistance-training-providers-dataset.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">TLC Authorized Wheelchair Passenger Assistance Training Providers (Dataset)</p>
+        <p class="feed-excerpt">This is a list of authorized providers who offer the passenger assistance and wheelchair accessible vehicle training course that all new TLC driver license applicants (Yellow &amp;amp; Green Taxica...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/tlc-authorized-wheelchair-pass.html">
+        <a href="/2020/11/10/tlc-authorized-wheelchair-pass.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">TLC Authorized Wheelchair Passenger Assistance Training Providers (Dataset)</p>
+        <p class="feed-excerpt">This is a list of authorized providers who offer the passenger assistance and wheelchair accessible vehicle training course that all new TLC driver license applicants (Yellow &amp;amp; Green Taxica...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/tlc-authorized-behind-the-wheel-providers-historical.html">
+        <a href="/2020/11/10/tlc-authorized-behind-the-wheel-providers-historical.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">TLC Authorized Behind The Wheel Providers (Historical)</p>
+        <p class="feed-excerpt">NOTE: This list is historical. The providers listed DO NOT offer this course. The course is on hold and will be offered again by different providers in late 2019.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/tlc-authorized-behind-the-whee.html">
+        <a href="/2020/11/10/tlc-authorized-behind-the-whee.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">TLC Authorized Behind The Wheel Providers (Historical)</p>
+        <p class="feed-excerpt">NOTE: This list is historical. The providers listed DO NOT offer this course. The course is on hold and will be offered again by different providers in late 2019.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/tlc-approved-labcorp-patient-services-drug-test-locations-dataset.html">
+        <a href="/2020/11/10/tlc-approved-labcorp-patient-services-drug-test-locations-dataset.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">TLC Approved LabCorp Patient Services Drug Test Locations (Dataset)</p>
+        <p class="feed-excerpt">List of TLC approved LabCorp Drug Test Locations. For inquiries about the contents of this dataset, please email tlccompliance@tlc.nyc.gov</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/tlc-approved-labcorp-patient-s.html">
+        <a href="/2020/11/10/tlc-approved-labcorp-patient-s.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">TLC Approved LabCorp Patient Services Drug Test Locations (Dataset)</p>
+        <p class="feed-excerpt">List of TLC approved LabCorp Drug Test Locations. For inquiries about the contents of this dataset, please email tlccompliance@tlc.nyc.gov</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/thrivenyc-program-reach-and-selected-outcomes-fall-2020.html">
+        <a href="/2020/11/10/thrivenyc-program-reach-and-selected-outcomes-fall-2020.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">ThriveNYC Program Reach and Selected Outcomes Fall 2020</p>
+        <p class="feed-excerpt">ThriveNYC Program Reach and Selected Outcomes as of Fall 2020</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/thrivenyc-program-reach-and-se.html">
+        <a href="/2020/11/10/thrivenyc-program-reach-and-se.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">ThriveNYC Program Reach and Selected Outcomes Fall 2020</p>
+        <p class="feed-excerpt">ThriveNYC Program Reach and Selected Outcomes as of Fall 2020</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/three-quarter-housing-report-placements.html">
+        <a href="/2020/11/10/three-quarter-housing-report-placements.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Three-Quarter Housing Report - Placements</p>
+        <p class="feed-excerpt">In June 2015, Mayor de Blasio announced the formation of an interagency task force to review the use of three-quarter houses in New York City. Representatives from the task force began to visit and...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/three-quarter-housing-report-p.html">
+        <a href="/2020/11/10/three-quarter-housing-report-p.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Three-Quarter Housing Report - Placements</p>
+        <p class="feed-excerpt">In June 2015, Mayor de Blasio announced the formation of an interagency task force to review the use of three-quarter houses in New York City. Representatives from the task force began to visit and...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/theaters.html">
+        <a href="/2020/11/10/theaters.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Theaters</p>
+        <p class="feed-excerpt">Listing of NYC theaters</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/textile-drop-off-locations-in-nyc.html">
+        <a href="/2020/11/10/textile-drop-off-locations-in-nyc.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Textile Drop-Off Locations in NYC</p>
+        <p class="feed-excerpt">Locations where NYC residents can drop off clothing, fabrics, linens, footwear, and other items for donation or textile recycling. For more information, see: https://www1.nyc.gov/assets/dsny/site/s...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/textile-drop-off-locations-in.html">
+        <a href="/2020/11/10/textile-drop-off-locations-in.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Textile Drop-Off Locations in NYC</p>
+        <p class="feed-excerpt">Locations where NYC residents can drop off clothing, fabrics, linens, footwear, and other items for donation or textile recycling. For more information, see: https://www1.nyc.gov/assets/dsny/site/s...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/test-assessing-secondary-completion-tasc-for-nycha-residents-local-law-163.html">
+        <a href="/2020/11/10/test-assessing-secondary-completion-tasc-for-nycha-residents-local-law-163.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Test Assessing Secondary Completion (TASC) for NYCHA Residents - Local Law 163</p>
+        <p class="feed-excerpt">This dataset contains information about NYCHA residents who passed the Test Assessing Secondary Completion (TASC) exam, exams that assess if an exam-taker has the required knowledge to receive a hi...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/test-assessing-secondary-completion-tasc-for-nycha-residents-by-nycha-development-local-law-163.html">
+        <a href="/2020/11/10/test-assessing-secondary-completion-tasc-for-nycha-residents-by-nycha-development-local-law-163.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Test Assessing Secondary Completion (TASC) for NYCHA Residents by NYCHA Development- Local Law 163</p>
+        <p class="feed-excerpt">This datasets contains information about NYCHA residents who passed the Test Assessing Secondary Completion (TASC) exam, exams that assess if an exam-taker has the required knowledge to receive a h...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/test-assessing-secondary-completion-tasc-for-nycha-residents-by-council-district-local-law-163.html">
+        <a href="/2020/11/10/test-assessing-secondary-completion-tasc-for-nycha-residents-by-council-district-local-law-163.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Test Assessing Secondary Completion (TASC) for NYCHA Residents by Council District- Local Law 163</p>
+        <p class="feed-excerpt">This datasets contains information about NYCHA residents who passed the Test Assessing Secondary Completion (TASC) exam, exams that assess if an exam-taker has the required knowledge to receive a h...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/test-assessing-secondary-compl.html">
+        <a href="/2020/11/10/test-assessing-secondary-compl.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Test Assessing Secondary Completion (TASC) for NYCHA Residents - Local Law 163</p>
+        <p class="feed-excerpt">This dataset contains information about NYCHA residents who passed the Test Assessing Secondary Completion (TASC) exam, exams that assess if an exam-taker has the required knowledge to receive a hi...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/ten-year-capital-strategy.html">
+        <a href="/2020/11/10/ten-year-capital-strategy.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Ten-Year Capital Strategy</p>
+        <p class="feed-excerpt">This dataset contains Ten-Year Capital Strategy data by project type, ten-year plan category and source of funds.  The dollar values are in thousands.  The dataset is updated every other year in Pr...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/temporary-art-program.html">
+        <a href="/2020/11/10/temporary-art-program.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Temporary Art Program</p>
+        <p class="feed-excerpt">DOT Art collaborates with community-based organizations to commission artists to design and install temporary art on DOT property.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/taxicab-partition-manufacturers-and-installers-dataset.html">
+        <a href="/2020/11/10/taxicab-partition-manufacturers-and-installers-dataset.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Taxicab Partition Manufacturers and Installers (Dataset)</p>
+        <p class="feed-excerpt">Taxicab (SHL and Medallion) manufacturers and installers of partitions. Partitions are safety features of taxicabs that provide protection to the driver.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/taxicab-partition-manufacturer.html">
+        <a href="/2020/11/10/taxicab-partition-manufacturer.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Taxicab Partition Manufacturers and Installers (Dataset)</p>
+        <p class="feed-excerpt">Taxicab (SHL and Medallion) manufacturers and installers of partitions. Partitions are safety features of taxicabs that provide protection to the driver.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/taxi-improvement-fund-tif-medallion-payments.html">
+        <a href="/2020/11/10/taxi-improvement-fund-tif-medallion-payments.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Taxi Improvement Fund (TIF) Medallion Payments</p>
+        <p class="feed-excerpt">This is a list of monthly payments made to owners of Wheelchair Accessible Vehicles (WAVs) from the Taxi Improvement Fund (TIF). Information is listed by medallion and agent number, and is updated ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/taxi-improvement-fund-tif-meda.html">
+        <a href="/2020/11/10/taxi-improvement-fund-tif-meda.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Taxi Improvement Fund (TIF) Medallion Payments</p>
+        <p class="feed-excerpt">This is a list of monthly payments made to owners of Wheelchair Accessible Vehicles (WAVs) from the Taxi Improvement Fund (TIF). Information is listed by medallion and agent number, and is updated ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/tax-lien-sale-lists.html">
+        <a href="/2020/11/10/tax-lien-sale-lists.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Tax Lien Sale Lists</p>
+        <p class="feed-excerpt">Properties with tax and/or water liens that are potentially eligible to be included in the next lien sale.&amp;lt;/p&amp;gt;Tax Lien Sale Lists : Properties with tax, water liens and other charges ...</p>
+        </a>
+    </div>
+
+<hr>
+<table width="100%" align="center">
+    <tr>
+        <td width="30%" style="text-align:left;">
+            
+                <a href="/page8/" class="previous">
+                Previous
+                </a>
+            
+        </td>
+        <td width="30%" style="text-align:center;">
+            9 of 129
+        </td>
+        <td width="30%" style="text-align:right;">
+            
+                <a href="/page10/" class="next">Next</a>
+            
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>

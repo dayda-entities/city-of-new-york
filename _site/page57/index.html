@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="website" property="og:type">
+    <meta content="http://localhost:4000/page57/" property="og:url"><title>Dayda</title>
+
+    <link rel="canonical" href="http://localhost:4000/page57/"/>
+    <link rel="apple-touch-icon" href="https://directory.dayda.org/assets/img/entities/city-of-new-york.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/atom.xml">
+
+    <script data-ad-client="ca-pub-0202072258759210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
+<header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Dayda</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">City of New York</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">This is a catalog of datasets organized and made more accessible from the City of New York, providing simple dowloadable CSV and JSON files, as well as Postman Collections you can use as part of workflows and other automation.</p>
+            </div> 
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="https://directory.dayda.org/assets/img/entities/city-of-new-york.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+               <img src="/assets/img/home-icon.png" width="40">
+               <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/about">
+                <img src="/assets/img/about-icon.png" width="40">                
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+                <img src="/assets/img/tags-icon.png" width="40">
+                <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+                <img src="/assets/img/feed-icon.png" width="40">
+                <p class="rss-p">Feed</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/apis.json">             
+                <img src="/assets/img/api-icon.png" width="40">
+                <p class="rss-p">APIs.json</p>
+            </a>
+        </div>   
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script>
+</header>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dsny-organics-collection-parti.html">
+        <a href="/2020/11/10/dsny-organics-collection-parti.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DSNY Organics Collection Participation</p>
+        <p class="feed-excerpt">The number of NYC households, residential buildings, and schools receiving curbside organics collection, by Fiscal Year that collection began. For more information about NYC’s organics collection p...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dsny-monthly-tonnage-data.html">
+        <a href="/2020/11/10/dsny-monthly-tonnage-data.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DSNY Monthly Tonnage Data</p>
+        <p class="feed-excerpt">DSNY Monthly Tonnage Data.
+
+DSNY Monthly Tonnage Data provides monthly collection tonnages that the Department of Sanitation collects from NYC residences and institutions. For more information abou...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dsny-litter-basket-inventory.html">
+        <a href="/2020/11/10/dsny-litter-basket-inventory.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DSNY Litter Basket Inventory</p>
+        <p class="feed-excerpt">Locations and types of refuse litter baskets tracked by DSNY
+
+Data is collected by DSNY in order to track basket locations.
+Data is collected through periodic surveys by field personnel. DSNY digit...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dsny-graffiti-tracking.html">
+        <a href="/2020/11/10/dsny-graffiti-tracking.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DSNY Graffiti Tracking</p>
+        <p class="feed-excerpt">Location and resolution of reported incidents of graffiti within NYC. The Graffiti-Free NYC Program removes graffiti and other blight across the five boroughs. Graffiti-Free NYC is a cooperative ef...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dsny-garages.html">
+        <a href="/2020/11/10/dsny-garages.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DSNY Garages</p>
+        <p class="feed-excerpt">Location of DSNY garages. Essential to DSNY operations are our 59 garages across the five boroughs. This structure enables the Department’s uniformed personnel to efficiently perform regular duties...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dsny-frequencies.html">
+        <a href="/2020/11/10/dsny-frequencies.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DSNY Frequencies</p>
+        <p class="feed-excerpt">Citywide DSNY frequency boundaries for collection operation (refuse, recycling, organics, bulk items). These boundaries are sub-divisions of DSNY sections.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dsny-donatenyc-directory.html">
+        <a href="/2020/11/10/dsny-donatenyc-directory.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DSNY DonateNYC Directory</p>
+        <p class="feed-excerpt">Sites listed in the DonateNYC Directory. For more information, see: https://www1.nyc.gov/assets/donate/site/Directory</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dsny-districts.html">
+        <a href="/2020/11/10/dsny-districts.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DSNY Districts</p>
+        <p class="feed-excerpt">Shape file of DSNY Districts</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dsny-districts-with-disposal-vendor-assignments.html">
+        <a href="/2020/11/10/dsny-districts-with-disposal-vendor-assignments.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DSNY Districts With Disposal Vendor Assignments</p>
+        <p class="feed-excerpt">The vendors used to discard various materials (refuse, paper, metal/glass/plastic, bulk metal, and organics) collected in DSNY districts.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dsny-districts-with-disposal-v.html">
+        <a href="/2020/11/10/dsny-districts-with-disposal-v.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DSNY Districts With Disposal Vendor Assignments</p>
+        <p class="feed-excerpt">The vendors used to discard various materials (refuse, paper, metal/glass/plastic, bulk metal, and organics) collected in DSNY districts.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dsny-disposal-vendors.html">
+        <a href="/2020/11/10/dsny-disposal-vendors.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DSNY Disposal Vendors</p>
+        <p class="feed-excerpt">The vendors used to discard various materials (refuse, paper, metal/glass/plastic, organics, construction &amp;amp; demolition) collected by DSNY.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/drivers-and-attendants.html">
+        <a href="/2020/11/10/drivers-and-attendants.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Drivers and Attendants</p>
+        <p class="feed-excerpt">OPT does not operate any buses nor does it directly employ any bus drivers or attendants. Drivers and attendants (sometimes referred to as ‘matrons’ or ‘escorts’) and employed by bus vendors themse...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/drinking-water-quality-distribution-monitoring-data.html">
+        <a href="/2020/11/10/drinking-water-quality-distribution-monitoring-data.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Drinking Water Quality Distribution Monitoring Data</p>
+        <p class="feed-excerpt">The data tables summarize the turbidity values, coliform, fluoride and chlorine found at sides in distribution each month.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/drinking-water-quality-distrib.html">
+        <a href="/2020/11/10/drinking-water-quality-distrib.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Drinking Water Quality Distribution Monitoring Data</p>
+        <p class="feed-excerpt">The data tables summarize the turbidity values, coliform, fluoride and chlorine found at sides in distribution each month.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/downtown-brooklyn-partnership-dbp-court-livingston-schermerhorn-cls-retail-locations.html">
+        <a href="/2020/11/10/downtown-brooklyn-partnership-dbp-court-livingston-schermerhorn-cls-retail-locations.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Downtown Brooklyn Partnership (DBP)/ Court-Livingston-Schermerhorn (CLS)  Retail Locations</p>
+        <p class="feed-excerpt">List of retail location in the DBP/CLS district</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/downtown-brooklyn-partnership.html">
+        <a href="/2020/11/10/downtown-brooklyn-partnership.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Downtown Brooklyn Partnership (DBP)/ Court-Livingston-Schermerhorn (CLS)  Retail Locations</p>
+        <p class="feed-excerpt">List of retail location in the DBP/CLS district</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-juvenile-violations-of-probation-filed-by-fiscal-year.html">
+        <a href="/2020/11/10/dop-juvenile-violations-of-probation-filed-by-fiscal-year.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Juvenile Violations of Probation Filed by Fiscal Year</p>
+        <p class="feed-excerpt">The number of “violation of probation” filings sent by the Department to local courts, in response to misconduct by the probation client, during the reporting period</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-juvenile-violations-of-probation-filed-by-calendar-year.html">
+        <a href="/2020/11/10/dop-juvenile-violations-of-probation-filed-by-calendar-year.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Juvenile Violations of Probation Filed by Calendar Year</p>
+        <p class="feed-excerpt">The number of “violation of probation” filings sent by the Department to local courts, in response to misconduct by the probation client, during the reporting period</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-juvenile-violations-of-probation-disposed-by-fiscal-year.html">
+        <a href="/2020/11/10/dop-juvenile-violations-of-probation-disposed-by-fiscal-year.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Juvenile Violations of Probation Disposed by Fiscal Year</p>
+        <p class="feed-excerpt">The number of dispositions issued by local courts for “violation of probation” proceedings during the reporting period.  Categorized by type of disposition: dismissed; probation continued; probatio...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-juvenile-violations-of-probation-disposed-by-calendar-year.html">
+        <a href="/2020/11/10/dop-juvenile-violations-of-probation-disposed-by-calendar-year.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Juvenile Violations of Probation Disposed by Calendar Year</p>
+        <p class="feed-excerpt">The number of dispositions issued by local courts for “violation of probation” proceedings during the reporting period.  Categorized by type of disposition: dismissed; probation continued; probatio...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-juvenile-violations-of-pro.html">
+        <a href="/2020/11/10/dop-juvenile-violations-of-pro.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Juvenile Violations of Probation Filed by Calendar Year</p>
+        <p class="feed-excerpt">The number of “violation of probation” filings sent by the Department to local courts, in response to misconduct by the probation client, during the reporting period</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-juvenile-supervision-passthrough-by-fiscal-year.html">
+        <a href="/2020/11/10/dop-juvenile-supervision-passthrough-by-fiscal-year.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Juvenile Supervision Passthrough by Fiscal Year</p>
+        <p class="feed-excerpt">The sum of: the number of cases on the first day of the reporting period, and all cases added during the reporting period</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-juvenile-supervision-passthrough-by-calendar-year.html">
+        <a href="/2020/11/10/dop-juvenile-supervision-passthrough-by-calendar-year.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Juvenile Supervision Passthrough by Calendar Year</p>
+        <p class="feed-excerpt">The sum of: the number of cases on the first day of the reporting period, and all cases added during the reporting period</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-juvenile-supervision-passt.html">
+        <a href="/2020/11/10/dop-juvenile-supervision-passt.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Juvenile Supervision Passthrough by Calendar Year</p>
+        <p class="feed-excerpt">The sum of: the number of cases on the first day of the reporting period, and all cases added during the reporting period</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/dop-juvenile-supervision-intakes-by-fiscal-year.html">
+        <a href="/2020/11/10/dop-juvenile-supervision-intakes-by-fiscal-year.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">DOP Juvenile Supervision Intakes by Fiscal Year</p>
+        <p class="feed-excerpt">The number of youths sentenced to probation supervision during the reporting period.</p>
+        </a>
+    </div>
+
+<hr>
+<table width="100%" align="center">
+    <tr>
+        <td width="30%" style="text-align:left;">
+            
+                <a href="/page56/" class="previous">
+                Previous
+                </a>
+            
+        </td>
+        <td width="30%" style="text-align:center;">
+            57 of 129
+        </td>
+        <td width="30%" style="text-align:right;">
+            
+                <a href="/page58/" class="next">Next</a>
+            
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>

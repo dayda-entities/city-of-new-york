@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="website" property="og:type">
+    <meta content="http://localhost:4000/page110/" property="og:url"><title>Dayda</title>
+
+    <link rel="canonical" href="http://localhost:4000/page110/"/>
+    <link rel="apple-touch-icon" href="https://directory.dayda.org/assets/img/entities/city-of-new-york.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/atom.xml">
+
+    <script data-ad-client="ca-pub-0202072258759210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
+<header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Dayda</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">City of New York</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">This is a catalog of datasets organized and made more accessible from the City of New York, providing simple dowloadable CSV and JSON files, as well as Postman Collections you can use as part of workflows and other automation.</p>
+            </div> 
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="https://directory.dayda.org/assets/img/entities/city-of-new-york.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+               <img src="/assets/img/home-icon.png" width="40">
+               <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/about">
+                <img src="/assets/img/about-icon.png" width="40">                
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+                <img src="/assets/img/tags-icon.png" width="40">
+                <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+                <img src="/assets/img/feed-icon.png" width="40">
+                <p class="rss-p">Feed</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/apis.json">             
+                <img src="/assets/img/api-icon.png" width="40">
+                <p class="rss-p">APIs.json</p>
+            </a>
+        </div>   
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script>
+</header>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2014-15-discharge-reporting-by-code-hs.html">
+        <a href="/2020/11/10/2014-15-discharge-reporting-by-code-hs.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2014-15 Discharge Reporting By Code - HS</p>
+        <p class="feed-excerpt">This report provides data regarding students enrolled in New York City schools during the 2014-2015 school year, according to the guidelines set by Local Law 2011/042.
+Consistent with other school-...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-nyc-school-survey.html">
+        <a href="/2020/11/10/2013-nyc-school-survey.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013 NYC School Survey</p>
+        <p class="feed-excerpt">Every year, all parents, all teachers, and students in grades 6 - 12 take the NYC School Survey. The survey ranks among the largest surveys of any kind ever conducted nationally. Survey results pro...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-green-taxi-trip-data.html">
+        <a href="/2020/11/10/2013-green-taxi-trip-data.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013 Green Taxi Trip Data</p>
+        <p class="feed-excerpt">This dataset includes trip records from all trips completed in green taxis in NYC in 2013. Records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip di...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-campaign-expenditures.html">
+        <a href="/2020/11/10/2013-campaign-expenditures.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013 Campaign Expenditures</p>
+        <p class="feed-excerpt">A listing of campaign expenditures for candidates for City office dating back from the 2013 election cycle</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-campaign-contributions.html">
+        <a href="/2020/11/10/2013-campaign-contributions.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013 Campaign Contributions</p>
+        <p class="feed-excerpt">A listing of campaign contributions for candidates for City office during the 2013 election cycle</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2019-attendance-results-school.html">
+        <a href="/2020/11/10/2013-2019-attendance-results-school.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013-2019 Attendance Results - School</p>
+        <p class="feed-excerpt">Attendance data includes students in district 1-32, 75 (Special Education), district 79 (Alternative Schools &amp;amp; Programs), charter schools, home schooling.  Home and hospital instruction are...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2019-attendance-results-s.html">
+        <a href="/2020/11/10/2013-2019-attendance-results-s.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013-2019 Attendance Results - School</p>
+        <p class="feed-excerpt">Attendance data includes students in district 1-32, 75 (Special Education), district 79 (Alternative Schools &amp;amp; Programs), charter schools, home schooling.  Home and hospital instruction are...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2019-attendance-results-district.html">
+        <a href="/2020/11/10/2013-2019-attendance-results-district.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013-2019 Attendance Results - District</p>
+        <p class="feed-excerpt">Attendance data includes students in district 1-32, 75 (Special Education), district 79 (Alternative Schools &amp;amp; Programs), charter schools, home schooling.  Home and hospital instruction are...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2019-attendance-results-d.html">
+        <a href="/2020/11/10/2013-2019-attendance-results-d.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013-2019 Attendance Results - District</p>
+        <p class="feed-excerpt">Attendance data includes students in district 1-32, 75 (Special Education), district 79 (Alternative Schools &amp;amp; Programs), charter schools, home schooling.  Home and hospital instruction are...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2019-attendance-results-citywide.html">
+        <a href="/2020/11/10/2013-2019-attendance-results-citywide.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013-2019 Attendance Results - Citywide</p>
+        <p class="feed-excerpt">Attendance data includes students in district 1-32, 75 (Special Education), district 79 (Alternative Schools &amp;amp; Programs), charter schools, home schooling.  Home and hospital instruction are...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2019-attendance-results-c.html">
+        <a href="/2020/11/10/2013-2019-attendance-results-c.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013-2019 Attendance Results - Citywide</p>
+        <p class="feed-excerpt">Attendance data includes students in district 1-32, 75 (Special Education), district 79 (Alternative Schools &amp;amp; Programs), charter schools, home schooling.  Home and hospital instruction are...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2019-attendance-results-borough.html">
+        <a href="/2020/11/10/2013-2019-attendance-results-borough.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013-2019 Attendance Results - Borough</p>
+        <p class="feed-excerpt">Attendance data reported by borough includes students in district 1-32, 75 (Special Education), district 79 (Alternative Schools &amp;amp; Programs), charter schools, home schooling.  Home and hosp...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2019-attendance-results-b.html">
+        <a href="/2020/11/10/2013-2019-attendance-results-b.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013-2019 Attendance Results - Borough</p>
+        <p class="feed-excerpt">Attendance data reported by borough includes students in district 1-32, 75 (Special Education), district 79 (Alternative Schools &amp;amp; Programs), charter schools, home schooling.  Home and hosp...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2018-school-math-results.html">
+        <a href="/2020/11/10/2013-2018-school-math-results.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013 -2018 School Math Results</p>
+        <p class="feed-excerpt">School results on the New York State (NYS) Math exam</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2018-school-ela-results.html">
+        <a href="/2020/11/10/2013-2018-school-ela-results.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013 - 2018 School ELA REsults</p>
+        <p class="feed-excerpt">School results on the New York State (NYS) ELA exam</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2018-district-math-results.html">
+        <a href="/2020/11/10/2013-2018-district-math-results.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013 - 2018 District Math Results</p>
+        <p class="feed-excerpt">District results on the New York State (NYS) Math exam</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2018-district-math-result.html">
+        <a href="/2020/11/10/2013-2018-district-math-result.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013 - 2018 District Math Results</p>
+        <p class="feed-excerpt">District results on the New York State (NYS) Math exam</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2018-district-ela-results.html">
+        <a href="/2020/11/10/2013-2018-district-ela-results.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013 - 2018 District ELA Results</p>
+        <p class="feed-excerpt">District results on the New York State (NYS) ELA exam</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2018-demographic-snapshot.html">
+        <a href="/2020/11/10/2013-2018-demographic-snapshot.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013 - 2018 Demographic Snapshot Borough</p>
+        <p class="feed-excerpt">Student demographic and enrollment data by borough
+ from 2013-14 through 2017-18</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2018-demographic-snapshot-school.html">
+        <a href="/2020/11/10/2013-2018-demographic-snapshot-school.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013 - 2018 Demographic Snapshot School</p>
+        <p class="feed-excerpt">Student demographic and enrollment data by school from 2013-14 through 2017-18</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2018-demographic-snapshot-district.html">
+        <a href="/2020/11/10/2013-2018-demographic-snapshot-district.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013 - 2018 Demographic Snapshot District</p>
+        <p class="feed-excerpt">Student demographic and enrollment data by district from 2013-14 through 2017-18</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2018-demographic-snapshot-borough.html">
+        <a href="/2020/11/10/2013-2018-demographic-snapshot-borough.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013 - 2018 Demographic Snapshot Borough</p>
+        <p class="feed-excerpt">Student demographic and enrollment data by borough
+ from 2013-14 through 2017-18</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2018-citywide-math-results.html">
+        <a href="/2020/11/10/2013-2018-citywide-math-results.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013 - 2018 Citywide Math Results</p>
+        <p class="feed-excerpt">Citywide results on the New York State (NYS) Math exam</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2018-citywide-math-result.html">
+        <a href="/2020/11/10/2013-2018-citywide-math-result.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013 - 2018 Citywide Math Results</p>
+        <p class="feed-excerpt">Citywide results on the New York State (NYS) Math exam</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2013-2018-citywide-ela-results.html">
+        <a href="/2020/11/10/2013-2018-citywide-ela-results.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2013 - 2018 Citywide ELA Results</p>
+        <p class="feed-excerpt">Citywide results on the New York State (NYS) ELA exam</p>
+        </a>
+    </div>
+
+<hr>
+<table width="100%" align="center">
+    <tr>
+        <td width="30%" style="text-align:left;">
+            
+                <a href="/page109/" class="previous">
+                Previous
+                </a>
+            
+        </td>
+        <td width="30%" style="text-align:center;">
+            110 of 129
+        </td>
+        <td width="30%" style="text-align:right;">
+            
+                <a href="/page111/" class="next">Next</a>
+            
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>

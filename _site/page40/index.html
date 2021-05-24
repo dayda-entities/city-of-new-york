@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="website" property="og:type">
+    <meta content="http://localhost:4000/page40/" property="og:url"><title>Dayda</title>
+
+    <link rel="canonical" href="http://localhost:4000/page40/"/>
+    <link rel="apple-touch-icon" href="https://directory.dayda.org/assets/img/entities/city-of-new-york.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/atom.xml">
+
+    <script data-ad-client="ca-pub-0202072258759210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
+<header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Dayda</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">City of New York</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">This is a catalog of datasets organized and made more accessible from the City of New York, providing simple dowloadable CSV and JSON files, as well as Postman Collections you can use as part of workflows and other automation.</p>
+            </div> 
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="https://directory.dayda.org/assets/img/entities/city-of-new-york.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+               <img src="/assets/img/home-icon.png" width="40">
+               <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/about">
+                <img src="/assets/img/about-icon.png" width="40">                
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+                <img src="/assets/img/tags-icon.png" width="40">
+                <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+                <img src="/assets/img/feed-icon.png" width="40">
+                <p class="rss-p">Feed</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/apis.json">             
+                <img src="/assets/img/api-icon.png" width="40">
+                <p class="rss-p">APIs.json</p>
+            </a>
+        </div>   
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script>
+</header>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/inventory-of-new-york-city-greenhouse-gas-emissions-fuel-emission-factors-2016.html">
+        <a href="/2020/11/10/inventory-of-new-york-city-greenhouse-gas-emissions-fuel-emission-factors-2016.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Inventory of New York City Greenhouse Gas Emissions - Fuel Emission Factors (2016)</p>
+        <p class="feed-excerpt">Inventory of New York City Greenhouse Gas Emissions - Fuel Emission Factors (2016)</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/inventory-of-new-york-city-greenhouse-gas-emissions-electricity-emission-factors-2005-2016.html">
+        <a href="/2020/11/10/inventory-of-new-york-city-greenhouse-gas-emissions-electricity-emission-factors-2005-2016.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Inventory of New York City Greenhouse Gas Emissions - Electricity Emission Factors (2005-2016)</p>
+        <p class="feed-excerpt">Inventory of New York City Greenhouse Gas Emissions - Electricity Emission Factors (2005-2016)</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/inventory-of-new-york-city-greenhouse-gas-emissions-con-edison-district-steam-emission-factors-2005-2016.html">
+        <a href="/2020/11/10/inventory-of-new-york-city-greenhouse-gas-emissions-con-edison-district-steam-emission-factors-2005-2016.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Inventory of New York City Greenhouse Gas Emissions - Con Edison District Steam Emission Factors (2005-2016)</p>
+        <p class="feed-excerpt">Inventory of New York City Greenhouse Gas Emissions - Con Edison District Steam Emission Factors (2005-2016)</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/inventory-of-new-york-city-greenhouse-gas-emissions-citywide-ghg-emissions-summary-2016.html">
+        <a href="/2020/11/10/inventory-of-new-york-city-greenhouse-gas-emissions-citywide-ghg-emissions-summary-2016.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Inventory of New York City Greenhouse Gas Emissions - Citywide GHG Emissions Summary (2016)</p>
+        <p class="feed-excerpt">Inventory of New York City Greenhouse Gas Emissions - Citywide GHG Emissions Summary (2016)</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/inventory-of-new-york-city-greenhouse-gas-emissions-city-government-ghg-emissions-summary-2016.html">
+        <a href="/2020/11/10/inventory-of-new-york-city-greenhouse-gas-emissions-city-government-ghg-emissions-summary-2016.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Inventory of New York City Greenhouse Gas Emissions - City Government GHG Emissions Summary (2016)</p>
+        <p class="feed-excerpt">Inventory of New York City Greenhouse Gas Emissions - City Government GHG Emissions Summary (2016)</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/inventory-of-new-york-city-gre.html">
+        <a href="/2020/11/10/inventory-of-new-york-city-gre.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Inventory of New York City Greenhouse Gas Emissions - Electricity Emission Factors (2005-2016)</p>
+        <p class="feed-excerpt">Inventory of New York City Greenhouse Gas Emissions - Electricity Emission Factors (2005-2016)</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/intimate-partner-violence-related-snapshots-new-york-city-community-board-districts.html">
+        <a href="/2020/11/10/intimate-partner-violence-related-snapshots-new-york-city-community-board-districts.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Intimate Partner Violence Related Snapshots New York City Community Board Districts</p>
+        <p class="feed-excerpt">The dataset contains annual count data for the number of intimate partner related domestic incident reports, intimate partner-related felony assaults, domestic violence related felony assaults, int...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/intimate-partner-violence-rela.html">
+        <a href="/2020/11/10/intimate-partner-violence-rela.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Intimate Partner Violence Related Snapshots New York City Community Board Districts</p>
+        <p class="feed-excerpt">The dataset contains annual count data for the number of intimate partner related domestic incident reports, intimate partner-related felony assaults, domestic violence related felony assaults, int...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/intimate-partner-homicide-suicide-in-new-york-city-2010-2018.html">
+        <a href="/2020/11/10/intimate-partner-homicide-suicide-in-new-york-city-2010-2018.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Intimate Partner Homicide Suicide in New York City (2010-2018)</p>
+        <p class="feed-excerpt">The dataset contains count data for the number of intimate partner homicides and homicide-suicides that occurred in New York City from 2010 through 2018. The report provides information on the boro...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/intimate-partner-homicide-suic.html">
+        <a href="/2020/11/10/intimate-partner-homicide-suic.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Intimate Partner Homicide Suicide in New York City (2010-2018)</p>
+        <p class="feed-excerpt">The dataset contains count data for the number of intimate partner homicides and homicide-suicides that occurred in New York City from 2010 through 2018. The report provides information on the boro...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/intimate-partner-elder-abuse-in-new-york-city.html">
+        <a href="/2020/11/10/intimate-partner-elder-abuse-in-new-york-city.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Intimate Partner Elder Abuse in New York City</p>
+        <p class="feed-excerpt">This data set contains count data on intimate partner elder abuse incidents, crimes and services provided to elder abuse survivors at the New York City Family Justice Center (FJC).</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/intimate-partner-elder-abuse-i.html">
+        <a href="/2020/11/10/intimate-partner-elder-abuse-i.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Intimate Partner Elder Abuse in New York City</p>
+        <p class="feed-excerpt">This data set contains count data on intimate partner elder abuse incidents, crimes and services provided to elder abuse survivors at the New York City Family Justice Center (FJC).</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/internet-service-providers-isps-offering-residential-broadband-in-new-york-city-dec-2016.html">
+        <a href="/2020/11/10/internet-service-providers-isps-offering-residential-broadband-in-new-york-city-dec-2016.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Internet Service Providers (ISPs) Offering Residential Broadband in New York City - Dec 2016</p>
+        <p class="feed-excerpt">List of Internet Service Providers (ISPs) offering residential broadband service in New York City as of Dec. 2016, according to data made publicly available by the Federal Communications Commission.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/internet-service-providers-isps-offering-commercial-broadband-in-new-york-city-dec-2016.html">
+        <a href="/2020/11/10/internet-service-providers-isps-offering-commercial-broadband-in-new-york-city-dec-2016.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Internet Service Providers (ISPs) Offering Commercial Broadband in New York City - Dec 2016</p>
+        <p class="feed-excerpt">List of Internet Service Providers (ISPs) offering commercial broadband service in New York City as of Dec. 2016, according to data made publicly available by the Federal Communications Commission.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/internet-service-providers-isp.html">
+        <a href="/2020/11/10/internet-service-providers-isp.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Internet Service Providers (ISPs) Offering Commercial Broadband in New York City - Dec 2016</p>
+        <p class="feed-excerpt">List of Internet Service Providers (ISPs) offering commercial broadband service in New York City as of Dec. 2016, according to data made publicly available by the Federal Communications Commission.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/internet-master-plan-home-broadband-and-mobile-broadband-adoption-by-puma.html">
+        <a href="/2020/11/10/internet-master-plan-home-broadband-and-mobile-broadband-adoption-by-puma.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Internet Master Plan Home Broadband and Mobile Broadband Adoption by PUMA</p>
+        <p class="feed-excerpt">The percentage of households that have both Home Broadband and Mobile Broadband subscriptions for each of New York City Public Use Microdata Areas.&amp;lt;/p&amp;gt;
+Data Limitations: Data accuracy...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/internet-master-plan-home-broa.html">
+        <a href="/2020/11/10/internet-master-plan-home-broa.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Internet Master Plan Home Broadband and Mobile Broadband Adoption by PUMA</p>
+        <p class="feed-excerpt">The percentage of households that have both Home Broadband and Mobile Broadband subscriptions for each of New York City Public Use Microdata Areas.&amp;lt;/p&amp;gt;
+Data Limitations: Data accuracy...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/internet-master-plan-broadband.html">
+        <a href="/2020/11/10/internet-master-plan-broadband.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Internet Master Plan Broadband Choice and Speed by Census Block</p>
+        <p class="feed-excerpt">Key indicators of the availability of internet service choice and speed based on publicly available data from the Federal Communications Commission
+
+&amp;lt;/p&amp;gt;
+Data Limitations: Data accura...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/internet-master-plan-broadband-choice-and-speed-by-census-block.html">
+        <a href="/2020/11/10/internet-master-plan-broadband-choice-and-speed-by-census-block.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Internet Master Plan Broadband Choice and Speed by Census Block</p>
+        <p class="feed-excerpt">Key indicators of the availability of internet service choice and speed based on publicly available data from the Federal Communications Commission
+
+&amp;lt;/p&amp;gt;
+Data Limitations: Data accura...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/internet-master-plan-broadband-adoption-demographic-citywide.html">
+        <a href="/2020/11/10/internet-master-plan-broadband-adoption-demographic-citywide.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Internet Master Plan Broadband Adoption & Demographic Citywide</p>
+        <p class="feed-excerpt">Broadband adoption rates among demographic subgroups in New York City&amp;lt;/p&amp;gt;
+Data Limitations: Data accuracy is limited as of the date of publication and by the methodology and accuracy ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/internet-master-plan-broadband-adoption-and-infrastructure-by-community-district.html">
+        <a href="/2020/11/10/internet-master-plan-broadband-adoption-and-infrastructure-by-community-district.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Internet Master Plan Broadband Adoption and Infrastructure by Community District</p>
+        <p class="feed-excerpt">Key indicators of broadband adoption, service and infrastructure in New York City by Community District.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/internet-master-plan-adoption-and-infrastructure-data-by-neighborhood.html">
+        <a href="/2020/11/10/internet-master-plan-adoption-and-infrastructure-data-by-neighborhood.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Internet Master Plan Adoption and Infrastructure Data by Neighborhood</p>
+        <p class="feed-excerpt">Key indicators of broadband adoption, service and infrastructure in New York City.&amp;lt;/p&amp;gt;
+Data Limitations: Data accuracy is limited as of the date of publication and by the methodology ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/internet-master-plan-adoption.html">
+        <a href="/2020/11/10/internet-master-plan-adoption.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Internet Master Plan Adoption and Infrastructure Data by Neighborhood</p>
+        <p class="feed-excerpt">Key indicators of broadband adoption, service and infrastructure in New York City.&amp;lt;/p&amp;gt;
+Data Limitations: Data accuracy is limited as of the date of publication and by the methodology ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/intercity-bus-stop-permits.html">
+        <a href="/2020/11/10/intercity-bus-stop-permits.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Intercity Bus Stop Permits</p>
+        <p class="feed-excerpt">Intercity bus operators must obtain a permit from DOT before they can make on-street stops in the city.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/interagency-coordination-and-construction-permits-data-mosys.html">
+        <a href="/2020/11/10/interagency-coordination-and-construction-permits-data-mosys.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">Interagency Coordination and Construction Permits Data (MOSYS)</p>
+        <p class="feed-excerpt">NYC Parks’ database of external capital projects affecting parkland</p>
+        </a>
+    </div>
+
+<hr>
+<table width="100%" align="center">
+    <tr>
+        <td width="30%" style="text-align:left;">
+            
+                <a href="/page39/" class="previous">
+                Previous
+                </a>
+            
+        </td>
+        <td width="30%" style="text-align:center;">
+            40 of 129
+        </td>
+        <td width="30%" style="text-align:right;">
+            
+                <a href="/page41/" class="next">Next</a>
+            
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>

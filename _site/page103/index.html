@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="Knowledge Continuum" property="og:site_name"/>
+    <meta content="A non-linear thread of important ideas weaved together to explore and understand the fabric of knowledge." property="og:description">
+    <meta content="http://localhost:4000/about/" property="article:author"><meta content="website" property="og:type">
+    <meta content="http://localhost:4000/page103/" property="og:url"><title>Dayda</title>
+
+    <link rel="canonical" href="http://localhost:4000/page103/"/>
+    <link rel="apple-touch-icon" href="https://directory.dayda.org/assets/img/entities/city-of-new-york.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+
+    <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+    <link href="/assets/css/styles.css" rel="stylesheet" media="all"/>
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/atom.xml">
+
+    <script data-ad-client="ca-pub-0202072258759210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F5G2EPT7QM"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F5G2EPT7QM');
+    </script>
+
+</head>
+
+<body>
+    <div class="container">                    
+        <div class = "box">
+            
+<header>
+    <div class="dashboard disable-select">
+        <div class="site-heading profile-board-col">
+           <h4 class="medium"><a href="/">Dayda</a></h4>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <p class="title-sans"><a href="/about" style="text-decoration: none;">City of New York</a></p>
+            </div>
+            <div class="userdesc">
+                <p class="title-sans">This is a catalog of datasets organized and made more accessible from the City of New York, providing simple dowloadable CSV and JSON files, as well as Postman Collections you can use as part of workflows and other automation.</p>
+            </div> 
+        </div>
+    </div>
+    <div class="avatar disable-select" title="click me to know more">
+        <a class="avatar-link" href="/about">
+            <img src="https://directory.dayda.org/assets/img/entities/city-of-new-york.png" class="avatar-img" alt="avatar"/>
+        </a>
+    </div>
+    <div class="main-site-subheader menu disable-select">
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/">
+               <img src="/assets/img/home-icon.png" width="40">
+               <p class="home-p">Home</p>  
+            </a>
+        </div>        
+        <div class="home">
+            <br>
+            <a style="text-decoration: none;" href="/about">
+                <img src="/assets/img/about-icon.png" width="40">                
+                <p class="home-p">About</p>  
+            </a>
+        </div>
+        <div class="categories">
+            <br>
+            <a style="text-decoration: none;" href="/tags">             
+                <img src="/assets/img/tags-icon.png" width="40">
+                <p class="categories-p">Tags</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/atom.xml">             
+                <img src="/assets/img/feed-icon.png" width="40">
+                <p class="rss-p">Feed</p>
+            </a>
+        </div>
+        <div class="rss">
+            <br>
+            <a style="text-decoration: none;" href="/apis.json">             
+                <img src="/assets/img/api-icon.png" width="40">
+                <p class="rss-p">APIs.json</p>
+            </a>
+        </div>   
+    </div>
+    <div class="searchbar search-container">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <label for="search-input"></label>
+        <input type="text" oninput="changeResultContainerDisp(this.value)" id="search-input" autocomplete="off" placeholder="Search Datasets"/>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function() {
+                    document.addEventListener('click', function(event) {
+                        var isClickInside = document.getElementById("results-container").contains(event.target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                }) 
+            }  else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+                    searchInput: document.getElementById('search-input'),
+                    resultsContainer: document.getElementById('results-container'),
+                    json: '/search.json',
+                    searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="http://localhost:4000{url}" style="text-decoration: none; color: #555555;"><p style="font-size: 1.0rem; font-family: "Inter !important"; font-weight: 600;">{title}</p></a></li>',
+                    noResultsText: 'No results found',
+                    fuzzy: false,
+                    limit: 4
+                    })   
+    </script>
+</header>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-physical-education-pe-space.html">
+        <a href="/2020/11/10/2015-2016-physical-education-pe-space.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 Physical Education - PE Space</p>
+        <p class="feed-excerpt">Background, Methodology:
+
+Local Law 102 enacted in 2015 requires the Department of Education of the New York City School District to submit to the Council an annual report concerning physical educa...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-physical-education-pe-space-supplemental-programs.html">
+        <a href="/2020/11/10/2015-2016-physical-education-pe-space-supplemental-programs.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 Physical Education - PE Space - Supplemental Programs</p>
+        <p class="feed-excerpt">Local Law 102 enacted in 2015 requires the Department of Education of the New York City School District to submit to the Council an annual report concerning physical education for the prior school ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-physical-education-pe-space-school-level.html">
+        <a href="/2020/11/10/2015-2016-physical-education-pe-space-school-level.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 Physical Education - PE Space - School Level</p>
+        <p class="feed-excerpt">Local Law 102 enacted in 2015 requires the Department of Education of the New York City School District to submit to the Council an annual report concerning physical education for the prior school....</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-physical-education-pe-space-certified-pe-teachers.html">
+        <a href="/2020/11/10/2015-2016-physical-education-pe-space-certified-pe-teachers.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 Physical Education - PE Space - Certified PE Teachers</p>
+        <p class="feed-excerpt">Local Law 102 enacted in 2015 requires the Department of Education of the New York City School District to submit to the Council an annual report concerning physical education for the prior school ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-physical-education-pe-space-borough-level.html">
+        <a href="/2020/11/10/2015-2016-physical-education-pe-space-borough-level.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 Physical Education - PE Space - Borough Level</p>
+        <p class="feed-excerpt">Local Law 102 enacted in 2015 requires the Department of Education of the New York City School District to submit to the Council an annual report concerning physical education for the prior year.  ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-physical-education-pe-instruction-district-level.html">
+        <a href="/2020/11/10/2015-2016-physical-education-pe-instruction-district-level.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 Physical Education - PE Instruction - District Level</p>
+        <p class="feed-excerpt">Background, Methodology:
+
+Local Law 102 enacted in 2015 requires the Department of Education of the New York City School District to submit to the Council an annual report concerning physical educa...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-physical-education-pe-instruction-borough.html">
+        <a href="/2020/11/10/2015-2016-physical-education-pe-instruction-borough.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 Physical Education - PE Instruction Borough</p>
+        <p class="feed-excerpt">Local Law 102 enacted in 2015 requires the Department of Education of the New York City School District to submit to the Council an annual report concerning physical education for the prior school ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-physical-education-p.html">
+        <a href="/2020/11/10/2015-2016-physical-education-p.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 Physical Education - PE Space</p>
+        <p class="feed-excerpt">Background, Methodology:
+
+Local Law 102 enacted in 2015 requires the Department of Education of the New York City School District to submit to the Council an annual report concerning physical educa...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-mti-all-star-schools.html">
+        <a href="/2020/11/10/2015-2016-mti-all-star-schools.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 MTI All-Star Schools</p>
+        <p class="feed-excerpt">Background, Methodology:
+
+Local Law 102 enacted in 2015 requires the Department of Education of the New York City School District to submit to the Council an annual report concerning physical educa...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-middle-school-discharges.html">
+        <a href="/2020/11/10/2015-2016-middle-school-discharges.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 - 2016 Middle School Discharges</p>
+        <p class="feed-excerpt">New York City Department of Education 2015 - 2016 Middle School Discharges  provides data regarding students according to the guide lines set by Local Law 2011/042.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-middle-school-discha.html">
+        <a href="/2020/11/10/2015-2016-middle-school-discha.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 - 2016 Middle School Discharges</p>
+        <p class="feed-excerpt">New York City Department of Education 2015 - 2016 Middle School Discharges  provides data regarding students according to the guide lines set by Local Law 2011/042.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-local-law-60-summary.html">
+        <a href="/2020/11/10/2015-2016-local-law-60-summary.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 2016 Local Law 60 Summary</p>
+        <p class="feed-excerpt">Local Law 60 Summary Data</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-local-law-60-room-detail.html">
+        <a href="/2020/11/10/2015-2016-local-law-60-room-detail.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 2016 Local Law 60 Room Detail</p>
+        <p class="feed-excerpt">Room usage details</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-local-law-60-room-de.html">
+        <a href="/2020/11/10/2015-2016-local-law-60-room-de.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 2016 Local Law 60 Room Detail</p>
+        <p class="feed-excerpt">Room usage details</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-local-law-60-meal-periods.html">
+        <a href="/2020/11/10/2015-2016-local-law-60-meal-periods.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 - 2016 Local Law 60 Meal Periods</p>
+        <p class="feed-excerpt">Meal Periods</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-local-law-60-meal-pe.html">
+        <a href="/2020/11/10/2015-2016-local-law-60-meal-pe.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 - 2016 Local Law 60 Meal Periods</p>
+        <p class="feed-excerpt">Meal Periods</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-local-law-60-bathroom-non-instructional-space.html">
+        <a href="/2020/11/10/2015-2016-local-law-60-bathroom-non-instructional-space.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 2016 Local Law 60 Bathroom& Non- Instructional Space</p>
+        <p class="feed-excerpt">Bathroom &amp;amp; Non- Instructional Space</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-local-law-60-bathroo.html">
+        <a href="/2020/11/10/2015-2016-local-law-60-bathroo.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015 2016 Local Law 60 Bathroom& Non- Instructional Space</p>
+        <p class="feed-excerpt">Bathroom &amp;amp; Non- Instructional Space</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-local-law-15-health-data-k-12-health-instructor-district.html">
+        <a href="/2020/11/10/2015-2016-local-law-15-health-data-k-12-health-instructor-district.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 Local Law 15 Health Data - K-12 Health Instructor District</p>
+        <p class="feed-excerpt">Reports in reference to local law 15; health instructor data by community school, city council district and school DBN.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-local-law-15-health.html">
+        <a href="/2020/11/10/2015-2016-local-law-15-health.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 Local Law 15 Health Data - K-12 Health Instructor District</p>
+        <p class="feed-excerpt">Reports in reference to local law 15; health instructor data by community school, city council district and school DBN.</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-local-law-14-health-data-ms-school.html">
+        <a href="/2020/11/10/2015-2016-local-law-14-health-data-ms-school.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 Local Law 14 Health Data - MS School</p>
+        <p class="feed-excerpt">Local Law 14 (2016) requires that the NYCDOE provide citywide Health Education data, disaggregated by community school district, city council district, and each individual school. Data reported in ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-local-law-14-health-data-ms-district.html">
+        <a href="/2020/11/10/2015-2016-local-law-14-health-data-ms-district.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 Local Law 14 Health Data - MS District</p>
+        <p class="feed-excerpt">Local Law 14 (2016) requires that the NYCDOE provide citywide Health Education data, disaggregated by community school district, city council district, and each individual school. Data reported in ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-local-law-14-health-data-ms-city-council-district.html">
+        <a href="/2020/11/10/2015-2016-local-law-14-health-data-ms-city-council-district.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 Local Law 14 Health Data - MS City Council District</p>
+        <p class="feed-excerpt">Local Law 14 (2016) requires that the NYCDOE provide citywide Health Education data, disaggregated by community school district, city council district, and each individual school. Data reported in ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-local-law-14-health-data-hs-district.html">
+        <a href="/2020/11/10/2015-2016-local-law-14-health-data-hs-district.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 Local Law 14 Health Data - HS District</p>
+        <p class="feed-excerpt">Local Law 14 (2016) requires that the NYCDOE provide citywide Health Education data, disaggregated by community school district, city council district, and each individual school. Data reported in ...</p>
+        </a>
+    </div>
+
+    <div class="feed-title-excerpt-block disable-select" data-url="http://localhost:4000/2020/11/10/2015-2016-local-law-14-health-data-hs-city-council-district.html">
+        <a href="/2020/11/10/2015-2016-local-law-14-health-data-hs-city-council-district.html" style="text-decoration: none; color: #555555;">
+        <p class="feed-title">2015-2016 Local Law 14 Health Data - HS City Council District</p>
+        <p class="feed-excerpt">Local Law 14 (2016) requires that the NYCDOE provide citywide Health Education data, disaggregated by community school district, city council district, and each individual school for 2015- 16 schoo...</p>
+        </a>
+    </div>
+
+<hr>
+<table width="100%" align="center">
+    <tr>
+        <td width="30%" style="text-align:left;">
+            
+                <a href="/page102/" class="previous">
+                Previous
+                </a>
+            
+        </td>
+        <td width="30%" style="text-align:center;">
+            103 of 129
+        </td>
+        <td width="30%" style="text-align:right;">
+            
+                <a href="/page104/" class="next">Next</a>
+            
+        </td>
+    </tr>
+</table>
+</div>
+</div>
+</body>
+</html>
