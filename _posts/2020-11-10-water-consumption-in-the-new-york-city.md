@@ -20,7 +20,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/ia2d-e54m/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/dc94b845-7912-4bf1-9bd7-b8b466876118
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-a24e0773-ef8e-4f5b-ae53-cdf218571636
 ---
 A brief history of water consumption in the New York City Water Supply System (Based on New York City Census population)
