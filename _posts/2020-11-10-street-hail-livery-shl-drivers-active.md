@@ -19,8 +19,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/5tub-eh45/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/6157676f-775e-4a39-bc2c-4bdd5416cfec
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-99ebe3bd-3e2f-4576-b8bf-5ffe137aa6d4
 ---
 <b>PLEASE NOTE:</b> This dataset, which includes all TLC Licensed Drivers who are in good standing and able to drive, is updated every day in the evening between 4-7pm. Please check the 'Last Update Date' field to make sure the list has updated successfully. 'Last Update Date'  should show either today or yesterday's date, depending on the time of day. If the list is outdated, please download the most recent list from the link below. 
 http://www1.nyc.gov/assets/tlc/downloads/datasets/tlc_shl_drivers_active.csv
