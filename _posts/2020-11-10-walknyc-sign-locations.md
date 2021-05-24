@@ -12,7 +12,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/ns8x-qshd/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/f2a5c99a-3b6d-4b32-9819-7f061bd0fbd1
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-c321e3fd-e618-4217-8d5b-7509cbce113e
 ---
 Dataset containing points representing WalkNYC sign locations throughout New York City.
