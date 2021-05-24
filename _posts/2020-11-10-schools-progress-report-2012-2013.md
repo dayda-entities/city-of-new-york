@@ -12,7 +12,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/cvh6-nmyi/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/1b19b8ee-1332-4d06-b2dc-4f5fbf61e64e
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-6834e29f-74fb-447e-910f-68e1f5265569
 ---
 Schools Progress Report which focus on learning environment, student performance and progress.
