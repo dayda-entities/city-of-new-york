@@ -14,7 +14,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/fxgv-ba35/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/7f97a86d-6eab-4335-81ef-9773fbb9a164
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-2d7ceec7-4eaf-466a-b377-d140cbf7e1c7
 ---
 Attendance records for NYC Parks swimming beaches
