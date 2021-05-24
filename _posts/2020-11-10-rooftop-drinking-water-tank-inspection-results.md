@@ -16,8 +16,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/gjm4-k24g/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/d78e1d57-48c4-469f-bf69-73e0a8b58b63
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-401ffbca-f1a1-488b-af07-6111f8d57ee5
 ---
 Inspection results.
 
