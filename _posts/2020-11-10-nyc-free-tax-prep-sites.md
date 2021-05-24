@@ -22,7 +22,9 @@ csv_url: 'https://data.cityofnewyork.us/api/views/5kqf-fg3n/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/5kqf-fg3n/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://thedaydasource.postman.co/workspace/City-of New
+  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/75d11f16-aafc-49cd-89f9-f84688807c2a
 ---
 This dataset provides a machine-readable format for the data that populates the "NYC Free Tax Preparation Site Finder" map hosted on DCA's website.  The dataset includes the name and address of the service provider, its hours of operation, services available, and required geo-spacial data elements used by the map.
 
