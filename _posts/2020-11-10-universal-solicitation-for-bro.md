@@ -41,7 +41,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/2bsr-c6qq/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/917e04b6-b1e2-46cd-b8df-7bd850b6f36a
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-040560b9-30a6-475e-a895-565c8e96fddc
 ---
 List of existing city assets for the Universal Solicitation of Broadand (USB).
