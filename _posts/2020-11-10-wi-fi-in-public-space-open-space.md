@@ -23,7 +23,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/npnk-wrj8/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/ccf518fe-06b2-4879-a504-bb82bfc82e30
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-87adb500-8a73-4ab0-aaed-2d36dcdb65b6
 ---
 Wi-Fi in Public Space (Open Space) is an analysis of the ‘NYC Wi-Fi Hotspot Locations’ OpenData records focused on the use of Wi-Fi in open spaces (in public parks and on Governors Island).
