@@ -14,7 +14,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/wq7m-7i29/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/5b46fec6-6acd-48ad-8575-50676d6b4b07
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-f3fc44d1-5c78-44bd-b837-cec1a9700d8a
 ---
 Suspensions where NYPS was contacted reported by student grade level.
