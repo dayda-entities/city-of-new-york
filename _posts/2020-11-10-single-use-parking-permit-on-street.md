@@ -15,7 +15,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/n55z-cx8y/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/164a25fa-049b-4ad0-be29-07c259ba4510
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-9f41537b-ddc7-41a1-af49-ec3bf8fca6fd
 ---
 Parking Permits issued for a particular purpose in designated parking zones or at specific locations for prearranged periods of time,and is not issued for commercial activities or to commercial vehicles.These permits are issued pursuant to Section 4-08 (o)(4) of Title 34 of the Rules of the City of New York.
