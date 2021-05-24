@@ -16,7 +16,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/97pn-acdf/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/fd75ff65-3667-46dd-9e35-4e1ba7534809
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-b9526c6d-c99e-4b1a-a4d5-bfc1c1ba1fc3
 ---
 Projected total New York City population for five intervals from 2010 through 2040 by Borough, broken down by 18 age cohorts. (Age groups may not add up to the total due to rounding.)
