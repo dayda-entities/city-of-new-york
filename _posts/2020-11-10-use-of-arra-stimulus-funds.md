@@ -19,7 +19,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/ivix-m77e/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/f493777c-38b9-47d3-abfb-55f96a15b018
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-7a5a7a24-a24a-406f-a9dc-3dc6ebd3c2c4
 ---
 Data on the usage of stimulus/recovery funds provided through the American Recovery and Reinvestment Act of 2009 (ARRA)
