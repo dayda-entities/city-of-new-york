@@ -22,8 +22,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/87fx-28ei/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/a98e88c5-ef9f-44ef-b9bc-92f265a07730
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-62746be6-f911-4490-b52f-332b8b4fe733
 ---
 Dataset notating the approved wholesale market companies in the various markets BIC regulates. Companies as of the most recent export date are authorized to operate as a wholesale market company.
 
