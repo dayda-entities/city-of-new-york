@@ -26,8 +26,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/ht4t-wzcm/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/8945e153-026c-43da-8234-95e5742b0f7c
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-c784fa9c-717e-4543-8417-7877642dc65a
 ---
 This is a list of monthly payments made to owners of Wheelchair Accessible Vehicles (WAVs) from the Taxi Improvement Fund (TIF). Information is listed by medallion and agent number, and is updated after each payment is distributed from the Taxi Improvement Fund, approximately once per month. For more information see the TIF Owner page (http://www.nyc.gov/html/tlc/html/industry/taxi_improvement_fund_owner.shtml).
 
