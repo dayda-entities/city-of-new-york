@@ -16,7 +16,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/bvju-796s/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/898a84aa-d8ee-45a3-a519-bb57498f90ea
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-d0cb36da-911a-4c13-9e34-bd5c6fb4a328
 ---
 A list of retailers that sell brown paper lawn bags in New York City. For more information on NYC's leaf and yard waste program see: https://www1.nyc.gov/assets/dsny/site/services/food-scraps-and-yard-waste-page/leaf-and-yard-waste. Please note that given the suspension of the curbside and leaf composting program, this information may not be up to date. In the face of economic hardship, and to ensure the City can continue to devote resources to essential safety, health, shelter, and food security needs, the New York City Department of Sanitation announced the suspension of the curbside composting program, beginning May 4, 2020. During the suspension, any food scraps and yard waste set out for composting will be collected as trash. The suspension is currently planned through June 30, 2021.
