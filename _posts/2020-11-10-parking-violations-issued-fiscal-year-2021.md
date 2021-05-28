@@ -21,8 +21,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/pvqr-7yc4/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/9d19e1af-5124-4ac1-8025-27ed4eaf92c7
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-9e7acfca-c6e7-4f4b-aa36-91988f37a31d
 ---
 Parking Violations Issuance datasets contain violations issued during the respective fiscal year.  The Issuance datasets are not updated to reflect violation status, the information only represents the violation(s) at the time they are issued. Since appearing on an issuance dataset, a violation may have been paid, dismissed via a hearing, statutorily expired, or had other changes to its status. To see the current status of outstanding parking violations, please look at the Open Parking & Camera Violations dataset.
 </p>
