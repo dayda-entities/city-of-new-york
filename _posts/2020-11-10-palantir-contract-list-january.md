@@ -15,6 +15,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/npe5-sakb/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-22b458bc-0969-407d-8954-93127fd3541d
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-07478f02-58a0-4e28-a3cb-9f3df7e6dc86
 ---
 List of contracts awarded to Palantir between January 2011 and June 2017.  The report includes the contract description, original contract amount, contract start date and contract end date.
