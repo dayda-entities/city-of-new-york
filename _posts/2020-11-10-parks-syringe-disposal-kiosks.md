@@ -15,8 +15,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/r465-fr2q/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/8d87ca11-fb09-421b-8886-3f5eee68ea86
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-900096b6-f54f-41e9-8fb9-905bf96f7599
 ---
 • One line of data represents single syringe collection kiosk location, its capacity, how it is mounted, and when it was installed.
 • Data is collected via an ArcGIS Online web application.
