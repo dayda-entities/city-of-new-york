@@ -14,7 +14,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/vspn-8tzq/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/78205a10-b9ac-4c48-a7cb-65aeaf3ae041
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-7b58a5d9-83f2-4c0f-b6a1-39e791953474
 ---
 Listing of adult and continuing education program locations
