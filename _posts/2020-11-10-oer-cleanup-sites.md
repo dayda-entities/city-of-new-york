@@ -17,7 +17,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/3279-pp7v/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/b9aa7c39-6a2b-42c7-a1bc-07be3f3ec49a
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-0ff91c27-e0ea-44cf-9e85-6edeed169526
 ---
 Properties remediated under OER's oversight, both in the E-Designation program and the NYC Voluntary Cleanup Program.  Includes sites completed and in progress.
