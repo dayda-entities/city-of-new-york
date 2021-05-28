@@ -28,6 +28,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/6vzy-3x48/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-6cb05a22-0f43-48e7-bbeb-f2dbd9782aab
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-29706328-b446-4ad0-ba34-fd5d57cd0587
 ---
 Primary Zoning by lot Based on PLUTO 2005
