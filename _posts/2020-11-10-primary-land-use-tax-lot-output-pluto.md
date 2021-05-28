@@ -23,8 +23,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/64uk-42ks/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/8b92e97b-a78f-4cdb-8c75-6fb812ba9e7d
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-a1670c81-4b59-4838-aa5c-67eeeb3c28a9
 ---
 Extensive land use and geographic data at the tax lot level in comma–separated values (CSV) file format. The PLUTO files contain more than seventy fields derived from data maintained by city agencies.
 
