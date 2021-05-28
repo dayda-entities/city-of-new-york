@@ -17,8 +17,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/mdbu-nrqn/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/aafb3f44-3039-4295-a52e-3403ff0236e7
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-7fdc0523-da55-48d3-a238-a1153e8ecc09
 ---
 The data set contains information on work orders created through HPD's Emergency Repair Program, Alternative Enforcement Program and Demolition programs and fees assessed against properties by HPD pursuant to the Housing Maintenance Code. The work orders are created to conduct emergency repair work when an owner fails to address a hazardous condition pursuant to the requirements of an HPD-issued violation, a Department of Buildings Declaration of Emergency, a Department of Health Commissioner's Order to Abate or an emergency violation issued by another City Agency. The work orders may be issued to a private vendor following the City's Procurement Rules or may be conducted by agency staff.
 
