@@ -16,8 +16,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/tkzt-zfpz/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/22a3c2f1-9815-4058-bb69-57f7b1d2f5eb
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-d2964d2e-6f89-4846-9c35-36f1f3063c8d
 ---
 In response to the COVID-19 pandemic, NYC Parks temporarily closed several amenities, including Adult Exercise Equipment. This data collection contains the status of each Adult Exercise Equipment, and is subject to change. Although the data feed is refreshed daily, it may not reflect current conditions.
 
