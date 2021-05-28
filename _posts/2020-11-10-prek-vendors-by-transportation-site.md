@@ -12,7 +12,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/8wau-idzf/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/ed32693a-d59e-4c48-b32d-e568bbc20fa6
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-4bb364c8-8ca3-4631-be5d-798d789174f0
 ---
 Summary of documented students by school/site
