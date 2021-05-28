@@ -15,8 +15,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/t9iz-i583/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/e10625c2-406b-4a98-ab51-83d7ad8b2ed0
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-de934d0f-c60f-4123-b891-c5c01af86d73
 ---
 The Over Dimensional Vehicle Permit (ODVP) is a web application used by trucking companies to apply for Daily Permits for over dimensional vehicles.
 
