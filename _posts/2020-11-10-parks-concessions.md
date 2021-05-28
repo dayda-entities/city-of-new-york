@@ -14,7 +14,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/53m8-jdtg/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/28852214-fec2-4338-a298-23598139c215
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-fbbc5858-c7fa-4777-8dc2-52bf100ddff3
 ---
 NYC Parks uses a Commercial Off-The-Shelf database for maintaining its concession-related data.  In its raw form, the Parks data within the Yardi Voyager database has a convoluted structure, the majority of which is not being used by Parks to store any data. In an effort to make the data more user friendly, the multitude of tables used by the source database have been distilled into two that contain the essential information for a concessions database. One table (Parks Concessions) represents the concession asset – the place and thing which is being operated – and who holds the contract.  The other (Parks Concession Transactions) represents transactions between those contract holders and NYC Parks.  Parks Concession Transactions is here https://data.cityofnewyork.us/City-Government/Parks-Concession-Transactions/vmkw-p55f and can be joined to Parks Concessions using  PersonID, PropertyID and UnitID.
