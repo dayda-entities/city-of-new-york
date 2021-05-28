@@ -16,8 +16,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/wswf-9pts/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/1478c547-7a74-4b62-ad83-a1b326d24baf
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-a4f89d77-60eb-422e-951b-24d31f6af969
 ---
 In response to the COVID-19 pandemic, NYC Parks temporarily closed several amenities, including Dog Runs. This data collection contains the status of each Dog Run, and is subject to change. Although the data feed is refreshed daily, it may not reflect current conditions.
 
