@@ -16,8 +16,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/pitm-atqc/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/519ec990-5fe2-4b9a-8089-18137f07bc07
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-a4be2db9-09d6-4208-b5e0-60eed240b204
 ---
 Open Restaurant Applications is a dataset of applications from food service establishments seeking authorization to re-open under Phase Two of the State’s New York Forward Plan, and place outdoor seating in front of their business on the sidewalk and/or roadway.
 
