@@ -38,7 +38,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/2xab-argn/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/de352dd4-99f3-4ce5-9de1-0ad28708f22f
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-b21452fe-81ec-4997-b2b4-575007b3333f
 ---
 Payments received from businesses for DCA fines and fees such as violations and license application fees.
