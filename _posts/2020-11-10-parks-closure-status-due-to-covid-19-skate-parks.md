@@ -16,8 +16,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/pvvr-75zk/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/86bb14c7-a8b2-41fc-99b0-0cbe54bf80d7
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-8369e202-99bc-4c6f-a42f-e429b4c2e22d
 ---
 In response to the COVID-19 pandemic, NYC Parks temporarily closed several amenities, including Skate Parks. This data collection contains the status of each Skate Park, and is subject to change. Although the data feed is refreshed daily, it may not reflect current conditions.
 Data Dictionary: 
