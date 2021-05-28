@@ -13,7 +13,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/jmt8-bf4z/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/8cc34a7a-f01a-4264-acfe-abe8ab2ff517
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-d9e1475d-600d-4404-a32f-28a2cf74df2e
 ---
 Parking Meter GPS Coordinates and Status in NYC.
