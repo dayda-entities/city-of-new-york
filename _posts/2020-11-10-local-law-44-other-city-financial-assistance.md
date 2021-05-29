@@ -12,6 +12,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/7r6i-tdj2/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/7r6i-tdj2/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-e475529a-33a3-47e1-9739-3d08bcf86b9f
 ---
 The Other City Financial Assistance data table includes the amounts, names and types of other City Financial Assistance such as credit facility, Section 8 Project Based Voucher (PBV) Housing Assistance Payment (HAP), and discounted land value for each Local Law 44 Housing Development Project. This information is reported pursuant to Local Law 44 of 2012, and is part of the <a <a href='https://data.cityofnewyork.us/browse?Data-Collection_Data-Collection=HPD+Local+Law+44'>Housing Projects Receiving City Financial Assistance (Local Law 44) collection of data tables</a>.
