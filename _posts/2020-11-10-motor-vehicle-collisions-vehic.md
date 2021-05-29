@@ -22,7 +22,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/bm4k-52h4/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-7770636f-d2a5-44f5-84c2-77ec64765a48
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-566d6dfb-2a6f-4ef7-8a6c-3bfbb345ccf2
 ---
 The Motor Vehicle Collisions vehicle table contains details on each vehicle involved in the crash. Each row represents a motor vehicle involved in a crash. The data in this table goes back to April 2016 when crash reporting switched to an electronic system.
 </p>
