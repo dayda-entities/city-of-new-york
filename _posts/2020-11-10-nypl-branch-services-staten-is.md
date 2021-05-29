@@ -17,7 +17,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/wibz-uqui/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/47c851c7-4353-4ffe-95a9-6da9b17aab1b
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-24c2bb1c-3a7a-40b9-abaa-2553e33cedf5
 ---
 New York Public Library (NYPL) branch services from July 2010 to June 2011 (Staten Island)
