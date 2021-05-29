@@ -15,6 +15,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/svyi-maaj/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/svyi-maaj/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-9dd40ebd-8204-4279-aae8-29e0872e1dfd
 ---
 New York City's "MWBE" program, enacted by the City Council and signed by the Mayor as Local Law 129 of 2005, is designed to promote government contracting opportunities for businesses owned by minorities and women. Our "Emerging Business Enterprise" program, enacted by the City Council and signed by the Mayor as Local Law 12 of 2006, is designed to promote such opportunities for businesses owned by persons who are "socially and economically disadvantaged." Together, the programs establish the following Citywide goals for contracts and subcontracts in amounts under $1 million.
