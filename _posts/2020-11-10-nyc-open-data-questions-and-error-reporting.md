@@ -13,7 +13,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/r67x-e97r/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/87a9286b-efcd-4ba8-a6a2-c81794bea946
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-ca057f79-a7cc-41ab-9c56-ea6d61fb6703
 ---
 This is a list of responses to public inquiries to the NYC Open Data Team via the “Contact Us” page on </a href="www.nyc.gov/opendata"> www.nyc.gov/opendata </a> that get triaged as being “Data Questions” and “Data Errors.”
