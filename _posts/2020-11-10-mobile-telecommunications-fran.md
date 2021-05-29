@@ -14,6 +14,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/tbgj-tdd6/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/tbgj-tdd6/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-ad859df4-6dba-446e-91ad-20217aad7d38
 ---
 Locations of street light poles, traffic light poles and utility poles reserved by companies authorized by the New York City Department of Information Technology and Telecommunications for the potential installation of mobile telecommunications equipment.
