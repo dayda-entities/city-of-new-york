@@ -26,7 +26,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/7zhs-43jt/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/1b49768d-c4d0-4912-9a44-1e0b541e1329
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-4bf754c9-c701-4eb7-aec9-8a1b86ed8c43
 ---
 Annual revenue and spending data by major areas of the budget from FY 1980 through FY 1963
