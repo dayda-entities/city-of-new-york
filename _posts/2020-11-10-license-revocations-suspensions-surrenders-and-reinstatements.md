@@ -20,7 +20,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/rpeq-j89e/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/rpeq-j89e/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-a02f9a9f-fd60-409c-9f94-9e0af6a50a77
 ---
 This dataset features DCA licenses that have been revoked, suspended, or surrendered  as well as licenses that have been reinstated, if applicable.</br></p>
 
