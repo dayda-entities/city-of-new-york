@@ -24,7 +24,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/8s5k-n45n/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/8s5k-n45n/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-ad3f6dd6-608f-4cea-a026-545f3b6c6bd0
 ---
 This dataset provides a historical listing of LinkNYC Kiosks, their location, and the status of the Link’s wifi, tablet, and phone.  To view the current days status on it own, visit the LinkNYC Kiosk Status dataset at the following link (https://data.cityofnewyork.us/City-Government/LinkNYC-Kiosk-Status/n6c5-95xh)
 .  
