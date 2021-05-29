@@ -18,7 +18,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/qiwj-eg47/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/qiwj-eg47/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-483d4290-a7db-4346-9462-183d41f3468e
 ---
 The dataset contains annual count data for the number of intimate partner related domestic incident reports, intimate partner-related felony assaults, domestic violence related felony assaults, intimate partner-related rapes and domestic violence related rapes.
 
