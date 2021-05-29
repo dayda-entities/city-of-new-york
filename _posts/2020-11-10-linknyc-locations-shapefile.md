@@ -22,7 +22,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/5mv6-f76y/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/5mv6-f76y/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-3d49a8b3-ef16-4afa-ab3e-4cf550f2fa35
 ---
 This shape file date set provides location information data for LinkNYC kiosks that have been approved and installed.
 It includes sites that have replaced public pay telephones (PPT) and new sites that have been reviewed by community and elected officials.
