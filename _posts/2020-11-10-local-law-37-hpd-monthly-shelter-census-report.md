@@ -18,7 +18,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/mdht-5s6e/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/mdht-5s6e/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-f9f76381-800c-4c55-b9dd-1abebca9b46d
 ---
 The HPD Monthly Shelter Census Report provides summary/aggregate data (counts & average length of stay) on individuals and families that utilize HPD facilities by facility type and household type.
 
