@@ -15,7 +15,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/8isn-pgv3/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/937c3d61-d30d-4d42-a588-9ca4ea82ca17
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-8ee0b267-0de9-4ff5-9679-e27d631decff
 ---
 NYC Clean Heat dataset
