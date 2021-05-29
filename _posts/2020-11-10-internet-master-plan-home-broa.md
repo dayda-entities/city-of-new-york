@@ -17,7 +17,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/g5ah-i2sh/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/g5ah-i2sh/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-2b50e3e0-7064-4846-baed-fee49d20c7c3
 ---
 The percentage of households that have both Home Broadband and Mobile Broadband subscriptions for each of New York City Public Use Microdata Areas.</p>
 <b>Data Limitations:</b> Data accuracy is limited as of the date of publication and by the methodology and accuracy of the original sources.  The City shall not be liable for any costs related to, or in reliance of, the data contained in these datasets.
