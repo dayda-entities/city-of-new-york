@@ -14,6 +14,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/mcti-yg8i/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-f822a80b-74d8-4b29-8e31-effc9a320792
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-b4d5ecf4-a614-4a4d-843e-b2ffaa3d5ae9
 ---
 MOIA contracts with a vendor to provide in-person interpreters at certain City-sponsored events across the City.  MOIA primarily provides this service to offices within the Mayor’s Office (on occasion MOIA may provide the service to other City entities beyond the Mayor’s Office, depending on MOIA’s capacity).   Each line represents a unique instance for which MOIA provided in-person interpretation services by a Mayor’s Office/Non Mayor’s Office and includes the type of interpretation, target language, event name, event time, and location. Where a single event requires multiple target languages and types of interpretation, a unique row of data exists for each unique combination, but refers back to a single request (RequestID).
