@@ -45,6 +45,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/rxpf-yca2/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/rxpf-yca2/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-69bbec66-9f47-4f80-aa34-a76580a70660
 ---
 Key indicators of broadband adoption, service and infrastructure in New York City by Community District.
