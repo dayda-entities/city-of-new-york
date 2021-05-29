@@ -18,7 +18,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/xi7c-iiu2/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/xi7c-iiu2/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-8e10c06f-bac5-49af-8921-14e9c9be0db2
 ---
 New York City Population By Community Districts
 
