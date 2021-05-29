@@ -20,7 +20,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/i4kb-6ab6/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/57eb77a3-2515-4aaa-b165-36b57546e9c5
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-efd9418d-8b97-4165-8545-c9cdbe749f6c
 ---
 Volunteer Opportunities and Finding Organizations.
