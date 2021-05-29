@@ -40,7 +40,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/8ess-ssnw/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/8ess-ssnw/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-96dd13e3-2c49-49d6-aabb-2fd9fd92a511
 ---
 Key indicators of the availability of internet service choice and speed based on publicly available data from the Federal Communications Commission
 
