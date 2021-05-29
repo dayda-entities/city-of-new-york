@@ -35,8 +35,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/4kpn-sezh/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/f59e1d57-5f63-49db-8ee2-6feabc357f54
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-5321dcad-cfe4-41d0-b3a7-654cbbdd890b
 ---
 This is a list of over 325 venues, across the five boroughs that actively distribute free safer sex products.  Product availability varies by venue. </p>
 The NYC Condom Availability Program maintains a robust list of active venues where New York City (NYC) residents may access free safer sex products across all 5 boroughs of NYC. This list is updated through a variety of mechanisms supported by the NYC Department of Health and Mental Hygiene (NYC DOHMH). At minimum, different sub-sets of this dataset are updated monthly by several vetted DOHMH contracted agencies. Other subsets of this dataset are updated in real-time by NYC Safer Sex Portal users. This entire dataset is refreshed in OpenData on a daily basis.
