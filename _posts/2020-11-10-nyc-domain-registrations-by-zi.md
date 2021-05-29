@@ -21,7 +21,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/ymvu-4x4s/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/46132c5f-0acc-44ee-8ca8-8baf445bd4c7
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-3a895fb1-4150-48d1-9f55-7556528f01fb
 ---
 .nyc domain registrations broken down by zip code.  This list is updated monthly.
