@@ -19,8 +19,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/iap9-f56y/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/6ee54f98-ac68-4858-a76d-3bbcf5a95cf5
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-1baaf64b-5452-4107-9554-7b0b47476f64
 ---
 The NYC Street Centerline (CSCL) is a road-bed representation of New York City streets containing address ranges and other information such as traffic directions, road types, segment types
 
