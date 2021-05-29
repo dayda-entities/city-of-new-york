@@ -14,6 +14,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/tzwr-vksx/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/tzwr-vksx/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-36284afd-b0ca-45d4-a7bc-52ab6e165287
 ---
 Number of seats and cost by borough and district.
