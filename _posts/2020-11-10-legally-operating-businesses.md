@@ -19,7 +19,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/w7w3-xahh/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/w7w3-xahh/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-1ee5d737-eeb8-4b80-b1f7-2c03e1cf17f8
 ---
 This data set features businesses/individuals holding a DCA license so that they may legally operate in New York City. Note: Sightseeing guides and temporary street fair vendors are not included in this data set.</br>
 <b>*Due to COVID-19 pandemic, DCA extended certain license expiration dates and renewal application deadlines which are not reflected in this data set. For more information, visit <a href="https://www1.nyc.gov/site/dca/businesses/licenses.page">nyc.gov/BusinessToolbox</a>.</b>
