@@ -17,6 +17,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/uedp-fegm/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/uedp-fegm/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-74479d93-9c18-4eb2-83bd-d8275068761c
 ---
 2010 Natural Gas consumption in therms and GJ, by ZIP code, building type, and utility company.
