@@ -19,7 +19,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/jb3k-j3gp/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/jb3k-j3gp/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-d159b6c7-cf86-4aa9-985d-b6747e70a741
 ---
 <b>PLEASE NOTE:</b> This dataset, which includes all TLC Licensed Drivers who are in good standing and able to drive, is updated every day in the evening between 4-7pm. Please check the 'Last Update Date' field to make sure the list has updated successfully. 'Last Update Date'  should show either today or yesterday's date, depending on the time of day. If the list is outdated, please download the most recent list from the link below. 
 http://www1.nyc.gov/assets/tlc/downloads/datasets/tlc_medallion_drivers_active.csv
