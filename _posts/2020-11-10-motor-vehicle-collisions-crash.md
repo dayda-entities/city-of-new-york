@@ -21,7 +21,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/h9gi-nx95/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-475a77ca-9d49-4221-b031-a6089718d348
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-ae521299-2cdc-4385-a35b-810931aed623
 ---
 The Motor Vehicle Collisions crash table contains details on the crash event. Each row represents a crash event. The Motor Vehicle Collisions data tables contain information from all police reported motor vehicle collisions in NYC. The police report (MV104-AN) is required to be filled out for collisions where someone is injured or killed, or where there is at least $1000 worth of damage (https://www.nhtsa.gov/sites/nhtsa.dot.gov/files/documents/ny_overlay_mv-104an_rev05_2004.pdf).  It should be noted that the data is preliminary and subject to change when the MV-104AN forms are amended based on revised crash details.For the most accurate, up to date statistics on traffic fatalities, please refer to the <a href="https://www1.nyc.gov/site/nypd/stats/traffic-data/traffic-data-collision.page" style="color:#187bcd;">NYPD Motor Vehicle Collisions page</a> (updated weekly) or <a href="http://www.nycvzv.info/" style="color:#187bcd;">Vision Zero View</a> (updated monthly).
 
