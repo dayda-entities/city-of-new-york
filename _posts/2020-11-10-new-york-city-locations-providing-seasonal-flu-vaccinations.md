@@ -16,6 +16,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/w9ei-idxz/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/w9ei-idxz/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-b5261dd8-d846-4f10-9aa0-59d87496e168
 ---
 Location and facility information for places in New York City providing seasonal flu vaccinations.
