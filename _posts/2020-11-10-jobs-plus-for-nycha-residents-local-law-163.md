@@ -18,7 +18,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/4kkh-qhtc/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/4kkh-qhtc/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-95c9ecdc-c323-4e95-b4a6-1f858c88bfbe
 ---
 This dataset contains information about <a href="http://opportunitynycha.org/workforce-development/jobs-plus/">Jobs-Plus</a> service, a place-based employment program designed to increase the earnings and employment of working-age residents in designated public housing developments or a cluster of developments. Each row in the dataset represents the number of public housing residents on a Borough-level who receive or utilize this service.
 
