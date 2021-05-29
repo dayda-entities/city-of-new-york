@@ -16,6 +16,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/kmbn-acqc/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-4e4bd3df-56f9-4166-9518-dc811e6fb261
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-b0074c42-fb0f-4e81-936f-d6fcb08218cc
 ---
 NYC DOE School Zones
