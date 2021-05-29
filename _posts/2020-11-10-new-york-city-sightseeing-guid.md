@@ -22,6 +22,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/nhms-9u6g/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/nhms-9u6g/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-6dc1b7a2-7c94-47f3-af36-364d9c847867
 ---
 This data set features a list of sightseeing guides licensed by the Department of Consumer Affairs (DCA), with indicator for those with exemplary exam scores.
