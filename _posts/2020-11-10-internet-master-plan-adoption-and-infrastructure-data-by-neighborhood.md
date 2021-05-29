@@ -40,7 +40,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/fg5j-q5nk/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/fg5j-q5nk/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-b1fe5689-cae9-403a-93c3-3ca7ef951e23
 ---
 Key indicators of broadband adoption, service and infrastructure in New York City.</p>
 <b>Data Limitations:</b> Data accuracy is limited as of the date of publication and by the methodology and accuracy of the original sources.  The City shall not be liable for any costs related to, or in reliance of, the data contained in these datasets.
