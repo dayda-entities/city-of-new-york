@@ -14,8 +14,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/nu7n-tubp/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/df80d880-211c-4d8e-8f95-a351d3fea546
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-cd187082-ab95-40ac-bc23-a3a7592fb2b9
 ---
 Active Dog Licenses.
 
