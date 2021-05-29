@@ -17,8 +17,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/aabe-yfm9/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/51831e3b-15d8-4be1-b23f-ae128a8c5bfa
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-c06f023b-6baf-4012-ba86-5839b343b71c
 ---
 The Council has numerous standing committees that practice oversight of New York City functions, including human services, infrastructure, and government affairs. Each committee is headed by a Council Member (the Chair), includes at least five members, and meets at least once a month. In addition, the Council has several subcommittees, which are convened to review and make recommendations regarding topics of particular interest.
 
