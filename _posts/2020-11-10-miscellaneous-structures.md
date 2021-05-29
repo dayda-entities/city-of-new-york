@@ -16,6 +16,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/92m5-3pwp/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-3b4ff8ee-5d57-4b73-b990-71a58f566c36
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-5c465397-d1d7-499b-b828-0fa02b594073
 ---
 Miscellaneous structures. Please see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.
