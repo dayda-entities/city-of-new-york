@@ -21,7 +21,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/bvi6-r9nk/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/0b55ba48-725f-46aa-8d50-823423bfc82e
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-bed808e1-188e-4845-a6d3-3f2642d6e74b
 ---
 Police Service Areas boundaries.
