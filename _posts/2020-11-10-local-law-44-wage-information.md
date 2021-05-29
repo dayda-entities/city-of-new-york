@@ -12,6 +12,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/34zf-iv73/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/34zf-iv73/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-5921444f-f069-48d8-9b84-e9639fd3b682
 ---
 The Wage Information data table includes information about borrower legal entities and contractors that have and have not provided the wage information required by Local Law 44. This is part of the <a <a href='https://data.cityofnewyork.us/browse?Data-Collection_Data-Collection=HPD+Local+Law+44'>Housing Projects Receiving City Financial Assistance (Local Law 44) collection of data tables</a>.
