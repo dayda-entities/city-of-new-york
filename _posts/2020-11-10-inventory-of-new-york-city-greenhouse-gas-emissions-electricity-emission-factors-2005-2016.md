@@ -14,6 +14,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/w5he-u64t/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/w5he-u64t/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-4994be2b-5ad8-4a3f-ba56-c908c426310b
 ---
 Inventory of New York City Greenhouse Gas Emissions - Electricity Emission Factors (2005-2016)
