@@ -11,6 +11,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/uu87-uz8m/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/uu87-uz8m/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-652b41f0-52f0-4abd-abe6-c34315077baa
 ---
 The dataset contains count data for the number of intimate partner homicides and homicide-suicides that occurred in New York City from 2010 through 2018. The report provides information on the borough and month of occurrence; the relationship between the victim and the perpetrator; the sex of the victim; the location (residence/non-residence) where homicide-suicide occurred and the type of weapon used.
