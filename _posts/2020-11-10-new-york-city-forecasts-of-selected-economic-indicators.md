@@ -15,6 +15,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/xatq-cxeq/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/xatq-cxeq/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-c69f0f01-716e-4c8b-b952-41fd65e862db
 ---
 This dataset contains the forecasts of selected economic indicators for the United States and New York City. Data is reported by indicator in the specified units. Updates are posted twice per year.
