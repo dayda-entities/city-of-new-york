@@ -16,6 +16,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/4se9-mk53/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/4se9-mk53/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-4881c0b5-524b-4141-96f7-f14376637c06
 ---
 The Law Department is composed of 17 legal divisions. Three support divisions provide high quality services to the Law Department's 650 attorneys.
