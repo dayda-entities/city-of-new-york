@@ -20,7 +20,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/6ggx-itps/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/6ggx-itps/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-e89e6fff-1b6b-4824-97ee-39741917d09d
 ---
 Annual spending on debt service from FY 2000 - 2014.
 
