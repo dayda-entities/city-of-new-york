@@ -23,7 +23,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/rqhz-zzpm/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/491c5227-2c19-40b6-b768-a3eee25b1360
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-8c53b4d2-7c2c-46c9-b000-99bff5019970
 ---
 Adult and Continuing Education Sites
