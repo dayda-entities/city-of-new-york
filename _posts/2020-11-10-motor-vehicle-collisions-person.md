@@ -22,7 +22,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/f55k-p6yu/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-c676a27d-0195-42cc-a70b-07cbf5ec4f67
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-ff253b7d-9207-4044-a4ac-9c5cbd707408
 ---
 The Motor Vehicle Collisions person table contains details for people involved in the crash. Each row represents a person (driver, occupant, pedestrian, bicyclist,..) involved in a crash. The data in this table goes back to April 2016 when crash reporting switched to an electronic system.
 </p>
