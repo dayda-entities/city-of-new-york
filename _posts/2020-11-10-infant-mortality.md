@@ -14,7 +14,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/fcau-jc6k/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/fcau-jc6k/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-1bd998e8-1a4d-4def-9f67-3d5630503b59
 ---
 Infant Mortality Rate by Maternal Race/Ethnicity for New York City, 2007-2016
 </p>
