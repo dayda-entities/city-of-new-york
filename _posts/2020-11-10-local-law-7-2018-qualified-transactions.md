@@ -14,7 +14,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/8wi4-bsy4/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/8wi4-bsy4/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-f5f8bbc8-ba84-4f52-a54a-ba3e50b3f5fb
 ---
 List of sales of select rent-regulated multiple dwellings that are evaluated for the Speculation Watch List. This list is promulgated pursuant to Local Law 7 of 2018 and 28 RCNY Chapter 52. A subset of these data are provided as the Speculation Watch List.
 Please note that borough, block, and lot is the best geographic identifier for this data set, and Building Identification Number (BIN) is provided for convenience only. BIN as provided in this dataset may be inaccurate, as more than one BIN may be associated with borough, block, and lot.
