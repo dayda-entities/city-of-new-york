@@ -11,7 +11,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/6kks-jijx/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/6kks-jijx/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-4b3d00f1-7046-4393-9ac8-6538b58c2d95
 ---
 """Local Law 14 (2016) requires that the NYCDOE provide citywide Health Education data, dis aggregated by community school district, city council district, and each individual school. Data reported in this report is from the 2015-16 school year.
 ""
