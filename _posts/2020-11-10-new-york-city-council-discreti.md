@@ -15,6 +15,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/q2ni-ztsb/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/q2ni-ztsb/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-d4583e5f-8e2f-4a92-9c21-9f2eec6d511b
 ---
 The dataset reflects applications for discretionary funding to be allocated by the New York City Council in the upcoming fiscal year (July 1 - June 30)
