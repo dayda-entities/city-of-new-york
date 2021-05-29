@@ -44,7 +44,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/da9u-wz3r/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/da9u-wz3r/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-905bd06a-ac64-4d52-bcc7-2dad1c68a043
 ---
 New York City Department of Health and Mental Hygiene tests consumer products, those collected during investigations of lead poisonings and store surveys, for lead. Certain consumer products are also tested for other metals such as arsenic and mercury.  This dataset contains the laboratory results for the consumer products that are tested.  For more information on hazardous consumer products, visit nyc.gov/hazardousproducts.</p>
 
