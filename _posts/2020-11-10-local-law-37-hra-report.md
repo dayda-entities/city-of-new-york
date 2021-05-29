@@ -13,7 +13,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/e4ty-r26d/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/e4ty-r26d/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-6d6017fc-3aa2-4124-a66d-6a359e843cae
 ---
 Individuals and families placed in temporary emergency housing during crisis or illness pursuant to Local Law 37.
 
