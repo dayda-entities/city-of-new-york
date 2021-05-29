@@ -24,6 +24,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/69wu-b929/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/69wu-b929/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-2373ddea-37bf-4c39-89f9-6813be8400d8
 ---
 LinkNYC is replacing the City’s outdated public telephones with a network of kiosks that provide free high-speed Wi-Fi, nationwide calling, a dedicated 911 button, charging ports for mobile devices, and access to selected websites. This dataset contains data on how the LinkNYC kiosks are being used, including numbers of users, number of Wi-Fi sessions, amount of data transmitted, and other information.
