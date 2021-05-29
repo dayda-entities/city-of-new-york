@@ -16,6 +16,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/qgea-i56i/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-fe3f8c62-7b30-4fc9-a698-f0d6a8be2920
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-03f1bb0f-d55f-4bf6-a7b5-e40f66227f25
 ---
 This dataset includes all valid felony, misdemeanor, and violation crimes reported to the New York City Police Department (NYPD) from 2006 to the end of last year (2019). For additional details, please see the attached data dictionary in the ‘About’ section.
