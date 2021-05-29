@@ -17,8 +17,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/833y-fsy8/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/a816d7ab-162f-48da-8be4-8435589e32d3
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-a5bde853-548e-41f4-b534-920537390853
 ---
 List of every shooting incident that occurred in NYC going back to 2006 through the end of the previous calendar year.
 
