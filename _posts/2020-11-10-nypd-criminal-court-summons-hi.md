@@ -19,7 +19,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/sv2w-rv3k/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-2f76902b-b3f1-404f-b7f9-ac3968f05ce2
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-10b5c439-19a9-4694-96f9-97e32c4b67a4
 ---
 List of every criminal summons issued in NYC going back to 2006 through the end of the previous calendar year.
 
