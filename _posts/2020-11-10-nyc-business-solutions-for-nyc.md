@@ -20,8 +20,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/jege-pgbz/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/02afa27f-2eca-498c-8c71-29344837cb56
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-9a9f2412-ddd2-4e3b-a777-f730b4ae3a3a
 ---
 This dataset contains information about NYC <a href="https://maps.nyc.gov/sbs/">Business Solutions</a> service, a service offered by the Department of Small Business Services (SBS) aimed at giving New Yorkers free services to start, operate and grow their businesses. Each row in the dataset represents the number of public housing residents on a Borough-level who receive or utilize this service.
 
