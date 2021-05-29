@@ -15,6 +15,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/8p6c-94pc/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/8p6c-94pc/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-c41bdf99-42ff-4f61-9f0e-635ae84cff89
 ---
 Attendance information for the "Kids in Motion" program, which provides free activities in NYC’s playgrounds, including organized sports, games, fitness demos, and board games.
