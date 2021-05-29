@@ -12,6 +12,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/sgvu-nui7/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/sgvu-nui7/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-fbabbb25-5f5b-4517-9fe3-8732de7930ef
 ---
 The LIHTC data table includes Low Income Housing Tax Credit (LIHTC) allocation amounts and types for which the project is eligible per the Determination of Credit Eligibility (DOCE) made by HPD, for those LIHTC allocations that meet the definition of City Financial Assistance for each Local Law 44 Housing Development Project. This information is reported pursuant to Local Law 44 of 2012, and is part of the <a <a href='https://data.cityofnewyork.us/browse?Data-Collection_Data-Collection=HPD+Local+Law+44'>Housing Projects Receiving City Financial Assistance (Local Law 44) collection of data tables</a>.
