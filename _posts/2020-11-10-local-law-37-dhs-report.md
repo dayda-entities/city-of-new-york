@@ -16,7 +16,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/2mqz-v5im/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/2mqz-v5im/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-817a692c-c8a8-42b7-ac87-9e67814352ac
 ---
 The DHS Local Law 37 report provides aggregate information on individuals and families that utilize DHS services including data on length of stay and shelter applications.
 
