@@ -17,7 +17,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/jjja-shxy/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/jjja-shxy/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-c0742c04-7b32-4d99-a466-3c3214b7aea2
 ---
 The New York City Truck Route Network is a set of roads that commercial vehicles must use in New York City. 
 
