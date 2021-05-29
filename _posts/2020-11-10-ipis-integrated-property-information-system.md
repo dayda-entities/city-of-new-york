@@ -22,6 +22,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/n5mv-nfpy/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/n5mv-nfpy/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-1e4dfda9-fd6c-4afa-9aef-e061a799aa81
 ---
 A list of properties owned by the City of New York and leased from private owners for City agency use
