@@ -18,7 +18,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/pfys-fabf/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/458852a9-0496-4d66-bb60-f2c7006a5c81
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-b2e7a9c5-6a80-4fd2-89a4-452f4ef88a28
 ---
 New York Public Library (NYPL) branch services from July 2010 to June 2011(Bronx)
