@@ -12,7 +12,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/63us-eqtq/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/00fca17d-fe4a-4398-a76f-d95e9c9de831
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-0ceabcb6-596d-4a5b-b4ac-7d20d157df83
 ---
 This dataset contains the list of dataset nominations submitted to the NYC Open Data team.
