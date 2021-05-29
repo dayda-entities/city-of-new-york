@@ -17,7 +17,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/q2z5-ai38/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/q2z5-ai38/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-e875ad22-8f78-47e7-8619-ff6d5e67ee03
 ---
 GIS data: Boundaries of Neighborhood Tabulation Areas as created by the NYC Department of City Planning using whole census tracts from the 2010 Census as building blocks.  These aggregations of census tracts are subsets of New York City's 55 Public Use Microdata Areas (PUMAs).
 
