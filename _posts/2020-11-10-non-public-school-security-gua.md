@@ -17,7 +17,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/xphq-immx/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/0e36c86e-8103-41a0-9801-24fa246d79f3
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-6f34234c-08a5-4553-a874-8a161404a79c
 ---
 List of security guard vendors which have met the requirements for inclusion on the Qualified Provider List for the Non-Public School Security Guard Reimbursement Program
