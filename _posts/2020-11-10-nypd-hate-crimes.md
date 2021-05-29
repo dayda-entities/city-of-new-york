@@ -22,7 +22,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/bqiq-cu78/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/31e0aa41-a3e3-4774-aaed-89b290ea8095
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-3ed4faad-7f52-4f89-9229-aa2e402ad137
 ---
 Dataset containing confirmed hate crime incidents in NYC
