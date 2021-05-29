@@ -22,6 +22,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/quxm-hmyr/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/quxm-hmyr/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-620b2598-3b33-473a-bb51-6c221da5fb6d
 ---
 This dataset provides the most current listing of LinkNYC Kiosks, their location, and the status of the Link’s wifi, tablet, and phone.
