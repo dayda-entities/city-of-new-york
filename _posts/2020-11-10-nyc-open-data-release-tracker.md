@@ -14,7 +14,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/qj2z-ibhs/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/19de84eb-14f0-49ea-b8e5-94ebac81c0c2
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-21fee034-635a-42c9-83eb-6664979f8325
 ---
 A list of all datasets that were included on all the NYC Open Data plans (2013-2019) and their current release status. For a comprehensive information on each dataset on the Open Data Portal, please refer to <a href="https://data.cityofnewyork.us/City-Government/Local-Law-251-of-2017-Published-Data-Asset-Invento/5tqd-u88y">Local Law 251 of 2017: Published Data Asset Inventory</a>.
