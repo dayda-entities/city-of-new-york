@@ -17,6 +17,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/9s68-zggy/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/9s68-zggy/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-78ec65fc-6adc-405d-aefd-fe465b9cae5a
 ---
 A list of contractors and subcontractors who are ineligible for inclusion on any HPD prequalified list(s) for housing development projects due to a failure to provide the wage reporting information required by Local Law 44 of 2012 (LL44). Information about LL44 is available on HPD’s LL44 webpage: http://www1.nyc.gov/site/hpd/developers/transparency-ll44.page
