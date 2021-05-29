@@ -14,8 +14,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/mebz-ditc/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/aa0d84f2-5980-4faa-813f-d2191211ddad
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-84ea2559-3416-4e32-ab6a-3689621dbdb4
 ---
 In order to appropriately manage City parks and allocate resources, NYC Parks has implemented three tiers of management [below the Borough level]. These three tiers can be represented as administrative geographic boundaries and are defined below: 
 
