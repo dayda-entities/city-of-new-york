@@ -11,6 +11,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/gakf-suji/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/gakf-suji/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-bba1d3b9-5aa6-4597-a9a3-c1af8235bac1
 ---
 Violent inmate-on-inmate incidents (Slashings and Stabbings).
