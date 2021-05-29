@@ -18,7 +18,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/w2pb-icbu/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/293d4cf5-2b55-4fda-9ae6-75bf60524868
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-f2839da6-a165-438f-bb81-934fd2ea9878
 ---
 Annualized sales file displays yearly sales information of properties sold in New York City.
