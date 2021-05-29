@@ -14,7 +14,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/k3sr-iysq/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/k3sr-iysq/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-be153d1b-6d33-4f39-a8f1-959cdf4bad93
 ---
 This dataset contains the sites designated for Kayak and Canoe launches. See on-site signage for up to date rules about the use of that site. Each record corresponds to one launch site. This dataset is updated as needed but the attribute information may not longer be accurate.
 
