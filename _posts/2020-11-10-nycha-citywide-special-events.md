@@ -18,7 +18,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/7iqz-npua/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/b88b3fdd-c25c-4ba1-acf6-7db4cba85e0d
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-f56c27e2-456f-437c-8668-77afc6f85616
 ---
 It contains the special events hosted by NYCHA
