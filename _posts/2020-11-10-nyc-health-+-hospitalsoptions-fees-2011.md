@@ -22,7 +22,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/3955-c36a/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/6af37a15-bb62-4afb-ab55-7d34860b2347
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-18c967bd-799e-42e2-8273-7afda5efbc29
 ---
 NYC Health + Hospitals Options is a discount payment scale that determines fees for NYC Health + Hospitals services for New Yorkers who do not qualify or cannot afford any of the free or low cost health insurance plans available. The reduced fees are based on family size and income. This table shows a sample of the reduced fees available to eligible individuals in 2011.Update Frequency: As needed
