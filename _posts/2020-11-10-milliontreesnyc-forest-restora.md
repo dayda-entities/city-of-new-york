@@ -16,6 +16,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/ifu9-zqkd/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-4b6bae48-4ac3-432d-a7b9-374dc283a561
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-dda96a0a-f93b-4932-a8bc-655cc4bbc800
 ---
 The polygons in this dataset show mapped forest restoration planting polygons. These polygons depict areas where invasive plants were removed and native trees and/or shrubs were planted under the purview of NYC Parks? Natural Resources Group as part of the MillionTreesNYC initiative on property under the jurisdiction of NYC Parks. Spring plantings occur between January 1 and June 30, while Fall plantings occur between July 1 and December 31 of any year. Older restoration polygons were mapped via heads-up digitizing while the location of newer polygons have been collected using a high-accuracy GPS device.
