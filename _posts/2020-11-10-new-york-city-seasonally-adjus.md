@@ -11,6 +11,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/5hjv-bjbv/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/5hjv-bjbv/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-03a761fa-24ca-4a76-83bd-4dd1d2c7e4dc
 ---
 This dataset contains seasonally adjusted employment data for New York City.  Data is reported at the industry level (in units of thousands) and aggregated to total nonfarm and total private levels.  Updates are posted after the not-seasonally-adjusted data is published by the NYS Department of Labor – typically monthly but with irregularities due to annual benchmark revisions.
