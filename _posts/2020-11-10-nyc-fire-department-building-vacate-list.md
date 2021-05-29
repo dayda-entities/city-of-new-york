@@ -18,7 +18,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/n5xc-7jfa/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/0edd3d9f-eef6-4661-85d2-16ea75f529ae
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-aca0a65e-8899-4e93-a68f-5ce9cc8e418c
 ---
 List of ordered vacated buildings declared unsafe and off-limits
