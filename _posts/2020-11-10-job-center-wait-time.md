@@ -13,6 +13,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/fq4m-vjs9/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/fq4m-vjs9/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-1cd0992a-e11b-44b6-88f3-bf56f2222941
 ---
 Aggregate monthly wait times for clients at Job Center services.
