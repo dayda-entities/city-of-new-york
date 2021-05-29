@@ -12,6 +12,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/xsd9-52hv/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/xsd9-52hv/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-c375a4a4-e293-4050-8b85-2624707d2ccb
 ---
 Jobs Created by Energy Cost Savings Program Savings for Businesses
