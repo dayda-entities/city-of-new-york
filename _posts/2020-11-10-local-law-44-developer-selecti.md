@@ -12,6 +12,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/abnr-s7g4/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/abnr-s7g4/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-4bd9f387-d4ca-4be7-a956-0ba24726df26
 ---
 The Developer Selection data table Includes information on developer selection methods for each Local Law 44 Housing Development Project. This information is reported pursuant to Local Law 44 of 2012, and is part of the <a <a href='https://data.cityofnewyork.us/browse?Data-Collection_Data-Collection=HPD+Local+Law+44'>Housing Projects Receiving City Financial Assistance (Local Law 44) collection of data tables</a>.
