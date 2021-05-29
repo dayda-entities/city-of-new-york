@@ -15,8 +15,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/6rrm-vxj9/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/10bc862c-78ae-42c3-882b-bbcf887b21d1
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-2415d5dd-7aca-41db-9b56-f39437a40d69
 ---
 This data is table of monuments that is maintained by NYC Parks. Prior to being stored electronically the original data was stored on index cards dating back to the 1940s. The database is updated periodically to include new monuments, and information updated for existing monuments. For questions about the dataset please contact Parks’ Art & Antiquities division at (212) 360-8143.
 
