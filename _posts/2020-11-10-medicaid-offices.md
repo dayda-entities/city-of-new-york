@@ -17,6 +17,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/ibs4-k445/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/ibs4-k445/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-2a4ae7f5-8ca2-4923-8e71-a7461da62510
 ---
 This table represents the details of the Medicaid Offices distributed by Borough along with their address and phone number detail.
