@@ -20,8 +20,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/8qgy-ka3v/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/7ad150db-913b-4abe-8d3d-1b0a88f39d10
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-f3824709-787b-4408-b9f2-2625561ef857
 ---
 NYCDEP Recreation Area Maps
 
