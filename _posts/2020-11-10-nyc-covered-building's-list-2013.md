@@ -15,7 +15,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/wg5a-mubp/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/7411bf2f-addb-4952-801b-27e5e1029205
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-1f38a515-af21-485d-b763-edc7dbd17bee
 ---
 The covered building list identifies properties required to comply with Local Law 84: Benchmarking.
