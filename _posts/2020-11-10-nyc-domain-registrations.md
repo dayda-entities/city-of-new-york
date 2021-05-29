@@ -21,7 +21,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/9cw8-7heb/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/23fe747a-5aa1-4ca4-9f8b-7e0810cf4e43
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-d7abcaa8-8e02-4319-a7d2-a6fffc11975c
 ---
 A list of all .nyc domains registered along with the registration date and registrant type. This list is updated daily.
