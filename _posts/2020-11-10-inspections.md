@@ -14,6 +14,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/rn6p-xvjd/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/rn6p-xvjd/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-ce69f012-51ef-456a-a8c5-8b5f271aed56
 ---
 Tracks location, date and outcome of inspections of permitted, privately operated Municipal Solid Waste disposal locations.
