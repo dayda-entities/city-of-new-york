@@ -17,7 +17,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/qssd-iewi/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-d684e3ce-fe67-4acf-b724-c9c94d9d99c6
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-ade8d749-5586-48f3-9688-7af3cf74283d
 ---
 GIS data: Boundaries of Municipal Court Districts (water areas included).
 
