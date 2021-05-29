@@ -19,8 +19,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/bquu-z2ht/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/6c69189f-1e6c-45f9-9e28-9198f3af173f
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-518a409a-5289-4275-8a7b-e5fb7241dba0
 ---
 A list of volunteer opportunities, organized by event, category of event type, organization and location.
 Update Frequency: As needed
