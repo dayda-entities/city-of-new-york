@@ -14,7 +14,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/pc3j-jk2d/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/e327ded5-aa99-4663-972e-c23e14b62a72
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-0dc4fef3-754c-40de-871c-9db4fceda685
 ---
 Completed, ongoing, and planned recovery and resiliency projects throughout New York City.
