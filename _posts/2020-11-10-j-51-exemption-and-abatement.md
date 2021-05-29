@@ -13,7 +13,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/y7az-s7wc/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/y7az-s7wc/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-69bf0bf8-0f17-4eb7-9030-ff3e094de24a
 ---
 J-51 is a property tax exemption and abatement for renovating a residential apartment building or conversion to multiple dwellings.
 
