@@ -23,7 +23,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/m79g-k9r4/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/m79g-k9r4/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-a4157178-4f75-4b03-8792-bfdcab291cc8
 ---
 The Mandatory Inclusionary Housing program was adopted in 2016 to encourage the creation of housing for families at a range of incomes in areas planned for housing growth. When actions of the Commission significantly increase residential density, the City Planning Commission and the City Council will apply one or more options to require affordable housing as part of new residential construction.
 
