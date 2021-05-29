@@ -18,6 +18,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/i8ua-bnkj/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-45a0cb31-d2fc-4f01-b49f-1ddecf11d949
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-c6adab3c-0712-45ff-a47b-860101dd0d52
 ---
 This dataset contains select monthly performance statistics that DOI regularly reports to the Mayor's Office of Operations for 2010 - 2015.  This dataset includes several indicators that are cummulated for the Mayor's Management Reports, such as the including numbers of complaints received by the Agency and the numbers of arrests made.  This dataset also includes monthly statistics on the Agency's outreach efforts (anticorrupion and whistleblower lectures) as well customer service indicators (such as the number of emails received by the Agency).
