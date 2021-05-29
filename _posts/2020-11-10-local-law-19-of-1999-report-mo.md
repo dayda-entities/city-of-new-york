@@ -12,7 +12,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/5284-7vfz/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/5284-7vfz/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-e7509502-ad00-4307-9180-42e20f5d5d65
 ---
 Individuals and families placed in HRA housing systems in pursuant to local law 19.
 
