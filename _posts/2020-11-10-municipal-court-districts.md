@@ -17,7 +17,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/mi5z-t7dx/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/mi5z-t7dx/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-e4eb4f94-ba19-4198-a18f-df9e664f8b44
 ---
 GIS data: Boundaries of Municipal Court Districts.
 
