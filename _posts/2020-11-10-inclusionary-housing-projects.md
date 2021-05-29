@@ -11,7 +11,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/jafx-rvrb/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/jafx-rvrb/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-3d1d1374-dd46-423e-8401-9a1f53ae748f
 ---
 The Inclusionary Housing Program is designed to preserve and promote affordable housing within neighborhoods where zoning has been modified to encourage new development.  The Voluntary Inclusionary Housing program, enacted in 1987, enables a development to receive a density bonus in return for the new construction, substantial rehabilitation, or preservation of permanently affordable housing.  The Inclusionary Housing Projects table provides a list of all voluntary inclusionary housing projects and additional project-specific details.
 The Voluntary Inclusionary Housing (VIH) open data is published in four tables. Please see the documentation for more information on how these four tables relate.
