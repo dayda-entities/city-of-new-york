@@ -16,6 +16,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/azp6-hepu/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/azp6-hepu/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-6f97d61a-3430-4f5a-ad5c-8fab0141dc31
 ---
 This data set features a monthly snapshot of customer service information at the DCA Licensing Center.
