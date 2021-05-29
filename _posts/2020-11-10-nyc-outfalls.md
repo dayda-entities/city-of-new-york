@@ -15,7 +15,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/8rjn-kpsh/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/bb3ab840-d0a0-4d3b-bc40-010c7b52b635
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-ad21ba4d-0191-4b24-9088-1a158916b9e6
 ---
 New York City Outfalls as of November 2017.
