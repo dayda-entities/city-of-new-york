@@ -27,6 +27,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/wye7-nyek/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/wye7-nyek/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-f4cb235a-8c0d-4181-aef7-7c225e1a48b8
 ---
 NYC Parks' database of external capital projects affecting parkland
