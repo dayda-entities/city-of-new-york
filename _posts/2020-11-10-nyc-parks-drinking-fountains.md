@@ -17,8 +17,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/bevm-apmm/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/aee3ddb1-0370-427a-9c04-e22bd7602b63
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-92a1e32c-a2bd-44b8-affe-35dd479bc7d4
 ---
 Each record is either an individual drinking fountain or multiple drinking fountains that are attached to each other. NYC Parks created the dataset using collector for arcgis. All outdoor drinking fountains in parks were collected and a rigorous QA/QC process followed. In addition to the GPS coordinates the dataset includes descriptions of its physical environment and attributes about the drinking fountain itself.
 
