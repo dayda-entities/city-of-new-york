@@ -25,7 +25,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/xyye-rtrs/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/xyye-rtrs/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-8c74d620-9e17-406b-89f0-877444002443
 ---
 GIS data: neighborhood labels as depicted in New York City: A City of Neighborhoods.
 
