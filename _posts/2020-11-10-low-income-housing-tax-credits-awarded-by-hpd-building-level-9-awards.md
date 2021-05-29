@@ -16,7 +16,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/kmtx-45c9/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/kmtx-45c9/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-67a9825f-7456-4c7a-9a76-bf0036a99a39
 ---
 The Department of Housing Preservation and Development (HPD) receives a sub-allocation of 9% Low Income Housing Tax Credits and allocated its credits through one competitive round each calendar year.  It is also charged with allocating 4% Low Income Housing Tax Credits to projects receiving tax exempt bonds through New York City Housing Development Corporation.
 Each entry represents an allocation to a low income housing development project with households at or below 60% of Area Median Income.
