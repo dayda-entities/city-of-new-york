@@ -12,6 +12,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/93d2-wh7s/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/93d2-wh7s/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-e9527bb1-7507-4028-815d-1cf83035108b
 ---
 The Rent Affordability data table includes units disaggregated by rent affordability for each building in a Local Law 44 Housing Development Project. This information is reported pursuant to Local Law 44 of 2012, and is part of the <a <a href='https://data.cityofnewyork.us/browse?Data-Collection_Data-Collection=HPD+Local+Law+44'>Housing Projects Receiving City Financial Assistance (Local Law 44) collection of data tables</a>.
