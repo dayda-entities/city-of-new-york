@@ -14,7 +14,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/e9rz-c67w/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/e9rz-c67w/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-c4b1067d-f12e-484e-9571-1c10350645c1
 ---
 GIS data:  A specified area in which the Inclusionary Housing Program is applicable. The program modifies the floor area ratio (FAR) and offers a bonus for developments that provide affordable housing.
 
