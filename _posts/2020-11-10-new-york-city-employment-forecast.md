@@ -15,6 +15,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/nsk4-4pvs/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/nsk4-4pvs/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-7cd8f556-ec80-48c0-b586-1b29e152e8e0
 ---
 This dataset contains the employment forecast for New York City. Data is reported at the industry level (in units of thousands) and aggregated to total nonfarm and total private levels. Updates are posted twice per year.
