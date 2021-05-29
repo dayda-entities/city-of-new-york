@@ -23,6 +23,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/ypbd-r4kg/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/ypbd-r4kg/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-c3e20164-0940-4d52-b87e-b6e6ab8e5b45
 ---
 Annual non-tax revenue from major revenue sources, from FY 1980 through FY 2013
