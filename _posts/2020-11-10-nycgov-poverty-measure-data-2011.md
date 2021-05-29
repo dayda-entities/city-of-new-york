@@ -13,8 +13,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/weuc-cs8c/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/3be92231-8093-44c9-9910-1d41040a00b1
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-3afd1f95-9397-45bd-a787-48a92647111b
 ---
 American Community Survey Public Use Micro Sample, augmented by NYC Opportunity.
 
