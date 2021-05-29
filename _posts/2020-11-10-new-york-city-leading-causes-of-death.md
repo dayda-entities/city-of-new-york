@@ -18,7 +18,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/jb7j-dtam/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/jb7j-dtam/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-23e27c97-6f64-4187-abfb-55a9675fb283
 ---
 The leading causes of death by sex and ethnicity in New York City in since 2007. Cause of death is derived from the NYC death certificate which is issued for every death that occurs in New York City.
 
