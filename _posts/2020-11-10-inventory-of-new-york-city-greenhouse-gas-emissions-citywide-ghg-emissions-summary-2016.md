@@ -14,6 +14,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/k3e2-emsq/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/k3e2-emsq/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-b941db9a-24b7-47c8-844f-710d3d5d40be
 ---
 Inventory of New York City Greenhouse Gas Emissions - Citywide GHG Emissions Summary (2016)
