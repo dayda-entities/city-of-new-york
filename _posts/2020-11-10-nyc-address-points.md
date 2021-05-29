@@ -17,8 +17,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/ujg5-64xm/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/23b520ff-fc57-4ac5-bcb0-e0fb1bde95e4
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-a6f7fc0b-6977-4870-86b8-3c5aa3d0368b
 ---
 NYC Address Points
 
