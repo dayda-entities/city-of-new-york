@@ -24,7 +24,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/jgtb-hmpg/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/jgtb-hmpg/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-e439d2e4-a892-4158-9a96-1cd4ca0ab485
 ---
 <b>PLEASE NOTE:</b> This dataset, which includes historical information on medallion vehicles which were not in good standing and able to drive on the date in the 'Last Update Date' field, is updated every day in the evening between 4-7pm. Please check the 'Last Update Date' field to make sure the list has updated successfully. 'Last Update Date'  should show either today or yesterday's date, depending on the time of day. If the list is outdated, please download the most recent list from the link below. 
 http://www1.nyc.gov/assets/tlc/downloads/datasets/tlc_medallion_vehicles_inactive.csv
