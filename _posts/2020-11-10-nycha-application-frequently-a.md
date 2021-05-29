@@ -17,7 +17,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/nkn9-ge6x/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/77933167-14e8-4191-bf8f-33196b95a9cd
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-72b25837-51d0-4ec5-8d6c-fc4709de958a
 ---
 FAQ about applying for housing at NYCHA
