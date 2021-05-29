@@ -17,6 +17,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/ptev-4hud/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/ptev-4hud/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-0619bf97-9f6a-4861-b245-19c385a19e1d
 ---
 This data set features license applications received during the last and current calendar years, including applications where a license was issued, denied, withdrawn, or remains pending. For a list of legally operating businesses, please refer to the DCA – Legally Operating Businesses data set. This data set is updated on a weekly basis.
