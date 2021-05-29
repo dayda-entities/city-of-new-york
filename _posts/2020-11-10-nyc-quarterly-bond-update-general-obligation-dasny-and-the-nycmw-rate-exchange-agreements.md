@@ -17,8 +17,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/d334-62hi/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/5b03d776-37e0-4544-890b-7d65a65cb378
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-5c3c45e5-4587-46d1-b465-a9e40f3e72c9
 ---
 This is a dataset of General Obligation, Dormitory Authority of the State of New York, and the New York City Municipal Water Finance Authority Interest Rate Exchange Agreements.
 
