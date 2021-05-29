@@ -17,7 +17,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/37fm-7uaa/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/142d6700-9f36-4405-804a-bbb35ab9ed68
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-208af3c6-c317-47d4-a00b-d739413dc9cf
 ---
 The  customer contact center locations, phone numbers and schedules
