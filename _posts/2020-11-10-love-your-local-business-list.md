@@ -12,6 +12,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/5694-9szk/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/5694-9szk/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-2e356dc0-146b-4574-817d-6407b9dbf819
 ---
 Businesses nominated for the Love Your Local program
