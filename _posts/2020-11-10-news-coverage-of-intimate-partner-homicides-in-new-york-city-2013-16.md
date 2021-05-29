@@ -13,6 +13,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/36qa-cicj/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/36qa-cicj/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-547d63e0-4d55-413e-8ee1-79be678f1ce8
 ---
 This data set contains case level data of coverage of newspaper articles on intimate partner homicides in New York City between 2013-2016.
