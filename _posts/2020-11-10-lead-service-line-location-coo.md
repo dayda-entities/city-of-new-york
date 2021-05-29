@@ -12,6 +12,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/pfvg-hyrc/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/pfvg-hyrc/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-a14539c1-7956-4b57-ad97-0ed18351ae41
 ---
 Geographic location of lead water service lines.
