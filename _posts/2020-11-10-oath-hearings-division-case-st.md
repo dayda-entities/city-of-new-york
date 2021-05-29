@@ -50,8 +50,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/jz4z-kudi/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/f61e7e4e-e70a-409a-8f92-34b9cef6e6f7
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-b0d31993-d398-49f2-b28f-7adf22248030
 ---
 IMPORTANT NOTICE: Searches using the search bar at the top of the dataset are currently not working and producing an error message. To search this data set, use the blue “Filter” function until this issue is resolved. 
 
