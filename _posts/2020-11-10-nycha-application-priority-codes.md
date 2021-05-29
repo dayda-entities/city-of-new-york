@@ -17,7 +17,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/2ei9-vg68/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/dec85f8a-3a62-4c1c-915d-c7806c2fe595
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-43a0a020-f3bd-4d8f-83a3-def5edb3fc50
 ---
 Priority codes assigned to applicants by NYCHA
