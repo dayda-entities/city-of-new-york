@@ -18,6 +18,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/5j2e-zhmb/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/5j2e-zhmb/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-f03da4ab-4112-49e9-ad56-faebc6a6d57f
 ---
 Locations of the public housing developments of the New York City Housing Authority as of March 2020.
