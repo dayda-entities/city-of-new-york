@@ -21,6 +21,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/x3ar-yjn2/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/x3ar-yjn2/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-09584957-bacc-4dad-9d3e-7475b8f3854e
 ---
 The LPC’s Individual Landmark and Historic District Building Database contains building-by-building information from the more than 50 years of the Commission’s individual landmark and historic district designation reports. The data set contains detailed information on close to 36,000 buildings or sites, including the nearly 34,000 historic buildings within the city’s 141 historic districts and the 1,408 individual landmarks (note: some individual landmarks include multiple buildings).
