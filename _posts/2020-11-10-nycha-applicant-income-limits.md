@@ -17,7 +17,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/yizy-365y/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/c62d10f0-0735-4d25-a8dd-a95b28afb370
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-a48e1f8a-6e29-4400-8342-7b514ba7c299
 ---
 Income limits by household size for public housing
