@@ -20,7 +20,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/d4iy-9uh7/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://thedaydasource.postman.co/workspace/City-of New
-  York~3b6f7a46-5db5-42b1-80fe-9fbef41e3e06/collection/c89c33fa-391c-4a5d-9438-497b14651e4b
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-af4de474-9d9f-4f50-a101-dd0c846e65c3
 ---
 Contains all occupied and vacant facilities portfolio from Facility Planning (commercial spaces) and Community Operations (community centers, senior centers, day care centers, health centers, etc) It includes the 5 Community Operations borough offices.  The source data is our latest Property Directory as December 2012.  The field “Comments” contains summary codes to distinguish the type of facility (BO – NYCHA Community Operations Borough Offices, CO – Community Operations, FP – Facility Planning).  Please note that there are two commercial spaces (not coded under field “comments”)recorded in our property directory which are not part of the portfolio for Facility Planning.
