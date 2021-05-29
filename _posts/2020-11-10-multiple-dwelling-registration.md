@@ -15,7 +15,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/tesw-yqqr/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-5dddf347-5103-46f6-b4b9-d194bdc7d8d2
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-7ab16001-7b52-4a94-8849-2091245146f3
 ---
 Pursuant to New York City’s Housing Maintenance Code, the Department of Housing 
 Preservation and Development (HPD) collects registration information from owners of 
