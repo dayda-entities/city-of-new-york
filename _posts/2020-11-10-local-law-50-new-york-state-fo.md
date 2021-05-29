@@ -11,6 +11,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/2rd2-9uwy/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/2rd2-9uwy/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-026c3bd0-9e03-4ae0-bffe-c2da89dcc3ff
 ---
 Local Law 50 of 2011 required MOCS to establish guidelines for City agencies that assist in increasing the purchase of New York State food through food purchase and food-related services contracts. City agencies use the New York State Department of Agriculture and Markets (NYSDAM) list of food items available from New York State sources.
