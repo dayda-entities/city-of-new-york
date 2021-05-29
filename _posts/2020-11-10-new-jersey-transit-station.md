@@ -14,6 +14,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/sgpi-7kic/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/sgpi-7kic/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-cfa4ca7e-395c-48f3-8bdd-9407509a2726
 ---
 New Jersey Transit Station
