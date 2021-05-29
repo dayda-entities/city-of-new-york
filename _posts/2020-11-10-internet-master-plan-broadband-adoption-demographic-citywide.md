@@ -44,7 +44,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/6yzk-rwz2/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/6yzk-rwz2/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-4e3cc23e-5001-4aa2-9985-f2b3ed087f14
 ---
 Broadband adoption rates among demographic subgroups in New York City</p>
 <b>Data Limitations:</b> Data accuracy is limited as of the date of publication and by the methodology and accuracy of the original sources.  The City shall not be liable for any costs related to, or in reliance of, the data contained in these datasets.
