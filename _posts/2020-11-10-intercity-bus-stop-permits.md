@@ -14,6 +14,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/nmue-7zq2/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/nmue-7zq2/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-32c2b043-63a2-4ab7-86a1-f0ab1219fdc6
 ---
 Intercity bus operators must obtain a permit from DOT before they can make on-street stops in the city.
