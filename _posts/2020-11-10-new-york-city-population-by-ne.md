@@ -19,7 +19,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/swpk-hqdp/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/swpk-hqdp/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-d4e054ac-eb93-4e08-a25c-fd0b86cf42ce
 ---
 Population Numbers By New York City Neighborhood Tabulation Areas
 
