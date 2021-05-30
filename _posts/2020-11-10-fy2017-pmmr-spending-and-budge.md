@@ -32,7 +32,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/jjvq-4t2v/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/jjvq-4t2v/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-982252ad-e204-43a4-bb69-68c73f5f6c2d
 ---
 NYC agency spending and budget information by units of appropriation data from the Preliminary Mayor's Management Report (PMMR)
 <i>Use ‘CSV for Excel’ when downloading this dataset and then sort in alphabetical order by Agency.<i>
