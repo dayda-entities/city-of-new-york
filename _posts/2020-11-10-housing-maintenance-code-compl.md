@@ -14,6 +14,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/uwyv-629c/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/uwyv-629c/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-1ccf80ea-afae-4305-b758-420fed4a8fa4
 ---
 The Department of Housing Preservation and Development (HPD) records complaints that are made by the public through the 311 Citizen Services Center, Code Enforcement Borough Offices or the internet for conditions which violate the New York City Housing Maintenance Code (HMC) or the New York State Multiple Dwelling Law (MDL). Each complaint is associated with one or more problems reported by the complainant. Problems are closed if a tenant verifies by phone that the condition was corrected or an inspection result is entered by an HPD inspector. A complaint is closed when all associated problems are closed.
