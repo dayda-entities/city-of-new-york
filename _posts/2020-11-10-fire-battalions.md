@@ -15,7 +15,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/xzng-ft6f/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/xzng-ft6f/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-0fdad04f-e566-4271-9bad-7c60c35c0c7d
 ---
 GIS data: Boundaries of Fire Battalions.
 
