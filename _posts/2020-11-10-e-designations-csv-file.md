@@ -27,7 +27,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/hxm3-23vy/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/hxm3-23vy/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-2100cc0f-b599-4f2f-b1ae-687420cd02e5
 ---
 This data set contains information and locations of (E) Designations, including CEQR Environment Requirements (Table 1) and CEQR Restrictive Declarations (Table 2), in Appendix C of the Zoning Resolution. An (E) Designation provides notice of the presence of an environmental requirement pertaining to potential hazardous materials contamination, high ambient noise levels or air emission concerns on a particular tax lot.
 
