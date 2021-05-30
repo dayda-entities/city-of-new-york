@@ -18,6 +18,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/gwnb-u2ij/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/gwnb-u2ij/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-0bfa7c92-04b6-455c-8c89-6d3177404f3d
 ---
 Empower Zones
