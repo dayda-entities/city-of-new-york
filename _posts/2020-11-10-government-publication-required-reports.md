@@ -20,6 +20,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/9azj-tmjp/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/9azj-tmjp/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-c861ea6b-9b93-4d8a-b4cd-a652901af71d
 ---
 Metadata for documents submitted to the Department of Records and Information services which are required by legislation.
