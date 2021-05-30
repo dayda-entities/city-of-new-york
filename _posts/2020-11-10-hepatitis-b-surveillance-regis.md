@@ -14,7 +14,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/szfr-d24y/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/szfr-d24y/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-0ee8c6b8-3e28-4115-907e-7fee26d657a3
 ---
 Case counts of people newly reported with chronic hepatitis B</p>
 Hepatitis B surveillance data include all confirmed and probable cases. The Health Department often receives more than one report for each person with chronic hepatitis B and uses automatic de-duplication methods to identify repeat reports based on name, date of birth, and other information. Only the first report is counted in the data presented here. Laboratories are required to electronically report positive hepatitis B test results, as well as negative results for hepatitis B DNA. The Health Department does not routinely investigate hepatitis B reports because of the large volume; therefore it is difficult to determine when people with these infections were first infected, although most were probably infected a while ago. Case counts represent people newly reported with hepatitis B and are not prevalence or incidence. Many people with hepatitis B are asymptomatic; as a result, many cases are not diagnosed or reported. Therefore, surveillance data underestimate the true level of chronic hepatitis B in NYC.
