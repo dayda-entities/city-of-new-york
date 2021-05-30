@@ -28,6 +28,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/vdzd-yy49/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/vdzd-yy49/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-00b7a031-b3e1-4a22-897b-d292f49f18e6
 ---
 Data and metrics on water and energy consumption in privately owned buildings over 25,000 ft2 and in City owned buildings over 10,000 ft2.
