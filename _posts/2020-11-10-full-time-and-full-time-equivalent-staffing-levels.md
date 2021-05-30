@@ -12,6 +12,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/2t2c-qih9/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-603f636b-eb0e-4217-867d-22d8859dbfcd
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-96abbe3a-5afc-412a-a902-2a6b6c86b078
 ---
 This dataset contains estimated fiscal year-end headcount information for full-time and full-time equivalent employees (FTE).  The information is summarized by agency, personnel type and funding.  The amount fields are whole numbers.  The numbers within can be summarized to match pages from the publication “Full-Time and Full-Time Equivalent Staffing Levels”.
