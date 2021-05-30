@@ -36,7 +36,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/sa5w-dn2t/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/sa5w-dn2t/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-75dc20f4-ea5c-4512-8229-b37ccd21caa6
 ---
 NYC agency spending and budget information by units of appropriation from the 
 Mayor's Management Report (MMR). For information related to the ‘Applicable MMR Goals’ column, refer to <a href="https://data.cityofnewyork.us/City-Government/FY19-MMR-Goals-and-Services/qe6k-pu9t">FY19 MMR Goals and Services</a>.
