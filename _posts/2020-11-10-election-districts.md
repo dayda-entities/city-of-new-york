@@ -22,7 +22,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/wwxk-38u4/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/wwxk-38u4/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-8e34df21-d4a4-4172-bfa0-9ede585737f0
 ---
 GIS data: Boundaries of Election Districts.
 
