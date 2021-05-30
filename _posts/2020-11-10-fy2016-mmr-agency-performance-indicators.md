@@ -39,7 +39,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/8jfz-tjny/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/8jfz-tjny/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-6f3b4a5a-bfc5-4666-92b2-496d2fdda06d
 ---
 NYC agency performance indicators from the FY16 Mayor's Management Report (MMR).
 <i>Use ‘CSV for Excel’ when downloading this dataset and then sort in alphabetical order by Agency.<i>
