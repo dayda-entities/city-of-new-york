@@ -31,6 +31,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/q5x3-7piv/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/q5x3-7piv/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-b0c77566-34e4-4eb6-adf8-752adba48265
 ---
 Facilities in New York City, by agency and site, that offer “Summer Youth Employment (SYEP) Program” after-school  job and internship programs for children ages 14 to 24 - the Department of Youth and Community Development (DYCD).
