@@ -16,6 +16,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/nhtw-fjuj/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/nhtw-fjuj/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-f5b20a3e-6bcd-44c6-8b86-245bd5b177e5
 ---
 This dataset shows the personal service expenditures for the current fiscal year. Data is reported in millions and updated monthly.
