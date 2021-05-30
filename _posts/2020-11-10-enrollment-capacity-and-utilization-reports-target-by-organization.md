@@ -20,6 +20,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/8b9a-pywy/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/8b9a-pywy/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-46c12492-52c4-403a-b656-b94316919d16
 ---
 Enrollment, target capacity and utilization data for every building and schools in those buildings, by school
