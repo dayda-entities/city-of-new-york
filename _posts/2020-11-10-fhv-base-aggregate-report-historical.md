@@ -25,6 +25,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/2bmr-jdsv/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-67b49262-4ba5-4611-baa6-5e94e178bf5f
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-f76d28b5-f979-46e4-b99b-3750cdedddf0
 ---
 Monthly report including weekly total dispatched trips and unique dispatched vehicles by base tabulated from FHV Trip Record submissions made by bases. For the currentl list, please refer to <a href="https://data.cityofnewyork.us/d/2v9c-2k7f">this dataset</a>
