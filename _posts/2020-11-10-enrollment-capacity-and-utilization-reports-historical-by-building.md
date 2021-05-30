@@ -21,7 +21,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/hq56-zhrp/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-eb0af90f-6632-4215-8480-44a410cebbda
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-1a78576a-7616-4f01-99a6-aa9d65350a2e
 ---
 Enrollment, historical capacity and utilization data for every building and schools in those buildings, by building</br>
 <b>SCA Data Disclaimer: "The Historical report is no longer produced or maintained."</b>
