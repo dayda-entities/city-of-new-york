@@ -23,7 +23,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/bst7-5464/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-5d459c8a-bb4a-43e9-941f-11e5b50857a4
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-28cd818f-bd44-40d5-a2a4-2487ed713b3b
 ---
 GIS data: Boundaries of Fire Companies.
 
