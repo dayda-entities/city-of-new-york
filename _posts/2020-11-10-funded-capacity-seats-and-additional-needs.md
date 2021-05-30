@@ -15,6 +15,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/ujdf-5byz/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/ujdf-5byz/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-fd8c52f4-6125-4326-99d8-7c57cb7adb9e
 ---
 Funded capacity seats and additional needs by district for elementary, middle school, by borough for high school.
