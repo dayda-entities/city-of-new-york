@@ -19,6 +19,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/pvkv-25ck/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/pvkv-25ck/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-f5eebe6c-9d50-40fb-8bd6-2a4d3f6baa8b
 ---
 This list contains historical information on the status of current medallion vehicles authorized to operate in New York City. This list is accurate to the date and time represented in the Last Date Updated and Last Time Updated fields. For inquiries about the contents of this dataset, please email licensinginquiries@tlc.nyc.gov. To view the latest list please visit https://data.cityofnewyork.us/Transportation/Medallion-Vehicles-Authorized/rhe8-mgbb/data.
