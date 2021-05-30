@@ -15,6 +15,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/wshr-5vic/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/wshr-5vic/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-689b2fa0-5c7b-487e-9a1e-7355cb31c4e1
 ---
 A list of locations where NYC residents can drop off unwanted electronics. It’s illegal in New York State to include electronic devices with trash or recycling. For more information on how to handle unwanted electronics in NYC, see: https://www1.nyc.gov/assets/dsny/site/services/electronics
