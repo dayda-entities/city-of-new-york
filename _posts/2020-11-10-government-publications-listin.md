@@ -20,6 +20,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/xip9-pe9k/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/xip9-pe9k/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-50f81a83-637f-4907-82b8-63326e1bdf98
 ---
 Metadata for documents submitted to the Department of Records and Information Services in compliance with Section 1133 of the New York City Charter.
