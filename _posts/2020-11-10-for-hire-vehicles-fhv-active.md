@@ -19,7 +19,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/8wbx-tsch/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-163e760e-c89a-4c2d-8f8d-b40d5f823785
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-ce502983-3073-416d-b21c-6506922f5737
 ---
 <b>PLEASE NOTE:</b> This dataset, which includes all TLC licensed for-hire vehicles which are in good standing and able to drive, is updated every day in the evening between 4-7pm. Please check the 'Last Update Date' field to make sure the list has updated successfully. 'Last Update Date'  should show either today or yesterday's date, depending on the time of day. If the list is outdated, please download the most recent list from the link below. 
 http://www1.nyc.gov/assets/tlc/downloads/datasets/tlc_for_hire_vehicle_active_and_inactive.csv
