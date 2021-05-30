@@ -15,7 +15,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/xhvt-s4va/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/xhvt-s4va/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-2c26b04d-b169-4145-b294-9a794f1cb730
 ---
 This dataset, formally referred to as ""Functional Parkland"" consists of park properties under the jurisdiction of NYC Parks. The shapes in this dataset are drawn to make printed maps clear and easy to read. Consequently, the shapes in this file should not be used for any spatial calculations. For non-cartographic purposes, consult https://data.cityofnewyork.us/Recreation/Parks-Properties/enfh-gkve
 
