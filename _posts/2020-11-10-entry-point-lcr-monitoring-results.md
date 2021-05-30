@@ -15,6 +15,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/aa5e-digs/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-a4f846ef-3337-4032-bcc0-4bc1f5f58d78
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-97698b49-e021-4dbb-8320-319428a12fea
 ---
 Daily results from the entry points for orthophosphate, pH, temperature, conductivity and monthly alkalinity, calcium, lead and copper - Bi annually updated
