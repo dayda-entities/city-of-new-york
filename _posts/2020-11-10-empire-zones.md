@@ -19,7 +19,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/x5ja-xhr4/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/x5ja-xhr4/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-81d4d5f2-785a-481a-9f2e-04880e2a5563
 ---
 The polygons in this dataset represent boundaries of New York City business districts under
 The New York State Empire Zone (EZ) Program which offers a wide array of incentives
