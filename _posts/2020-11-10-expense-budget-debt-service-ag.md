@@ -18,6 +18,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/iw4r-p85g/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/iw4r-p85g/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-540f2dc1-e329-4534-94c6-f7918fb24b4b
 ---
 The Debt Service Agency OTPS detail lays out the various expense and funding line items for Agency 099. It further compares the Adopted Budget, Current Modified Budget for the Current Year, and the Executive or Adopted Budget for the next fiscal year.  All amounts are in dollars and information is updated twice per year at the Executive and Adopted budgets.
