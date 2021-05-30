@@ -16,6 +16,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/72ss-25qh/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/72ss-25qh/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-9fb1a1dc-a251-4bf9-a38e-cf844741d303
 ---
 Location and facility information for places in New York City that provide HIV testing.
