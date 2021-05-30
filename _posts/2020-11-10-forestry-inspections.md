@@ -12,7 +12,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/4pt5-3vv4/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-ecc89271-f5d8-46ba-a52a-d07d273aebc2
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-96c52ed5-27dd-4d0a-a8fd-ade81bb9ee9f
 ---
 Record of Forestry inspections for NYC Parks & Recreation. Inspections are initiated by a service request or internal process and may result in a work order. 
 
