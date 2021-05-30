@@ -16,6 +16,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/fpfg-qx2w/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-fbe2778c-baa6-4669-b955-99251e9b45ce
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-d23a6c07-9068-47c6-afba-26d951c04e02
 ---
 This dataset shows the revenue and expense obligation forecast for the current fiscal year. Data is reported in millions and updated monthly.
