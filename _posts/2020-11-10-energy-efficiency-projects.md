@@ -22,6 +22,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/h3qk-ybvt/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/h3qk-ybvt/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-71e82298-0bc8-4e2a-8486-7d67d2ad8f98
 ---
 The City’s Long-Term Sustainability Plan, PlaNYC, calls for City government to reduce greenhouse gas emissions produced by municipal operations 30% by 2017. A large part of this effort is retrofitting municipal buildings to become more energy efficient. This dataset lists energy efficiency projects at City buildings that are complete or in progress. Projects are listed by address, building name, and agency, and the dataset includes the estimated reduction in tons of GHG emissions associated with the project.
