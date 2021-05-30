@@ -24,6 +24,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/emuv-tx7t/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-c3154cca-756d-4f60-a2e1-5bf6a0f477d0
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-5ce19173-559d-42f0-a581-3a705083086a
 ---
 Business improvement district (BID) program/service output and expense data from FY17
