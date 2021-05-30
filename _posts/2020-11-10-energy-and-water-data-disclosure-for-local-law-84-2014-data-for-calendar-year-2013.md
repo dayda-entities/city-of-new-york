@@ -17,6 +17,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/rgfe-8y2z/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/rgfe-8y2z/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-568d6bb8-bff7-4d62-97d2-72d1944da33e
 ---
 In September 2014, New York City released the 2013 energy and water use data for all properties required to annually benchmark under Local Law 84.
