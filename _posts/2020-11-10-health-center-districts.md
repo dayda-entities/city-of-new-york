@@ -12,7 +12,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/6ez8-za84/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/6ez8-za84/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-02b249eb-4ef5-461a-888e-9068b08eaedb
 ---
 Health Center Districts - by Department of City Planning.
 
