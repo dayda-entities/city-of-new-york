@@ -25,7 +25,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/68m2-uzcb/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-fdef2af3-21c2-4f48-81a7-b54a6655bcb1
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-e848aa92-afa2-4ac0-a16e-25f6c428c785
 ---
 GIS data: Boundaries of Fire Divisions.
 
