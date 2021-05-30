@@ -12,6 +12,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/2abb-gr8d/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/2abb-gr8d/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-a609bb3e-e539-42e4-9bce-ae825e453ca5
 ---
 Incremental data for Weekly Canvassing Observations
