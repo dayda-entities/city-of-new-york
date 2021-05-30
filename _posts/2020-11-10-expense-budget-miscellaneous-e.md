@@ -18,6 +18,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/fdgu-y9iy/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-31e946bb-9c80-4dee-935b-750120ba5863
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-b5fdadde-b508-4cfd-9e39-27eb953a92e4
 ---
 This dataset is to provide expense categories in Miscellaneous Budget.  It is provided biannually and the amount is in exact dollar.
