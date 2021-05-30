@@ -15,7 +15,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/genf-2k76/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/genf-2k76/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-226ed49f-3b0a-436a-b08a-98605d3f6e4c
 ---
 Issuer's Allocation Percentage for all corporations subject to taxes.
 
