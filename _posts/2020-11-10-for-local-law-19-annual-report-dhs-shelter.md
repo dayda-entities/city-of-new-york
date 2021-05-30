@@ -13,7 +13,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/e3qr-idgg/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-d8254cdf-d3eb-48e5-a5ca-c72dacd836c6
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-8fa57649-5821-45cc-a346-957f3b730a89
 ---
 DHS shelter buildings and types in NYC boroughs.
 
