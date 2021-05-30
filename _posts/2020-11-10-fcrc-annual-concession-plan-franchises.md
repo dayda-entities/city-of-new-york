@@ -12,7 +12,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/rbvx-jqnh/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-56b660b9-cb17-4269-8738-ddbfa0e02078
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-18452b1a-5c75-4d13-bc4c-3c5aaeb70d8d
 ---
 The Mayor’s Office of Contract Services oversees and certifies agency compliance with the applicable laws and regulations for franchises and concessions. In certain circumstances, franchises and concessions are also subject to the approval of the Franchise and Concession Review Committee (FCRC).
 
