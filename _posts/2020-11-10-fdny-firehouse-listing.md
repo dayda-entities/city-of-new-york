@@ -22,6 +22,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/hc8x-tcnd/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-1a1eb924-e101-424e-8328-b13be4de4f45
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-d1391ca8-63de-4c0e-8f96-30c0de0a00a7
 ---
 Location of Firehouses and companies
