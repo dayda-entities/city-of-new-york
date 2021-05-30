@@ -24,7 +24,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/2v9c-2k7f/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/2v9c-2k7f/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-9b781668-58a9-4cdf-909a-8d80fdc1842b
 ---
 Monthly report including total dispatched trips, total dispatched shared trips, and unique dispatched vehicles aggregated by FHV (For-Hire Vehicle) base. These have been tabulated from raw trip record submissions made by bases to the NYC Taxi and Limousine Commission (TLC). 
 
