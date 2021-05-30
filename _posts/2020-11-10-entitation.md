@@ -13,7 +13,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/ud2m-5tb4/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-0169d74e-62e5-4959-9db7-25581ae1464f
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-32074359-385e-4b9b-ac30-3c2d346583f5
 ---
 Entitation is a process of identifying and describing discrete vegetation units (entities). Essentially, it is a general inventory of an area's plant communities conducted by means of aerial photograph interpretation and field reconnaissance. The survey results in the identification of ecologically distinct plant communities based on species and structure.
 
