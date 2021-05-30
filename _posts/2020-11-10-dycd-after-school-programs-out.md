@@ -22,7 +22,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/uvks-tn5n/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/uvks-tn5n/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-b7b49ae2-d0fa-450e-967a-58ceddead2e6
 ---
 Facilities in New York City that offer "Out of School Time" after-school programs.  Managed by the Department of Youth and Community Development (DYCD).
 Update Frequency: Annually
