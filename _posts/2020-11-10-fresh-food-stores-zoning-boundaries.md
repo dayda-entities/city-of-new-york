@@ -25,7 +25,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/328z-s4xx/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/328z-s4xx/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-23c394e7-99b8-43dc-b1ff-57c021da602a
 ---
 GIS data: FRESH boundaries where zoning and discretionary tax incentives are available for the development, expansion and renovation of full line grocery stores and supermarkets.
 
