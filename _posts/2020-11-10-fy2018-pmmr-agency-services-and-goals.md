@@ -51,6 +51,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/jzdn-258f/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/jzdn-258f/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-a63df303-17e1-495f-afc2-4225aabe434c
 ---
 Services and goals for agencies as defined by the Preliminary Mayor's Management Report (PMMR)
