@@ -34,6 +34,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/36hn-wea6/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/36hn-wea6/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-58c7858a-a83c-464a-a920-64548c243d97
 ---
 Facilities in New York City, by agency and site, that offer “Out-Of -School Youth Employment (OSY) Program” after-school  job and internship programs for young adults ages 16 to 21.
