@@ -18,6 +18,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/hjjq-k984/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-d927df44-3bdf-4c9f-9fa6-872bcbc5cde4
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-f07ded9d-25c4-4417-931c-60af20275199
 ---
 This dataset shows the expense obligation for the current fiscal year. Data is reported in millions and updated monthly.
