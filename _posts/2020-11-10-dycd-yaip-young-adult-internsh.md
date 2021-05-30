@@ -26,6 +26,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/ci45-27ka/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/ci45-27ka/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-22e3185b-eb9e-47be-8e64-067ed2a99e7b
 ---
 Young Adult Internship Programs (YAIP). Facilities in New York City, by agency and site, that offer YAIP programs.
