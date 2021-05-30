@@ -16,7 +16,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/259a-b6s7/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-3a5ddee8-1a56-49ae-baaf-3b0251fef585
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-4944e912-03d0-49ee-93a6-bc3c80403e8d
 ---
 Risk Assessments are sub-components of Inspection records where Type = Level 2. Trees are inspected in accordance with Parks' Tree Risk Management program. For a given defect identified on a tree, 3 rating variables are selected to arrive at a Total Rating. Because multiple defects can be noted on a tree, multiple Risk Assessment records can be related to one Inspection.
 
