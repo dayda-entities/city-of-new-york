@@ -42,6 +42,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/mp3w-h26i/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/mp3w-h26i/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-94695efc-600b-4986-af78-13fe1b4da366
 ---
 NYC agency performance indicators from the FY20 Preliminary Mayor's Management Report (PMMR).
