@@ -14,7 +14,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/6z8x-wfk4/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/6z8x-wfk4/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-619fb568-5eeb-436e-bec1-d0041e635085
 ---
 This dataset lists pending, scheduled and executed evictions within the five boroughs, for the year 2017 - Present.  The data fields may be sorted by Court Index Number, Docket Number, Eviction Address, Apartment Number, Executed Date, Marshal First Name, Marshal Last Name, Residential or Commercial (property type), Borough, Zip Code and Scheduled Status (Pending/Scheduled).
 
