@@ -20,6 +20,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/j34j-vqvt/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-2ad5e191-eef1-4d38-b9ec-75e6118bb805
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-fc4d81be-aa01-467c-870b-897c0d1b3b67
 ---
 Average response times to incidents by Year, Month, Incident classification and borough.
