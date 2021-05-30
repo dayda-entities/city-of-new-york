@@ -17,6 +17,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/32y8-s55c/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-2582f5b9-8484-4af4-8dcf-48c509714e6c
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-098d4551-7f82-47ce-b401-7fff900a7d38
 ---
 Rank, Name, Unit and Date of FDNY Member deaths
