@@ -11,7 +11,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/rb3k-upyb/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/rb3k-upyb/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-a712e626-d6dd-4984-a6f1-78acb0c572ad
 ---
 Hurricane Evacuation Zones are determined by New York City Emergency Management and represent varying threat levels of coastal flooding resulting from storm surge. Hurricane evacuation zones should not be confused with flood insurance risk zones, which are designated by FEMA and available in the form of Flood Insurance Rate Maps (FIRMs).
 
