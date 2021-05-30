@@ -14,6 +14,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/tg4x-b46p/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/tg4x-b46p/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-00195cf1-5b33-406e-abbd-9777db91a76a
 ---
 Permits are generally required when asserting the exclusive use of city property, like a sidewalk, a street, or a park. See http://www1.nyc.gov/site/mome/permits/when-permit-required.page
