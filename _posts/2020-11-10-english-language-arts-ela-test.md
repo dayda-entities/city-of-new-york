@@ -17,6 +17,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/yhfh-vyns/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-e1f1ce55-1ed6-49b7-be91-2e5083ba484f
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-6191b497-ddf8-45c7-b249-281f4376368b
 ---
 Latest available data and trends in the state assessment results of English Language Arts for grades 3 through 8. Data are disaggregated by district.
