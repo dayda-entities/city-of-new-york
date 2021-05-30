@@ -43,6 +43,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/i5ef-jxv3/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-c44a952e-bfef-43b7-848b-784197cf3a2f
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-4d4848f6-a718-44ed-bb1b-f09278b0e6bf
 ---
 NYC agency performance indicators from the FY19 Mayor's Management Report (MMR).
