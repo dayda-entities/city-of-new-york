@@ -14,7 +14,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/hn5i-inap/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/hn5i-inap/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-a1b807b8-84ac-4920-b2a3-c2ca0d92eb90
 ---
 Record of Forestry tree points for NYC Parks & Recreation. 
 
