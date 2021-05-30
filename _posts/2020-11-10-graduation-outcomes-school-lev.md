@@ -18,6 +18,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/5fn2-n363/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/5fn2-n363/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-5493da01-c6a1-4654-ab03-f387f159c7d7
 ---
 Latest available data and trends in NYSED's Regents-based Aspirational Performance Measure (APM) by school and Ethnicity.
