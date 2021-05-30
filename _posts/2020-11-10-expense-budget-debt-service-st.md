@@ -21,6 +21,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/77zj-y2i9/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-8b68d174-da48-45d5-8e05-3309f0fcc85c
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-9d51cf07-301d-47ee-ac7e-dc2dafbb1025
 ---
 Dataset shows the funded debt outstanding and debt service payable to bondholders during the next fiscal year. Debt and Debt Service is shown by category/purpose for which the debt was issued and is further classified as to the amounts that are exempt or not exempt from the Constitutional Debt Limit. All amounts are in dollars and information is updated twice per year at the Executive and Adopted budgets.
