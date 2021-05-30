@@ -17,6 +17,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/mpqk-skis/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/mpqk-skis/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-3d4cd6c0-0b20-49ba-8c82-165f9ed32a26
 ---
 Quarterly report showing the number of individuals served meals in food pantries and soup kitchens.
