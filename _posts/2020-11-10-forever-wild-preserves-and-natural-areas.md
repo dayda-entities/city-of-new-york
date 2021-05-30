@@ -16,6 +16,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/x2z9-hrve/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-5273057c-bcd2-4c37-b66f-fb3c8b8c07d5
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-0ea876fe-3849-4547-b2df-fe9bf7f25b27
 ---
 The Forever Wild dataset identifies areas in NYC Parks with the most significant natural habitat. Many of these areas have management practices in place to help preserve this habitat.
