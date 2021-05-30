@@ -17,7 +17,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/a35y-93e7/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-ed45cc6c-84a9-404b-a17b-1927ce85b130
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-f256cf9e-3594-48d8-b255-690371a786e3
 ---
 The dataset contains annual count data for the number of family-related domestic incident reports, family-related felony assaults, domestic violence related felony assaults, family-related rapes and domestic violence related rapes.
 </p>
