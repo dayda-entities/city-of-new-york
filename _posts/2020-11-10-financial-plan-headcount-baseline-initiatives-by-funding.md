@@ -12,6 +12,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/d33y-i2m7/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-279935ed-2e77-4016-817f-0fa7dbd802d1
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-5c55075b-88c1-46e6-bcdc-ce8a93ef5e91
 ---
 This dataset contains headcount information about financial plan initiatives applied during a financial plan period. Data is updated after most financial plans.
