@@ -11,7 +11,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/ji82-xba5/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/ji82-xba5/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-c9570281-2c4d-480b-9165-389260b7b830
 ---
 The Facilities Database (FacDB) captures the locations and descriptions of public and
 private facilities ranging from the provision of social services, recreation, education, to
