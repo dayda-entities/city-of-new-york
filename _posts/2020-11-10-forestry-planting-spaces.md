@@ -12,7 +12,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/82zj-84is/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-2e731b5e-632d-4efe-9dab-9911253a9894
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-c7097139-11a1-4fda-b09a-8c6d0ae5c71f
 ---
 Record of Forestry planting spaces for NYC Parks & Recreation. 
 
