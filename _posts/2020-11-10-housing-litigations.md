@@ -14,6 +14,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/59kj-x8nc/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/59kj-x8nc/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-473871f8-e484-41f4-801b-d7588d8fa834
 ---
 The Department of Housing Preservation and Development (HPD) Housing Litigation Division (HLD) initiates' actions in the Housing Court against owners of privately-owned buildings to enforce compliance with the housing quality standards contained in the New York State Multiple Dwelling Law and the New York City Housing Maintenance Code.  HLD attorneys also represent HPD when tenants initiate actions against private owners.  HPD is automatically named as party to such actions.  The goal of these court proceedings is to obtain enforceable Orders to Correct, Civil Penalties (fines) and Contempt Sanctions, compelling owners to comply with the Housing Code.
