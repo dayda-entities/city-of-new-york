@@ -22,6 +22,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/mq6n-s45c/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/mq6n-s45c/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-24f3ef59-86fb-4e42-b2f7-cc04cac6d793
 ---
 Energy data from a select portfolio of City-owned buildings (DOE)
