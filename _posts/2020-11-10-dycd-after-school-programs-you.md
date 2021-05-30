@@ -35,6 +35,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/73bd-vkmx/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/73bd-vkmx/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-4a833ed4-1767-4e15-bc28-799e5b965dfa
 ---
 Facilities in New York City, by agency and site, that offer “Youth Adult Internship Program” after-school  job and internship programs for young adults ages 16 to 24.
