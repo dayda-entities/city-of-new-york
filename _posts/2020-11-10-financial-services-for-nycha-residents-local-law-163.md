@@ -18,7 +18,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/g4tm-nibn/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/g4tm-nibn/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-111ad930-bd2d-4bf2-b029-d5f8a40cdcac
 ---
 This datasets contains information about NYCHA residents’ use of:
 
