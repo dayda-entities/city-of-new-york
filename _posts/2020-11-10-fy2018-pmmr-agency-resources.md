@@ -52,6 +52,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/q9rw-qihz/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/q9rw-qihz/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-d9e5f75d-f29f-482c-bc08-0c73a25c1afb
 ---
 NYC agency resources from the FY18 Preliminary Mayor's Management Report (PMMR), including expenditures (includes all funds), personnel, revenue and paid overtime
