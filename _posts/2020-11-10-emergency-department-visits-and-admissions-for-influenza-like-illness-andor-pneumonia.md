@@ -18,6 +18,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/2nwg-uqyg/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/2nwg-uqyg/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-0d4b0d5b-1c85-4776-bb1e-1896cd78d69e
 ---
 Total emergency department visits, and visits and admissions for influenza-like and/or pneumonia illness by modified ZIP code tabulation area of patient residence.
