@@ -17,6 +17,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/sqmu-2ixd/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/sqmu-2ixd/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-3dc939e8-07f2-4692-9970-47ec293bb9a4
 ---
 This dataset contains agency summary level data for PS, OTPS and Total by type of funds.  The dollar amount fields are rounded to the thousands. The Quarter 1 report,  published in October or November,  contain the current fiscal year plus three out years of data which  coincide with the release of the published financial plan.
