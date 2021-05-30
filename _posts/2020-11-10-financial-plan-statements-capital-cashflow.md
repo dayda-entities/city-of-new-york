@@ -16,6 +16,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/4xfc-mzbg/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/4xfc-mzbg/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-0be257af-28e9-41b7-a156-2d318948fcda
 ---
 This dataset represents the Report NO. 5A--Capital Cashflow in the Financial Plan Statement   Dollars are in millions. It is updated Monthly.
