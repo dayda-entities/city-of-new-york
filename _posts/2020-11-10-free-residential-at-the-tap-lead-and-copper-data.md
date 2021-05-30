@@ -14,6 +14,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/k5us-nav4/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/k5us-nav4/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-fa79a02d-6f6f-4797-8a74-6467c271b140
 ---
 At-the-tap samples tested for lead and copper
