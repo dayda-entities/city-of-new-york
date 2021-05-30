@@ -11,7 +11,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/ykvb-493p/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/ykvb-493p/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-cfd7210c-5b6a-4fbf-a202-aa1ddf8b07a1
 ---
 These data were reported to the NYC DOHMH by June 30, 2014
 
