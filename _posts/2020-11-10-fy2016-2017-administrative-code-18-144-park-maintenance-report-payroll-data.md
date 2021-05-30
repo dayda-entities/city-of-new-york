@@ -13,6 +13,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/caav-grv8/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/caav-grv8/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-16a5b675-90af-400b-a634-119c32461d21
 ---
 This data contains the payroll information for a subset of the NYC Parks responsible for park cleaning & maintenance, and was used to produce the FY2016 and FY2017 reports on Park Maintenance as required by Administrative Code 18-144. This report can be accessed at https://www.nycgovparks.org/news/archive. Data accuracy is limited by the scale and accuracy of the original sources.
