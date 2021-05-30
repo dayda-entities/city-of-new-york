@@ -12,6 +12,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/e64w-ctmw/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-ca496f2b-8a78-4670-8647-8955de084732
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-9140ee72-c749-44a0-b195-123f5adc3d7d
 ---
 This dataset contains information about financial plan initiatives amounts applied during a financial plan period.  The dollar amounts are rounded to thousands.  Data is updated after most financial plans.
