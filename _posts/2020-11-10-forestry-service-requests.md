@@ -12,7 +12,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/mu46-p9is/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-cb4a1785-6df2-42e0-b057-36c8cbb4c3b4
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-6a6d6197-470a-4eda-a86e-93219538f1a4
 ---
 Record of Forestry service requests for NYC Parks & Recreation. 
 
