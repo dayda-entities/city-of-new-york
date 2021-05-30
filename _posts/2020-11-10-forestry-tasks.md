@@ -15,7 +15,7 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/45sb-srb5/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-880d38e4-602c-4445-8942-b6c9e4ea319a
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-4b699011-3b65-4e73-b9d3-9bac04c41cd6
 ---
 Tasks are specific actions that are sub-components of a Work Order.  Some work, such as that performed by in-house crews, require at least one task for the purposes of accounting for labor hours.  Tasks are typically used to indicate remaining work for jobs that did not get completed in one session (1 day).  
 
