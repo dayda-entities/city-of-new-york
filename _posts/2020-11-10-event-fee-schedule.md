@@ -15,6 +15,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/t6n8-68ps/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-b3ca209a-0236-4230-94af-a8277ac07915
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-757190f8-a6f0-4334-8fda-3da0c27bbe25
 ---
 DCAS is responsible for the management of public buildings and courthouses throughout the city, many of which feature spaces suitable for private events.  Further information concerning the use of City-owned space for events can be found at: http://www.nyc.gov/html/dcas/html/business/eventspacerentals.shtml.
