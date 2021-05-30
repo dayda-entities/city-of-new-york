@@ -15,6 +15,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/p39r-nm7f/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-0ba8124d-e11c-4284-83ca-0cd68e511a27
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-a109aa60-534a-47c2-a184-40b57a39d9c3
 ---
 This list contains information on the fines collected by the Enforcement Unit.
