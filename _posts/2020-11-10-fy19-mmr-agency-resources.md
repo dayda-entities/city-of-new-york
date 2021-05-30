@@ -45,6 +45,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/s67x-p7nk/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-80c0ec7d-9096-43a7-a322-bcb62ff48d8b
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-5eb7cbde-987e-4c31-b5d1-ca082af75ce7
 ---
 NYC agency resources from the FY19 Mayor's Management Report (MMR), including expenditures (includes all funds), personnel, revenue and paid overtime.
