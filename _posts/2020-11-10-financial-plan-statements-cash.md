@@ -16,6 +16,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/4ubz-8kkx/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-5bf49918-a8ac-412d-9a6e-d4e3c89b67f1
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-4bbec321-fd77-440b-a23d-1c61be01e452
 ---
 This dataset shows the cash flow forecast for the current fiscal year. Data is reported in millions and updated monthly.
