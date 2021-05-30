@@ -28,7 +28,8 @@ csv_url: 'https://data.cityofnewyork.us/api/views/67g2-p84d/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/67g2-p84d/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-faf2505c-ed68-4130-ada7-b6bcfe7aba33
 ---
 The City Planning Facilities Database (FacDB) aggregates information about 35,000+ public and private facilities and program sites that are owned, operated, funded, licensed or certified by a City, State, or Federal agency in the City of New York. It captures facilities that generally help to shape quality of life in the city’s neighborhoods, including schools, day cares, parks, libraries, public safety services, youth programs, community centers, health clinics, workforce development programs, transitional housing, and solid waste and transportation infrastructure sites. To facilitate analysis and mapping, the data is available in coma-separated values (CSV) file format, ESRI Shapefile, and GeoJSon. The data is also complemented with a new interactive web map that enables users to easily filter the data for their needs. Users are strongly encouraged to read the database documentation, particularly with regard to analytical limitations.
 
