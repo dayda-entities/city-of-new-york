@@ -15,6 +15,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/5tkc-txsb/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/5tkc-txsb/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-4be820a1-9206-4bc9-889f-81428a51b615
 ---
 NYC DOE School Zones
