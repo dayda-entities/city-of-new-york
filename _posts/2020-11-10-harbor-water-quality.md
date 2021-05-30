@@ -21,6 +21,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/5uug-f49n/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/5uug-f49n/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-7a20d170-207d-4de2-99be-13ce3f642162
 ---
 Harbor water sampling information
