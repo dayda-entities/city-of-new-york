@@ -25,6 +25,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/v6g5-uh5z/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/v6g5-uh5z/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-c7abdae4-485b-4a13-9f18-51d96d591671
 ---
 Goals and services for agencies as defined by the Mayor's Management Report (MMR)
