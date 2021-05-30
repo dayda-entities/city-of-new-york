@@ -15,6 +15,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/k5us-nav4/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-e3619a02-7461-48a4-8976-b79b00e37ea6
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-673bd76e-e719-47ae-88d7-ff9189678708
 ---
 At-the-tap samples tested for lead and copper
