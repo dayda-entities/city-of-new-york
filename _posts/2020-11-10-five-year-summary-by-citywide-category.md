@@ -18,6 +18,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/9ddq-vbjj/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-1e59a0c9-be7a-4f0f-a572-510e99e2c034
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-1704490d-c3fc-41e7-8ebe-d6704d02258c
 ---
 Five year plan summary cost by citywide category.
