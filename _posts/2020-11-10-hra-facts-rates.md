@@ -12,6 +12,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/dwzs-n5b9/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/dwzs-n5b9/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-23c68da5-115e-4e0c-91fe-a7fa5f98eee6
 ---
 HRA facts from the Office of Data Reporting and Analysis (ODRA)
