@@ -14,6 +14,6 @@ json_url: >-
   https://data.cityofnewyork.us/api/views/24nr-gahi/rows.json?accessType=DOWNLOAD
 layout: post
 postman_collection_url: >-
-  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-e391846d-73ab-40b6-9596-4980213eb3f0
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-357b453f-ac6f-4e3b-9926-3c80b7fabaa2
 ---
 Five year plan summary cost by capital category.
