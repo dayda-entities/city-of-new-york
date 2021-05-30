@@ -16,6 +16,7 @@ csv_url: 'https://data.cityofnewyork.us/api/views/vavg-cg3g/rows.csv?accessType=
 json_url: >-
   https://data.cityofnewyork.us/api/views/vavg-cg3g/rows.json?accessType=DOWNLOAD
 layout: post
-
+postman_collection_url: >-
+  https://www.postman.com/thedaydasource/workspace/city-of-new-york/collection/15909983-8c3f2bdc-a233-4238-ad7d-cf06df6b3374
 ---
 The Demand Response Program provides for the reduction of electric usage by participating energy customers during heat waves, emergencies, and other periods of peak demand in order to reduce the strain on New York City's electric grid, avoid service disruptions, and reduce greenhouse gas emissions.  In return, enrolled customers receive credits based on the amount of energy reduced, measured in kilowatts (kW).
