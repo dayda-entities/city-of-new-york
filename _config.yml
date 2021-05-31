@@ -16,4 +16,5 @@ url: 'http://city-of-new-york.dayda.org'
 encoding: utf-8
 paginate: 25
 paginate_path: '/page:num/'
+permalink: '/:title/'
 markdown: kramdown
